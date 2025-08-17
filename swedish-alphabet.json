@@ -1,67 +1,147 @@
 [
   {
-    "question": "C",
-    "answer": "Pronounced like 's' before e, i, y, ä, ö; like 'k' elsewhere\nExamples: Cykel (bicycle), Centrum (center), Cirka (approximately), Café, Carl",
-    "tags": ["swedish", "alphabet"]
+    "letter": "A a",
+    "examples": "• Apa (monkey)\n• Ananas (pineapple)\n• Arbete (work)\n• Alltid (always)\n• Att (to/that)",
+    "notes": "Letter name: 'ah'\nPronunciation: /ɑː/ (like 'a' in father)\nOne of the most common vowels in Swedish"
   },
   {
-    "question": "G",
-    "answer": "Pronounced like 'y' before e, i, y, ä, ö; like 'g' in 'go' elsewhere\nExamples: Gå (go), Ge (give), Gärna (gladly), Gift (married), Göra (do), Gul (yellow), Gammal (old)",
-    "tags": ["swedish", "alphabet"]
+    "letter": "B b",
+    "examples": "• Boll (ball)\n• Barn (child)\n• Bok (book)\n• Blå (blue)\n• Börja (to begin)",
+    "notes": "Letter name: 'beh'\nPronunciation: /b/ (same as English)\nAlways pronounced the same way"
   },
   {
-    "question": "J",
-    "answer": "Pronounced like 'y' in 'yes'\nExamples: Ja (yes), Jag (I), Jul (Christmas), Jobb (job), Jämn (even)",
-    "tags": ["swedish", "alphabet"]
+    "letter": "C c",
+    "examples": "• Cykel (bicycle)\n• Citron (lemon)\n• Centrum (center)\n• Cirka (circa/about)\n• Cell (cell)",
+    "notes": "Letter name: 'seh'\nPronunciation: /s/ before e, i, y (soft)\n              /k/ before a, o, u (hard)\nMostly appears in loanwords"
   },
   {
-    "question": "K",
-    "answer": "Pronounced like 'sh' before e, i, y, ä, ö; like 'k' elsewhere\nExamples: Katt (cat), Kär (dear), Kyrka (church), Kök (kitchen), Kilo, Kaffe (coffee), Kedja (chain)",
-    "tags": ["swedish", "alphabet"]
+    "letter": "D d",
+    "examples": "• Dörr (door)\n• Dag (day)\n• Dansa (to dance)\n• Dricka (to drink)\n• Du (you)",
+    "notes": "Letter name: 'deh'\nPronunciation: /d/ (same as English)\nAlways pronounced the same way"
   },
   {
-    "question": "Q",
-    "answer": "Pronounced like 'kv'\nExamples: Kvinna (woman), Kväll (evening), Kvart (quarter), Kvar (remaining)",
-    "tags": ["swedish", "alphabet"]
+    "letter": "E e",
+    "examples": "• Elefant (elephant)\n• Ett (one/a)\n• Eld (fire)\n• Efter (after)\n• Exempel (example)",
+    "notes": "Letter name: 'eh'\nPronunciation: /eː/ (long) or /ɛ/ (short)\nThe most common letter in Swedish"
   },
   {
-    "question": "R",
-    "answer": "Rolled or trilled 'r'\nExamples: Röd (red), Rum (room), Resa (travel), Ring (ring), Rund (round)",
-    "tags": ["swedish", "alphabet"]
+    "letter": "F f",
+    "examples": "• Fisk (fish)\n• Familj (family)\n• Fem (five)\n• Fråga (to ask)\n• Förstå (to understand)",
+    "notes": "Letter name: 'eff'\nPronunciation: /f/ (same as English)\nAlways pronounced the same way"
   },
   {
-    "question": "U",
-    "answer": "Pronounced like 'oo' but with rounded lips\nExamples: Under (under), Ung (young), Ut (out), Uppe (up), Utan (without)",
-    "tags": ["swedish", "alphabet"]
+    "letter": "G g",
+    "examples": "• Gata (street) - hard g\n• Glass (ice cream) - hard g\n• Göra (to do) - soft g\n• Gärna (gladly) - soft g\n• Gymnastik (gymnastics) - soft g",
+    "notes": "Letter name: 'geh'\nPronunciation: /g/ (hard) before a, o, u, å\n              /j/ (like 'y' in yes) before e, i, y, ä, ö"
   },
   {
-    "question": "W",
-    "answer": "Pronounced like 'v' (used mainly in names and loanwords)\nExamples: Wahlström (surname), Wikström, Weekend, Webb",
-    "tags": ["swedish", "alphabet"]
+    "letter": "H h",
+    "examples": "• Hus (house)\n• Hej (hello)\n• Hand (hand)\n• Hjälp (help)\n• Höra (to hear)",
+    "notes": "Letter name: 'haw'\nPronunciation: /h/ (same as English)\nSilent in 'hj', 'lj', 'dj' combinations"
   },
   {
-    "question": "Y",
-    "answer": "Pronounced like German 'ü' or French 'u' (rounded lips saying 'ee')\nExamples: Yta (surface), Yngre (younger), Ny (new), Fyra (four), Syster (sister)",
-    "tags": ["swedish", "alphabet"]
+    "letter": "I i",
+    "examples": "• Is (ice)\n• Inte (not)\n• Idag (today)\n• Innan (before)\n• Ibland (sometimes)",
+    "notes": "Letter name: 'ee'\nPronunciation: /iː/ (like 'ee' in see)\nAlways pronounced as a long 'ee' sound"
   },
   {
-    "question": "Z",
-    "answer": "Pronounced like 's' (rare in Swedish)\nExamples: Zoo, Zon (zone), Zebra, Zink (zinc)",
-    "tags": ["swedish", "alphabet"]
+    "letter": "J j",
+    "examples": "• Ja (yes)\n• Jul (Christmas)\n• Jobb (job)\n• Jorden (Earth)\n• Jämför (compare)",
+    "notes": "Letter name: 'jee'\nPronunciation: /j/ (like 'y' in yes)\nNever pronounced like English 'j'"
   },
   {
-    "question": "Å",
-    "answer": "Pronounced like 'aw' in 'saw'\nExamples: År (year), Åka (ride/go), Båt (boat), Blå (blue), Gå (go), På (on)",
-    "tags": ["swedish", "alphabet"]
+    "letter": "K k",
+    "examples": "• Katt (cat) - hard k\n• Kaffe (coffee) - hard k\n• Kök (kitchen) - soft k\n• Kär (dear) - soft k\n• Kyrka (church) - soft k",
+    "notes": "Letter name: 'kaw'\nPronunciation: /k/ (hard) before a, o, u, å\n              /ɕ/ (soft, like 'sh') before e, i, y, ä, ö"
   },
   {
-    "question": "Ä",
-    "answer": "Pronounced like 'air' without the 'r'\nExamples: Äpple (apple), Äta (eat), Lära (learn), Kära (dear), Väg (road), Bäst (best)",
-    "tags": ["swedish", "alphabet"]
+    "letter": "L l",
+    "examples": "• Lampa (lamp)\n• Liten (small)\n• Läsa (to read)\n• Lära (to learn)\n• Ljus (light)",
+    "notes": "Letter name: 'ell'\nPronunciation: /l/ (same as English)\n'lj' makes a 'y' sound in some dialects"
   },
   {
-    "question": "Ö",
-    "answer": "Pronounced like 'ur' in 'fur' without the 'r'\nExamples: Öppna (open), Öl (beer), Kött (meat), Hör (hear), Dörr (door), Större (bigger)",
-    "tags": ["swedish", "alphabet"]
+    "letter": "M m",
+    "examples": "• Mus (mouse)\n• Mamma (mom)\n• Mat (food)\n• Mycket (much/very)\n• Morgon (morning)",
+    "notes": "Letter name: 'emm'\nPronunciation: /m/ (same as English)\nAlways pronounced the same way"
+  },
+  {
+    "letter": "N n",
+    "examples": "• Natt (night)\n• Nej (no)\n• Namn (name)\n• Ny (new)\n• Någon (someone)",
+    "notes": "Letter name: 'enn'\nPronunciation: /n/ (same as English)\nAlways pronounced the same way"
+  },
+  {
+    "letter": "O o",
+    "examples": "• Ord (word)\n• Och (and)\n• Ost (cheese)\n• Ofta (often)\n• Omkring (around)",
+    "notes": "Letter name: 'oo'\nPronunciation: /uː/ (like 'oo' in food) or /ɔ/ (short)\nCan have different sounds depending on length"
+  },
+  {
+    "letter": "P p",
+    "examples": "• Penna (pen)\n• Pappa (dad)\n• Pengar (money)\n• Prova (to try)\n• På (on)",
+    "notes": "Letter name: 'peh'\nPronunciation: /p/ (same as English)\nAlways pronounced the same way"
+  },
+  {
+    "letter": "Q q",
+    "examples": "• Qatar (Qatar)\n• Quiche (quiche)\n• Quiz (quiz)\n• Quinoa (quinoa)\n• Quattro (four - Italian)",
+    "notes": "Letter name: 'koo'\nPronunciation: /k/\nExtremely rare - only in foreign words"
+  },
+  {
+    "letter": "R r",
+    "examples": "• Ros (rose)\n• Röd (red)\n• Resa (trip)\n• Rätt (right/correct)\n• Ringa (to call)",
+    "notes": "Letter name: 'err'\nPronunciation: /r/ (rolled or tapped)\nVaries by dialect - can be rolled, tapped, or guttural"
+  },
+  {
+    "letter": "S s",
+    "examples": "• Sol (sun)\n• Sitta (to sit)\n• Sverige (Sweden)\n• Ska (shall/will)\n• Stor (big)",
+    "notes": "Letter name: 'ess'\nPronunciation: /s/ (same as English)\n'sk' before e, i, y, ä, ö makes 'sh' sound"
+  },
+  {
+    "letter": "T t",
+    "examples": "• Träd (tree)\n• Tack (thanks)\n• Tid (time)\n• Tala (to speak)\n• Tillsammans (together)",
+    "notes": "Letter name: 'teh'\nPronunciation: /t/ (same as English)\n'tj' makes a 'sh' sound"
+  },
+  {
+    "letter": "U u",
+    "examples": "• Uggla (owl)\n• Under (under)\n• Ute (outside)\n• Upp (up)\n• Utan (without)",
+    "notes": "Letter name: 'oo'\nPronunciation: /ʉː/ (like 'oo' with rounded lips)\nMore rounded than English 'oo'"
+  },
+  {
+    "letter": "V v",
+    "examples": "• Vatten (water)\n• Vän (friend)\n• Vit (white)\n• Varför (why)\n• Vecka (week)",
+    "notes": "Letter name: 'veh'\nPronunciation: /v/ (same as English)\nVery common letter in Swedish"
+  },
+  {
+    "letter": "W w",
+    "examples": "• Wigge (name)\n• Wennerberg (surname)\n• Wiklund (surname)\n• Wilhelm (name)\n• Wienerkorv (Vienna sausage)",
+    "notes": "Letter name: 'dubbel-ve' (double-v)\nPronunciation: /v/ (same as V)\nVery rare - only in names and some loanwords. Modern Swedish uses V instead"
+  },
+  {
+    "letter": "X x",
+    "examples": "• Xylofon (xylophone)\n• X-ray (x-ray)\n• Taxi (taxi)\n• Extra (extra)\n• Exempel (example - sometimes spelled with x)",
+    "notes": "Letter name: 'eks'\nPronunciation: /ks/\nRare letter - mostly in loanwords"
+  },
+  {
+    "letter": "Y y",
+    "examples": "• Yrke (profession)\n• Ny (new)\n• Syster (sister)\n• Fyra (four)\n• Mycket (much/very)",
+    "notes": "Letter name: 'y'\nPronunciation: /yː/ (like German 'ü' or French 'u')\nUnique sound - rounded lips while saying 'ee'"
+  },
+  {
+    "letter": "Z z",
+    "examples": "• Zoo (zoo)\n• Zebra (zebra)\n• Zon (zone)\n• Zink (zinc)\n• Zigzag (zigzag)",
+    "notes": "Letter name: 'zäta'\nPronunciation: /s/\nVery rare - mostly in loanwords, often replaced with 's'"
+  },
+  {
+    "letter": "Å å",
+    "examples": "• År (year)\n• Åtta (eight)\n• Åska (thunder)\n• Också (also)\n• Språk (language)",
+    "notes": "Letter name: 'å'\nPronunciation: /oː/ (like 'aw' in law)\n27th letter in Swedish alphabet"
+  },
+  {
+    "letter": "Ä ä",
+    "examples": "• Äpple (apple)\n• Äta (to eat)\n• Kär (dear/in love)\n• Väder (weather)\n• Lära (to learn)",
+    "notes": "Letter name: 'ä'\nPronunciation: /ɛː/ (like 'ai' in air)\n28th letter in Swedish alphabet"
+  },
+  {
+    "letter": "Ö ö",
+    "examples": "• Öga (eye)\n• Öppna (to open)\n• Hör (hear)\n• Kött (meat)\n• Förstå (to understand)",
+    "notes": "Letter name: 'ö'\nPronunciation: /øː/ (like 'ur' in fur, without the 'r')\n29th letter in Swedish alphabet"
   }
 ]
