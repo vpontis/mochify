@@ -1,40 +1,44 @@
 #!/usr/bin/env bun
-import { z } from 'zod';
+import { z } from "zod";
 
 // Load API key from environment
 const API_KEY = process.env.MOCHI_API_KEY;
 if (!API_KEY) {
-  console.error('❌ MOCHI_API_KEY not found in environment variables');
-  console.error('Please set it in .env.local or export it');
+  console.error("❌ MOCHI_API_KEY not found in environment variables");
+  console.error("Please set it in .env.local or export it");
   process.exit(1);
 }
 
-const BASE_URL = 'https://app.mochi.cards/api';
+const BASE_URL = "https://app.mochi.cards/api";
 
 // Schemas for validation
 const DeckSchema = z.object({
   id: z.string(),
   name: z.string(),
-  'parent-id': z.string().nullable().optional(),
+  "parent-id": z.string().nullable().optional(),
   archived: z.boolean().optional(),
-  'sort-by': z.enum(['created-at', 'updated-at', 'due-at']).optional(),
-  'cards-per-day': z.number().optional(),
-  'review-reverse': z.boolean().optional(),
+  "sort-by": z.enum(["created-at", "updated-at", "due-at"]).optional(),
+  "cards-per-day": z.number().optional(),
+  "review-reverse": z.boolean().optional(),
 });
 
 const CardSchema = z.object({
   id: z.string(),
   content: z.string(),
-  'deck-id': z.string(),
-  'template-id': z.string().optional(),
+  "deck-id": z.string(),
+  "template-id": z.string().optional(),
   archived: z.boolean().optional(),
-  'review-reverse': z.boolean().optional(),
-  'created-at': z.string().optional(),
-  'updated-at': z.string().optional(),
-  fields: z.record(z.object({
-    id: z.string(),
-    value: z.string(),
-  })).optional(),
+  "review-reverse": z.boolean().optional(),
+  "created-at": z.string().optional(),
+  "updated-at": z.string().optional(),
+  fields: z
+    .record(
+      z.object({
+        id: z.string(),
+        value: z.string(),
+      }),
+    )
+    .optional(),
   tags: z.array(z.string()).optional(),
 });
 
@@ -42,11 +46,15 @@ const TemplateSchema = z.object({
   id: z.string(),
   name: z.string(),
   content: z.string(),
-  fields: z.array(z.object({
-    id: z.string(),
-    name: z.string(),
-    'is-primary': z.boolean().optional(),
-  })).optional(),
+  fields: z
+    .array(
+      z.object({
+        id: z.string(),
+        name: z.string(),
+        "is-primary": z.boolean().optional(),
+      }),
+    )
+    .optional(),
 });
 
 type Deck = z.infer<typeof DeckSchema>;
@@ -58,14 +66,14 @@ class MochiClient {
 
   constructor(apiKey: string) {
     this.headers = {
-      'Authorization': `Basic ${btoa(apiKey + ':')}`,
-      'Content-Type': 'application/json',
+      Authorization: `Basic ${btoa(apiKey + ":")}`,
+      "Content-Type": "application/json",
     };
   }
 
   private async request<T>(
     endpoint: string,
-    options: RequestInit = {}
+    options: RequestInit = {},
   ): Promise<T> {
     const response = await fetch(`${BASE_URL}${endpoint}`, {
       ...options,
@@ -85,7 +93,7 @@ class MochiClient {
 
   // Deck methods
   async listDecks(): Promise<Deck[]> {
-    const response = await this.request<{ docs: Deck[] }>('/decks');
+    const response = await this.request<{ docs: Deck[] }>("/decks");
     return response.docs;
   }
 
@@ -95,11 +103,11 @@ class MochiClient {
 
   async createDeck(data: {
     name: string;
-    'parent-id'?: string;
-    'cards-per-day'?: number;
+    "parent-id"?: string;
+    "cards-per-day"?: number;
   }): Promise<Deck> {
-    return this.request<Deck>('/decks/', {
-      method: 'POST',
+    return this.request<Deck>("/decks/", {
+      method: "POST",
       body: JSON.stringify(data),
     });
   }
@@ -108,7 +116,7 @@ class MochiClient {
   async listCards(deckId?: string, limit = 10): Promise<Card[]> {
     const params = new URLSearchParams({
       limit: limit.toString(),
-      ...(deckId && { 'deck-id': deckId }),
+      ...(deckId && { "deck-id": deckId }),
     });
     const response = await this.request<{ docs: Card[] }>(`/cards?${params}`);
     return response.docs;
@@ -118,65 +126,82 @@ class MochiClient {
     return this.request<Card>(`/cards/${cardId}`);
   }
 
+  /**
+   * Creates or updates a card. If `id` is provided, updates the existing card.
+   * Otherwise, creates a new card.
+   *
+   * @param data - Card data including optional `id` for updates
+   * @returns The created or updated card
+   */
   async createCard(data: {
+    id?: string; // If provided, updates existing card instead of creating new
     content: string;
-    'deck-id': string;
-    'template-id'?: string;
+    "deck-id": string;
+    "template-id"?: string;
     fields?: Record<string, { id: string; value: string }>;
     tags?: string[];
   }): Promise<Card> {
     // Convert tags array to Set for the API
     const payload: any = {
       content: data.content,
-      'deck-id': data['deck-id'],
+      "deck-id": data["deck-id"],
     };
-    
-    if (data['template-id']) {
-      payload['template-id'] = data['template-id'];
+
+    if (data["template-id"]) {
+      payload["template-id"] = data["template-id"];
     }
-    
+
     if (data.fields) {
       payload.fields = data.fields;
     }
-    
+
     if (data.tags && data.tags.length > 0) {
       // API expects tags as an array in 'manual-tags' field
-      payload['manual-tags'] = data.tags;
+      payload["manual-tags"] = data.tags;
     }
-    
-    return this.request<Card>('/cards/', {
-      method: 'POST',
+
+    // If ID provided, update existing card; otherwise create new
+    const endpoint = data.id ? `/cards/${data.id}` : "/cards/";
+
+    return this.request<Card>(endpoint, {
+      method: "POST",
       body: JSON.stringify(payload),
     });
   }
 
-  async updateCard(cardId: string, data: Partial<{
-    content: string;
-    'deck-id': string;
-    archived: boolean;
-    tags: string[];
-  }>): Promise<Card> {
-    const payload = {
-      ...data,
-      'manual-tags': data.tags ? new Set(data.tags) : undefined,
-    };
-    delete payload.tags;
+  async updateCard(
+    cardId: string,
+    data: Partial<{
+      content: string;
+      "deck-id": string;
+      "template-id"?: string;
+      fields?: Record<string, { id: string; value: string }>;
+      archived: boolean;
+      tags: string[];
+    }>,
+  ): Promise<Card> {
+    const payload: any = { ...data };
+
+    if (data.tags) {
+      payload["manual-tags"] = data.tags;
+      delete payload.tags;
+    }
 
     return this.request<Card>(`/cards/${cardId}`, {
-      method: 'POST',
+      method: "POST",
       body: JSON.stringify(payload),
     });
   }
 
   async deleteCard(cardId: string): Promise<void> {
     await this.request(`/cards/${cardId}`, {
-      method: 'DELETE',
+      method: "DELETE",
     });
   }
 
   // Template methods
   async listTemplates(): Promise<Template[]> {
-    const response = await this.request<{ docs: Template[] }>('/templates');
+    const response = await this.request<{ docs: Template[] }>("/templates");
     return response.docs;
   }
 
@@ -193,18 +218,18 @@ async function main() {
 
   try {
     switch (command) {
-      case 'decks':
-      case 'list-decks': {
+      case "decks":
+      case "list-decks": {
         const decks = await client.listDecks();
-        console.log('\n📚 Your Mochi Decks:');
-        decks.forEach(deck => {
-          const indent = deck['parent-id'] ? '  └─ ' : '├─ ';
+        console.log("\n📚 Your Mochi Decks:");
+        decks.forEach((deck) => {
+          const indent = deck["parent-id"] ? "  └─ " : "├─ ";
           console.log(`${indent}${deck.name} (${deck.id})`);
         });
         break;
       }
 
-      case 'create-deck': {
+      case "create-deck": {
         const name = args[1];
         if (!name) {
           console.error('Usage: bun mochi-client.ts create-deck "Deck Name"');
@@ -215,34 +240,38 @@ async function main() {
         break;
       }
 
-      case 'cards':
-      case 'list-cards': {
+      case "cards":
+      case "list-cards": {
         const deckId = args[1];
         const cards = await client.listCards(deckId, 20);
-        console.log('\n📝 Recent Cards:');
-        cards.forEach(card => {
-          const preview = card.content.split('\n')[0].slice(0, 60);
+        console.log("\n📝 Recent Cards:");
+        cards.forEach((card) => {
+          const preview = card.content.split("\n")[0].slice(0, 60);
           console.log(`├─ ${card.id}: ${preview}...`);
         });
         break;
       }
 
-      case 'create':
-      case 'create-card': {
+      case "create":
+      case "create-card": {
         const deckId = args[1];
         const content = args[2];
-        const tags = args[3]?.split(',').map(t => t.trim());
+        const tags = args[3]?.split(",").map((t) => t.trim());
 
         if (!deckId || !content) {
-          console.error('Usage: bun mochi-client.ts create-card <deck-id> "content" [tags,separated,by,comma]');
-          console.error('\nExample:');
-          console.error('  bun mochi-client.ts create-card abc123 "What is TypeScript?" "programming,typescript"');
+          console.error(
+            'Usage: bun mochi-client.ts create-card <deck-id> "content" [tags,separated,by,comma]',
+          );
+          console.error("\nExample:");
+          console.error(
+            '  bun mochi-client.ts create-card abc123 "What is TypeScript?" "programming,typescript"',
+          );
           process.exit(1);
         }
 
         const card = await client.createCard({
           content,
-          'deck-id': deckId,
+          "deck-id": deckId,
           tags,
         });
         console.log(`✅ Created card in deck ${deckId}`);
@@ -250,24 +279,28 @@ async function main() {
         break;
       }
 
-      case 'create-qa':
-      case 'qa': {
+      case "create-qa":
+      case "qa": {
         const deckId = args[1];
         const question = args[2];
         const answer = args[3];
-        const tags = args[4]?.split(',').map(t => t.trim());
+        const tags = args[4]?.split(",").map((t) => t.trim());
 
         if (!deckId || !question || !answer) {
-          console.error('Usage: bun mochi-client.ts create-qa <deck-id> "question" "answer" [tags]');
-          console.error('\nExample:');
-          console.error('  bun mochi-client.ts create-qa abc123 "What is Bun?" "A fast JavaScript runtime" "javascript,bun"');
+          console.error(
+            'Usage: bun mochi-client.ts create-qa <deck-id> "question" "answer" [tags]',
+          );
+          console.error("\nExample:");
+          console.error(
+            '  bun mochi-client.ts create-qa abc123 "What is Bun?" "A fast JavaScript runtime" "javascript,bun"',
+          );
           process.exit(1);
         }
 
         const content = `# ${question}\n\n---\n\n${answer}`;
         const card = await client.createCard({
           content,
-          'deck-id': deckId,
+          "deck-id": deckId,
           tags,
         });
         console.log(`✅ Created Q&A card in deck ${deckId}`);
@@ -276,17 +309,23 @@ async function main() {
         break;
       }
 
-      case 'bulk-create': {
+      case "bulk-create": {
         const deckId = args[1];
         const filePath = args[2];
 
         if (!deckId || !filePath) {
-          console.error('Usage: bun mochi-client.ts bulk-create <deck-id> <json-file>');
-          console.error('\nJSON file format:');
-          console.error('[');
-          console.error('  { "content": "Card 1 content", "tags": ["tag1", "tag2"] },');
-          console.error('  { "question": "Question?", "answer": "Answer", "tags": ["tag3"] }');
-          console.error(']');
+          console.error(
+            "Usage: bun mochi-client.ts bulk-create <deck-id> <json-file>",
+          );
+          console.error("\nJSON file format:");
+          console.error("[");
+          console.error(
+            '  { "content": "Card 1 content", "tags": ["tag1", "tag2"] },',
+          );
+          console.error(
+            '  { "question": "Question?", "answer": "Answer", "tags": ["tag3"] }',
+          );
+          console.error("]");
           process.exit(1);
         }
 
@@ -294,7 +333,7 @@ async function main() {
         const data = await file.json();
 
         if (!Array.isArray(data)) {
-          console.error('JSON file must contain an array of cards');
+          console.error("JSON file must contain an array of cards");
           process.exit(1);
         }
 
@@ -303,38 +342,40 @@ async function main() {
 
         for (const item of data) {
           try {
-            if ('question' in item && 'answer' in item) {
+            if ("question" in item && "answer" in item) {
               const content = `# ${item.question}\n\n---\n\n${item.answer}`;
               await client.createCard({
                 content,
-                'deck-id': deckId,
+                "deck-id": deckId,
                 tags: item.tags,
               });
-            } else if ('content' in item) {
+            } else if ("content" in item) {
               await client.createCard({
                 content: item.content,
-                'deck-id': deckId,
+                "deck-id": deckId,
                 tags: item.tags,
               });
             }
             created++;
-            process.stdout.write(`\r✅ Created ${created}/${data.length} cards`);
+            process.stdout.write(
+              `\r✅ Created ${created}/${data.length} cards`,
+            );
           } catch (error) {
             console.error(`\n❌ Failed to create card: ${error}`);
           }
         }
-        console.log('\n✨ Bulk creation complete!');
+        console.log("\n✨ Bulk creation complete!");
         break;
       }
 
-      case 'templates':
-      case 'list-templates': {
+      case "templates":
+      case "list-templates": {
         const templates = await client.listTemplates();
-        console.log('\n📋 Available Templates:');
-        templates.forEach(template => {
+        console.log("\n📋 Available Templates:");
+        templates.forEach((template) => {
           console.log(`├─ ${template.name} (${template.id})`);
           if (Array.isArray(template.fields)) {
-            template.fields.forEach(field => {
+            template.fields.forEach((field) => {
               console.log(`   └─ ${field.name} (${field.id})`);
             });
           }
@@ -342,7 +383,7 @@ async function main() {
         break;
       }
 
-      case 'help':
+      case "help":
       default: {
         console.log(`
 🍡 Mochi Cards CLI
