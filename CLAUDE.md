@@ -109,3 +109,42 @@ bun --hot ./index.ts
 ```
 
 For more information, read the Bun API docs in `node_modules/bun-types/docs/**.md`.
+
+# Code Style Preferences
+
+## Function Arguments
+- Always use named arguments (object destructuring) for functions with more than one parameter
+- Single argument functions can use positional arguments
+- This improves readability and makes the code self-documenting
+
+Good examples:
+```ts
+// Single argument - positional is fine
+function getDeck(deckId: string) { ... }
+
+// Multiple arguments - use named
+function createCard({ content, deckId, tags }: {
+  content: string;
+  deckId: string;
+  tags?: string[];
+}) { ... }
+
+// Call with named arguments
+createCard({ 
+  content: "Card content",
+  deckId: "abc123",
+  tags: ["swedish", "alphabet"]
+});
+```
+
+Bad examples:
+```ts
+// Don't use positional for multiple arguments
+function createCard(content: string, deckId: string, tags?: string[]) { ... }
+```
+
+# important-instruction-reminders
+Do what has been asked; nothing more, nothing less.
+NEVER create files unless they're absolutely necessary for achieving your goal.
+ALWAYS prefer editing an existing file to creating a new one.
+NEVER proactively create documentation files (*.md) or README files. Only create documentation files if explicitly requested by the User.

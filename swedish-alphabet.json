@@ -1,0 +1,67 @@
+[
+  {
+    "question": "C",
+    "answer": "Pronounced like 's' before e, i, y, ä, ö; like 'k' elsewhere\nExamples: Cykel (bicycle), Centrum (center), Cirka (approximately), Café, Carl",
+    "tags": ["swedish", "alphabet"]
+  },
+  {
+    "question": "G",
+    "answer": "Pronounced like 'y' before e, i, y, ä, ö; like 'g' in 'go' elsewhere\nExamples: Gå (go), Ge (give), Gärna (gladly), Gift (married), Göra (do), Gul (yellow), Gammal (old)",
+    "tags": ["swedish", "alphabet"]
+  },
+  {
+    "question": "J",
+    "answer": "Pronounced like 'y' in 'yes'\nExamples: Ja (yes), Jag (I), Jul (Christmas), Jobb (job), Jämn (even)",
+    "tags": ["swedish", "alphabet"]
+  },
+  {
+    "question": "K",
+    "answer": "Pronounced like 'sh' before e, i, y, ä, ö; like 'k' elsewhere\nExamples: Katt (cat), Kär (dear), Kyrka (church), Kök (kitchen), Kilo, Kaffe (coffee), Kedja (chain)",
+    "tags": ["swedish", "alphabet"]
+  },
+  {
+    "question": "Q",
+    "answer": "Pronounced like 'kv'\nExamples: Kvinna (woman), Kväll (evening), Kvart (quarter), Kvar (remaining)",
+    "tags": ["swedish", "alphabet"]
+  },
+  {
+    "question": "R",
+    "answer": "Rolled or trilled 'r'\nExamples: Röd (red), Rum (room), Resa (travel), Ring (ring), Rund (round)",
+    "tags": ["swedish", "alphabet"]
+  },
+  {
+    "question": "U",
+    "answer": "Pronounced like 'oo' but with rounded lips\nExamples: Under (under), Ung (young), Ut (out), Uppe (up), Utan (without)",
+    "tags": ["swedish", "alphabet"]
+  },
+  {
+    "question": "W",
+    "answer": "Pronounced like 'v' (used mainly in names and loanwords)\nExamples: Wahlström (surname), Wikström, Weekend, Webb",
+    "tags": ["swedish", "alphabet"]
+  },
+  {
+    "question": "Y",
+    "answer": "Pronounced like German 'ü' or French 'u' (rounded lips saying 'ee')\nExamples: Yta (surface), Yngre (younger), Ny (new), Fyra (four), Syster (sister)",
+    "tags": ["swedish", "alphabet"]
+  },
+  {
+    "question": "Z",
+    "answer": "Pronounced like 's' (rare in Swedish)\nExamples: Zoo, Zon (zone), Zebra, Zink (zinc)",
+    "tags": ["swedish", "alphabet"]
+  },
+  {
+    "question": "Å",
+    "answer": "Pronounced like 'aw' in 'saw'\nExamples: År (year), Åka (ride/go), Båt (boat), Blå (blue), Gå (go), På (on)",
+    "tags": ["swedish", "alphabet"]
+  },
+  {
+    "question": "Ä",
+    "answer": "Pronounced like 'air' without the 'r'\nExamples: Äpple (apple), Äta (eat), Lära (learn), Kära (dear), Väg (road), Bäst (best)",
+    "tags": ["swedish", "alphabet"]
+  },
+  {
+    "question": "Ö",
+    "answer": "Pronounced like 'ur' in 'fur' without the 'r'\nExamples: Öppna (open), Öl (beer), Kött (meat), Hör (hear), Dörr (door), Större (bigger)",
+    "tags": ["swedish", "alphabet"]
+  }
+]
