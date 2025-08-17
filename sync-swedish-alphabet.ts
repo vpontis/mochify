@@ -61,12 +61,10 @@ async function syncSwedishAlphabet() {
           const existingCard = await client.getCard(item.mochiId);
 
           // Check if content has changed
-          const currentExamples =
-            existingCard.fields?.[FIELD_IDS.examples]?.value || "";
-          const currentNotes =
-            existingCard.fields?.[FIELD_IDS.notes]?.value || "";
-          const currentSentences =
-            existingCard.fields?.[FIELD_IDS.sentences]?.value || "";
+          const fields = existingCard.fields as Record<string, { id: string; value: string }> | undefined;
+          const currentExamples = fields?.[FIELD_IDS.examples]?.value || "";
+          const currentNotes = fields?.[FIELD_IDS.notes]?.value || "";
+          const currentSentences = fields?.[FIELD_IDS.sentences]?.value || "";
 
           if (
             currentExamples === item.examples &&
