@@ -12,11 +12,11 @@
 **Examples**
 << Examples >>
 
-**Notes**
-<< Notes >>
-
 **Audio**
 << Audio >>
+
+**Notes**
+<< Notes >>
 ```
 
 ## Fields
