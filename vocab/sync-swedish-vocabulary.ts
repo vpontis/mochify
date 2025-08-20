@@ -1,6 +1,7 @@
 #!/usr/bin/env bun
 import { MochiClient } from "../mochi-client";
 import pLimit from "p-limit";
+import { existsSync } from "node:fs";
 
 interface VocabularyItem {
   word: string;
@@ -29,7 +30,7 @@ async function syncSwedishVocabulary() {
   const client = new MochiClient(process.env.MOCHI_API_KEY!);
 
   // Load the JSON file
-  const file = Bun.file("./swedish-core.json");
+  const file = Bun.file("./vocab/swedish-core.json");
   const vocabulary: VocabularyItem[] = await file.json();
 
   console.log("🇸🇪 Swedish Vocabulary Sync\n");
@@ -57,6 +58,17 @@ async function syncSwedishVocabulary() {
     }
 
     try {
+      // Check if image exists for this card
+      const imagePath = `./images/${item.mochiId}.png`;
+      let notesWithImage = item.notes || "";
+
+      if (item.mochiId && existsSync(imagePath)) {
+        const imageUrl = `https://raw.githubusercontent.com/vpontis/mochify/refs/heads/master/images/${item.mochiId}.png`;
+        notesWithImage = notesWithImage
+          ? `${notesWithImage}\n\n![${item.word}](${imageUrl})`
+          : `![${item.word}](${imageUrl})`;
+      }
+
       // Build field data for template
       const fieldData = {
         [FIELD_IDS.word]: {
@@ -77,7 +89,7 @@ async function syncSwedishVocabulary() {
         },
         [FIELD_IDS.notes]: {
           id: FIELD_IDS.notes,
-          value: item.notes || "",
+          value: notesWithImage,
         },
       };
 
@@ -96,7 +108,7 @@ async function syncSwedishVocabulary() {
 
         updated++;
         console.log(
-          `✏️  [${index + 1}/${vocabulary.length}] ${item.word} - updated in ${elapsed.toFixed(0)}ms`,
+          `✏️  [${index + 1}/${vocabulary.length}] ${item.word} (${item.mochiId}) - updated in ${elapsed.toFixed(0)}ms`,
         );
         return;
       }
@@ -115,18 +127,18 @@ async function syncSwedishVocabulary() {
       item.mochiId = card.id;
       created++;
       console.log(
-        `✅ [${index + 1}/${vocabulary.length}] ${item.word} - created in ${elapsed.toFixed(0)}ms`,
+        `✅ [${index + 1}/${vocabulary.length}] ${item.word} (${card.id}) - created in ${elapsed.toFixed(0)}ms`,
       );
 
       // Save after each successful creation
       await Bun.write(
-        "./swedish-core.json",
+        "./vocab/swedish-core.json",
         JSON.stringify(vocabulary, null, 2),
       );
     } catch (error) {
       failed++;
       console.error(
-        `❌ [${index + 1}/${vocabulary.length}] ${item.word} - failed: ${error}`,
+        `❌ [${index + 1}/${vocabulary.length}] ${item.word} (${item.mochiId || "no-id"}) - failed: ${error}`,
       );
     }
   }
@@ -139,7 +151,10 @@ async function syncSwedishVocabulary() {
   await Promise.all(promises);
 
   // Save the updated JSON with IDs
-  await Bun.write("./swedish-core.json", JSON.stringify(vocabulary, null, 2));
+  await Bun.write(
+    "./vocab/swedish-core.json",
+    JSON.stringify(vocabulary, null, 2),
+  );
 
   console.log("\n\n📊 Summary:");
   console.log(`  ⏭️  Skipped: ${skipped} cards (already synced)`);
@@ -148,7 +163,7 @@ async function syncSwedishVocabulary() {
   if (failed > 0) {
     console.log(`  ❌ Failed: ${failed} cards`);
   }
-  console.log("\n💾 IDs saved directly in swedish-core.json");
+  console.log("\n💾 IDs saved directly in vocab/swedish-core.json");
   console.log("🎉 Sync complete!");
 }
 
