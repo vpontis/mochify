@@ -4,7 +4,7 @@ import OpenAI from "openai";
 import { z } from "zod";
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: Bun.env.OPENAI_API_KEY,
 });
 
 const VocabItem = z.object({
@@ -44,7 +44,7 @@ async function generateImage({
 
     // Save to local file
     const fileName = `${word.toLowerCase().replace(/[^a-z0-9]/g, "-")}.png`;
-    const filePath = `./images/swedish/${fileName}`;
+    const filePath = `./images/${fileName}`;
     await Bun.write(filePath, buffer);
 
     console.log(`✓ Saved ${filePath}`);
@@ -56,17 +56,13 @@ async function generateImage({
 }
 
 async function main() {
-  // Sample vocabulary items - replace with your actual data
+  // Test with just one image first
   const vocabulary: VocabItem[] = [
     {
       word: "Hej",
       english: "Hello",
       context: "friendly greeting between people",
     },
-    { word: "Tack", english: "Thanks", context: "expressing gratitude" },
-    { word: "Kaffe", english: "Coffee", context: "cozy café scene" },
-    { word: "Skog", english: "Forest", context: "deep woods with tall trees" },
-    { word: "Sjö", english: "Lake", context: "calm water reflecting sky" },
   ];
 
   // Rate limiting - DALL-E 3 has limits
@@ -86,7 +82,7 @@ async function main() {
 
 // Run if called directly
 if (import.meta.main) {
-  if (!process.env.OPENAI_API_KEY) {
+  if (!Bun.env.OPENAI_API_KEY) {
     console.error("Error: OPENAI_API_KEY environment variable is required");
     console.error("Add it to your .env file or export it in your shell");
     process.exit(1);

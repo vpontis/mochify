@@ -296,6 +296,36 @@ function createCLI() {
     });
 
   program
+    .command("get-card <card-id>")
+    .description("Get details of a specific card")
+    .action(async (cardId: string) => {
+      try {
+        const card = await client.getCard(cardId);
+        console.log("\n📝 Card Details:");
+        console.log(`ID: ${card.id}`);
+        console.log(`Deck ID: ${card["deck-id"]}`);
+        if (card["template-id"]) {
+          console.log(`Template ID: ${card["template-id"]}`);
+        }
+        console.log(`\nContent:\n${card.content}`);
+
+        if (card.fields && Object.keys(card.fields).length > 0) {
+          console.log("\n📋 Fields:");
+          for (const [key, field] of Object.entries(card.fields)) {
+            console.log(`  ${key}: ${field.value}`);
+          }
+        }
+
+        if (card.tags && card.tags.length > 0) {
+          console.log(`\n🏷️  Tags: ${card.tags.join(", ")}`);
+        }
+      } catch (error) {
+        console.error("❌ Error:", error);
+        process.exit(1);
+      }
+    });
+
+  program
     .command("create-card <deck-id> <content>")
     .description("Create a card with content")
     .option("-t, --tags <tags>", "Comma-separated tags")
