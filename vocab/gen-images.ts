@@ -7,9 +7,11 @@ import { MochiClient } from "../mochi-client";
 import { generateImage } from "../image-gen/generate-images";
 import { existsSync } from "node:fs";
 import { mkdir } from "node:fs/promises";
+import pLimit from "p-limit";
 
 const IMAGES_DIR = "./images/vocab";
-const RATE_LIMIT_MS = 2000; // 2 seconds between API calls
+const CONCURRENCY = 3; // Process 3 images at a time
+const limit = pLimit(CONCURRENCY);
 
 async function ensureImagesDir() {
   if (!existsSync(IMAGES_DIR)) {
@@ -18,13 +20,13 @@ async function ensureImagesDir() {
 }
 
 async function main() {
-  const client = new MochiClient({
-    apiKey: Bun.env.MOCHI_API_KEY!,
-  });
+  console.log("Initializing Mochi client...");
+  const client = new MochiClient(Bun.env.MOCHI_API_KEY!);
 
-  // Get the Swedish deck
+  // Get the Swedish Core Vocabulary deck
+  console.log("Fetching decks...");
   const decks = await client.listDecks();
-  const swedishDeck = decks.find((d) => d.name === "Swedish");
+  const swedishDeck = decks.find((d) => d.name === "Swedish Core Vocabulary");
 
   if (!swedishDeck) {
     console.error("Swedish deck not found!");
@@ -34,66 +36,88 @@ async function main() {
   console.log(`Found Swedish deck: ${swedishDeck.id}`);
 
   // Get all cards in the deck
-  const cards = await client.listCards({ "deck-id": swedishDeck.id });
+  const cards = await client.listCards(swedishDeck.id, 1000); // Get up to 1000 cards
   console.log(`Found ${cards.length} cards in Swedish deck`);
 
-  let generated = 0;
-  let skipped = 0;
-  let failed = 0;
-
-  for (const card of cards) {
+  // Filter cards that need images (limit to 5 for testing)
+  const cardsNeedingImages = cards.slice(0, 5).filter((card) => {
     const imagePath = `${IMAGES_DIR}/${card.id}.png`;
-
-    // Skip if image already exists
     if (existsSync(imagePath)) {
       console.log(`⏭️  Skipping ${card.id} - image already exists`);
-      skipped++;
-      continue;
+      return false;
     }
 
-    // Extract word and translation from card fields
-    // Assuming the card has fields like 'word' and 'english'
-    const word = card.fields?.word || card.fields?.name || "unknown";
+    // Parse content to extract word and translation
+    const lines = card.content.split("\n");
+    const wordLine = lines.find((line) => line.startsWith("## "));
+    const word = wordLine?.replace("## ", "").trim() || "unknown";
+
+    // Translation is typically after the --- separator
+    const separatorIndex = lines.indexOf("---");
     const english =
-      card.fields?.english || card.fields?.translation || "unknown";
-    const context = card.fields?.context || card.fields?.notes;
+      separatorIndex >= 0 && lines[separatorIndex + 2]
+        ? lines[separatorIndex + 2].trim()
+        : "unknown";
 
     if (word === "unknown" || english === "unknown") {
       console.log(`⚠️  Skipping ${card.id} - missing word or translation`);
-      skipped++;
-      continue;
+      return false;
     }
 
-    try {
-      console.log(
-        `\n🎨 Generating image for card ${card.id}: ${word} (${english})`,
-      );
+    return true;
+  });
 
-      await generateImage({
-        word,
-        english,
-        context,
-        outputPath: imagePath,
-        quality: "medium", // Use medium quality to balance cost and quality
-      });
+  console.log(
+    `\n📸 Generating images for ${cardsNeedingImages.length} cards...`,
+  );
 
-      generated++;
+  // Process cards with concurrency limit
+  const results = await Promise.all(
+    cardsNeedingImages.map((card) =>
+      limit(async () => {
+        const imagePath = `${IMAGES_DIR}/${card.id}.png`;
 
-      // Rate limiting
-      if (cards.indexOf(card) < cards.length - 1) {
-        console.log(`⏳ Waiting ${RATE_LIMIT_MS}ms before next request...`);
-        await new Promise((resolve) => setTimeout(resolve, RATE_LIMIT_MS));
-      }
-    } catch (error) {
-      console.error(`❌ Failed to generate image for ${card.id}:`, error);
-      failed++;
-    }
-  }
+        // Parse content to extract word and translation
+        const lines = card.content.split("\n");
+        const wordLine = lines.find((line) => line.startsWith("## "));
+        const word = wordLine?.replace("## ", "").trim() || "";
+
+        // Translation is typically after the --- separator
+        const separatorIndex = lines.indexOf("---");
+        const english =
+          separatorIndex >= 0 && lines[separatorIndex + 2]
+            ? lines[separatorIndex + 2].trim()
+            : "";
+
+        // Extract examples as context
+        const examplesIndex = lines.findIndex((line) =>
+          line.includes("**Examples**"),
+        );
+        const context =
+          examplesIndex >= 0 && lines[examplesIndex + 1]
+            ? lines[examplesIndex + 1].trim()
+            : undefined;
+
+        console.log(
+          `🎨 Generating image for card ${card.id}: ${word} (${english})`,
+        );
+
+        await generateImage({
+          word,
+          english,
+          context,
+          outputPath: imagePath,
+          quality: "medium", // Use medium quality to balance cost and quality
+        });
+
+        console.log(`✓ Generated image for ${card.id}`);
+        return card.id;
+      }),
+    ),
+  );
 
   console.log("\n✨ Image generation complete!");
-  console.log(
-    `📊 Generated: ${generated}, Skipped: ${skipped}, Failed: ${failed}`,
-  );
+  console.log(`📊 Generated ${results.length} images`);
 }
 
 // Run the script
