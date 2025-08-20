@@ -14,7 +14,7 @@ async function syncSwedishVocabulary() {
   const client = new MochiClient(process.env.MOCHI_API_KEY!);
 
   // Load the JSON file
-  const file = Bun.file("./swedish-core-vocabulary.json");
+  const file = Bun.file("./vocabulary/swedish-core-150.json");
   const vocabulary = await file.json();
 
   console.log("🇸🇪 Swedish Vocabulary Sync\n");
@@ -57,73 +57,24 @@ async function syncSwedishVocabulary() {
         },
       };
 
+      const start = performance.now();
+      const card = await client.createCard({
+        id: item.mochiId, // Will update if exists, create if not
+        content: "",
+        "deck-id": deck.id,
+        "template-id": VOCABULARY_TEMPLATE_ID,
+        fields: fieldData,
+        tags: item.tags,
+      });
+      const elapsed = performance.now() - start;
+
       if (item.mochiId) {
-        // Card exists - check if it needs updating
-        try {
-          const existingCard = await client.getCard(item.mochiId);
-
-          // Check if content has changed
-          const fields = existingCard.fields as
-            | Record<string, { id: string; value: string }>
-            | undefined;
-          const currentWord = fields?.[FIELD_IDS.word]?.value || "";
-          const currentEnglish = fields?.[FIELD_IDS.english]?.value || "";
-          const currentExamples = fields?.[FIELD_IDS.examples]?.value || "";
-          const currentAudio = fields?.[FIELD_IDS.audio]?.value || "";
-
-          if (
-            currentWord === item.word &&
-            currentEnglish === item.english &&
-            currentExamples === item.examples &&
-            currentAudio === item.audio
-          ) {
-            unchanged++;
-            process.stdout.write(
-              `\r⏭️  Unchanged: ${unchanged} | ✅ Created: ${created} | ✏️  Updated: ${updated}`,
-            );
-            continue;
-          }
-
-          // Content changed - update the card using upsert
-          console.log(`\n🔄 Updating ${item.word}...`);
-
-          await client.createCard({
-            id: item.mochiId, // Pass ID to trigger update instead of create
-            content: "",
-            "deck-id": deck.id,
-            "template-id": VOCABULARY_TEMPLATE_ID,
-            fields: fieldData,
-            tags: item.tags,
-          });
-
-          updated++;
-        } catch (error) {
-          // Card doesn't exist anymore, create new one
-          console.log(`\n⚠️  Card for ${item.word} not found, creating new...`);
-
-          const newCard = await client.createCard({
-            content: "",
-            "deck-id": deck.id,
-            "template-id": VOCABULARY_TEMPLATE_ID,
-            fields: fieldData,
-            tags: item.tags,
-          });
-
-          item.mochiId = newCard.id;
-          created++;
-        }
+        updated++;
+        console.log(`\n✏️  Updated ${item.word} in ${elapsed.toFixed(0)}ms`);
       } else {
-        // No ID - create new card
-        const newCard = await client.createCard({
-          content: "",
-          "deck-id": deck.id,
-          "template-id": VOCABULARY_TEMPLATE_ID,
-          fields: fieldData,
-          tags: item.tags,
-        });
-
-        item.mochiId = newCard.id; // Add ID to the item
+        item.mochiId = card.id;
         created++;
+        console.log(`\n✅ Created ${item.word} in ${elapsed.toFixed(0)}ms`);
       }
 
       process.stdout.write(
@@ -137,7 +88,7 @@ async function syncSwedishVocabulary() {
 
   // Save the updated JSON with IDs
   await Bun.write(
-    "./swedish-core-vocabulary.json",
+    "./vocabulary/swedish-core-150.json",
     JSON.stringify(vocabulary, null, 2),
   );
 
@@ -148,7 +99,7 @@ async function syncSwedishVocabulary() {
   if (failed > 0) {
     console.log(`  ❌ Failed: ${failed} cards`);
   }
-  console.log("\n💾 IDs saved directly in swedish-core-vocabulary.json");
+  console.log("\n💾 IDs saved directly in swedish-core-150.json");
   console.log("🎉 Sync complete!");
 }
 
