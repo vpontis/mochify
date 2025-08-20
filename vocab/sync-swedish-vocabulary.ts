@@ -2,6 +2,16 @@
 import { MochiClient } from "../mochi-client";
 import pLimit from "p-limit";
 
+interface VocabularyItem {
+  word: string;
+  english: string;
+  examples: string;
+  audio: string;
+  tags: string[];
+  mochiId?: string;
+  notes?: string;
+}
+
 // Template configuration
 const VOCABULARY_TEMPLATE_ID = "GAFwzU5S"; // Vocab Word template
 const FIELD_IDS = {
@@ -20,7 +30,7 @@ async function syncSwedishVocabulary() {
 
   // Load the JSON file
   const file = Bun.file("./swedish-core.json");
-  const vocabulary = await file.json();
+  const vocabulary: VocabularyItem[] = await file.json();
 
   console.log("🇸🇪 Swedish Vocabulary Sync\n");
 
@@ -41,7 +51,11 @@ async function syncSwedishVocabulary() {
   let failed = 0;
 
   // Function to sync a single card
-  async function syncCard(item: any, index: number) {
+  async function syncCard(item: VocabularyItem, index: number) {
+    if (!deck) {
+      throw new Error("Deck not found or created");
+    }
+
     try {
       // Build field data for template
       const fieldData = {
@@ -118,7 +132,7 @@ async function syncSwedishVocabulary() {
   }
 
   // Process all cards with concurrency limit
-  const promises = vocabulary.map((item, index) =>
+  const promises = vocabulary.map((item: VocabularyItem, index: number) =>
     limit(() => syncCard(item, index)),
   );
 

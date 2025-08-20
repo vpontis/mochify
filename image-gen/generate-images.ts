@@ -7,6 +7,7 @@
 
 import OpenAI from "openai";
 import { z } from "zod";
+import { dedent } from "../utils";
 
 const openai = new OpenAI({
   apiKey: Bun.env.OPENAI_API_KEY,
@@ -15,7 +16,6 @@ const openai = new OpenAI({
 export interface ImageGenerationOptions {
   word: string;
   english: string;
-  context?: string;
   outputPath: string;
   quality?: "low" | "medium" | "high" | "auto";
   size?: "1024x1024" | "1024x1536" | "1536x1024" | "auto";
@@ -24,27 +24,99 @@ export interface ImageGenerationOptions {
 export async function generateImage({
   word,
   english,
-  context,
   outputPath,
   quality = "high",
   size = "1536x1024",
 }: ImageGenerationOptions): Promise<string> {
-  // Characters for consistency across images
-  const characters = `
-    Characters (choose 1-3 as appropriate, NO TEXT OR NAMES in the image):
-    - Marissa: 32-year-old woman with black hair, pale skin, and blue eyes
-    - Victor: 32-year-old man with dark blonde/light brown hair, fair skin, and brown eyes  
-    - Stellan: 5-month-old baby with dark brown hair, very cute and cheerful
+  console.log(`🎯 Creating prompt for ${word} (${english})...`);
+
+  // First, use GPT-5-mini to create a creative scene description
+  const promptCreationMessages = [
+    {
+      role: "system" as const,
+      content: dedent`
+        You create scene descriptions for vocabulary illustrations. Available characters to describe (don't use names in output):
+        - A 32yo woman with black hair, pale skin, and blue eyes
+        - A 32yo man with dark blonde/light brown hair, fair skin, and brown eyes  
+        - A 5-month-old baby with short black hair, very cute and cheerful
+
+        Create varied scenes - sometimes use just the baby, sometimes a parent and baby, sometimes both parents, sometimes no people at all.
+        
+        Examples of good scene descriptions by word type:
+        
+        Verbs (to + action):
+        - For "to be": "A 32-year-old man with light brown hair and a 32-year-old woman with black hair demonstrating the action of being together, with magical sparkles around them"
+        - For "to have": "A 32-year-old woman with black hair holding magical objects while her 5-month-old baby with short black hair reaches for them"
+        
+        Nouns (a/an + object):
+        - For "a car": "A car in a magical forest setting with a cute 5-month-old baby with short black hair playing nearby"
+        - For "a house": "A house in an enchanted meadow with a 32-year-old man with light brown hair standing in the doorway"
+        
+        Greetings/Social:
+        - For "hello": "A 32-year-old woman with black hair and her 5-month-old baby with short black hair waving happily, surrounded by floating flowers and butterflies"
+        - For "thanks": "A family showing gratitude with glowing hearts floating around them"
+        
+        Question words:
+        - For "when": "A curious 5-month-old baby with short black hair looking up at floating magical clocks and time symbols made of light"
+        - For "where": "A 32-year-old woman with black hair pointing toward multiple floating magical doorways in the sky"
+        
+        Abstract concepts:
+        - For other words: "A family scene with a 32-year-old man with light brown hair, 32-year-old woman with black hair, and 5-month-old baby with short black hair, surrounded by magical elements representing the concept"
+        
+        Describe the scene using visual descriptions of people (not names), objects, and actions.
+      `,
+    },
+    {
+      role: "user" as const,
+      content: dedent`
+        Create a scene description for the Swedish word "${word}" meaning "${english}".
+
+        Describe a specific scene that visually represents this concept.
+        Use descriptions like "a woman with black hair" or "a baby" instead of names.
+      `,
+    },
+  ];
+
+  console.log(`💭 Asking GPT-5-mini for scene...`);
+
+  let sceneDescription: string;
+  try {
+    const promptResponse = await openai.chat.completions.create({
+      model: "gpt-5-mini",
+      messages: promptCreationMessages,
+      max_completion_tokens: 1000, // Higher limit since GPT-5-mini uses tokens for reasoning internally
+    });
+
+    sceneDescription = promptResponse.choices[0]?.message?.content || "";
+    console.log(`🤖 GPT-5-mini response: "${sceneDescription}"`);
+  } catch (error) {
+    console.log(`⚠️ GPT-5-mini error: ${error}`);
+    sceneDescription = "";
+  }
+
+  // Throw error if GPT-5-mini fails to provide a scene description
+  if (!sceneDescription || sceneDescription.trim().length === 0) {
+    throw new Error(
+      `GPT-5-mini failed to generate a scene description for "${word}" (${english})`,
+    );
+  }
+
+  // Combine the creative scene from GPT with our technical requirements
+  // We handle the style and "no text" instructions - GPT just provides the creative scene
+  const prompt = dedent`
+    ${sceneDescription}
+    
+    Style: Studio Ghibli animation, hand-drawn, soft watercolor textures, warm lighting.
+    Atmosphere: Magical, whimsical, peaceful, dreamlike quality.
+    Important: No text, letters, words, or numbers anywhere in the image.
+    Details: Rich environmental details, expressive character emotions if people are present.
+    Composition: Clear focal point, balanced, cinematic framing.
   `;
 
-  const prompt = `Studio Ghibli style illustration showing "${english}". 
-    ${characters}
-    The scene should naturally demonstrate the concept without any text or labels.
-    Warm, magical atmosphere with soft lighting typical of Studio Ghibli films.
-    Hand-drawn animation aesthetic with rich details and expressive characters.
-    ${context ? `Scene context: ${context.slice(0, 100)}` : ""}`;
-
-  console.log(`🔄 API call for ${word} (${english})...`);
+  console.log(`📝 Scene: ${sceneDescription}`);
+  console.log(`🎨 Full prompt being sent to image API:`);
+  console.log(prompt);
+  console.log(`🔄 Creating image...`);
 
   try {
     const response = await openai.images.generate({

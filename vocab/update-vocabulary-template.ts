@@ -18,12 +18,14 @@ async function updateTemplate() {
     },
   );
 
-  const template = await response.json();
+  const template = (await response.json()) as {
+    fields?: Array<{ id: string; name: string }>;
+  };
   console.log("Current template fields:");
   console.log(JSON.stringify(template.fields, null, 2));
 
   // Add notes field if not exists
-  const hasNotes = template.fields?.some((f: any) => f.name === "Notes");
+  const hasNotes = template.fields?.some((f) => f.name === "Notes");
 
   if (!hasNotes) {
     console.log(
@@ -33,8 +35,10 @@ async function updateTemplate() {
     console.log("2. Add a new field called 'Notes'");
     console.log("3. Run fetch-template.ts again to get the field ID");
   } else {
-    const notesField = template.fields.find((f: any) => f.name === "Notes");
-    console.log(`\nNotes field exists with ID: ${notesField.id}`);
+    const notesField = template.fields?.find((f) => f.name === "Notes");
+    if (notesField) {
+      console.log(`\nNotes field exists with ID: ${notesField.id}`);
+    }
   }
 }
 

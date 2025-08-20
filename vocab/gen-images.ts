@@ -39,25 +39,36 @@ async function main() {
   const cards = await client.listCards(swedishDeck.id, 1000); // Get up to 1000 cards
   console.log(`Found ${cards.length} cards in Swedish deck`);
 
-  // Filter cards that need images (limit to 20 to get 10 valid ones)
-  const cardsNeedingImages = cards.slice(0, 20).filter((card) => {
+  // Filter cards that need images (limit for testing)
+  const cardsNeedingImages = cards.slice(0, 10).filter((card) => {
     const imagePath = `${IMAGES_DIR}/${card.id}.png`;
     if (existsSync(imagePath)) {
       console.log(`⏭️  Skipping ${card.id} - image already exists`);
       return false;
     }
 
-    // Parse content to extract word and translation
-    const lines = card.content.split("\n");
-    const wordLine = lines.find((line) => line.startsWith("## "));
-    const word = wordLine?.replace("## ", "").trim() || "unknown";
+    // Try to extract from fields first (template-based cards)
+    let word = card.fields?.name?.value || card.fields?.word?.value || "";
+    let english =
+      card.fields?.["Vj1QoXZ7"]?.value ||
+      card.fields?.english?.value ||
+      card.fields?.translation?.value ||
+      "";
 
-    // Translation is typically after the --- separator
-    const separatorIndex = lines.indexOf("---");
-    const english =
-      separatorIndex >= 0 && lines[separatorIndex + 2]
-        ? lines[separatorIndex + 2].trim()
-        : "unknown";
+    // If no fields, parse from content (markdown cards)
+    if (!word || !english) {
+      const lines = card.content.split("\n");
+      const wordLine = lines.find((line) => line.startsWith("## "));
+      word = word || wordLine?.replace("## ", "").trim() || "unknown";
+
+      // Translation is typically after the --- separator
+      const separatorIndex = lines.indexOf("---");
+      english =
+        english ||
+        (separatorIndex >= 0 && lines[separatorIndex + 2]
+          ? lines[separatorIndex + 2]?.trim() || "unknown"
+          : "unknown");
+    }
 
     if (word === "unknown" || english === "unknown") {
       console.log(`⚠️  Skipping ${card.id} - missing word or translation`);
@@ -77,35 +88,36 @@ async function main() {
       limit(async () => {
         const imagePath = `${IMAGES_DIR}/${card.id}.png`;
 
-        // Parse content to extract word and translation
-        const lines = card.content.split("\n");
-        const wordLine = lines.find((line) => line.startsWith("## "));
-        const word = wordLine?.replace("## ", "").trim() || "";
+        // Try to extract from fields first (template-based cards)
+        let word = card.fields?.name?.value || card.fields?.word?.value || "";
+        let english =
+          card.fields?.["Vj1QoXZ7"]?.value ||
+          card.fields?.english?.value ||
+          card.fields?.translation?.value ||
+          "";
 
-        // Translation is typically after the --- separator
-        const separatorIndex = lines.indexOf("---");
-        const english =
-          separatorIndex >= 0 && lines[separatorIndex + 2]
-            ? lines[separatorIndex + 2].trim()
-            : "";
+        // If no fields, parse from content (markdown cards)
+        if (!word || !english) {
+          const lines = card.content.split("\n");
+          const wordLine = lines.find((line) => line.startsWith("## "));
+          word = word || wordLine?.replace("## ", "").trim() || "";
 
-        // Extract examples as context
-        const examplesIndex = lines.findIndex((line) =>
-          line.includes("**Examples**"),
-        );
-        const context =
-          examplesIndex >= 0 && lines[examplesIndex + 1]
-            ? lines[examplesIndex + 1].trim()
-            : undefined;
+          // Translation is typically after the --- separator
+          const separatorIndex = lines.indexOf("---");
+          english =
+            english ||
+            (separatorIndex >= 0 && lines[separatorIndex + 2]
+              ? lines[separatorIndex + 2]?.trim() || ""
+              : "");
+        }
 
         console.log(`🎨 Starting: ${card.id} - ${word} (${english})`);
 
         await generateImage({
           word,
           english,
-          context,
           outputPath: imagePath,
-          quality: "medium", // Use medium quality to balance cost and quality
+          quality: "high", // Use medium quality to balance cost and quality
         });
 
         console.log(`✅ Saved: ${imagePath}`);
