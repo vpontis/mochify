@@ -61,7 +61,9 @@ async function syncSwedishAlphabet() {
           const existingCard = await client.getCard(item.mochiId);
 
           // Check if content has changed
-          const fields = existingCard.fields as Record<string, { id: string; value: string }> | undefined;
+          const fields = existingCard.fields as
+            | Record<string, { id: string; value: string }>
+            | undefined;
           const currentExamples = fields?.[FIELD_IDS.examples]?.value || "";
           const currentNotes = fields?.[FIELD_IDS.notes]?.value || "";
           const currentSentences = fields?.[FIELD_IDS.sentences]?.value || "";

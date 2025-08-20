@@ -201,10 +201,7 @@ async function addNotesToVocabulary() {
     }
 
     // Save after each batch
-    await Bun.write(
-      "./swedish-core.json",
-      JSON.stringify(vocabulary, null, 2),
-    );
+    await Bun.write("./swedish-core.json", JSON.stringify(vocabulary, null, 2));
     console.log(`  💾 Saved batch ${Math.floor(i / BATCH_SIZE) + 1}`);
   }
 
