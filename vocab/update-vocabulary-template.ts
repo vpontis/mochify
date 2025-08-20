@@ -1,5 +1,5 @@
 #!/usr/bin/env bun
-import { MochiClient } from "./mochi-client";
+import { MochiClient } from "../mochi-client";
 
 const VOCABULARY_TEMPLATE_ID = "GAFwzU5S";
 

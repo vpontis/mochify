@@ -1,5 +1,5 @@
 #!/usr/bin/env bun
-import { MochiClient } from "./mochi-client";
+import { MochiClient } from "../mochi-client";
 import pLimit from "p-limit";
 
 // Template configuration
@@ -18,7 +18,7 @@ async function syncSwedishVocabulary() {
   const client = new MochiClient(process.env.MOCHI_API_KEY!);
 
   // Load the JSON file
-  const file = Bun.file("./vocabulary/swedish-core-150.json");
+  const file = Bun.file("./swedish-core.json");
   const vocabulary = await file.json();
 
   console.log("🇸🇪 Swedish Vocabulary Sync\n");
@@ -90,7 +90,7 @@ async function syncSwedishVocabulary() {
 
       // Save after each successful creation
       await Bun.write(
-        "./vocabulary/swedish-core-150.json",
+        "./swedish-core.json",
         JSON.stringify(vocabulary, null, 2),
       );
     } catch (error) {
@@ -110,7 +110,7 @@ async function syncSwedishVocabulary() {
 
   // Save the updated JSON with IDs
   await Bun.write(
-    "./vocabulary/swedish-core-150.json",
+    "./swedish-core.json",
     JSON.stringify(vocabulary, null, 2),
   );
 
@@ -121,7 +121,7 @@ async function syncSwedishVocabulary() {
   if (failed > 0) {
     console.log(`  ❌ Failed: ${failed} cards`);
   }
-  console.log("\n💾 IDs saved directly in swedish-core-150.json");
+  console.log("\n💾 IDs saved directly in swedish-core.json");
   console.log("🎉 Sync complete!");
 }
 

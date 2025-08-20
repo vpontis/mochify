@@ -152,7 +152,7 @@ const specialNotes: Record<string, string> = {
 };
 
 async function addNotesToVocabulary() {
-  const file = Bun.file("./vocabulary/swedish-core-150.json");
+  const file = Bun.file("./swedish-core.json");
   let vocabulary = await file.json();
 
   console.log(`Adding notes to ${vocabulary.length} words...`);
@@ -202,7 +202,7 @@ async function addNotesToVocabulary() {
 
     // Save after each batch
     await Bun.write(
-      "./vocabulary/swedish-core-150.json",
+      "./swedish-core.json",
       JSON.stringify(vocabulary, null, 2),
     );
     console.log(`  💾 Saved batch ${Math.floor(i / BATCH_SIZE) + 1}`);

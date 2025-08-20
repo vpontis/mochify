@@ -1,5 +1,5 @@
 #!/usr/bin/env bun
-import { MochiClient } from "./mochi-client";
+import { MochiClient } from "../mochi-client";
 
 const ALPHABET_TEMPLATE_ID = "A1FB7Om3";
 const FIELD_IDS = {
