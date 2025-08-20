@@ -85,7 +85,11 @@ export namespace FetchJSON {
       });
 
       if (!response.ok) {
-        throw await FetchError.fromResponse(response);
+        const error = await FetchError.fromResponse(response);
+        if (error.responseText) {
+          console.error("API Error Response:", error.responseText);
+        }
+        throw error;
       }
 
       const data = await response.json();
@@ -148,7 +152,11 @@ export namespace FetchJSON {
       });
 
       if (!response.ok) {
-        throw await FetchError.fromResponse(response);
+        const error = await FetchError.fromResponse(response);
+        if (error.responseText) {
+          console.error("API Error Response:", error.responseText);
+        }
+        throw error;
       }
 
       // Check if there's content to parse
@@ -198,7 +206,11 @@ export namespace FetchJSON {
       });
 
       if (!response.ok) {
-        throw await FetchError.fromResponse(response);
+        const error = await FetchError.fromResponse(response);
+        if (error.responseText) {
+          console.error("API Error Response:", error.responseText);
+        }
+        throw error;
       }
 
       const responseData = await response.json();

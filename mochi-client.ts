@@ -24,16 +24,21 @@ const CardSchema = z.object({
   id: z.string(),
   content: z.string(),
   "deck-id": z.string(),
-  "template-id": z.string().optional(),
+  "template-id": z.string().nullable().optional(),
   archived: z.boolean().optional(),
   "review-reverse": z.boolean().optional(),
   // API returns these as objects with date info, not strings
   "created-at": z.union([z.string(), z.object({})]).optional(),
   "updated-at": z.union([z.string(), z.object({})]).optional(),
-  fields: z.record(z.string(), z.object({
-    id: z.string(),
-    value: z.string(),
-  })).optional(),
+  fields: z
+    .record(
+      z.string(),
+      z.object({
+        id: z.string(),
+        value: z.string(),
+      }),
+    )
+    .optional(),
   tags: z.array(z.string()).optional(),
 });
 
@@ -41,11 +46,25 @@ const TemplateSchema = z.object({
   id: z.string(),
   name: z.string(),
   content: z.string(),
-  fields: z.array(z.object({
-    id: z.string(),
-    name: z.string(),
-    "is-primary": z.boolean().optional(),
-  })).optional(),
+  fields: z
+    .union([
+      z.array(
+        z.object({
+          id: z.string(),
+          name: z.string(),
+          "is-primary": z.boolean().optional(),
+        }),
+      ),
+      z.record(
+        z.string(),
+        z.object({
+          id: z.string(),
+          name: z.string(),
+          "is-primary": z.boolean().optional(),
+        }),
+      ),
+    ])
+    .optional(),
 });
 
 // Zod 4 supports better type inference
@@ -126,10 +145,13 @@ class MochiClient {
   }): Promise<Card> {
     // Build payload
     const payload: any = {
-      content: data.content,
       "deck-id": data["deck-id"],
     };
 
+    // Always include content field (required by API)
+    payload.content = data.content;
+
+    // Add template-id if provided
     if (data["template-id"]) {
       payload["template-id"] = data["template-id"];
     }
@@ -144,8 +166,8 @@ class MochiClient {
     }
 
     // If ID provided, update existing card; otherwise create new
-    const endpoint = data.id 
-      ? `${BASE_URL}/cards/${data.id}` 
+    const endpoint = data.id
+      ? `${BASE_URL}/cards/${data.id}`
       : `${BASE_URL}/cards/`;
 
     return FetchJSON.post(endpoint, payload, {
@@ -214,7 +236,9 @@ function createCLI() {
 
   program
     .name("mochi")
-    .description("🍡 Mochi Cards CLI - Create and manage flashcards programmatically")
+    .description(
+      "🍡 Mochi Cards CLI - Create and manage flashcards programmatically",
+    )
     .version("1.0.0");
 
   // Deck commands
@@ -256,7 +280,10 @@ function createCLI() {
     .option("-l, --limit <number>", "Number of cards to show", "20")
     .action(async (options: { deck?: string; limit: string }) => {
       try {
-        const cards = await client.listCards(options.deck, parseInt(options.limit));
+        const cards = await client.listCards(
+          options.deck,
+          parseInt(options.limit),
+        );
         console.log("\n📝 Recent Cards:");
         cards.forEach((card) => {
           const preview = card.content.split("\n")[0]?.slice(0, 60) || "";
@@ -272,43 +299,52 @@ function createCLI() {
     .command("create-card <deck-id> <content>")
     .description("Create a card with content")
     .option("-t, --tags <tags>", "Comma-separated tags")
-    .action(async (deckId: string, content: string, options: { tags?: string }) => {
-      try {
-        const tags = options.tags?.split(",").map((t) => t.trim());
-        const card = await client.createCard({
-          content,
-          "deck-id": deckId,
-          tags,
-        });
-        console.log(`✅ Created card in deck ${deckId}`);
-        console.log(`   ID: ${card.id}`);
-      } catch (error) {
-        console.error("❌ Error:", error);
-        process.exit(1);
-      }
-    });
+    .action(
+      async (deckId: string, content: string, options: { tags?: string }) => {
+        try {
+          const tags = options.tags?.split(",").map((t) => t.trim());
+          const card = await client.createCard({
+            content,
+            "deck-id": deckId,
+            tags,
+          });
+          console.log(`✅ Created card in deck ${deckId}`);
+          console.log(`   ID: ${card.id}`);
+        } catch (error) {
+          console.error("❌ Error:", error);
+          process.exit(1);
+        }
+      },
+    );
 
   program
     .command("create-qa <deck-id> <question> <answer>")
     .description("Create a Q&A card")
     .option("-t, --tags <tags>", "Comma-separated tags")
-    .action(async (deckId: string, question: string, answer: string, options: { tags?: string }) => {
-      try {
-        const tags = options.tags?.split(",").map((t) => t.trim());
-        const content = `# ${question}\n\n---\n\n${answer}`;
-        const card = await client.createCard({
-          content,
-          "deck-id": deckId,
-          tags,
-        });
-        console.log(`✅ Created Q&A card in deck ${deckId}`);
-        console.log(`   Question: ${question}`);
-        console.log(`   ID: ${card.id}`);
-      } catch (error) {
-        console.error("❌ Error:", error);
-        process.exit(1);
-      }
-    });
+    .action(
+      async (
+        deckId: string,
+        question: string,
+        answer: string,
+        options: { tags?: string },
+      ) => {
+        try {
+          const tags = options.tags?.split(",").map((t) => t.trim());
+          const content = `# ${question}\n\n---\n\n${answer}`;
+          const card = await client.createCard({
+            content,
+            "deck-id": deckId,
+            tags,
+          });
+          console.log(`✅ Created Q&A card in deck ${deckId}`);
+          console.log(`   Question: ${question}`);
+          console.log(`   ID: ${card.id}`);
+        } catch (error) {
+          console.error("❌ Error:", error);
+          process.exit(1);
+        }
+      },
+    );
 
   program
     .command("bulk-create <deck-id> <file>")
@@ -343,7 +379,9 @@ function createCLI() {
               });
             }
             created++;
-            process.stdout.write(`\r✅ Created ${created}/${data.length} cards`);
+            process.stdout.write(
+              `\r✅ Created ${created}/${data.length} cards`,
+            );
           } catch (error) {
             console.error(`\n❌ Failed to create card: ${error}`);
           }
