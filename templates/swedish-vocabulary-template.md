@@ -12,6 +12,9 @@
 **Examples**
 << Examples >>
 
+**Notes**
+<< Notes >>
+
 **Audio**
 << Audio >>
 ```
@@ -53,6 +56,17 @@ Hej, hur mår du?
 Hej på dig också!
 (Hello to you too!)
 ```
+
+### Notes (NEW FIELD)
+
+- **Type**: Text (Multiline)
+- **Description**: Grammar forms and helpful notes about the word
+- **Format**: Simple notes about forms, irregularities, or usage
+- **Examples**:
+  - For verbs: `är/var/varit (irregular)`
+  - For nouns: `Plural: bilar, Definite: bilen`
+  - For adjectives: `liten/litet/lilla/små (irregular plural)`
+  - General notes: `Only used formally` or `Common in spoken Swedish`
 
 ### Audio
 
