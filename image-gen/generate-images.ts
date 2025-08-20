@@ -29,26 +29,22 @@ export async function generateImage({
   quality = "high",
   size = "1536x1024",
 }: ImageGenerationOptions): Promise<string> {
-  // Using detailed prompts as recommended by OpenAI documentation for better results
-  // The API uses GPT-4 to rewrite prompts automatically for optimization
-  const prompt = `Create a Studio Ghibli-inspired illustration for the Swedish word "${word}" which means "${english}" in English. 
-    
-    Style requirements:
-    - Hand-drawn watercolor aesthetic reminiscent of Hayao Miyazaki's films
-    - Soft, muted color palette with gentle gradients
-    - Whimsical and dreamlike atmosphere
-    - Include small magical or fantastical elements typical of Ghibli films
-    - Characters (if present) should have the distinctive Ghibli art style with expressive eyes
-    
-    Scene composition:
-    - ${context ? `The scene should incorporate: ${context}` : "Set in a peaceful natural environment or cozy interior"}
-    - Include visual elements that help convey the meaning of "${english}"
-    - Add subtle details like floating particles of light, gentle wind effects, or small creatures
-    - The overall mood should be warm, nostalgic, and emotionally evocative
-    
-    Make the image feel like a still frame from a Studio Ghibli film, with attention to atmospheric lighting and environmental storytelling.`;
+  // Characters for consistency across images
+  const characters = `
+    Characters (choose 1-3 as appropriate, NO TEXT OR NAMES in the image):
+    - Marissa: 32-year-old woman with black hair, pale skin, and blue eyes
+    - Victor: 32-year-old man with dark blonde/light brown hair, fair skin, and brown eyes  
+    - Stellan: 5-month-old baby with dark brown hair, very cute and cheerful
+  `;
 
-  console.log(`Generating image for ${word} (${english})...`);
+  const prompt = `Studio Ghibli style illustration showing "${english}". 
+    ${characters}
+    The scene should naturally demonstrate the concept without any text or labels.
+    Warm, magical atmosphere with soft lighting typical of Studio Ghibli films.
+    Hand-drawn animation aesthetic with rich details and expressive characters.
+    ${context ? `Scene context: ${context.slice(0, 100)}` : ""}`;
+
+  console.log(`🔄 API call for ${word} (${english})...`);
 
   try {
     const response = await openai.images.generate({
@@ -59,17 +55,34 @@ export async function generateImage({
       quality,
     });
 
-    const imageUrl = response.data?.[0]?.url;
-    if (!imageUrl) throw new Error("No image URL returned");
+    console.log(`📡 API response received`);
 
-    // Download the image
-    const imageResponse = await fetch(imageUrl);
-    const buffer = await imageResponse.arrayBuffer();
+    let buffer: ArrayBuffer;
 
+    // Check if we got a URL or base64 data
+    if (response.data?.[0]?.url) {
+      const imageUrl = response.data[0].url;
+      console.log(`⬇️ Downloading from URL: ${imageUrl.slice(0, 50)}...`);
+      const imageResponse = await fetch(imageUrl);
+      buffer = await imageResponse.arrayBuffer();
+    } else if (response.data?.[0]?.b64_json) {
+      console.log(`📦 Converting base64 image...`);
+      const base64Data = response.data[0].b64_json;
+      const binaryString = atob(base64Data);
+      const bytes = new Uint8Array(binaryString.length);
+      for (let i = 0; i < binaryString.length; i++) {
+        bytes[i] = binaryString.charCodeAt(i);
+      }
+      buffer = bytes.buffer;
+    } else {
+      throw new Error("No image data returned (neither URL nor base64)");
+    }
+
+    console.log(`💾 Writing ${buffer.byteLength} bytes to ${outputPath}`);
     // Save to local file
     await Bun.write(outputPath, buffer);
 
-    console.log(`✓ Saved ${outputPath}`);
+    console.log(`✅ Successfully saved ${outputPath}`);
     return outputPath;
   } catch (error) {
     console.error(`Failed to generate image for ${word}:`, error);

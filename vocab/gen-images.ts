@@ -9,7 +9,7 @@ import { existsSync } from "node:fs";
 import { mkdir } from "node:fs/promises";
 import pLimit from "p-limit";
 
-const IMAGES_DIR = "./images/vocab";
+const IMAGES_DIR = "./images";
 const CONCURRENCY = 3; // Process 3 images at a time
 const limit = pLimit(CONCURRENCY);
 
@@ -39,8 +39,8 @@ async function main() {
   const cards = await client.listCards(swedishDeck.id, 1000); // Get up to 1000 cards
   console.log(`Found ${cards.length} cards in Swedish deck`);
 
-  // Filter cards that need images (limit to 5 for testing)
-  const cardsNeedingImages = cards.slice(0, 5).filter((card) => {
+  // Filter cards that need images (limit to 20 to get 10 valid ones)
+  const cardsNeedingImages = cards.slice(0, 20).filter((card) => {
     const imagePath = `${IMAGES_DIR}/${card.id}.png`;
     if (existsSync(imagePath)) {
       console.log(`⏭️  Skipping ${card.id} - image already exists`);
@@ -98,9 +98,7 @@ async function main() {
             ? lines[examplesIndex + 1].trim()
             : undefined;
 
-        console.log(
-          `🎨 Generating image for card ${card.id}: ${word} (${english})`,
-        );
+        console.log(`🎨 Starting: ${card.id} - ${word} (${english})`);
 
         await generateImage({
           word,
@@ -110,7 +108,7 @@ async function main() {
           quality: "medium", // Use medium quality to balance cost and quality
         });
 
-        console.log(`✓ Generated image for ${card.id}`);
+        console.log(`✅ Saved: ${imagePath}`);
         return card.id;
       }),
     ),
