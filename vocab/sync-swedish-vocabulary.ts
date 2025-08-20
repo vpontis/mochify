@@ -9,10 +9,11 @@ const FIELD_IDS = {
   english: "Vj1QoXZ7", // English field
   examples: "mknO4gtZ", // Examples field
   audio: "nRezTqnS", // Audio field
+  notes: "c64dCRkt", // Notes field
 };
 
 // Limit concurrent API requests
-const limit = pLimit(2); // 2 concurrent requests
+const limit = pLimit(1); // 1 concurrent request to avoid rate limiting
 
 async function syncSwedishVocabulary() {
   const client = new MochiClient(process.env.MOCHI_API_KEY!);
@@ -42,15 +43,6 @@ async function syncSwedishVocabulary() {
   // Function to sync a single card
   async function syncCard(item: any, index: number) {
     try {
-      // Skip if already has ID
-      if (item.mochiId) {
-        skipped++;
-        console.log(
-          `⏭️  [${index + 1}/${vocabulary.length}] ${item.word} - already synced`,
-        );
-        return;
-      }
-
       // Build field data for template
       const fieldData = {
         [FIELD_IDS.word]: {
@@ -69,11 +61,35 @@ async function syncSwedishVocabulary() {
           id: FIELD_IDS.audio,
           value: item.audio,
         },
+        [FIELD_IDS.notes]: {
+          id: FIELD_IDS.notes,
+          value: item.notes || "",
+        },
       };
 
+      // If already has ID, update the card
+      if (item.mochiId) {
+        const start = performance.now();
+        const card = await client.createCard({
+          id: item.mochiId, // Will update existing card
+          content: "",
+          "deck-id": deck.id,
+          "template-id": VOCABULARY_TEMPLATE_ID,
+          fields: fieldData,
+          tags: item.tags,
+        });
+        const elapsed = performance.now() - start;
+
+        updated++;
+        console.log(
+          `✏️  [${index + 1}/${vocabulary.length}] ${item.word} - updated in ${elapsed.toFixed(0)}ms`,
+        );
+        return;
+      }
+
+      // Create new card
       const start = performance.now();
       const card = await client.createCard({
-        id: item.mochiId, // Will update if exists, create if not
         content: "",
         "deck-id": deck.id,
         "template-id": VOCABULARY_TEMPLATE_ID,
@@ -109,10 +125,7 @@ async function syncSwedishVocabulary() {
   await Promise.all(promises);
 
   // Save the updated JSON with IDs
-  await Bun.write(
-    "./swedish-core.json",
-    JSON.stringify(vocabulary, null, 2),
-  );
+  await Bun.write("./swedish-core.json", JSON.stringify(vocabulary, null, 2));
 
   console.log("\n\n📊 Summary:");
   console.log(`  ⏭️  Skipped: ${skipped} cards (already synced)`);
