@@ -57,7 +57,7 @@ async function main() {
           word: entry.word,
           english: entry.english,
           outputPath: imagePath,
-          quality: "low",
+          quality: "high",
         });
 
         console.log(`✅ Saved: ${imagePath}`);
