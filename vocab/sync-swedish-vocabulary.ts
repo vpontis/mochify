@@ -60,12 +60,10 @@ async function syncSwedishVocabulary() {
     try {
       // Check if image exists for this card
       const imagePath = `./images/${item.mochiId}.png`;
-      console.log("image path", imagePath);
       let notesWithImage = item.notes || "";
 
       if (item.mochiId && existsSync(imagePath)) {
         const imageUrl = `https://raw.githubusercontent.com/vpontis/mochify/refs/heads/master/images/${item.mochiId}.png`;
-        console.log("has image!!!!!!!!!!!", item);
         notesWithImage = notesWithImage
           ? `${notesWithImage}\n\n![${item.word}](${imageUrl})`
           : `![${item.word}](${imageUrl})`;
