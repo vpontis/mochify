@@ -1231,5 +1231,446 @@
     "tags": ["swedish", "core150"],
     "mochiId": "R2z3Jt57",
     "notes": "vaknar/vaknade/vaknat"
+  },
+  {
+    "word": "att bo",
+    "english": "to live (reside)",
+    "examples": "Var bor du?\n(Where do you live?)\n\nJag bor i Stockholm.\n(I live in Stockholm.)",
+    "audio": "Var bor du? Jag bor i Stockholm.",
+    "tags": ["swedish", "core200"],
+    "notes": "bor/bodde/bott",
+    "mochiId": "qVwKz47V"
+  },
+  {
+    "word": "hem",
+    "english": "home",
+    "examples": "Jag går hem nu.\n(I'm going home now.)\n\nÄr du hemma?\n(Are you at home?)",
+    "audio": "Jag går hem nu. Är du hemma?",
+    "tags": ["swedish", "core200"],
+    "notes": "'hemma' = at home (adverb)",
+    "mochiId": "SCjipSt2"
+  },
+  {
+    "word": "hus",
+    "english": "house",
+    "examples": "Ett stort hus.\n(A big house.)\n\nDe bygger nya hus.\n(They're building new houses.)",
+    "audio": "Ett stort hus. De bygger nya hus.",
+    "tags": ["swedish", "core200"],
+    "notes": "Neuter; plural same form",
+    "mochiId": "Y5q1lnU8"
+  },
+  {
+    "word": "familj",
+    "english": "family",
+    "examples": "Min familj är stor.\n(My family is big.)\n\nHela familjen kommer.\n(The whole family is coming.)",
+    "audio": "Min familj är stor. Hela familjen kommer.",
+    "tags": ["swedish", "core200"],
+    "notes": "Common gender",
+    "mochiId": "cctqRIIc"
+  },
+  {
+    "word": "barn",
+    "english": "child, children",
+    "examples": "Ett litet barn.\n(A small child.)\n\nBarnen leker.\n(The children are playing.)",
+    "audio": "Ett litet barn. Barnen leker.",
+    "tags": ["swedish", "core200"],
+    "notes": "Same singular/plural form",
+    "mochiId": "KnTdeOGx"
+  },
+  {
+    "word": "mamma",
+    "english": "mom, mother",
+    "examples": "Min mamma heter Anna.\n(My mom's name is Anna.)\n\nMamma, var är du?\n(Mom, where are you?)",
+    "audio": "Min mamma heter Anna. Mamma, var är du?",
+    "tags": ["swedish", "core200"],
+    "notes": "'mor' is more formal",
+    "mochiId": "6hoxAyP0"
+  },
+  {
+    "word": "pappa",
+    "english": "dad, father",
+    "examples": "Pappa arbetar hemma.\n(Dad works at home.)\n\nMin pappa är läkare.\n(My dad is a doctor.)",
+    "audio": "Pappa arbetar hemma. Min pappa är läkare.",
+    "tags": ["swedish", "core200"],
+    "notes": "'far' is more formal",
+    "mochiId": "mr9PQleJ"
+  },
+  {
+    "word": "vän",
+    "english": "friend",
+    "examples": "Hon är min bästa vän.\n(She's my best friend.)\n\nJag träffar mina vänner.\n(I'm meeting my friends.)",
+    "audio": "Hon är min bästa vän. Jag träffar mina vänner.",
+    "tags": ["swedish", "core200"],
+    "notes": "Plural: vänner",
+    "mochiId": "ODnHyIST"
+  },
+  {
+    "word": "människa",
+    "english": "human, person",
+    "examples": "Alla människor är lika.\n(All humans are equal.)\n\nEn god människa.\n(A good person.)",
+    "audio": "Alla människor är lika. En god människa.",
+    "tags": ["swedish", "core200"],
+    "notes": "Plural: människor",
+    "mochiId": "hlgDKY0J"
+  },
+  {
+    "word": "kvinna",
+    "english": "woman",
+    "examples": "En stark kvinna.\n(A strong woman.)\n\nKvinnor och män.\n(Women and men.)",
+    "audio": "En stark kvinna. Kvinnor och män.",
+    "tags": ["swedish", "core200"],
+    "notes": "Plural: kvinnor",
+    "mochiId": "RPWqgGUZ"
+  },
+  {
+    "word": "att hoppas",
+    "english": "to hope",
+    "examples": "Jag hoppas det blir bra.\n(I hope it will be good.)\n\nVi hoppas på sol.\n(We hope for sun.)",
+    "audio": "Jag hoppas det blir bra. Vi hoppas på sol.",
+    "tags": ["swedish", "core200"],
+    "notes": "hoppas/hoppades/hoppats (deponent)",
+    "mochiId": "RyiB10iq"
+  },
+  {
+    "word": "att träffa",
+    "english": "to meet",
+    "examples": "Ska vi träffas imorgon?\n(Shall we meet tomorrow?)\n\nJag träffade honom igår.\n(I met him yesterday.)",
+    "audio": "Ska vi träffas imorgon? Jag träffade honom igår.",
+    "tags": ["swedish", "core200"],
+    "notes": "träffar/träffade/träffat",
+    "mochiId": "UEXNgeAu"
+  },
+  {
+    "word": "att berätta",
+    "english": "to tell",
+    "examples": "Berätta för mig!\n(Tell me!)\n\nHon berättade allt.\n(She told everything.)",
+    "audio": "Berätta för mig! Hon berättade allt.",
+    "tags": ["swedish", "core200"],
+    "notes": "berättar/berättade/berättat",
+    "mochiId": "iwxmoCQS"
+  },
+  {
+    "word": "att visa",
+    "english": "to show",
+    "examples": "Kan du visa mig?\n(Can you show me?)\n\nJag visar vägen.\n(I'll show the way.)",
+    "audio": "Kan du visa mig? Jag visar vägen.",
+    "tags": ["swedish", "core200"],
+    "notes": "visar/visade/visat",
+    "mochiId": "3hF9qWco"
+  },
+  {
+    "word": "att låta",
+    "english": "to let, to sound",
+    "examples": "Låt mig hjälpa dig.\n(Let me help you.)\n\nDet låter bra.\n(That sounds good.)",
+    "audio": "Låt mig hjälpa dig. Det låter bra.",
+    "tags": ["swedish", "core200"],
+    "notes": "låter/lät/låtit (irregular)",
+    "mochiId": "XUbNAPvq"
+  },
+  {
+    "word": "att betyda",
+    "english": "to mean",
+    "examples": "Vad betyder det?\n(What does it mean?)\n\nDet betyder mycket.\n(It means a lot.)",
+    "audio": "Vad betyder det? Det betyder mycket.",
+    "tags": ["swedish", "core200"],
+    "notes": "betyder/betydde/betytt",
+    "mochiId": "hWV4AU8m"
+  },
+  {
+    "word": "att hända",
+    "english": "to happen",
+    "examples": "Vad händer?\n(What's happening?)\n\nDet hände igår.\n(It happened yesterday.)",
+    "audio": "Vad händer? Det hände igår.",
+    "tags": ["swedish", "core200"],
+    "notes": "händer/hände/hänt",
+    "mochiId": "70ZvowMo"
+  },
+  {
+    "word": "att fortsätta",
+    "english": "to continue",
+    "examples": "Vi fortsätter imorgon.\n(We'll continue tomorrow.)\n\nFortsätt rakt fram.\n(Continue straight ahead.)",
+    "audio": "Vi fortsätter imorgon. Fortsätt rakt fram.",
+    "tags": ["swedish", "core200"],
+    "notes": "fortsätter/fortsatte/fortsatt",
+    "mochiId": "XkAA0yPH"
+  },
+  {
+    "word": "att använda",
+    "english": "to use",
+    "examples": "Får jag använda din penna?\n(May I use your pen?)\n\nVi använder datorer.\n(We use computers.)",
+    "audio": "Får jag använda din penna? Vi använder datorer.",
+    "tags": ["swedish", "core200"],
+    "notes": "använder/använde/använt",
+    "mochiId": "GdTQ3n3u"
+  },
+  {
+    "word": "att följa",
+    "english": "to follow",
+    "examples": "Följ mig!\n(Follow me!)\n\nJag följer reglerna.\n(I follow the rules.)",
+    "audio": "Följ mig! Jag följer reglerna.",
+    "tags": ["swedish", "core200"],
+    "notes": "följer/följde/följt",
+    "mochiId": "PxMVqMsf"
+  },
+  {
+    "word": "att utveckla",
+    "english": "to develop",
+    "examples": "Vi utvecklar nya produkter.\n(We develop new products.)\n\nBarnet utvecklas snabbt.\n(The child develops quickly.)",
+    "audio": "Vi utvecklar nya produkter. Barnet utvecklas snabbt.",
+    "tags": ["swedish", "core200"],
+    "notes": "utvecklar/utvecklade/utvecklat",
+    "mochiId": "4DIutvK3"
+  },
+  {
+    "word": "gammal",
+    "english": "old",
+    "examples": "En gammal man.\n(An old man.)\n\nHur gammal är du?\n(How old are you?)",
+    "audio": "En gammal man. Hur gammal är du?",
+    "tags": ["swedish", "core200"],
+    "notes": "gammal/gammalt/gamla",
+    "mochiId": "ftHGbKco"
+  },
+  {
+    "word": "ung",
+    "english": "young",
+    "examples": "En ung kvinna.\n(A young woman.)\n\nDe är unga.\n(They are young.)",
+    "audio": "En ung kvinna. De är unga.",
+    "tags": ["swedish", "core200"],
+    "notes": "ung/ungt/unga",
+    "mochiId": "qKiSDJSG"
+  },
+  {
+    "word": "lång",
+    "english": "long, tall",
+    "examples": "En lång väg.\n(A long road.)\n\nHan är lång.\n(He is tall.)",
+    "audio": "En lång väg. Han är lång.",
+    "tags": ["swedish", "core200"],
+    "notes": "lång/långt/långa",
+    "mochiId": "kDupZZKz"
+  },
+  {
+    "word": "kort",
+    "english": "short",
+    "examples": "En kort paus.\n(A short break.)\n\nKorta dagar.\n(Short days.)",
+    "audio": "En kort paus. Korta dagar.",
+    "tags": ["swedish", "core200"],
+    "notes": "kort/kort/korta; also 'card'",
+    "mochiId": "DIhATy2P"
+  },
+  {
+    "word": "hög",
+    "english": "high, tall",
+    "examples": "Ett högt berg.\n(A high mountain.)\n\nHöga priser.\n(High prices.)",
+    "audio": "Ett högt berg. Höga priser.",
+    "tags": ["swedish", "core200"],
+    "notes": "hög/högt/höga",
+    "mochiId": "9zeoSfPe"
+  },
+  {
+    "word": "låg",
+    "english": "low",
+    "examples": "En låg röst.\n(A low voice.)\n\nLåga temperaturer.\n(Low temperatures.)",
+    "audio": "En låg röst. Låga temperaturer.",
+    "tags": ["swedish", "core200"],
+    "notes": "låg/lågt/låga",
+    "mochiId": "vKKJQgs8"
+  },
+  {
+    "word": "snabb",
+    "english": "fast, quick",
+    "examples": "En snabb bil.\n(A fast car.)\n\nVi måste vara snabba.\n(We must be quick.)",
+    "audio": "En snabb bil. Vi måste vara snabba.",
+    "tags": ["swedish", "core200"],
+    "notes": "snabb/snabbt/snabba",
+    "mochiId": "hpL75Avt"
+  },
+  {
+    "word": "långsam",
+    "english": "slow",
+    "examples": "En långsam process.\n(A slow process.)\n\nGå inte så långsamt!\n(Don't walk so slowly!)",
+    "audio": "En långsam process. Gå inte så långsamt!",
+    "tags": ["swedish", "core200"],
+    "notes": "långsam/långsamt/långsamma",
+    "mochiId": "TXPAiT6D"
+  },
+  {
+    "word": "lätt",
+    "english": "easy, light",
+    "examples": "Det är lätt.\n(It's easy.)\n\nEn lätt väska.\n(A light bag.)",
+    "audio": "Det är lätt. En lätt väska.",
+    "tags": ["swedish", "core200"],
+    "notes": "lätt/lätt/lätta",
+    "mochiId": "HHdNuoNZ"
+  },
+  {
+    "word": "svår",
+    "english": "difficult",
+    "examples": "En svår fråga.\n(A difficult question.)\n\nSvenska är inte svårt.\n(Swedish is not difficult.)",
+    "audio": "En svår fråga. Svenska är inte svårt.",
+    "tags": ["swedish", "core200"],
+    "notes": "svår/svårt/svåra",
+    "mochiId": "e4GYUGux"
+  },
+  {
+    "word": "varm",
+    "english": "warm",
+    "examples": "Varmt väder.\n(Warm weather.)\n\nKaffet är varmt.\n(The coffee is warm.)",
+    "audio": "Varmt väder. Kaffet är varmt.",
+    "tags": ["swedish", "core200"],
+    "notes": "varm/varmt/varma",
+    "mochiId": "H6PKVQWp"
+  },
+  {
+    "word": "kall",
+    "english": "cold",
+    "examples": "Kallt vatten.\n(Cold water.)\n\nDet är kallt ute.\n(It's cold outside.)",
+    "audio": "Kallt vatten. Det är kallt ute.",
+    "tags": ["swedish", "core200"],
+    "notes": "kall/kallt/kalla",
+    "mochiId": "2rypA3Yu"
+  },
+  {
+    "word": "glad",
+    "english": "happy, glad",
+    "examples": "Jag är glad.\n(I am happy.)\n\nGlada barn.\n(Happy children.)",
+    "audio": "Jag är glad. Glada barn.",
+    "tags": ["swedish", "core200"],
+    "notes": "glad/glatt/glada",
+    "mochiId": "M4HqE7XQ"
+  },
+  {
+    "word": "ledsen",
+    "english": "sad",
+    "examples": "Hon är ledsen.\n(She is sad.)\n\nJag är ledsen.\n(I'm sorry.)",
+    "audio": "Hon är ledsen. Jag är ledsen.",
+    "tags": ["swedish", "core200"],
+    "notes": "Also means 'sorry'",
+    "mochiId": "e0TdZMqS"
+  },
+  {
+    "word": "arg",
+    "english": "angry",
+    "examples": "Han är arg.\n(He is angry.)\n\nBli inte arg!\n(Don't get angry!)",
+    "audio": "Han är arg. Bli inte arg!",
+    "tags": ["swedish", "core200"],
+    "notes": "arg/argt/arga",
+    "mochiId": "bMbZ07UF"
+  },
+  {
+    "word": "rädd",
+    "english": "afraid",
+    "examples": "Jag är rädd.\n(I am afraid.)\n\nVad är du rädd för?\n(What are you afraid of?)",
+    "audio": "Jag är rädd. Vad är du rädd för?",
+    "tags": ["swedish", "core200"],
+    "notes": "rädd/rätt/rädda",
+    "mochiId": "LdDvHeoD"
+  },
+  {
+    "word": "trött",
+    "english": "tired",
+    "examples": "Jag är så trött.\n(I'm so tired.)\n\nTrötta ögon.\n(Tired eyes.)",
+    "audio": "Jag är så trött. Trötta ögon.",
+    "tags": ["swedish", "core200"],
+    "notes": "trött/trött/trötta",
+    "mochiId": "5jMFWIW0"
+  },
+  {
+    "word": "hungrig",
+    "english": "hungry",
+    "examples": "Är du hungrig?\n(Are you hungry?)\n\nJag är jättehungrig.\n(I'm very hungry.)",
+    "audio": "Är du hungrig? Jag är jättehungrig.",
+    "tags": ["swedish", "core200"],
+    "notes": "hungrig/hungrigt/hungriga",
+    "mochiId": "gFTWDTi8"
+  },
+  {
+    "word": "törstig",
+    "english": "thirsty",
+    "examples": "Jag är törstig.\n(I am thirsty.)\n\nTörstiga barn.\n(Thirsty children.)",
+    "audio": "Jag är törstig. Törstiga barn.",
+    "tags": ["swedish", "core200"],
+    "notes": "törstig/törstigt/törstiga",
+    "mochiId": "shnIh7gr"
+  },
+  {
+    "word": "sjuk",
+    "english": "sick",
+    "examples": "Jag är sjuk idag.\n(I'm sick today.)\n\nEtt sjukt barn.\n(A sick child.)",
+    "audio": "Jag är sjuk idag. Ett sjukt barn.",
+    "tags": ["swedish", "core200"],
+    "notes": "sjuk/sjukt/sjuka",
+    "mochiId": "fUwSOnjh"
+  },
+  {
+    "word": "frisk",
+    "english": "healthy",
+    "examples": "Hon är frisk igen.\n(She's healthy again.)\n\nFrisk luft.\n(Fresh air.)",
+    "audio": "Hon är frisk igen. Frisk luft.",
+    "tags": ["swedish", "core200"],
+    "notes": "Also means 'fresh'",
+    "mochiId": "I5XAmfPb"
+  },
+  {
+    "word": "stark",
+    "english": "strong",
+    "examples": "Starkt kaffe.\n(Strong coffee.)\n\nHan är stark.\n(He is strong.)",
+    "audio": "Starkt kaffe. Han är stark.",
+    "tags": ["swedish", "core200"],
+    "notes": "stark/starkt/starka",
+    "mochiId": "xMnLlxrs"
+  },
+  {
+    "word": "svag",
+    "english": "weak",
+    "examples": "En svag röst.\n(A weak voice.)\n\nJag känner mig svag.\n(I feel weak.)",
+    "audio": "En svag röst. Jag känner mig svag.",
+    "tags": ["swedish", "core200"],
+    "notes": "svag/svagt/svaga",
+    "mochiId": "5sXpjdbN"
+  },
+  {
+    "word": "rik",
+    "english": "rich",
+    "examples": "En rik man.\n(A rich man.)\n\nDe är rika.\n(They are rich.)",
+    "audio": "En rik man. De är rika.",
+    "tags": ["swedish", "core200"],
+    "notes": "rik/rikt/rika",
+    "mochiId": "bGquDRPH"
+  },
+  {
+    "word": "fattig",
+    "english": "poor",
+    "examples": "Ett fattigt land.\n(A poor country.)\n\nFattiga människor.\n(Poor people.)",
+    "audio": "Ett fattigt land. Fattiga människor.",
+    "tags": ["swedish", "core200"],
+    "notes": "fattig/fattigt/fattiga",
+    "mochiId": "cnDBl5KT"
+  },
+  {
+    "word": "vacker",
+    "english": "beautiful",
+    "examples": "En vacker dag.\n(A beautiful day.)\n\nVackra blommor.\n(Beautiful flowers.)",
+    "audio": "En vacker dag. Vackra blommor.",
+    "tags": ["swedish", "core200"],
+    "notes": "vacker/vackert/vackra",
+    "mochiId": "ql4WGrgs"
+  },
+  {
+    "word": "ful",
+    "english": "ugly",
+    "examples": "Ett fult ord.\n(An ugly word.)\n\nDet är inte fult.\n(It's not ugly.)",
+    "audio": "Ett fult ord. Det är inte fult.",
+    "tags": ["swedish", "core200"],
+    "notes": "ful/fult/fula",
+    "mochiId": "Ut1yBpbH"
+  },
+  {
+    "word": "fin",
+    "english": "nice, fine",
+    "examples": "En fin dag.\n(A nice day.)\n\nVilken fin klänning!\n(What a nice dress!)",
+    "audio": "En fin dag. Vilken fin klänning!",
+    "tags": ["swedish", "core200"],
+    "notes": "fin/fint/fina",
+    "mochiId": "VFWO9aFh"
   }
 ]
