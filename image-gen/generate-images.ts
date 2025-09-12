@@ -6,7 +6,6 @@
 // Reference: https://platform.openai.com/docs/guides/image-generation
 
 import OpenAI from "openai";
-import { z } from "zod";
 import { dedent } from "../utils";
 
 const openai = new OpenAI({
@@ -31,34 +30,26 @@ export async function generateImage({
   imageHint,
 }: ImageGenerationOptions): Promise<string> {
   const tag = `[${word}]`;
-  console.log(`${tag} drafting scene...`);
 
   // Build a single user message to create a concise scene description
+  const forbidPeople = /environment only|no people/i.test(imageHint || "");
   const hintLine = imageHint
-    ? `Start from this hint and elaborate with concrete visuals: "${imageHint}".`
-    : `If helpful, invent a simple, filmable scene that clearly depicts the concept.`;
+    ? `Start from this hint: "${imageHint}".`
+    : "If helpful, invent a simple, filmable scene that clearly depicts the concept.";
 
   const promptCreationMessages = [
     {
-      role: "system" as const,
-      content: dedent`
-        You write compact, filmable scene descriptions for illustration prompts.
-        Output only 2–4 sentences of visual description. No meta commentary.
-        Keep variety across cards; use people, baby, or environment-only as appropriate.
-        Avoid brand names and on-image text.
-      `,
-    },
-    {
       role: "user" as const,
       content: dedent`
-        Swedish word: "${word}" — meaning: "${english}".
+        Write 2–3 sentences describing a specific, filmable visual scene for the Swedish word "${word}" ("${english}").
         ${hintLine}
-        Write 2–4 sentences describing a specific, observable scene that conveys the meaning.
+        ${forbidPeople ? "No people — environment only." : "Prefer using the family characters: adult woman (32, black hair), adult man (32, dark blonde), and/or a 5‑month‑old baby (short black hair). Use descriptions, not names."}
+        Keep it concrete and drawable. No text/letters/numbers in the image.
       `,
     },
   ];
 
-  console.log(`${tag} asking GPT-5-mini...`);
+  // Minimal logging; avoid chat debug output
 
   let sceneDescription: string;
   try {
@@ -71,15 +62,9 @@ export async function generateImage({
 
     sceneDescription =
       promptResponse.choices[0]?.message?.content?.trim() || "";
-    if (sceneDescription.length > 0) {
-      if (Bun.env.DEBUG_IMAGE_PROMPTS === "1") {
-        console.log(`${tag} scene: ${sceneDescription}`);
-      } else {
-        console.log(`${tag} scene ready`);
-      }
-    }
+    // Keep silent on success to reduce verbosity
   } catch (error) {
-    console.log(`${tag} ⚠️ GPT-5-mini error: ${error}`);
+    // Suppress chat errors; we synthesize a fallback scene below
     sceneDescription = "";
   }
 
@@ -90,10 +75,10 @@ export async function generateImage({
       : `An everyday scene illustrating "${english}": an adult and a baby interact with a single clear prop.`;
     const detail = `Keep it grounded, with a clear focal action and readable lighting.`;
     sceneDescription = `${base} ${detail}`;
-    console.log(`${tag} using fallback scene`);
+    // Silent fallback
   }
 
-  // Combine the creative scene from GPT with our technical requirements
+  // Combine the scene with rendering requirements
   const prompt = dedent`
     ${sceneDescription}
     
@@ -104,11 +89,7 @@ export async function generateImage({
     Composition: Clear focal point, balanced, cinematic framing.
   `;
 
-  if (Bun.env.DEBUG_IMAGE_PROMPTS === "1") {
-    console.log(`📝 ${tag} scene: ${sceneDescription}`);
-  }
-  // Constructed prompt ready; omitting verbose logging
-  console.log(`${tag} creating image...`);
+  // Minimal logging; no prompt echo
 
   try {
     const response = await openai.images.generate({
@@ -124,7 +105,6 @@ export async function generateImage({
     // Check if we got a URL or base64 data
     if (response.data?.[0]?.url) {
       const imageUrl = response.data[0].url;
-      console.log(`⬇️ ${tag} downloading image`);
       const imageResponse = await fetch(imageUrl);
       buffer = await imageResponse.arrayBuffer();
     } else if (response.data?.[0]?.b64_json) {
@@ -141,8 +121,6 @@ export async function generateImage({
 
     // Save to local file
     await Bun.write(outputPath, buffer);
-
-    console.log(`✅ ${tag} saved ${outputPath}`);
     return outputPath;
   } catch (error) {
     console.error(`${tag} failed to generate image:`, error);
