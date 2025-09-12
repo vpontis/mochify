@@ -4,7 +4,7 @@
     "english": "and",
     "examples": "Jag gillar kaffe och te.\n(I like coffee and tea.)\n\nHan är snäll och rolig.\n(He is kind and funny.)",
     "audio": "Jag gillar kaffe och te. Han är snäll och rolig.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "9hbuBoHd",
     "notes": "Most common conjunction"
   },
@@ -13,7 +13,7 @@
     "english": "to be",
     "examples": "Jag är från Sverige.\n(I am from Sweden.)\n\nHon är lärare på skolan.\n(She is a teacher at the school.)",
     "audio": "Jag är från Sverige. Hon är lärare på skolan.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "VHLIyyNE",
     "notes": "är/var/varit (irregular)"
   },
@@ -22,7 +22,7 @@
     "english": "in, at",
     "examples": "Jag bor i Stockholm.\n(I live in Stockholm.)\n\nVi träffas i parken.\n(We'll meet in the park.)",
     "audio": "Jag bor i Stockholm. Vi träffas i parken.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "QClPFMcy",
     "notes": "Also means 'for' in time expressions (i tre år)"
   },
@@ -31,7 +31,7 @@
     "english": "to have",
     "examples": "Jag har en hund hemma.\n(I have a dog at home.)\n\nHar du tid nu?\n(Do you have time now?)",
     "audio": "Jag har en hund hemma. Har du tid nu?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "cKoKc8vT",
     "notes": "har/hade/haft"
   },
@@ -40,7 +40,7 @@
     "english": "it, that",
     "examples": "Det är kallt idag.\n(It's cold today.)\n\nVad är det?\n(What is that?)",
     "audio": "Det är kallt idag. Vad är det?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "oU7YUwhJ",
     "notes": "Neuter pronoun; also dummy subject"
   },
@@ -49,7 +49,7 @@
     "english": "a, an (common gender)",
     "examples": "Jag vill ha en kopp kaffe.\n(I want a cup of coffee.)\n\nDet är en fin dag.\n(It's a nice day.)",
     "audio": "Jag vill ha en kopp kaffe. Det är en fin dag.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "ksTrK2rL",
     "notes": "Indefinite article for common gender"
   },
@@ -58,7 +58,7 @@
     "english": "as, that, which",
     "examples": "Mannen som bor här är läkare.\n(The man who lives here is a doctor.)\n\nDet är samma som igår.\n(It's the same as yesterday.)",
     "audio": "Mannen som bor här är läkare. Det är samma som igår.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "lmeoSKO4",
     "notes": "Relative pronoun; no genitive form"
   },
@@ -67,7 +67,7 @@
     "english": "on, at",
     "examples": "Boken ligger på bordet.\n(The book is on the table.)\n\nVi ses på måndag.\n(See you on Monday.)",
     "audio": "Boken ligger på bordet. Vi ses på måndag.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "AsjQINHR",
     "notes": "Many idiomatic uses (på svenska, på måndag)"
   },
@@ -76,7 +76,7 @@
     "english": "of, by, from",
     "examples": "Boken är skriven av henne.\n(The book is written by her.)\n\nHälften av kakan.\n(Half of the cake.)",
     "audio": "Boken är skriven av henne. Hälften av kakan.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "X62L57mc",
     "notes": "Often indicates possession or origin"
   },
@@ -85,7 +85,7 @@
     "english": "for, because",
     "examples": "Det här är för dig.\n(This is for you.)\n\nJag stannar hemma för jag är sjuk.\n(I'm staying home because I'm sick.)",
     "audio": "Det här är för dig. Jag stannar hemma för jag är sjuk.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "dTyyxK9h",
     "notes": "Also means 'too' (för mycket)"
   },
@@ -94,7 +94,7 @@
     "english": "to (infinitive marker), that",
     "examples": "Jag vill att du kommer.\n(I want you to come.)\n\nDet är roligt att lära sig svenska.\n(It's fun to learn Swedish.)",
     "audio": "Jag vill att du kommer. Det är roligt att lära sig svenska.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "vY238FDc",
     "notes": "Infinitive marker; also conjunction 'that'"
   },
@@ -103,7 +103,7 @@
     "english": "can, to be able to",
     "examples": "Kan du hjälpa mig?\n(Can you help me?)\n\nJag kan inte simma.\n(I cannot swim.)",
     "audio": "Kan du hjälpa mig? Jag kan inte simma.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "akhRSGRW",
     "notes": "kan/kunde/kunnat (modal verb, no -r in present)"
   },
@@ -112,7 +112,7 @@
     "english": "shall, will",
     "examples": "Jag ska åka till Norge imorgon.\n(I will go to Norway tomorrow.)\n\nVad ska vi göra?\n(What shall we do?)",
     "audio": "Jag ska åka till Norge imorgon. Vad ska vi göra?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "pBlFcAsH",
     "notes": "Modal verb for future; 'skall' is formal"
   },
@@ -121,7 +121,7 @@
     "english": "I",
     "examples": "Jag heter Anna.\n(My name is Anna.)\n\nJag tycker om musik.\n(I like music.)",
     "audio": "Jag heter Anna. Jag tycker om musik.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "NMfIBobl",
     "notes": "Capital only at sentence start"
   },
@@ -130,7 +130,7 @@
     "english": "not",
     "examples": "Jag förstår inte.\n(I don't understand.)\n\nDet är inte svårt.\n(It's not difficult.)",
     "audio": "Jag förstår inte. Det är inte svårt.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "BX9bxM0u",
     "notes": "Placed after verb in main clause"
   },
@@ -139,7 +139,7 @@
     "english": "with",
     "examples": "Kom med mig!\n(Come with me!)\n\nKaffe med mjölk, tack.\n(Coffee with milk, please.)",
     "audio": "Kom med mig! Kaffe med mjölk, tack.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "4xCnJtgN",
     "notes": "Many phrasal verbs (ta med, hålla med)"
   },
@@ -148,7 +148,7 @@
     "english": "to, for",
     "examples": "Jag går till jobbet.\n(I'm going to work.)\n\nPresent till dig.\n(A present for you.)",
     "audio": "Jag går till jobbet. Present till dig.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "PR28FKlW",
     "notes": "Direction; many phrasal verbs"
   },
@@ -157,7 +157,7 @@
     "english": "small, little",
     "examples": "Ett litet barn.\n(A small child.)\n\nHuset är för litet.\n(The house is too small.)",
     "audio": "Ett litet barn. Huset är för litet.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "sg7Cg07d",
     "notes": "liten/litet/lilla/små (irregular plural)"
   },
@@ -166,7 +166,7 @@
     "english": "it, the (common gender)",
     "examples": "Där är bilen. Den är röd.\n(There's the car. It is red.)\n\nJag tar den.\n(I'll take it.)",
     "audio": "Där är bilen. Den är röd. Jag tar den.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "TpnS7YVj",
     "notes": "Common gender 'it/the'"
   },
@@ -175,7 +175,7 @@
     "english": "a, an (neuter gender)",
     "examples": "Ett äpple om dagen.\n(An apple a day.)\n\nJag bor i ett hus.\n(I live in a house.)",
     "audio": "Ett äpple om dagen. Jag bor i ett hus.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "5i0bhXwr",
     "notes": "Indefinite article for neuter gender"
   },
@@ -184,7 +184,7 @@
     "english": "about, if, in (time)",
     "examples": "Vi pratar om vädret.\n(We're talking about the weather.)\n\nOm du vill.\n(If you want.)",
     "audio": "Vi pratar om vädret. Om du vill.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "hRKES3q9",
     "notes": "Also means 'if' and 'in' (time)"
   },
@@ -193,7 +193,7 @@
     "english": "we",
     "examples": "Vi är vänner.\n(We are friends.)\n\nSka vi gå nu?\n(Shall we go now?)",
     "audio": "Vi är vänner. Ska vi gå nu?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "MyX7Cm4T",
     "notes": "We/us - same form"
   },
@@ -202,7 +202,7 @@
     "english": "but",
     "examples": "Jag vill, men jag kan inte.\n(I want to, but I can't.)\n\nDet är dyrt men bra.\n(It's expensive but good.)",
     "audio": "Jag vill, men jag kan inte. Det är dyrt men bra.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "9z7PFM41",
     "notes": "But/however"
   },
@@ -211,7 +211,7 @@
     "english": "one, you (general)",
     "examples": "Man kan inte veta allt.\n(One cannot know everything.)\n\nHur säger man det på svenska?\n(How do you say that in Swedish?)",
     "audio": "Man kan inte veta allt. Hur säger man det på svenska?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "ufpG7giK",
     "notes": "Generic 'one/you'; Plural: män (men)"
   },
@@ -220,7 +220,7 @@
     "english": "they, them",
     "examples": "De kommer imorgon.\n(They're coming tomorrow.)\n\nJag ser dem där.\n(I see them there.)",
     "audio": "De kommer imorgon. Jag ser dem där.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "KV5wp9L7",
     "notes": "'dom' in spoken Swedish for both de/dem"
   },
@@ -229,7 +229,7 @@
     "english": "to get, may",
     "examples": "Får jag fråga något?\n(May I ask something?)\n\nJag fick ett brev.\n(I got a letter.)",
     "audio": "Får jag fråga något? Jag fick ett brev.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "tR6sHRyZ",
     "notes": "får/fick/fått (irregular)"
   },
@@ -238,7 +238,7 @@
     "english": "so, such",
     "examples": "Det är så kallt!\n(It's so cold!)\n\nSå här gör man.\n(This is how you do it.)",
     "audio": "Det är så kallt! Så här gör man.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "MAJIRzqT",
     "notes": "Intensifier; also 'so/thus'"
   },
@@ -247,7 +247,7 @@
     "english": "oneself, himself/herself",
     "examples": "Han tvättar sig.\n(He washes himself.)\n\nDe känner sig trötta.\n(They feel tired.)",
     "audio": "Han tvättar sig. De känner sig trötta.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "G9rt2E5v",
     "notes": "Reflexive for 3rd person (han/hon/de/det)"
   },
@@ -256,7 +256,7 @@
     "english": "he",
     "examples": "Han arbetar här.\n(He works here.)\n\nVad heter han?\n(What's his name?)",
     "audio": "Han arbetar här. Vad heter han?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "kyznQl9q",
     "notes": "He/him - same form"
   },
@@ -265,7 +265,7 @@
     "english": "to become, to be",
     "examples": "Det blir bra.\n(It will be fine.)\n\nHon blev glad.\n(She became happy.)",
     "audio": "Det blir bra. Hon blev glad.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "iIJG0VTI",
     "notes": "blir/blev/blivit (irregular)"
   },
@@ -274,7 +274,7 @@
     "english": "to come",
     "examples": "Kommer du imorgon?\n(Are you coming tomorrow?)\n\nDe kom sent.\n(They came late.)",
     "audio": "Kommer du imorgon? De kom sent.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "8j8oYxhy",
     "notes": "kommer/kom/kommit (irregular)"
   },
@@ -283,7 +283,7 @@
     "english": "his/her/its/their (own)",
     "examples": "Hon älskar sin hund.\n(She loves her dog.)\n\nDe säljer sitt hus.\n(They're selling their house.)",
     "audio": "Hon älskar sin hund. De säljer sitt hus.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "x6ZiSD9X",
     "notes": "Reflexive possessive (3rd person)"
   },
@@ -292,7 +292,7 @@
     "english": "or",
     "examples": "Kaffe eller te?\n(Coffee or tea?)\n\nNu eller aldrig.\n(Now or never.)",
     "audio": "Kaffe eller te? Nu eller aldrig.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "HC6kca9f",
     "notes": "Or; 'eller hur?' = right?"
   },
@@ -301,7 +301,7 @@
     "english": "from",
     "examples": "Jag kommer från Finland.\n(I come from Finland.)\n\nEtt brev från mamma.\n(A letter from mom.)",
     "audio": "Jag kommer från Finland. Ett brev från mamma.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "oRFcGOFk",
     "notes": "From; origin or starting point"
   },
@@ -310,7 +310,7 @@
     "english": "much, very",
     "examples": "Tack så mycket!\n(Thank you so much!)\n\nDet kostar mycket.\n(It costs a lot.)",
     "audio": "Tack så mycket! Det kostar mycket.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "6rxMijwP",
     "notes": "Much/very - both adjective and adverb"
   },
@@ -319,7 +319,7 @@
     "english": "to want",
     "examples": "Jag vill ha glass.\n(I want ice cream.)\n\nVad vill du göra?\n(What do you want to do?)",
     "audio": "Jag vill ha glass. Vad vill du göra?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "tcHYN7pN",
     "notes": "vill/ville/velat (modal verb, no -r in present)"
   },
@@ -328,7 +328,7 @@
     "english": "all, everything",
     "examples": "Alla är här.\n(Everyone is here.)\n\nAllt är klart.\n(Everything is ready.)",
     "audio": "Alla är här. Allt är klart.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "blagiCAY",
     "notes": "all/everything/everyone"
   },
@@ -337,7 +337,7 @@
     "english": "to do, to make",
     "examples": "Vad ska vi göra idag?\n(What should we do today?)\n\nJag gör frukost nu.\n(I'm making breakfast now.)",
     "audio": "Vad ska vi göra idag? Jag gör frukost nu.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "dTbnWWlK",
     "notes": "gör/gjorde/gjort (irregular)"
   },
@@ -346,7 +346,7 @@
     "english": "other, another",
     "examples": "En annan dag.\n(Another day.)\n\nDe andra barnen.\n(The other children.)",
     "audio": "En annan dag. De andra barnen.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "xtFPFVrM",
     "notes": "'andra' also means 'second'"
   },
@@ -355,7 +355,7 @@
     "english": "you (singular)",
     "examples": "Var bor du?\n(Where do you live?)\n\nDu är snäll.\n(You are kind.)",
     "audio": "Var bor du? Du är snäll.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "XjG3KXb0",
     "notes": "Informal 'you'; 'ni' for formal/plural"
   },
@@ -364,7 +364,7 @@
     "english": "someone, something, any",
     "examples": "Är någon hemma?\n(Is anyone home?)\n\nJag behöver något att äta.\n(I need something to eat.)",
     "audio": "Är någon hemma? Jag behöver något att äta.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "wzE2VBFL",
     "notes": "Someone/something/some"
   },
@@ -373,7 +373,7 @@
     "english": "to find",
     "examples": "Jag kan inte finna mina nycklar.\n(I can't find my keys.)\n\nVi fann lösningen.\n(We found the solution.)",
     "audio": "Jag kan inte finna mina nycklar. Vi fann lösningen.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "R5sQPJDK",
     "notes": "finner/fann/funnit (formal, 'hitta' more common)"
   },
@@ -382,7 +382,7 @@
     "english": "to take",
     "examples": "Ta med dig paraplyet.\n(Take the umbrella with you.)\n\nJag tar bussen.\n(I'll take the bus.)",
     "audio": "Ta med dig paraplyet. Jag tar bussen.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "SQ4zVoxz",
     "notes": "tar/tog/tagit (irregular)"
   },
@@ -391,7 +391,7 @@
     "english": "when",
     "examples": "När kommer bussen?\n(When does the bus come?)\n\nNär ska vi träffas?\n(When should we meet?)",
     "audio": "När kommer bussen? När ska vi träffas?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "6f7EW3TT",
     "notes": "When (question and conjunction)"
   },
@@ -400,7 +400,7 @@
     "english": "to see, to look",
     "examples": "Kan du se mig?\n(Can you see me?)\n\nVi ses imorgon!\n(See you tomorrow!)",
     "audio": "Kan du se mig? Vi ses imorgon!",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "fTvF244C",
     "notes": "ser/såg/sett (irregular)"
   },
@@ -409,7 +409,7 @@
     "english": "must, have to",
     "examples": "Jag måste gå nu.\n(I have to go now.)\n\nDu måste vara försiktig.\n(You must be careful.)",
     "audio": "Jag måste gå nu. Du måste vara försiktig.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "Abg9Oj7e",
     "notes": "Modal verb - no infinitive form"
   },
@@ -418,7 +418,7 @@
     "english": "this (neuter)",
     "examples": "Detta är mitt hus.\n(This is my house.)\n\nVad är detta?\n(What is this?)",
     "audio": "Detta är mitt hus. Vad är detta?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "6oBTe3DF",
     "notes": "Neuter 'this'; formal style"
   },
@@ -427,7 +427,7 @@
     "english": "big, large",
     "examples": "Ett stort problem.\n(A big problem.)\n\nHan har stora fötter.\n(He has big feet.)",
     "audio": "Ett stort problem. Han har stora fötter.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "7WjPJMCv",
     "notes": "stor/stort/stora"
   },
@@ -436,7 +436,7 @@
     "english": "now",
     "examples": "Kom nu!\n(Come now!)\n\nVad gör du nu?\n(What are you doing now?)",
     "audio": "Kom nu! Vad gör du nu?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "6ksDzy6x",
     "notes": "Now; often softens commands"
   },
@@ -445,7 +445,7 @@
     "english": "to go, to walk",
     "examples": "Jag går till skolan.\n(I walk to school.)\n\nVi går på bio ikväll.\n(We're going to the cinema tonight.)",
     "audio": "Jag går till skolan. Vi går på bio ikväll.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "8cViAaV2",
     "notes": "går/gick/gått (irregular)"
   },
@@ -454,7 +454,7 @@
     "english": "to say",
     "examples": "Vad sa du?\n(What did you say?)\n\nHon säger alltid sanningen.\n(She always tells the truth.)",
     "audio": "Vad sa du? Hon säger alltid sanningen.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "SNlUw1f4",
     "notes": "säger/sa(de)/sagt (irregular)"
   },
@@ -463,7 +463,7 @@
     "english": "what",
     "examples": "Vad heter du?\n(What's your name?)\n\nVad är det?\n(What is it?)",
     "audio": "Vad heter du? Vad är det?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "LBTPfhYL",
     "notes": "What; also in exclamations"
   },
@@ -472,7 +472,7 @@
     "english": "a year",
     "examples": "Ett år har tolv månader.\n(A year has twelve months.)\n\nNästa år reser vi.\n(Next year we'll travel.)",
     "audio": "Ett år har tolv månader. Nästa år reser vi.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "STOuCXyf",
     "notes": "Plural: år (no change)"
   },
@@ -481,7 +481,7 @@
     "english": "under, during",
     "examples": "Katten är under bordet.\n(The cat is under the table.)\n\nUnder sommaren.\n(During the summer.)",
     "audio": "Katten är under bordet. Under sommaren.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "2pOiOgiD",
     "notes": "Under/during/below"
   },
@@ -490,7 +490,7 @@
     "english": "also, too",
     "examples": "Jag kommer också.\n(I'm coming too.)\n\nHan är också svensk.\n(He's also Swedish.)",
     "audio": "Jag kommer också. Han är också svensk.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "NyEEf5Ib",
     "notes": "Also/too - stressed on first syllable"
   },
@@ -499,7 +499,7 @@
     "english": "after",
     "examples": "Efter jobbet.\n(After work.)\n\nVad händer efter det?\n(What happens after that?)",
     "audio": "Efter jobbet. Vad händer efter det?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "5rPA4Wiy",
     "notes": "After; many phrasal verbs"
   },
@@ -508,7 +508,7 @@
     "english": "she",
     "examples": "Hon är min syster.\n(She is my sister.)\n\nVar arbetar hon?\n(Where does she work?)",
     "audio": "Hon är min syster. Var arbetar hon?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "thtOuldX",
     "notes": "She/her - same form"
   },
@@ -517,7 +517,7 @@
     "english": "two",
     "examples": "Jag har två barn.\n(I have two children.)\n\nTvå kaffe, tack.\n(Two coffees, please.)",
     "audio": "Jag har två barn. Två kaffe, tack.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "lAPic1gJ",
     "notes": "Two; 'tvåan' = bus/tram line 2"
   },
@@ -526,7 +526,7 @@
     "english": "where",
     "examples": "Var bor du?\n(Where do you live?)\n\nVar är mina nycklar?\n(Where are my keys?)",
     "audio": "Var bor du? Var är mina nycklar?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "Md4RrjAe",
     "notes": "Where; also past of 'vara'"
   },
@@ -535,7 +535,7 @@
     "english": "over, above",
     "examples": "Planet flyger över molnen.\n(The plane flies above the clouds.)\n\nÖver helgen.\n(Over the weekend.)",
     "audio": "Planet flyger över molnen. Över helgen.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "DrDq1NOI",
     "notes": "Over/above; many idiomatic uses"
   },
@@ -544,7 +544,7 @@
     "english": "new",
     "examples": "En ny bil.\n(A new car.)\n\nNytt år, nya möjligheter.\n(New year, new opportunities.)",
     "audio": "En ny bil. Nytt år, nya möjligheter.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "cluMTj7i",
     "notes": "ny/nytt/nya"
   },
@@ -553,7 +553,7 @@
     "english": "to know",
     "examples": "Jag vet inte.\n(I don't know.)\n\nVet du vägen?\n(Do you know the way?)",
     "audio": "Jag vet inte. Vet du vägen?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "xj1pUvgv",
     "notes": "vet/visste/vetat (irregular)"
   },
@@ -562,7 +562,7 @@
     "english": "more",
     "examples": "Vill du ha mer kaffe?\n(Do you want more coffee?)\n\nJag behöver mer tid.\n(I need more time.)",
     "audio": "Vill du ha mer kaffe? Jag behöver mer tid.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "nj13NHKm",
     "notes": "'mera' is formal/old-fashioned"
   },
@@ -571,7 +571,7 @@
     "english": "to give",
     "examples": "Kan du ge mig saltet?\n(Can you give me the salt?)\n\nJag gav henne en present.\n(I gave her a present.)",
     "audio": "Kan du ge mig saltet? Jag gav henne en present.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "pqYKoODr",
     "notes": "ger/gav/gett (irregular)"
   },
@@ -580,7 +580,7 @@
     "english": "only, just",
     "examples": "Jag har bara en krona.\n(I only have one crown.)\n\nBara fem minuter.\n(Just five minutes.)",
     "audio": "Jag har bara en krona. Bara fem minuter.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "jAUvFdVs",
     "notes": "Only/just; softens statements"
   },
@@ -589,7 +589,7 @@
     "english": "here",
     "examples": "Kom här!\n(Come here!)\n\nJag bor här.\n(I live here.)",
     "audio": "Kom här! Jag bor här.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "grCLBtDO",
     "notes": "Here; 'härifrån' = from here"
   },
@@ -598,7 +598,7 @@
     "english": "then",
     "examples": "Vad gjorde du då?\n(What did you do then?)\n\nDå ses vi imorgon.\n(Then we'll see each other tomorrow.)",
     "audio": "Vad gjorde du då? Då ses vi imorgon.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "PnVYmstU",
     "notes": "Then; also 'when' in past"
   },
@@ -607,7 +607,7 @@
     "english": "then, since",
     "examples": "Först äter vi, sedan går vi.\n(First we eat, then we go.)\n\nJag har bott här sedan 2010.\n(I've lived here since 2010.)",
     "audio": "Först äter vi, sedan går vi. Jag har bott här sedan 2010.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "ANR34yai",
     "notes": "Then/since; 'sen' in spoken"
   },
@@ -616,7 +616,7 @@
     "english": "good, well",
     "examples": "Det var bra!\n(That was good!)\n\nHur mår du? - Bra, tack.\n(How are you? - Fine, thanks.)",
     "audio": "Det var bra! Hur mår du? Bra, tack.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "tNPEc7aM",
     "notes": "Invariable - always 'bra'"
   },
@@ -625,7 +625,7 @@
     "english": "three",
     "examples": "Tre äpplen.\n(Three apples.)\n\nKlockan är tre.\n(It's three o'clock.)",
     "audio": "Tre äpplen. Klockan är tre.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "LbL9g4q6",
     "notes": "Three; 'trean' = bus/tram line 3"
   },
@@ -634,7 +634,7 @@
     "english": "to think (opinion)",
     "examples": "Jag tycker om dig.\n(I like you.)\n\nVad tycker du?\n(What do you think?)",
     "audio": "Jag tycker om dig. Vad tycker du?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "FJUEuQTH",
     "notes": "tycker/tyckte/tyckt ('tycker om' = to like)"
   },
@@ -643,7 +643,7 @@
     "english": "self, myself",
     "examples": "Jag gör det själv.\n(I'll do it myself.)\n\nHon bor själv.\n(She lives alone.)",
     "audio": "Jag gör det själv. Hon bor själv.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "AQdjo03C",
     "notes": "Self; 'själva' = even/actually"
   },
@@ -652,7 +652,7 @@
     "english": "to put, to set",
     "examples": "Sätt dig ner.\n(Sit down.)\n\nJag sätter på lampan.\n(I'm turning on the lamp.)",
     "audio": "Sätt dig ner. Jag sätter på lampan.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "T4GynkJc",
     "notes": "sätter/satte/satt"
   },
@@ -661,7 +661,7 @@
     "english": "through",
     "examples": "Vi går genom parken.\n(We walk through the park.)\n\nGenomskogen.\n(Through the forest.)",
     "audio": "Vi går genom parken. Genom skogen.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "kHe2I8up",
     "notes": "Through; 'genom att' = by (doing)"
   },
@@ -670,7 +670,7 @@
     "english": "first",
     "examples": "Första gången.\n(The first time.)\n\nHan kom först.\n(He came first.)",
     "audio": "Första gången. Han kom först.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "b0CcG7aK",
     "notes": "Ordinal number - invariable"
   },
@@ -679,7 +679,7 @@
     "english": "day",
     "examples": "En vacker dag.\n(A beautiful day.)\n\nVilken dag är det?\n(What day is it?)",
     "audio": "En vacker dag. Vilken dag är det?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "YeXF7bUI",
     "notes": "Day; Plural: dagar; 'i dag' = today"
   },
@@ -688,7 +688,7 @@
     "english": "there",
     "examples": "Vem är där?\n(Who's there?)\n\nJag bor där borta.\n(I live over there.)",
     "audio": "Vem är där? Jag bor där borta.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "GFKNzqnX",
     "notes": "There; 'där borta' = over there"
   },
@@ -697,7 +697,7 @@
     "english": "how",
     "examples": "Hur mår du?\n(How are you?)\n\nHur gör man?\n(How do you do it?)",
     "audio": "Hur mår du? Hur gör man?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "oq4bbTKe",
     "notes": "How; 'hur som helst' = anyway"
   },
@@ -706,7 +706,7 @@
     "english": "without",
     "examples": "Kaffe utan mjölk.\n(Coffee without milk.)\n\nJag kan inte leva utan dig.\n(I can't live without you.)",
     "audio": "Kaffe utan mjölk. Jag kan inte leva utan dig.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "m523WRja",
     "notes": "Without; strong contrast to 'med'"
   },
@@ -715,7 +715,7 @@
     "english": "to lie (down)",
     "examples": "Boken ligger på bordet.\n(The book is lying on the table.)\n\nJag ligger i sängen.\n(I'm lying in bed.)",
     "audio": "Boken ligger på bordet. Jag ligger i sängen.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "fxEQNxdD",
     "notes": "ligger/låg/legat (irregular)"
   },
@@ -724,7 +724,7 @@
     "english": "to feel, to know (person)",
     "examples": "Jag känner mig trött.\n(I feel tired.)\n\nKänner du honom?\n(Do you know him?)",
     "audio": "Jag känner mig trött. Känner du honom?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "RzHklWOm",
     "notes": "känner/kände/känt"
   },
@@ -733,7 +733,7 @@
     "english": "to need",
     "examples": "Jag behöver hjälp.\n(I need help.)\n\nVad behöver du?\n(What do you need?)",
     "audio": "Jag behöver hjälp. Vad behöver du?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "EjqBm77K",
     "notes": "behöver/behövde/behövt"
   },
@@ -742,7 +742,7 @@
     "english": "to exist, there is/are",
     "examples": "Det finns kaffe i köket.\n(There's coffee in the kitchen.)\n\nFinns det tid?\n(Is there time?)",
     "audio": "Det finns kaffe i köket. Finns det tid?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "y2pzJyb8",
     "notes": "finns/fanns/funnits (only exists in -s form)"
   },
@@ -751,7 +751,7 @@
     "english": "which, what",
     "examples": "Vilken färg gillar du?\n(Which color do you like?)\n\nVilka är de?\n(Who are they?)",
     "audio": "Vilken färg gillar du? Vilka är de?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "TCU8qEVx",
     "notes": "Which/what; exclamations too"
   },
@@ -760,7 +760,7 @@
     "english": "to be called",
     "examples": "Vad heter du?\n(What's your name?)\n\nJag heter Erik.\n(My name is Erik.)",
     "audio": "Vad heter du? Jag heter Erik.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "cDhXp7w1",
     "notes": "heter/hette/hetat"
   },
@@ -769,7 +769,7 @@
     "english": "time",
     "examples": "Har du tid?\n(Do you have time?)\n\nDet tar lång tid.\n(It takes a long time.)",
     "audio": "Har du tid? Det tar lång tid.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "XzbiUysT",
     "notes": "Time; 'i tid' = on time"
   },
@@ -778,7 +778,7 @@
     "english": "to believe, to think",
     "examples": "Jag tror det.\n(I think so.)\n\nTror du på mig?\n(Do you believe me?)",
     "audio": "Jag tror det. Tror du på mig?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "WtwPqvdV",
     "notes": "tror/trodde/trott"
   },
@@ -787,7 +787,7 @@
     "english": "to stand",
     "examples": "Han står vid dörren.\n(He's standing by the door.)\n\nVad står det?\n(What does it say?)",
     "audio": "Han står vid dörren. Vad står det?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "SA0r114i",
     "notes": "står/stod/stått (irregular)"
   },
@@ -796,7 +796,7 @@
     "english": "maybe, perhaps",
     "examples": "Kanske imorgon.\n(Maybe tomorrow.)\n\nDet kanske regnar.\n(It might rain.)",
     "audio": "Kanske imorgon. Det kanske regnar.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "WRIBwExV",
     "notes": "Maybe - verb stays in present"
   },
@@ -805,7 +805,7 @@
     "english": "who",
     "examples": "Vem är det?\n(Who is it?)\n\nVem kommer?\n(Who's coming?)",
     "audio": "Vem är det? Vem kommer?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "JXu60Eqg",
     "notes": "Who/whom - same form"
   },
@@ -814,7 +814,7 @@
     "english": "four",
     "examples": "Fyra säsonger.\n(Four seasons.)\n\nVi är fyra personer.\n(We are four people.)",
     "audio": "Fyra säsonger. Vi är fyra personer.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "OWO5fjTx",
     "notes": "Four; 'fyran' = bus/tram line 4"
   },
@@ -823,7 +823,7 @@
     "english": "never",
     "examples": "Jag glömmer aldrig.\n(I never forget.)\n\nAldrig mer!\n(Never again!)",
     "audio": "Jag glömmer aldrig. Aldrig mer!",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "C3jhj9f3",
     "notes": "Never; stronger than 'inte'"
   },
@@ -832,7 +832,7 @@
     "english": "right, correct",
     "examples": "Det är rätt.\n(That's right.)\n\nHar du rätt?\n(Are you right?)",
     "audio": "Det är rätt. Har du rätt?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "Lywjtj66",
     "notes": "Can mean 'right/correct' or 'quite'"
   },
@@ -841,7 +841,7 @@
     "english": "again",
     "examples": "Säg det igen.\n(Say it again.)\n\nVi ses igen!\n(See you again!)",
     "audio": "Säg det igen. Vi ses igen!",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "HbuNMPsW",
     "notes": "Again; also 'closed' (stängt igen)"
   },
@@ -850,7 +850,7 @@
     "english": "already",
     "examples": "Jag har redan ätit.\n(I've already eaten.)\n\nÄr du redan här?\n(Are you here already?)",
     "audio": "Jag har redan ätit. Är du redan här?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "IkVn9YXc",
     "notes": "Adverb - 'already'"
   },
@@ -859,7 +859,7 @@
     "english": "to live",
     "examples": "Vi lever bara en gång.\n(We only live once.)\n\nHan lever fortfarande.\n(He's still alive.)",
     "audio": "Vi lever bara en gång. Han lever fortfarande.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "HzauDNiU",
     "notes": "lever/levde/levt"
   },
@@ -868,7 +868,7 @@
     "english": "to begin, to start",
     "examples": "Vi börjar klockan nio.\n(We start at nine o'clock.)\n\nDet börjar regna.\n(It's starting to rain.)",
     "audio": "Vi börjar klockan nio. Det börjar regna.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "8f8DBxoE",
     "notes": "börjar/började/börjat"
   },
@@ -877,7 +877,7 @@
     "english": "to sit",
     "examples": "Var sitter du?\n(Where are you sitting?)\n\nSitt ner!\n(Sit down!)",
     "audio": "Var sitter du? Sitt ner!",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "pFK9xSu0",
     "notes": "sitter/satt/suttit (irregular)"
   },
@@ -886,7 +886,7 @@
     "english": "to work",
     "examples": "Jag arbetar på ett kontor.\n(I work in an office.)\n\nHon arbetar hårt.\n(She works hard.)",
     "audio": "Jag arbetar på ett kontor. Hon arbetar hårt.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "2gShUD34",
     "notes": "arbetar/arbetade/arbetat"
   },
@@ -895,7 +895,7 @@
     "english": "to help",
     "examples": "Kan du hjälpa mig?\n(Can you help me?)\n\nTack för hjälpen!\n(Thanks for the help!)",
     "audio": "Kan du hjälpa mig? Tack för hjälpen!",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "3GZqFJqg",
     "notes": "hjälper/hjälpte/hjälpt"
   },
@@ -904,7 +904,7 @@
     "english": "to learn, to teach",
     "examples": "Jag lär mig svenska.\n(I'm learning Swedish.)\n\nHon lär barn att läsa.\n(She teaches children to read.)",
     "audio": "Jag lär mig svenska. Hon lär barn att läsa.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "3TD2bYZb",
     "notes": "lär/lärde/lärt ('lära sig' = to learn)"
   },
@@ -913,7 +913,7 @@
     "english": "to speak",
     "examples": "Talar du engelska?\n(Do you speak English?)\n\nVi talar om vädret.\n(We're talking about the weather.)",
     "audio": "Talar du engelska? Vi talar om vädret.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "GTVqxb5H",
     "notes": "talar/talade/talat"
   },
@@ -922,7 +922,7 @@
     "english": "to read",
     "examples": "Jag läser en bok.\n(I'm reading a book.)\n\nKan du läsa detta?\n(Can you read this?)",
     "audio": "Jag läser en bok. Kan du läsa detta?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "CSy1y8c0",
     "notes": "läser/läste/läst"
   },
@@ -931,7 +931,7 @@
     "english": "to write",
     "examples": "Skriv ditt namn här.\n(Write your name here.)\n\nJag skriver ett brev.\n(I'm writing a letter.)",
     "audio": "Skriv ditt namn här. Jag skriver ett brev.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "UMOEDtlM",
     "notes": "skriver/skrev/skrivit (irregular)"
   },
@@ -940,7 +940,7 @@
     "english": "to eat",
     "examples": "Vad ska vi äta?\n(What shall we eat?)\n\nJag äter lunch nu.\n(I'm eating lunch now.)",
     "audio": "Vad ska vi äta? Jag äter lunch nu.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "LO1NqA37",
     "notes": "äter/åt/ätit (irregular)"
   },
@@ -949,7 +949,7 @@
     "english": "to drink",
     "examples": "Vill du dricka något?\n(Do you want to drink something?)\n\nJag dricker kaffe.\n(I drink coffee.)",
     "audio": "Vill du dricka något? Jag dricker kaffe.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "sGDizuTu",
     "notes": "dricker/drack/druckit (irregular)"
   },
@@ -958,7 +958,7 @@
     "english": "to sleep",
     "examples": "Jag behöver sova.\n(I need to sleep.)\n\nHan sover redan.\n(He's already sleeping.)",
     "audio": "Jag behöver sova. Han sover redan.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "Cqf2eYzm",
     "notes": "sover/sov/sovit (irregular)"
   },
@@ -967,7 +967,7 @@
     "english": "to buy",
     "examples": "Jag ska köpa mjölk.\n(I'm going to buy milk.)\n\nVar köpte du det?\n(Where did you buy it?)",
     "audio": "Jag ska köpa mjölk. Var köpte du det?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "3GE1eJrC",
     "notes": "köper/köpte/köpt"
   },
@@ -976,7 +976,7 @@
     "english": "to sell",
     "examples": "De säljer frukt.\n(They sell fruit.)\n\nVi ska sälja huset.\n(We're going to sell the house.)",
     "audio": "De säljer frukt. Vi ska sälja huset.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "Hm2GVBNH",
     "notes": "säljer/sålde/sålt (irregular)"
   },
@@ -985,7 +985,7 @@
     "english": "to pay",
     "examples": "Kan jag betala med kort?\n(Can I pay with card?)\n\nVem betalar?\n(Who's paying?)",
     "audio": "Kan jag betala med kort? Vem betalar?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "VoaE2xRc",
     "notes": "betalar/betalade/betalat"
   },
@@ -994,7 +994,7 @@
     "english": "to open",
     "examples": "Öppna dörren!\n(Open the door!)\n\nButiken öppnar klockan nio.\n(The store opens at nine.)",
     "audio": "Öppna dörren! Butiken öppnar klockan nio.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "zI0M4U7h",
     "notes": "öppnar/öppnade/öppnat"
   },
@@ -1003,7 +1003,7 @@
     "english": "to close",
     "examples": "Stäng fönstret.\n(Close the window.)\n\nVi stänger snart.\n(We're closing soon.)",
     "audio": "Stäng fönstret. Vi stänger snart.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "3Dzpi3pC",
     "notes": "stänger/stängde/stängt"
   },
@@ -1012,7 +1012,7 @@
     "english": "to ask",
     "examples": "Får jag fråga något?\n(May I ask something?)\n\nFråga honom!\n(Ask him!)",
     "audio": "Får jag fråga något? Fråga honom!",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "DlNaNj71",
     "notes": "frågar/frågade/frågat"
   },
@@ -1021,7 +1021,7 @@
     "english": "to answer",
     "examples": "Kan du svara?\n(Can you answer?)\n\nHon svarade inte.\n(She didn't answer.)",
     "audio": "Kan du svara? Hon svarade inte.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "MSL1YTnx",
     "notes": "svarar/svarade/svarat"
   },
@@ -1030,7 +1030,7 @@
     "english": "to wait",
     "examples": "Vänta lite!\n(Wait a bit!)\n\nJag väntar på dig.\n(I'm waiting for you.)",
     "audio": "Vänta lite! Jag väntar på dig.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "YWpqBP6F",
     "notes": "väntar/väntade/väntat"
   },
@@ -1039,7 +1039,7 @@
     "english": "to look, to watch",
     "examples": "Titta här!\n(Look here!)\n\nVi tittar på TV.\n(We're watching TV.)",
     "audio": "Titta här! Vi tittar på TV.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "BfqTzd2c",
     "notes": "tittar/tittade/tittat"
   },
@@ -1048,7 +1048,7 @@
     "english": "to listen",
     "examples": "Lyssna på mig!\n(Listen to me!)\n\nJag lyssnar på musik.\n(I'm listening to music.)",
     "audio": "Lyssna på mig! Jag lyssnar på musik.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "5cKPg0da",
     "notes": "lyssnar/lyssnade/lyssnat"
   },
@@ -1057,7 +1057,7 @@
     "english": "to talk, to speak",
     "examples": "Vi pratar svenska.\n(We speak Swedish.)\n\nPrata inte så högt!\n(Don't talk so loud!)",
     "audio": "Vi pratar svenska. Prata inte så högt!",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "UnHSx3l7",
     "notes": "pratar/pratade/pratat"
   },
@@ -1066,7 +1066,7 @@
     "english": "to understand",
     "examples": "Förstår du?\n(Do you understand?)\n\nJag förstår inte.\n(I don't understand.)",
     "audio": "Förstår du? Jag förstår inte.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "3xsJVsI2",
     "notes": "förstår/förstod/förstått (irregular)"
   },
@@ -1075,7 +1075,7 @@
     "english": "to forget",
     "examples": "Glöm inte!\n(Don't forget!)\n\nJag glömde namnet.\n(I forgot the name.)",
     "audio": "Glöm inte! Jag glömde namnet.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "a94TJfVC",
     "notes": "glömmer/glömde/glömt"
   },
@@ -1084,7 +1084,7 @@
     "english": "to remember",
     "examples": "Jag minns inte.\n(I don't remember.)\n\nMinns du mig?\n(Do you remember me?)",
     "audio": "Jag minns inte. Minns du mig?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "uOPWvCbv",
     "notes": "minns/mindes/mints (deponent verb)"
   },
@@ -1093,7 +1093,7 @@
     "english": "to think",
     "examples": "Vad tänker du på?\n(What are you thinking about?)\n\nJag tänker på dig.\n(I'm thinking of you.)",
     "audio": "Vad tänker du på? Jag tänker på dig.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "1XcLBHcA",
     "notes": "tänker/tänkte/tänkt"
   },
@@ -1102,7 +1102,7 @@
     "english": "to try",
     "examples": "Försök igen!\n(Try again!)\n\nJag ska försöka.\n(I'll try.)",
     "audio": "Försök igen! Jag ska försöka.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "s47xpf0e",
     "notes": "försöker/försökte/försökt"
   },
@@ -1111,7 +1111,7 @@
     "english": "to stop, to quit",
     "examples": "Sluta med det!\n(Stop that!)\n\nNär slutar du?\n(When do you finish?)",
     "audio": "Sluta med det! När slutar du?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "MwnTkOMw",
     "notes": "slutar/slutade/slutat"
   },
@@ -1120,7 +1120,7 @@
     "english": "to play",
     "examples": "Barn spelar i parken.\n(Children play in the park.)\n\nHan spelar gitarr.\n(He plays guitar.)",
     "audio": "Barn spelar i parken. Han spelar gitarr.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "WUAK7uOh",
     "notes": "spelar/spelade/spelat"
   },
@@ -1129,7 +1129,7 @@
     "english": "to sing",
     "examples": "Hon sjunger vackert.\n(She sings beautifully.)\n\nVi sjunger tillsammans.\n(We sing together.)",
     "audio": "Hon sjunger vackert. Vi sjunger tillsammans.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "xGuUwVVx",
     "notes": "sjunger/sjöng/sjungit (irregular)"
   },
@@ -1138,7 +1138,7 @@
     "english": "to dance",
     "examples": "Vill du dansa?\n(Do you want to dance?)\n\nDe dansar hela natten.\n(They dance all night.)",
     "audio": "Vill du dansa? De dansar hela natten.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "XvO3vGVD",
     "notes": "dansar/dansade/dansat"
   },
@@ -1147,7 +1147,7 @@
     "english": "to travel",
     "examples": "Vi reser till Norge.\n(We're traveling to Norway.)\n\nJag reser ofta.\n(I travel often.)",
     "audio": "Vi reser till Norge. Jag reser ofta.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "oLABjs6i",
     "notes": "reser/reste/rest"
   },
@@ -1156,7 +1156,7 @@
     "english": "to go (by vehicle)",
     "examples": "Vi åker bil.\n(We're going by car.)\n\nNär åker tåget?\n(When does the train leave?)",
     "audio": "Vi åker bil. När åker tåget?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "SnMx25UM",
     "notes": "åker/åkte/åkt"
   },
@@ -1165,7 +1165,7 @@
     "english": "to fly",
     "examples": "Fåglar flyger.\n(Birds fly.)\n\nVi flyger till London.\n(We're flying to London.)",
     "audio": "Fåglar flyger. Vi flyger till London.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "T3ugb7FT",
     "notes": "flyger/flög/flugit (irregular)"
   },
@@ -1174,7 +1174,7 @@
     "english": "to drive",
     "examples": "Kan du köra bil?\n(Can you drive a car?)\n\nKör försiktigt!\n(Drive carefully!)",
     "audio": "Kan du köra bil? Kör försiktigt!",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "CZYcFsNu",
     "notes": "kör/körde/kört"
   },
@@ -1183,7 +1183,7 @@
     "english": "to bike, to cycle",
     "examples": "Jag cyklar till jobbet.\n(I bike to work.)\n\nDe cyklar i skogen.\n(They're cycling in the forest.)",
     "audio": "Jag cyklar till jobbet. De cyklar i skogen.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "EOTuAN9t",
     "notes": "cyklar/cyklade/cyklat"
   },
@@ -1192,7 +1192,7 @@
     "english": "to run",
     "examples": "Barn springer i parken.\n(Children run in the park.)\n\nSpring inte!\n(Don't run!)",
     "audio": "Barn springer i parken. Spring inte!",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "7LD5Tow1",
     "notes": "springer/sprang/sprungit (irregular)"
   },
@@ -1201,7 +1201,7 @@
     "english": "to swim",
     "examples": "Kan du simma?\n(Can you swim?)\n\nVi simmar i havet.\n(We swim in the sea.)",
     "audio": "Kan du simma? Vi simmar i havet.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "94qDENAi",
     "notes": "simmar/simmade/simmat"
   },
@@ -1210,7 +1210,7 @@
     "english": "to exercise, to train",
     "examples": "Jag tränar varje dag.\n(I exercise every day.)\n\nHon tränar fotboll.\n(She trains football.)",
     "audio": "Jag tränar varje dag. Hon tränar fotboll.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "RNSYtc4U",
     "notes": "tränar/tränade/tränat"
   },
@@ -1219,7 +1219,7 @@
     "english": "to rest",
     "examples": "Du behöver vila.\n(You need to rest.)\n\nJag vilar på soffan.\n(I'm resting on the sofa.)",
     "audio": "Du behöver vila. Jag vilar på soffan.",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "8d8kANIG",
     "notes": "vilar/vilade/vilat"
   },
@@ -1228,7 +1228,7 @@
     "english": "to wake up",
     "examples": "Jag vaknar tidigt.\n(I wake up early.)\n\nNär vaknade du?\n(When did you wake up?)",
     "audio": "Jag vaknar tidigt. När vaknade du?",
-    "tags": ["swedish", "core150"],
+    "tags": ["swedish"],
     "mochiId": "R2z3Jt57",
     "notes": "vaknar/vaknade/vaknat"
   },
@@ -1237,7 +1237,7 @@
     "english": "to live (reside)",
     "examples": "Var bor du?\n(Where do you live?)\n\nJag bor i Stockholm.\n(I live in Stockholm.)",
     "audio": "Var bor du? Jag bor i Stockholm.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "bor/bodde/bott",
     "mochiId": "qVwKz47V"
   },
@@ -1246,7 +1246,7 @@
     "english": "home",
     "examples": "Jag går hem nu.\n(I'm going home now.)\n\nÄr du hemma?\n(Are you at home?)",
     "audio": "Jag går hem nu. Är du hemma?",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "'hemma' = at home (adverb)",
     "mochiId": "SCjipSt2"
   },
@@ -1255,7 +1255,7 @@
     "english": "house",
     "examples": "Ett stort hus.\n(A big house.)\n\nDe bygger nya hus.\n(They're building new houses.)",
     "audio": "Ett stort hus. De bygger nya hus.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "Neuter; plural same form",
     "mochiId": "Y5q1lnU8"
   },
@@ -1264,7 +1264,7 @@
     "english": "family",
     "examples": "Min familj är stor.\n(My family is big.)\n\nHela familjen kommer.\n(The whole family is coming.)",
     "audio": "Min familj är stor. Hela familjen kommer.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "Common gender",
     "mochiId": "cctqRIIc"
   },
@@ -1273,7 +1273,7 @@
     "english": "child, children",
     "examples": "Ett litet barn.\n(A small child.)\n\nBarnen leker.\n(The children are playing.)",
     "audio": "Ett litet barn. Barnen leker.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "Same singular/plural form",
     "mochiId": "KnTdeOGx"
   },
@@ -1282,7 +1282,7 @@
     "english": "mom, mother",
     "examples": "Min mamma heter Anna.\n(My mom's name is Anna.)\n\nMamma, var är du?\n(Mom, where are you?)",
     "audio": "Min mamma heter Anna. Mamma, var är du?",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "'mor' is more formal",
     "mochiId": "6hoxAyP0"
   },
@@ -1291,7 +1291,7 @@
     "english": "dad, father",
     "examples": "Pappa arbetar hemma.\n(Dad works at home.)\n\nMin pappa är läkare.\n(My dad is a doctor.)",
     "audio": "Pappa arbetar hemma. Min pappa är läkare.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "'far' is more formal",
     "mochiId": "mr9PQleJ"
   },
@@ -1300,7 +1300,7 @@
     "english": "friend",
     "examples": "Hon är min bästa vän.\n(She's my best friend.)\n\nJag träffar mina vänner.\n(I'm meeting my friends.)",
     "audio": "Hon är min bästa vän. Jag träffar mina vänner.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "Plural: vänner",
     "mochiId": "ODnHyIST"
   },
@@ -1309,7 +1309,7 @@
     "english": "human, person",
     "examples": "Alla människor är lika.\n(All humans are equal.)\n\nEn god människa.\n(A good person.)",
     "audio": "Alla människor är lika. En god människa.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "Plural: människor",
     "mochiId": "hlgDKY0J"
   },
@@ -1318,7 +1318,7 @@
     "english": "woman",
     "examples": "En stark kvinna.\n(A strong woman.)\n\nKvinnor och män.\n(Women and men.)",
     "audio": "En stark kvinna. Kvinnor och män.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "Plural: kvinnor",
     "mochiId": "RPWqgGUZ"
   },
@@ -1327,7 +1327,7 @@
     "english": "to hope",
     "examples": "Jag hoppas det blir bra.\n(I hope it will be good.)\n\nVi hoppas på sol.\n(We hope for sun.)",
     "audio": "Jag hoppas det blir bra. Vi hoppas på sol.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "hoppas/hoppades/hoppats (deponent)",
     "mochiId": "RyiB10iq"
   },
@@ -1336,7 +1336,7 @@
     "english": "to meet",
     "examples": "Ska vi träffas imorgon?\n(Shall we meet tomorrow?)\n\nJag träffade honom igår.\n(I met him yesterday.)",
     "audio": "Ska vi träffas imorgon? Jag träffade honom igår.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "träffar/träffade/träffat",
     "mochiId": "UEXNgeAu"
   },
@@ -1345,7 +1345,7 @@
     "english": "to tell",
     "examples": "Berätta för mig!\n(Tell me!)\n\nHon berättade allt.\n(She told everything.)",
     "audio": "Berätta för mig! Hon berättade allt.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "berättar/berättade/berättat",
     "mochiId": "iwxmoCQS"
   },
@@ -1354,7 +1354,7 @@
     "english": "to show",
     "examples": "Kan du visa mig?\n(Can you show me?)\n\nJag visar vägen.\n(I'll show the way.)",
     "audio": "Kan du visa mig? Jag visar vägen.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "visar/visade/visat",
     "mochiId": "3hF9qWco"
   },
@@ -1363,7 +1363,7 @@
     "english": "to let, to sound",
     "examples": "Låt mig hjälpa dig.\n(Let me help you.)\n\nDet låter bra.\n(That sounds good.)",
     "audio": "Låt mig hjälpa dig. Det låter bra.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "låter/lät/låtit (irregular)",
     "mochiId": "XUbNAPvq"
   },
@@ -1372,7 +1372,7 @@
     "english": "to mean",
     "examples": "Vad betyder det?\n(What does it mean?)\n\nDet betyder mycket.\n(It means a lot.)",
     "audio": "Vad betyder det? Det betyder mycket.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "betyder/betydde/betytt",
     "mochiId": "hWV4AU8m"
   },
@@ -1381,7 +1381,7 @@
     "english": "to happen",
     "examples": "Vad händer?\n(What's happening?)\n\nDet hände igår.\n(It happened yesterday.)",
     "audio": "Vad händer? Det hände igår.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "händer/hände/hänt",
     "mochiId": "70ZvowMo"
   },
@@ -1390,7 +1390,7 @@
     "english": "to continue",
     "examples": "Vi fortsätter imorgon.\n(We'll continue tomorrow.)\n\nFortsätt rakt fram.\n(Continue straight ahead.)",
     "audio": "Vi fortsätter imorgon. Fortsätt rakt fram.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "fortsätter/fortsatte/fortsatt",
     "mochiId": "XkAA0yPH"
   },
@@ -1399,7 +1399,7 @@
     "english": "to use",
     "examples": "Får jag använda din penna?\n(May I use your pen?)\n\nVi använder datorer.\n(We use computers.)",
     "audio": "Får jag använda din penna? Vi använder datorer.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "använder/använde/använt",
     "mochiId": "GdTQ3n3u"
   },
@@ -1408,7 +1408,7 @@
     "english": "to follow",
     "examples": "Följ mig!\n(Follow me!)\n\nJag följer reglerna.\n(I follow the rules.)",
     "audio": "Följ mig! Jag följer reglerna.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "följer/följde/följt",
     "mochiId": "PxMVqMsf"
   },
@@ -1417,7 +1417,7 @@
     "english": "to develop",
     "examples": "Vi utvecklar nya produkter.\n(We develop new products.)\n\nBarnet utvecklas snabbt.\n(The child develops quickly.)",
     "audio": "Vi utvecklar nya produkter. Barnet utvecklas snabbt.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "utvecklar/utvecklade/utvecklat",
     "mochiId": "4DIutvK3"
   },
@@ -1426,7 +1426,7 @@
     "english": "old",
     "examples": "En gammal man.\n(An old man.)\n\nHur gammal är du?\n(How old are you?)",
     "audio": "En gammal man. Hur gammal är du?",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "gammal/gammalt/gamla",
     "mochiId": "ftHGbKco"
   },
@@ -1435,7 +1435,7 @@
     "english": "young",
     "examples": "En ung kvinna.\n(A young woman.)\n\nDe är unga.\n(They are young.)",
     "audio": "En ung kvinna. De är unga.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "ung/ungt/unga",
     "mochiId": "qKiSDJSG"
   },
@@ -1444,7 +1444,7 @@
     "english": "long, tall",
     "examples": "En lång väg.\n(A long road.)\n\nHan är lång.\n(He is tall.)",
     "audio": "En lång väg. Han är lång.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "lång/långt/långa",
     "mochiId": "kDupZZKz"
   },
@@ -1453,7 +1453,7 @@
     "english": "short",
     "examples": "En kort paus.\n(A short break.)\n\nKorta dagar.\n(Short days.)",
     "audio": "En kort paus. Korta dagar.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "kort/kort/korta; also 'card'",
     "mochiId": "DIhATy2P"
   },
@@ -1462,7 +1462,7 @@
     "english": "high, tall",
     "examples": "Ett högt berg.\n(A high mountain.)\n\nHöga priser.\n(High prices.)",
     "audio": "Ett högt berg. Höga priser.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "hög/högt/höga",
     "mochiId": "9zeoSfPe"
   },
@@ -1471,7 +1471,7 @@
     "english": "low",
     "examples": "En låg röst.\n(A low voice.)\n\nLåga temperaturer.\n(Low temperatures.)",
     "audio": "En låg röst. Låga temperaturer.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "låg/lågt/låga",
     "mochiId": "vKKJQgs8"
   },
@@ -1480,7 +1480,7 @@
     "english": "fast, quick",
     "examples": "En snabb bil.\n(A fast car.)\n\nVi måste vara snabba.\n(We must be quick.)",
     "audio": "En snabb bil. Vi måste vara snabba.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "snabb/snabbt/snabba",
     "mochiId": "hpL75Avt"
   },
@@ -1489,7 +1489,7 @@
     "english": "slow",
     "examples": "En långsam process.\n(A slow process.)\n\nGå inte så långsamt!\n(Don't walk so slowly!)",
     "audio": "En långsam process. Gå inte så långsamt!",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "långsam/långsamt/långsamma",
     "mochiId": "TXPAiT6D"
   },
@@ -1498,7 +1498,7 @@
     "english": "easy, light",
     "examples": "Det är lätt.\n(It's easy.)\n\nEn lätt väska.\n(A light bag.)",
     "audio": "Det är lätt. En lätt väska.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "lätt/lätt/lätta",
     "mochiId": "HHdNuoNZ"
   },
@@ -1507,7 +1507,7 @@
     "english": "difficult",
     "examples": "En svår fråga.\n(A difficult question.)\n\nSvenska är inte svårt.\n(Swedish is not difficult.)",
     "audio": "En svår fråga. Svenska är inte svårt.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "svår/svårt/svåra",
     "mochiId": "e4GYUGux"
   },
@@ -1516,7 +1516,7 @@
     "english": "warm",
     "examples": "Varmt väder.\n(Warm weather.)\n\nKaffet är varmt.\n(The coffee is warm.)",
     "audio": "Varmt väder. Kaffet är varmt.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "varm/varmt/varma",
     "mochiId": "H6PKVQWp"
   },
@@ -1525,7 +1525,7 @@
     "english": "cold",
     "examples": "Kallt vatten.\n(Cold water.)\n\nDet är kallt ute.\n(It's cold outside.)",
     "audio": "Kallt vatten. Det är kallt ute.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "kall/kallt/kalla",
     "mochiId": "2rypA3Yu"
   },
@@ -1534,7 +1534,7 @@
     "english": "happy, glad",
     "examples": "Jag är glad.\n(I am happy.)\n\nGlada barn.\n(Happy children.)",
     "audio": "Jag är glad. Glada barn.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "glad/glatt/glada",
     "mochiId": "M4HqE7XQ"
   },
@@ -1543,7 +1543,7 @@
     "english": "sad",
     "examples": "Hon är ledsen.\n(She is sad.)\n\nJag är ledsen.\n(I'm sorry.)",
     "audio": "Hon är ledsen. Jag är ledsen.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "Also means 'sorry'",
     "mochiId": "e0TdZMqS"
   },
@@ -1552,7 +1552,7 @@
     "english": "angry",
     "examples": "Han är arg.\n(He is angry.)\n\nBli inte arg!\n(Don't get angry!)",
     "audio": "Han är arg. Bli inte arg!",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "arg/argt/arga",
     "mochiId": "bMbZ07UF"
   },
@@ -1561,7 +1561,7 @@
     "english": "afraid",
     "examples": "Jag är rädd.\n(I am afraid.)\n\nVad är du rädd för?\n(What are you afraid of?)",
     "audio": "Jag är rädd. Vad är du rädd för?",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "rädd/rätt/rädda",
     "mochiId": "LdDvHeoD"
   },
@@ -1570,7 +1570,7 @@
     "english": "tired",
     "examples": "Jag är så trött.\n(I'm so tired.)\n\nTrötta ögon.\n(Tired eyes.)",
     "audio": "Jag är så trött. Trötta ögon.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "trött/trött/trötta",
     "mochiId": "5jMFWIW0"
   },
@@ -1579,7 +1579,7 @@
     "english": "hungry",
     "examples": "Är du hungrig?\n(Are you hungry?)\n\nJag är jättehungrig.\n(I'm very hungry.)",
     "audio": "Är du hungrig? Jag är jättehungrig.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "hungrig/hungrigt/hungriga",
     "mochiId": "gFTWDTi8"
   },
@@ -1588,7 +1588,7 @@
     "english": "thirsty",
     "examples": "Jag är törstig.\n(I am thirsty.)\n\nTörstiga barn.\n(Thirsty children.)",
     "audio": "Jag är törstig. Törstiga barn.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "törstig/törstigt/törstiga",
     "mochiId": "shnIh7gr"
   },
@@ -1597,7 +1597,7 @@
     "english": "sick",
     "examples": "Jag är sjuk idag.\n(I'm sick today.)\n\nEtt sjukt barn.\n(A sick child.)",
     "audio": "Jag är sjuk idag. Ett sjukt barn.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "sjuk/sjukt/sjuka",
     "mochiId": "fUwSOnjh"
   },
@@ -1606,7 +1606,7 @@
     "english": "healthy",
     "examples": "Hon är frisk igen.\n(She's healthy again.)\n\nFrisk luft.\n(Fresh air.)",
     "audio": "Hon är frisk igen. Frisk luft.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "Also means 'fresh'",
     "mochiId": "I5XAmfPb"
   },
@@ -1615,7 +1615,7 @@
     "english": "strong",
     "examples": "Starkt kaffe.\n(Strong coffee.)\n\nHan är stark.\n(He is strong.)",
     "audio": "Starkt kaffe. Han är stark.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "stark/starkt/starka",
     "mochiId": "xMnLlxrs"
   },
@@ -1624,7 +1624,7 @@
     "english": "weak",
     "examples": "En svag röst.\n(A weak voice.)\n\nJag känner mig svag.\n(I feel weak.)",
     "audio": "En svag röst. Jag känner mig svag.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "svag/svagt/svaga",
     "mochiId": "5sXpjdbN"
   },
@@ -1633,7 +1633,7 @@
     "english": "rich",
     "examples": "En rik man.\n(A rich man.)\n\nDe är rika.\n(They are rich.)",
     "audio": "En rik man. De är rika.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "rik/rikt/rika",
     "mochiId": "bGquDRPH"
   },
@@ -1642,7 +1642,7 @@
     "english": "poor",
     "examples": "Ett fattigt land.\n(A poor country.)\n\nFattiga människor.\n(Poor people.)",
     "audio": "Ett fattigt land. Fattiga människor.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "fattig/fattigt/fattiga",
     "mochiId": "cnDBl5KT"
   },
@@ -1651,7 +1651,7 @@
     "english": "beautiful",
     "examples": "En vacker dag.\n(A beautiful day.)\n\nVackra blommor.\n(Beautiful flowers.)",
     "audio": "En vacker dag. Vackra blommor.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "vacker/vackert/vackra",
     "mochiId": "ql4WGrgs"
   },
@@ -1660,7 +1660,7 @@
     "english": "ugly",
     "examples": "Ett fult ord.\n(An ugly word.)\n\nDet är inte fult.\n(It's not ugly.)",
     "audio": "Ett fult ord. Det är inte fult.",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "ful/fult/fula",
     "mochiId": "Ut1yBpbH"
   },
@@ -1669,8 +1669,508 @@
     "english": "nice, fine",
     "examples": "En fin dag.\n(A nice day.)\n\nVilken fin klänning!\n(What a nice dress!)",
     "audio": "En fin dag. Vilken fin klänning!",
-    "tags": ["swedish", "core200"],
+    "tags": ["swedish"],
     "notes": "fin/fint/fina",
     "mochiId": "VFWO9aFh"
+  },
+  {
+    "word": "snö",
+    "english": "snow",
+    "examples": "Snön faller över Arendal.\n(The snow falls over Arendelle.)\n\nBarnen leker i djup snö.\n(Children play in deep snow.)",
+    "audio": "Snön faller över Arendal. Barnen leker i djup snö.",
+    "tags": ["swedish"],
+    "notes": "Mass noun; no article in singular; plural snöar (rare)",
+    "imageHint": "child and adult catching snowflakes under lanterns, gentle snowfall",
+    "mochiId": "vrlR24Bq"
+  },
+  {
+    "word": "is",
+    "english": "ice",
+    "examples": "Isen gnistrar i solen.\n(The ice sparkles in the sun.)\n\nBron är täckt av tjock is.\n(The bridge is covered in thick ice.)",
+    "audio": "Isen gnistrar i solen. Bron är täckt av tjock is.",
+    "tags": ["swedish"],
+    "notes": "en is; plural isar; ofta som massnoun",
+    "imageHint": "frozen pond with cracks, someone testing ice carefully",
+    "mochiId": "k7LWGlCJ"
+  },
+  {
+    "word": "vinter",
+    "english": "winter",
+    "examples": "Vintern kommer tidigt i år.\n(Winter arrives early this year.)\n\nVi firar jul mitt i vintern.\n(We celebrate Christmas in the middle of winter.)",
+    "audio": "Vintern kommer tidigt i år. Vi firar jul mitt i vintern.",
+    "tags": ["swedish"],
+    "notes": "en vinter; plural vintrar",
+    "imageHint": "bundled figures exhale steam on snowy street at dusk",
+    "mochiId": "Kq78WKEX"
+  },
+  {
+    "word": "storm",
+    "english": "storm",
+    "examples": "En storm blåser in från fjorden.\n(A storm blows in from the fjord.)\n\nHela byn stänger portarna när stormen närmar sig.\n(The whole village closes the gates when the storm approaches.)",
+    "audio": "En storm blåser in från fjorden. Hela byn stänger portarna när stormen närmar sig.",
+    "tags": ["swedish"],
+    "notes": "en storm; plural stormar",
+    "imageHint": "snowstorm bending trees; figures lean forward, scarves whipping",
+    "mochiId": "b9185HVE"
+  },
+  {
+    "word": "vind",
+    "english": "wind",
+    "examples": "Vinden tjuter genom slottsporten.\n(The wind howls through the castle gate.)\n\nEn kall vind sveper över fjället.\n(A cold wind sweeps over the fell.)",
+    "audio": "Vinden tjuter genom slottsporten. En kall vind sveper över fjället.",
+    "tags": ["swedish"],
+    "notes": "en vind; plural vindar",
+    "imageHint": "colorful ribbons blowing from balcony rail; hair windswept",
+    "mochiId": "xUqFwkGM"
+  },
+  {
+    "word": "norrsken",
+    "english": "northern lights",
+    "examples": "Norrskenet lyser över fjällen.\n(The northern lights shine over the fells.)\n\nVi står tysta och ser norrsken dansa.\n(We stand silent and watch the northern lights dance.)",
+    "audio": "Norrskenet lyser över fjällen. Vi står tysta och ser norrsken dansa.",
+    "tags": ["swedish"],
+    "notes": "ett norrsken; plural norrsken",
+    "imageHint": "environment only: aurora curtains over dark fjäll ridge; no people",
+    "mochiId": "F1n4FPyf"
+  },
+  {
+    "word": "slott",
+    "english": "castle",
+    "examples": "Slottet ligger vid den frusna fjorden.\n(The castle stands by the frozen fjord.)\n\nFolk samlas i slottets stora sal.\n(People gather in the castle's great hall.)",
+    "audio": "Slottet ligger vid den frusna fjorden. Folk samlas i slottets stora sal.",
+    "tags": ["swedish"],
+    "notes": "ett slott; plural slott",
+    "imageHint": "castle courtyard dusted with snow, torches glow along walls",
+    "mochiId": "PIBle2MJ"
+  },
+  {
+    "word": "port",
+    "english": "gate",
+    "examples": "Porten öppnas inför gästerna.\n(The gate opens for the guests.)\n\nVakterna stänger porten när stormen börjar.\n(The guards close the gate when the storm begins.)",
+    "audio": "Porten öppnas inför gästerna. Vakterna stänger porten när stormen börjar.",
+    "tags": ["swedish"],
+    "notes": "en port; plural portar",
+    "imageHint": "heavy wooden gate ajar, snow piled at threshold",
+    "mochiId": "CwN0XPM7"
+  },
+  {
+    "word": "balkong",
+    "english": "balcony",
+    "examples": "Hon kliver ut på balkongen för att känna vinden.\n(She steps onto the balcony to feel the wind.)\n\nLyktorna lyser längs slottsbalkongen.\n(Lanterns shine along the castle balcony.)",
+    "audio": "Hon kliver ut på balkongen för att känna vinden. Lyktorna lyser längs slottsbalkongen.",
+    "tags": ["swedish"],
+    "notes": "en balkong; plural balkonger",
+    "imageHint": "figure on balcony, breath visible, looking over frozen harbor",
+    "mochiId": "Lk7orbVJ"
+  },
+  {
+    "word": "sal",
+    "english": "hall",
+    "examples": "Musiken fyller den stora salen.\n(Music fills the great hall.)\n\nVi dansar hela natten i salen.\n(We dance all night in the hall.)",
+    "audio": "Musiken fyller den stora salen. Vi dansar hela natten i salen.",
+    "tags": ["swedish"],
+    "notes": "en sal; plural salar",
+    "imageHint": "grand hall with icicle chandeliers; dancers’ shadows on floor",
+    "mochiId": "1YQr19dV"
+  },
+  {
+    "word": "tronrum",
+    "english": "throne room",
+    "examples": "Tronrummet glänser av is.\n(The throne room gleams with ice.)\n\nVäggarna i tronrummet är täckta av kristaller.\n(The walls of the throne room are covered in crystals.)",
+    "audio": "Tronrummet glänser av is. Väggarna i tronrummet är täckta av kristaller.",
+    "tags": ["swedish"],
+    "notes": "ett tronrum; plural tronrum",
+    "imageHint": "throne room of ice, crystalline pillars, moonlight beams",
+    "mochiId": "Zqsm7mTY"
+  },
+  {
+    "word": "drottning",
+    "english": "queen",
+    "examples": "Drottningen bär en krona av is.\n(The queen wears a crown of ice.)\n\nFolket litar på sin drottning.\n(The people trust their queen.)",
+    "audio": "Drottningen bär en krona av is. Folket litar på sin drottning.",
+    "tags": ["swedish"],
+    "notes": "en drottning; plural drottningar",
+    "imageHint": "regal figure with frost-crowned hair, calm gaze, blue cloak",
+    "mochiId": "MwKEqnYc"
+  },
+  {
+    "word": "prinsessa",
+    "english": "princess",
+    "examples": "Prinsessan längtar efter frihet.\n(The princess longs for freedom.)\n\nAlla hälsar prinsessan vid porten.\n(Everyone greets the princess at the gate.)",
+    "audio": "Prinsessan längtar efter frihet. Alla hälsar prinsessan vid porten.",
+    "tags": ["swedish"],
+    "notes": "en prinsessa; plural prinsessor",
+    "imageHint": "young royal fastening gloves, excitement before a winter ball",
+    "mochiId": "eWZRcpic"
+  },
+  {
+    "word": "hemlighet",
+    "english": "secret",
+    "examples": "Hon bär på en farlig hemlighet.\n(She carries a dangerous secret.)\n\nVi delar hemligheter i viskningar.\n(We share secrets in whispers.)",
+    "audio": "Hon bär på en farlig hemlighet. Vi delar hemligheter i viskningar.",
+    "tags": ["swedish"],
+    "notes": "en hemlighet; plural hemligheter",
+    "imageHint": "whispering behind a door; note hidden under a book",
+    "mochiId": "SaMbbgcF"
+  },
+  {
+    "word": "magi",
+    "english": "magic",
+    "examples": "Magi fyller luften när isen växer.\n(Magic fills the air as the ice grows.)\n\nDe talar tyst om gammal magi.\n(They speak quietly about ancient magic.)",
+    "audio": "Magi fyller luften när isen växer. De talar tyst om gammal magi.",
+    "tags": ["swedish"],
+    "notes": "en magi; oböjligt i plural",
+    "imageHint": "swirling frost patterns forming from outstretched hands",
+    "mochiId": "hx8s0F86"
+  },
+  {
+    "word": "förtrollad",
+    "english": "enchanted",
+    "examples": "En förtrollad handske glimmar i skenet.\n(An enchanted glove shimmers in the glow.)\n\nStigen känns förtrollad i det blå ljuset.\n(The path feels enchanted in the blue light.)",
+    "audio": "En förtrollad handske glimmar i skenet. Stigen känns förtrollad i det blå ljuset.",
+    "tags": ["swedish"],
+    "notes": "Adjektiv; former förtrollat/förtrollade",
+    "imageHint": "enchanted glove faintly glowing on velvet cushion",
+    "mochiId": "zClE6Asm"
+  },
+  {
+    "word": "förtrollning",
+    "english": "enchantment, spell",
+    "examples": "Förtrollningen fryser allt den rör.\n(The enchantment freezes everything it touches.)\n\nDe söker en väg att bryta förtrollningen.\n(They seek a way to break the enchantment.)",
+    "audio": "Förtrollningen fryser allt den rör. De söker en väg att bryta förtrollningen.",
+    "tags": ["swedish"],
+    "notes": "en förtrollning; plural förtrollningar",
+    "imageHint": "spell circle of snowflakes hovering above open book",
+    "mochiId": "lSUTAz2y"
+  },
+  {
+    "word": "att frysa",
+    "english": "to freeze",
+    "examples": "Hon kan frysa vatten med en gest.\n(She can freeze water with a gesture.)\n\nLuften får oss att frysa om händerna.\n(The air makes us freeze our hands.)",
+    "audio": "Hon kan frysa vatten med en gest. Luften får oss att frysa om händerna.",
+    "tags": ["swedish"],
+    "notes": "fryser/frös/frusit; oregelbundet verb",
+    "imageHint": "warm breath fogs air; fingers tucked into sleeves",
+    "mochiId": "rTuKFmWv"
+  },
+  {
+    "word": "att smälta",
+    "english": "to melt",
+    "examples": "Solen börjar smälta isen på taken.\n(The sun starts to melt the ice on the roofs.)\n\nEtt varmt hjärta kan smälta vilken mur som helst.\n(A warm heart can melt any wall.)",
+    "audio": "Solen börjar smälta isen på taken. Ett varmt hjärta kan smälta vilken mur som helst.",
+    "tags": ["swedish"],
+    "notes": "smälter/smälte/smält; svagt verb",
+    "imageHint": "icicle dripping into teacup on windowsill",
+    "mochiId": "AdV0Sy4b"
+  },
+  {
+    "word": "snögubbe",
+    "english": "snowman",
+    "examples": "Vi rullar stora bollar för en snögubbe.\n(We roll big balls for a snowman.)\n\nSnögubben får en morot som näsa.\n(The snowman gets a carrot as a nose.)",
+    "audio": "Vi rullar stora bollar för en snögubbe. Snögubben får en morot som näsa.",
+    "tags": ["swedish"],
+    "notes": "en snögubbe; plural snögubbar",
+    "imageHint": "building snowman together; carrot nose and scarf mid-air",
+    "mochiId": "yvGNZo6K"
+  },
+  {
+    "word": "ispalats",
+    "english": "ice palace",
+    "examples": "Ett ispalats reser sig högt över fjället.\n(An ice palace rises high above the fell.)\n\nVäggarna i ispalatset glittrar som kristaller.\n(The walls of the ice palace glitter like crystals.)",
+    "audio": "Ett ispalats reser sig högt över fjället. Väggarna i ispalatset glittrar som kristaller.",
+    "tags": ["swedish"],
+    "notes": "ett ispalats; plural ispalats",
+    "imageHint": "environment only: towering ice palace on cliff; no people",
+    "mochiId": "t8CnH2sC"
+  },
+  {
+    "word": "berg",
+    "english": "mountain",
+    "examples": "Bergen är täckta av gnistrande snö.\n(The mountains are covered in glistening snow.)\n\nVi vandrar uppför ett brant berg.\n(We hike up a steep mountain.)",
+    "audio": "Bergen är täckta av gnistrande snö. Vi vandrar uppför ett brant berg.",
+    "tags": ["swedish"],
+    "notes": "ett berg; plural berg",
+    "imageHint": "steep snowy slope; tiny figures ascending with poles",
+    "mochiId": "gG8SuAsJ"
+  },
+  {
+    "word": "fjäll",
+    "english": "fell, mountain plateau",
+    "examples": "Fjället lyser blått i månskenet.\n(The fell shines blue in the moonlight.)\n\nDe rider över snötäckta fjäll.\n(They ride across snow-covered fells.)",
+    "audio": "Fjället lyser blått i månskenet. De rider över snötäckta fjäll.",
+    "tags": ["swedish"],
+    "notes": "ett fjäll; plural fjäll",
+    "imageHint": "wide plateau; reindeer tracks crossing wind-sculpted snow",
+    "mochiId": "3ha0z0Cl"
+  },
+  {
+    "word": "dal",
+    "english": "valley",
+    "examples": "I dalen glittrar en frusen flod.\n(In the valley a frozen river sparkles.)\n\nDet ekar mellan dalens väggar.\n(It echoes between the walls of the valley.)",
+    "audio": "I dalen glittrar en frusen flod. Det ekar mellan dalens väggar.",
+    "tags": ["swedish"],
+    "notes": "en dal; plural dalar",
+    "imageHint": "frozen river winding through valley, morning mist",
+    "mochiId": "lRvXxP5w"
+  },
+  {
+    "word": "skog",
+    "english": "forest",
+    "examples": "Skogen står tyst under snön.\n(The forest stands silent beneath the snow.)\n\nVi hittar en stig genom den mörka skogen.\n(We find a path through the dark forest.)",
+    "audio": "Skogen står tyst under snön. Vi hittar en stig genom den mörka skogen.",
+    "tags": ["swedish"],
+    "notes": "en skog; plural skogar",
+    "imageHint": "pine forest heavy with snow; distant owl in flight",
+    "mochiId": "LSmiV8Gq"
+  },
+  {
+    "word": "ren",
+    "english": "reindeer",
+    "examples": "En ren drar släden över isen.\n(A reindeer pulls the sleigh across the ice.)\n\nRenarna betar i den snötäckta dalen.\n(The reindeer graze in the snow-covered valley.)",
+    "audio": "En ren drar släden över isen. Renarna betar i den snötäckta dalen.",
+    "tags": ["swedish"],
+    "notes": "en ren; plural renar",
+    "imageHint": "reindeer with bells, breath steaming, gentle profile",
+    "mochiId": "jdkoOGDV"
+  },
+  {
+    "word": "släde",
+    "english": "sleigh",
+    "examples": "Släden susar nerför backen.\n(The sleigh rushes down the hill.)\n\nVi packar filtar i släden för värme.\n(We pack blankets in the sleigh for warmth.)",
+    "audio": "Släden susar nerför backen. Vi packar filtar i släden för värme.",
+    "tags": ["swedish"],
+    "notes": "en släde; plural slädar",
+    "imageHint": "sleigh cutting fresh tracks, blankets and lantern aboard",
+    "mochiId": "HjrULQzm"
+  },
+  {
+    "word": "handske",
+    "english": "glove",
+    "examples": "Hon drar på sig en varm handske.\n(She pulls on a warm glove.)\n\nHandskarna skyddar mot bitande kyla.\n(The gloves protect against biting cold.)",
+    "audio": "Hon drar på sig en varm handske. Handskarna skyddar mot bitande kyla.",
+    "tags": ["swedish"],
+    "notes": "en handske; plural handskar",
+    "imageHint": "lost glove half-buried in snow by steps",
+    "mochiId": "bH8WvLwc"
+  },
+  {
+    "word": "krona",
+    "english": "crown",
+    "examples": "Kronan glittrar av frost.\n(The crown sparkles with frost.)\n\nAlla bugar när kronan bärs in.\n(Everyone bows when the crown is carried in.)",
+    "audio": "Kronan glittrar av frost. Alla bugar när kronan bärs in.",
+    "tags": ["swedish"],
+    "notes": "en krona; plural kronor",
+    "imageHint": "frosted crown on cushion; sun sparkles on facets",
+    "mochiId": "1TZSZnoN"
+  },
+  {
+    "word": "hjärta",
+    "english": "heart",
+    "examples": "Hjärtat slår hårt i stormen.\n(The heart beats hard in the storm.)\n\nEtt varmt hjärta kan tina is.\n(A warm heart can thaw ice.)",
+    "audio": "Hjärtat slår hårt i stormen. Ett varmt hjärta kan tina is.",
+    "tags": ["swedish"],
+    "notes": "ett hjärta; plural hjärtan",
+    "imageHint": "frost heart on window; handprint warms a patch",
+    "mochiId": "nl1qANXd"
+  },
+  {
+    "word": "mod",
+    "english": "courage",
+    "examples": "Mod krävs för att öppna porten.\n(Courage is needed to open the gate.)\n\nHon talar med mod inför folket.\n(She speaks with courage before the people.)",
+    "audio": "Mod krävs för att öppna porten. Hon talar med mod inför folket.",
+    "tags": ["swedish"],
+    "notes": "ett mod; oböjligt i plural",
+    "imageHint": "adult steps forward against wind while others hesitate",
+    "mochiId": "h9RhLdD2"
+  },
+  {
+    "word": "rädsla",
+    "english": "fear",
+    "examples": "Rädslan får henne att dölja sin kraft.\n(Fear makes her hide her power.)\n\nVi möter vår rädsla tillsammans.\n(We face our fear together.)",
+    "audio": "Rädslan får henne att dölja sin kraft. Vi möter vår rädsla tillsammans.",
+    "tags": ["swedish"],
+    "notes": "en rädsla; plural rädslor",
+    "imageHint": "shadow at doorway; person clutching cloak, hesitant",
+    "mochiId": "ThOaRjd8"
+  },
+  {
+    "word": "ensamhet",
+    "english": "loneliness",
+    "examples": "Ensamheten ekar i det tomma slottet.\n(Loneliness echoes in the empty castle.)\n\nHan sjunger för att jaga bort ensamheten.\n(He sings to chase away the loneliness.)",
+    "audio": "Ensamheten ekar i det tomma slottet. Han sjunger för att jaga bort ensamheten.",
+    "tags": ["swedish"],
+    "notes": "en ensamhet; oböjligt i plural",
+    "imageHint": "single figure on balcony at night, empty square below",
+    "mochiId": "wm7lFNh6"
+  },
+  {
+    "word": "frihet",
+    "english": "freedom",
+    "examples": "Frihet känns som frisk vind mot ansiktet.\n(Freedom feels like fresh wind against the face.)\n\nDe drömmer om frihet bortom fjällen.\n(They dream of freedom beyond the fells.)",
+    "audio": "Frihet känns som frisk vind mot ansiktet. De drömmer om frihet bortom fjällen.",
+    "tags": ["swedish"],
+    "notes": "en frihet; plural friheter (sällsynt)",
+    "imageHint": "open ridge above clouds; arms wide, scarf streaming",
+    "mochiId": "Q9shqqs3"
+  },
+  {
+    "word": "hopp",
+    "english": "hope",
+    "examples": "Hoppet lyser som ett ljus i mörkret.\n(Hope shines like a light in the dark.)\n\nVi bär hopp i varje steg.\n(We carry hope in every step.)",
+    "audio": "Hoppet lyser som ett ljus i mörkret. Vi bär hopp i varje steg.",
+    "tags": ["swedish"],
+    "notes": "ett hopp; plural hopp",
+    "imageHint": "first sunrise ray touching town after long night",
+    "mochiId": "MRS2uYVn"
+  },
+  {
+    "word": "kärlek",
+    "english": "love",
+    "examples": "Kärleken tinar frusna hjärtan.\n(Love thaws frozen hearts.)\n\nDet är kärlek som räddar riket.\n(It is love that saves the kingdom.)",
+    "audio": "Kärleken tinar frusna hjärtan. Det är kärlek som räddar riket.",
+    "tags": ["swedish"],
+    "notes": "en kärlek; plural kärlekar (sällsynt)",
+    "imageHint": "two mugs steaming; hands meet across table",
+    "mochiId": "Fawl8IlF"
+  },
+  {
+    "word": "löfte",
+    "english": "promise",
+    "examples": "Hon ger ett löfte att skydda folket.\n(She gives a promise to protect the people.)\n\nVi håller våra löften trots stormen.\n(We keep our promises despite the storm.)",
+    "audio": "Hon ger ett löfte att skydda folket. Vi håller våra löften trots stormen.",
+    "tags": ["swedish"],
+    "notes": "ett löfte; plural löften",
+    "imageHint": "pinkie-swear near castle gate; snow quietly falling",
+    "mochiId": "554NbWI5"
+  },
+  {
+    "word": "syster",
+    "english": "sister",
+    "examples": "Systrarna håller varandras händer.\n(The sisters hold each other's hands.)\n\nEn syster ger styrka i svåra tider.\n(A sister gives strength in difficult times.)",
+    "audio": "Systrarna håller varandras händer. En syster ger styrka i svåra tider.",
+    "tags": ["swedish"],
+    "notes": "en syster; plural systrar",
+    "imageHint": "two sisters laughing, matching gloves, linking arms",
+    "mochiId": "DZMFDpM8"
+  },
+  {
+    "word": "vänskap",
+    "english": "friendship",
+    "examples": "Vänskap växer när vi delar hemligheter.\n(Friendship grows when we share secrets.)\n\nDe sjunger om vänskap och mod.\n(They sing about friendship and courage.)",
+    "audio": "Vänskap växer när vi delar hemligheter. De sjunger om vänskap och mod.",
+    "tags": ["swedish"],
+    "notes": "en vänskap; plural vänskaper",
+    "imageHint": "friends repairing sled together, smiling, shared tools",
+    "mochiId": "JEfTaPTQ"
+  },
+  {
+    "word": "att rädda",
+    "english": "to rescue, to save",
+    "examples": "Han försöker rädda byn från isen.\n(He tries to save the village from the ice.)\n\nVi måste rädda varandra från stormen.\n(We must rescue each other from the storm.)",
+    "audio": "Han försöker rädda byn från isen. Vi måste rädda varandra från stormen.",
+    "tags": ["swedish"],
+    "notes": "räddar/räddade/räddat; regelbundet verb",
+    "imageHint": "pulling someone up from icy ledge, firm grip",
+    "mochiId": "B6Ev4EmG"
+  },
+  {
+    "word": "att bygga",
+    "english": "to build",
+    "examples": "Vi bygger murar av snöblock.\n(We build walls of snow blocks.)\n\nHon vill bygga något som varar.\n(She wants to build something that lasts.)",
+    "audio": "Vi bygger murar av snöblock. Hon vill bygga något som varar.",
+    "tags": ["swedish"],
+    "notes": "bygger/byggde/byggt; regelbundet verb",
+    "imageHint": "stacking snow blocks into wall; teamwork focus",
+    "mochiId": "l2pfWIRl"
+  },
+  {
+    "word": "dröm",
+    "english": "dream",
+    "examples": "En dröm om sommar värmer henne.\n(A dream of summer warms her.)\n\nDrömmen känns nästan verklig i natt.\n(The dream feels almost real tonight.)",
+    "audio": "En dröm om sommar värmer henne. Drömmen känns nästan verklig i natt.",
+    "tags": ["swedish"],
+    "notes": "en dröm; plural drömmar",
+    "imageHint": "bedside snow globe; imagined scene expands outside window",
+    "mochiId": "Y0vHOsZX"
+  },
+  {
+    "word": "ljus",
+    "english": "light",
+    "examples": "Ljus strömmar genom sprickorna i isen.\n(Light streams through the cracks in the ice.)\n\nVi tänder ljus i varje fönster.\n(We light candles in every window.)",
+    "audio": "Ljus strömmar genom sprickorna i isen. Vi tänder ljus i varje fönster.",
+    "tags": ["swedish"],
+    "notes": "ett ljus; plural ljus",
+    "imageHint": "lanterns along path through snow; warm glow",
+    "mochiId": "KK4mJXSo"
+  },
+  {
+    "word": "gnista",
+    "english": "spark",
+    "examples": "En gnista av magi väcker kristallerna.\n(A spark of magic awakens the crystals.)\n\nGnistor flyger från elden i hallen.\n(Sparks fly from the fire in the hall.)",
+    "audio": "En gnista av magi väcker kristallerna. Gnistor flyger från elden i hallen.",
+    "tags": ["swedish"],
+    "notes": "en gnista; plural gnistor",
+    "imageHint": "spark leaps from flint to kindling; faces lit",
+    "mochiId": "nrkmTROX"
+  },
+  {
+    "word": "kristall",
+    "english": "crystal",
+    "examples": "Kristaller hänger från taket.\n(Crystals hang from the ceiling.)\n\nVarje kristall fångar ljuset.\n(Each crystal catches the light.)",
+    "audio": "Kristaller hänger från taket. Varje kristall fångar ljuset.",
+    "tags": ["swedish"],
+    "notes": "en kristall; plural kristaller",
+    "imageHint": "close-up crystal cluster catching sunbeams, rainbow specks",
+    "mochiId": "ehXsLzko"
+  },
+  {
+    "word": "isig",
+    "english": "icy",
+    "examples": "Vägen är isig och hal.\n(The road is icy and slippery.)\n\nVi duckar när en isig vind blåser.\n(We duck when an icy wind blows.)",
+    "audio": "Vägen är isig och hal. Vi duckar när en isig vind blåser.",
+    "tags": ["swedish"],
+    "notes": "Adjektiv; former isig/isigt/isiga",
+    "imageHint": "icy steps glistening; someone sprinkling sand carefully",
+    "mochiId": "aFPKo4LG"
+  },
+  {
+    "word": "kyla",
+    "english": "cold, chill",
+    "examples": "Kylan biter i kinderna.\n(The cold bites the cheeks.)\n\nEn våg av kyla sveper genom rummet.\n(A wave of cold sweeps through the room.)",
+    "audio": "Kylan biter i kinderna. En våg av kyla sveper genom rummet.",
+    "tags": ["swedish"],
+    "notes": "en kyla; oböjligt i plural",
+    "imageHint": "frost flowers spreading on glass, kettle whistling inside",
+    "mochiId": "e1mbJWZF"
+  },
+  {
+    "word": "värme",
+    "english": "warmth",
+    "examples": "En kopp te sprider värme i kroppen.\n(A cup of tea spreads warmth in the body.)\n\nVärmen från elden får oss att le.\n(The warmth from the fire makes us smile.)",
+    "audio": "En kopp te sprider värme i kroppen. Värmen från elden får oss att le.",
+    "tags": ["swedish"],
+    "notes": "en värme; oböjligt i plural",
+    "imageHint": "family huddled by hearth; blankets, gentle amber light",
+    "mochiId": "MCFA6Klc"
+  },
+  {
+    "word": "dörr",
+    "english": "door",
+    "examples": "Dörren slås upp mot balsalen.\n(The door swings open toward the ballroom.)\n\nVi knackar på den tunga dörren.\n(We knock on the heavy door.)",
+    "audio": "Dörren slås upp mot balsalen. Vi knackar på den tunga dörren.",
+    "tags": ["swedish"],
+    "notes": "en dörr; plural dörrar",
+    "imageHint": "frosted door handle turns; light spills out",
+    "mochiId": "cVmG1d61"
+  },
+  {
+    "word": "trappa",
+    "english": "staircase",
+    "examples": "Hon springer ner för trappan.\n(She runs down the staircase.)\n\nSnön lägger sig på trappan utanför slottet.\n(Snow settles on the staircase outside the castle.)",
+    "audio": "Hon springer ner för trappan. Snön lägger sig på trappan utanför slottet.",
+    "tags": ["swedish"],
+    "notes": "en trappa; plural trappor",
+    "imageHint": "grand staircase with snow-dusted edges, footprints ascending",
+    "mochiId": "g3ER2seb"
   }
 ]

@@ -32,7 +32,7 @@ Edit `vocab/swedish-core.json` and add new vocabulary entries following this str
 - `english`: English translation(s)
 - `examples`: Swedish sentences with English translations in parentheses
 - `audio`: Text for text-to-speech (usually the example sentences)
-- `tags`: Array of tags (use "core150", "core200", "core250" etc. based on frequency)
+- `tags`: Use `["swedish"]` (omit "core" tags)
 - `notes`: Grammar notes, conjugations, or usage tips
 - `mochiId`: (Auto-generated) Don't add this manually - it's created during sync
 
@@ -66,6 +66,24 @@ This script:
 - Processes 5 images concurrently for efficiency
 
 **Note:** Requires `OPENAI_API_KEY` in your `.env` file
+
+### Optional: Guide Images with a Hint
+
+You can add an `imageHint` to any vocab item in `vocab/swedish-core.json`. Keep it short (6–15 words) and concrete; it seeds the scene the AI elaborates:
+
+```json
+{
+  "word": "norrsken",
+  "english": "northern lights",
+  "examples": "Norrskenet lyser över fjällen.\n(The northern lights shine over the fells.)\n\nVi står tysta och ser norrsken dansa.\n(We stand silent and watch the northern lights dance.)",
+  "audio": "Norrskenet lyser över fjällen. Vi står tysta och ser norrsken dansa.",
+  "tags": ["swedish"],
+  "notes": "ett norrsken; plural norrsken",
+  "imageHint": "environment only: aurora over snowy ridge; no people"
+}
+```
+
+If omitted, the generator writes a general prompt and lets the model pick an appropriate composition.
 
 #### 4. Re-sync to Add Images
 
@@ -135,8 +153,8 @@ The `audio` field should contain:
 Use consistent tags:
 
 - `swedish`: Always include for Swedish cards
-- `core150`, `core200`, etc.: Based on frequency ranking
-- Additional tags: `verb`, `adjective`, `family`, `emotion`, etc.
+- Omit frequency tags like `core150`/`core200` to keep decks simple
+- Optional extras if helpful: `verb`, `adjective`, `emotion`, etc.
 
 ## Batch Processing Tips
 

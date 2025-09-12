@@ -19,6 +19,7 @@ export interface ImageGenerationOptions {
   outputPath: string;
   quality?: "low" | "medium" | "high" | "auto";
   size?: "1024x1024" | "1024x1536" | "1536x1024" | "auto";
+  imageHint?: string;
 }
 
 export async function generateImage({
@@ -27,52 +28,23 @@ export async function generateImage({
   outputPath,
   quality = "high",
   size = "1536x1024",
+  imageHint,
 }: ImageGenerationOptions): Promise<string> {
   console.log(`🎯 Creating prompt for ${word} (${english})...`);
 
-  // First, use GPT-5-mini to create a creative scene description
-  const promptCreationMessages = [
-    {
-      role: "system" as const,
-      content: dedent`
-        You create scene descriptions for vocabulary illustrations. Available characters to describe (don't use names in output):
-        - A 32yo woman with black hair, pale skin, and blue eyes
-        - A 32yo man with dark blonde/light brown hair, fair skin, and brown eyes  
-        - A 5-month-old baby with short black hair, very cute and cheerful
+  // Build a single user message to create a concise scene description
+  const hintLine = imageHint
+    ? `Start from this hint and elaborate with concrete visuals: "${imageHint}".`
+    : `If helpful, invent a simple, filmable scene that clearly depicts the concept.`;
 
-        Create varied scenes - sometimes use just the baby, sometimes a parent and baby, sometimes both parents, sometimes no people at all.
-        
-        Examples of good scene descriptions by word type:
-        
-        Verbs (to + action):
-        - For "to be": "A 32-year-old man with light brown hair and a 32-year-old woman with black hair demonstrating the action of being together, with magical sparkles around them"
-        - For "to have": "A 32-year-old woman with black hair holding magical objects while her 5-month-old baby with short black hair reaches for them"
-        
-        Nouns (a/an + object):
-        - For "a car": "A car in a magical forest setting with a cute 5-month-old baby with short black hair playing nearby"
-        - For "a house": "A house in an enchanted meadow with a 32-year-old man with light brown hair standing in the doorway"
-        
-        Greetings/Social:
-        - For "hello": "A 32-year-old woman with black hair and her 5-month-old baby with short black hair waving happily, surrounded by floating flowers and butterflies"
-        - For "thanks": "A family showing gratitude with glowing hearts floating around them"
-        
-        Question words:
-        - For "when": "A curious 5-month-old baby with short black hair looking up at floating magical clocks and time symbols made of light"
-        - For "where": "A 32-year-old woman with black hair pointing toward multiple floating magical doorways in the sky"
-        
-        Abstract concepts:
-        - For other words: "A family scene with a 32-year-old man with light brown hair, 32-year-old woman with black hair, and 5-month-old baby with short black hair, surrounded by magical elements representing the concept"
-        
-        Describe the scene using visual descriptions of people (not names), objects, and actions.
-      `,
-    },
+  const promptCreationMessages = [
     {
       role: "user" as const,
       content: dedent`
-        Create a scene description for the Swedish word "${word}" meaning "${english}".
-
-        Describe a specific scene that visually represents this concept.
-        Use descriptions like "a woman with black hair" or "a baby" instead of names.
+        Create a concise visual scene (2–4 sentences) for an illustration of the Swedish word "${word}" meaning "${english}".
+        ${hintLine}
+        Keep variety high across cards: it's okay to use people, a baby, or no people; choose what best communicates the concept and avoid repeating the same family setup.
+        The scene must be specific, observable, and easy to draw (no brand names, no on-image text).
       `,
     },
   ];
@@ -102,7 +74,6 @@ export async function generateImage({
   }
 
   // Combine the creative scene from GPT with our technical requirements
-  // We handle the style and "no text" instructions - GPT just provides the creative scene
   const prompt = dedent`
     ${sceneDescription}
     
@@ -114,8 +85,7 @@ export async function generateImage({
   `;
 
   console.log(`📝 Scene: ${sceneDescription}`);
-  console.log(`🎨 Full prompt being sent to image API:`);
-  console.log(prompt);
+  // Constructed prompt ready; omitting verbose logging
   console.log(`🔄 Creating image...`);
 
   try {
@@ -127,8 +97,6 @@ export async function generateImage({
       quality,
     });
 
-    console.log(`📡 API response received`);
-
     let buffer: ArrayBuffer;
 
     // Check if we got a URL or base64 data
@@ -138,7 +106,6 @@ export async function generateImage({
       const imageResponse = await fetch(imageUrl);
       buffer = await imageResponse.arrayBuffer();
     } else if (response.data?.[0]?.b64_json) {
-      console.log(`📦 Converting base64 image...`);
       const base64Data = response.data[0].b64_json;
       const binaryString = atob(base64Data);
       const bytes = new Uint8Array(binaryString.length);
@@ -150,7 +117,6 @@ export async function generateImage({
       throw new Error("No image data returned (neither URL nor base64)");
     }
 
-    console.log(`💾 Writing ${buffer.byteLength} bytes to ${outputPath}`);
     // Save to local file
     await Bun.write(outputPath, buffer);
 

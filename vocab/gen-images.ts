@@ -8,6 +8,15 @@ import { existsSync } from "node:fs";
 import { mkdir } from "node:fs/promises";
 import pLimit from "p-limit";
 import swedishCoreData from "./swedish-core.json";
+import { z } from "zod";
+
+const VocabEntry = z.object({
+  word: z.string(),
+  english: z.string(),
+  mochiId: z.string().optional(),
+  imageHint: z.string().optional(),
+});
+type VocabEntry = z.infer<typeof VocabEntry>;
 
 const IMAGES_DIR = "./images";
 const CONCURRENCY = 5; // Process 5 images at a time
@@ -21,10 +30,11 @@ async function ensureImagesDir() {
 
 async function main() {
   console.log("Loading Swedish Core vocabulary data...");
-  console.log(`Found ${swedishCoreData.length} vocabulary entries`);
+  const data = z.array(VocabEntry).parse(swedishCoreData);
+  console.log(`Found ${data.length} vocabulary entries`);
 
   // Filter entries that need images
-  const entriesNeedingImages = swedishCoreData.filter((entry) => {
+  const entriesNeedingImages = data.filter((entry) => {
     if (!entry.mochiId) {
       console.log(`⚠️  Skipping "${entry.word}" - no mochiId`);
       return false;
@@ -58,6 +68,7 @@ async function main() {
           english: entry.english,
           outputPath: imagePath,
           quality: "high",
+          imageHint: entry.imageHint,
         });
 
         console.log(`✅ Saved: ${imagePath}`);
