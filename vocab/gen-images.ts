@@ -36,13 +36,13 @@ async function main() {
   // Filter entries that need images
   const entriesNeedingImages = data.filter((entry) => {
     if (!entry.mochiId) {
-      console.log(`⚠️  Skipping "${entry.word}" - no mochiId`);
+      console.log(`⚠️  [${entry.word}] skipping - no mochiId`);
       return false;
     }
 
     const imagePath = `${IMAGES_DIR}/${entry.mochiId}.png`;
     if (existsSync(imagePath)) {
-      console.log(`⏭️  Skipping ${entry.mochiId} - image already exists`);
+      console.log(`⏭️  [${entry.word}] skipping - image already exists`);
       return false;
     }
 
@@ -60,7 +60,7 @@ async function main() {
         const imagePath = `${IMAGES_DIR}/${entry.mochiId}.png`;
 
         console.log(
-          `🎨 Starting: ${entry.mochiId} - ${entry.word} (${entry.english})`,
+          `🎨 [${entry.word}] starting (${entry.mochiId}) - ${entry.english}`,
         );
 
         await generateImage({
@@ -71,7 +71,7 @@ async function main() {
           imageHint: entry.imageHint,
         });
 
-        console.log(`✅ Saved: ${imagePath}`);
+        console.log(`✅ [${entry.word}] saved ${imagePath}`);
         return entry.mochiId;
       }),
     ),

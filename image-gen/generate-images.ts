@@ -30,7 +30,8 @@ export async function generateImage({
   size = "1536x1024",
   imageHint,
 }: ImageGenerationOptions): Promise<string> {
-  console.log(`🎯 Creating prompt for ${word} (${english})...`);
+  const tag = `[${word}]`;
+  console.log(`${tag} drafting scene...`);
 
   // Build a single user message to create a concise scene description
   const hintLine = imageHint
@@ -39,38 +40,57 @@ export async function generateImage({
 
   const promptCreationMessages = [
     {
+      role: "system" as const,
+      content: dedent`
+        You write compact, filmable scene descriptions for illustration prompts.
+        Output only 2–4 sentences of visual description. No meta commentary.
+        Keep variety across cards; use people, baby, or environment-only as appropriate.
+        Avoid brand names and on-image text.
+      `,
+    },
+    {
       role: "user" as const,
       content: dedent`
-        Create a concise visual scene (2–4 sentences) for an illustration of the Swedish word "${word}" meaning "${english}".
+        Swedish word: "${word}" — meaning: "${english}".
         ${hintLine}
-        Keep variety high across cards: it's okay to use people, a baby, or no people; choose what best communicates the concept and avoid repeating the same family setup.
-        The scene must be specific, observable, and easy to draw (no brand names, no on-image text).
+        Write 2–4 sentences describing a specific, observable scene that conveys the meaning.
       `,
     },
   ];
 
-  console.log(`💭 Asking GPT-5-mini for scene...`);
+  console.log(`${tag} asking GPT-5-mini...`);
 
   let sceneDescription: string;
   try {
     const promptResponse = await openai.chat.completions.create({
       model: "gpt-5-mini",
       messages: promptCreationMessages,
-      max_completion_tokens: 1000, // Higher limit since GPT-5-mini uses tokens for reasoning internally
+      temperature: 0.7,
+      max_completion_tokens: 250,
     });
 
-    sceneDescription = promptResponse.choices[0]?.message?.content || "";
-    console.log(`🤖 GPT-5-mini response: "${sceneDescription}"`);
+    sceneDescription =
+      promptResponse.choices[0]?.message?.content?.trim() || "";
+    if (sceneDescription.length > 0) {
+      if (Bun.env.DEBUG_IMAGE_PROMPTS === "1") {
+        console.log(`${tag} scene: ${sceneDescription}`);
+      } else {
+        console.log(`${tag} scene ready`);
+      }
+    }
   } catch (error) {
-    console.log(`⚠️ GPT-5-mini error: ${error}`);
+    console.log(`${tag} ⚠️ GPT-5-mini error: ${error}`);
     sceneDescription = "";
   }
 
-  // Throw error if GPT-5-mini fails to provide a scene description
+  // Fallback if GPT returns no scene
   if (!sceneDescription || sceneDescription.trim().length === 0) {
-    throw new Error(
-      `GPT-5-mini failed to generate a scene description for "${word}" (${english})`,
-    );
+    const base = imageHint
+      ? `A filmable scene: ${imageHint}.`
+      : `An everyday scene illustrating "${english}": an adult and a baby interact with a single clear prop.`;
+    const detail = `Keep it grounded, with a clear focal action and readable lighting.`;
+    sceneDescription = `${base} ${detail}`;
+    console.log(`${tag} using fallback scene`);
   }
 
   // Combine the creative scene from GPT with our technical requirements
@@ -84,9 +104,11 @@ export async function generateImage({
     Composition: Clear focal point, balanced, cinematic framing.
   `;
 
-  console.log(`📝 Scene: ${sceneDescription}`);
+  if (Bun.env.DEBUG_IMAGE_PROMPTS === "1") {
+    console.log(`📝 ${tag} scene: ${sceneDescription}`);
+  }
   // Constructed prompt ready; omitting verbose logging
-  console.log(`🔄 Creating image...`);
+  console.log(`${tag} creating image...`);
 
   try {
     const response = await openai.images.generate({
@@ -102,7 +124,7 @@ export async function generateImage({
     // Check if we got a URL or base64 data
     if (response.data?.[0]?.url) {
       const imageUrl = response.data[0].url;
-      console.log(`⬇️ Downloading from URL: ${imageUrl.slice(0, 50)}...`);
+      console.log(`⬇️ ${tag} downloading image`);
       const imageResponse = await fetch(imageUrl);
       buffer = await imageResponse.arrayBuffer();
     } else if (response.data?.[0]?.b64_json) {
@@ -120,10 +142,10 @@ export async function generateImage({
     // Save to local file
     await Bun.write(outputPath, buffer);
 
-    console.log(`✅ Successfully saved ${outputPath}`);
+    console.log(`✅ ${tag} saved ${outputPath}`);
     return outputPath;
   } catch (error) {
-    console.error(`Failed to generate image for ${word}:`, error);
+    console.error(`${tag} failed to generate image:`, error);
     throw error;
   }
 }
