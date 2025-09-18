@@ -2172,5 +2172,455 @@
     "notes": "en trappa; plural trappor",
     "imageHint": "grand staircase with snow-dusted edges, footprints ascending",
     "mochiId": "g3ER2seb"
+  },
+  {
+    "word": "kommentar",
+    "english": "comment",
+    "examples": "Jag skrev en kommentar på bloggen.\n(I wrote a comment on the blog.)\n\nHan gav en kort kommentar om situationen.\n(He gave a brief comment about the situation.)",
+    "audio": "Jag skrev en kommentar på bloggen. Han gav en kort kommentar om situationen.",
+    "tags": ["swedish"],
+    "notes": "en kommentar; plural kommentarer",
+    "mochiId": "A0C2BQfF"
+  },
+  {
+    "word": "samma",
+    "english": "same",
+    "examples": "Vi har samma bil.\n(We have the same car.)\n\nDet är samma sak varje dag.\n(It is the same thing every day.)",
+    "audio": "Vi har samma bil. Det är samma sak varje dag.",
+    "tags": ["swedish"],
+    "notes": "invariable pronoun",
+    "mochiId": "IOgpkj0x"
+  },
+  {
+    "word": "mellan",
+    "english": "between",
+    "examples": "Huset ligger mellan skolan och parken.\n(The house is between the school and the park.)\n\nVi träffas mellan två och tre.\n(We meet between two and three.)",
+    "audio": "Huset ligger mellan skolan och parken. Vi träffas mellan två och tre.",
+    "tags": ["swedish"],
+    "notes": "preposition",
+    "mochiId": "4MxuZMVN"
+  },
+  {
+    "word": "ro",
+    "english": "peace, calm, rest",
+    "examples": "Jag behöver lite ro och tystnad.\n(I need some peace and quiet.)\n\nLåt mig arbeta i ro.\n(Let me work in peace.)",
+    "audio": "Jag behöver lite ro och tystnad. Låt mig arbeta i ro.",
+    "tags": ["swedish"],
+    "notes": "en ro; no plural",
+    "mochiId": "eB6KENqs"
+  },
+  {
+    "word": "lik",
+    "english": "similar, like",
+    "examples": "De är mycket lika varandra.\n(They are very similar to each other.)\n\nHan är lik sin far.\n(He is like his father.)",
+    "audio": "De är mycket lika varandra. Han är lik sin far.",
+    "tags": ["swedish"],
+    "notes": "adjective; likt (neuter), lika (plural)",
+    "mochiId": "AOtYZZ4l"
+  },
+  {
+    "word": "olik",
+    "english": "different, unlike",
+    "examples": "Vi har olika åsikter.\n(We have different opinions.)\n\nDe två systrarnas är helt olika.\n(The two sisters are completely different.)",
+    "audio": "Vi har olika åsikter. De två systrarna är helt olika.",
+    "tags": ["swedish"],
+    "notes": "adjective; olikt (neuter), olika (plural)",
+    "mochiId": "Rb1J82j9"
+  },
+  {
+    "word": "sådan",
+    "english": "such, that kind of",
+    "examples": "En sådan dag glömmer man aldrig.\n(Such a day you never forget.)\n\nJag vill inte ha sådana problem.\n(I do not want such problems.)",
+    "audio": "En sådan dag glömmer man aldrig. Jag vill inte ha sådana problem.",
+    "tags": ["swedish"],
+    "notes": "pronoun; sådant (neuter), sådana (plural)",
+    "mochiId": "Wjxa2v5y"
+  },
+  {
+    "word": "sätt",
+    "english": "way, manner",
+    "examples": "På vilket sätt kan jag hjälpa dig?\n(In what way can I help you?)\n\nDet är hans sätt att vara.\n(That is his way of being.)",
+    "audio": "På vilket sätt kan jag hjälpa dig? Det är hans sätt att vara.",
+    "tags": ["swedish"],
+    "notes": "ett sätt; plural sätt",
+    "mochiId": "8rJ72ACy"
+  },
+  {
+    "word": "hans",
+    "english": "his",
+    "examples": "Det är hans bok.\n(It is his book.)\n\nHans föräldrar bor i Stockholm.\n(His parents live in Stockholm.)",
+    "audio": "Det är hans bok. Hans föräldrar bor i Stockholm.",
+    "tags": ["swedish"],
+    "notes": "possessive pronoun; invariable",
+    "mochiId": "yyKd3A4H"
+  },
+  {
+    "word": "din",
+    "english": "your (singular)",
+    "examples": "Är det din bil?\n(Is it your car?)\n\nJag såg din syster igår.\n(I saw your sister yesterday.)",
+    "audio": "Är det din bil? Jag såg din syster igår.",
+    "tags": ["swedish"],
+    "notes": "possessive pronoun; ditt (neuter), dina (plural)",
+    "mochiId": "L8Pw20tO"
+  },
+  {
+    "word": "gång",
+    "english": "time, occasion; walk",
+    "examples": "Det var första gången jag såg havet.\n(It was the first time I saw the sea.)\n\nHon har en snabb gång.\n(She has a quick walk.)",
+    "audio": "Det var första gången jag såg havet. Hon har en snabb gång.",
+    "tags": ["swedish"],
+    "notes": "en gång; plural gånger",
+    "mochiId": "CPxcVDCF"
+  },
+  {
+    "word": "inom",
+    "english": "within, inside",
+    "examples": "Vi ses inom en timme.\n(We will see each other within an hour.)\n\nHan arbetar inom IT-branschen.\n(He works in the IT industry.)",
+    "audio": "Vi ses inom en timme. Han arbetar inom IT-branschen.",
+    "tags": ["swedish"],
+    "notes": "preposition",
+    "mochiId": "ljZP7vF9"
+  },
+  {
+    "word": "helt",
+    "english": "completely, entirely",
+    "examples": "Jag är helt säker.\n(I am completely sure.)\n\nDet är helt omöjligt.\n(It is entirely impossible.)",
+    "audio": "Jag är helt säker. Det är helt omöjligt.",
+    "tags": ["swedish"],
+    "notes": "adverb; also adjective hel/helt/hela",
+    "mochiId": "zrkLiqxe"
+  },
+  {
+    "word": "fler",
+    "english": "more, several",
+    "examples": "Vi behöver fler stolar.\n(We need more chairs.)\n\nFler och fler människor cyklar till jobbet.\n(More and more people bike to work.)",
+    "audio": "Vi behöver fler stolar. Fler och fler människor cyklar till jobbet.",
+    "tags": ["swedish"],
+    "notes": "comparative of många; flera (definite/plural)",
+    "mochiId": "2CLaWKYU"
+  },
+  {
+    "word": "väl",
+    "english": "well; surely",
+    "examples": "Hon sjunger väl.\n(She sings well.)\n\nDu kommer väl imorgon?\n(You are coming tomorrow, right?)",
+    "audio": "Hon sjunger väl. Du kommer väl imorgon?",
+    "tags": ["swedish"],
+    "notes": "adverb; modal particle when expressing assumption",
+    "mochiId": "Q8LHdPTy"
+  },
+  {
+    "word": "enligt",
+    "english": "according to",
+    "examples": "Enligt prognosen blir det regn.\n(According to the forecast, it will rain.)\n\nEnligt min åsikt är det fel.\n(According to my opinion, it is wrong.)",
+    "audio": "Enligt prognosen blir det regn. Enligt min åsikt är det fel.",
+    "tags": ["swedish"],
+    "notes": "preposition",
+    "mochiId": "f4lzdvyh"
+  },
+  {
+    "word": "ni",
+    "english": "you (plural/formal)",
+    "examples": "Vad gör ni ikväll?\n(What are you doing tonight?)\n\nNi är alltid välkomna.\n(You are always welcome.)",
+    "audio": "Vad gör ni ikväll? Ni är alltid välkomna.",
+    "tags": ["swedish"],
+    "notes": "personal pronoun; object form: er",
+    "mochiId": "LBoAiZTr"
+  },
+  {
+    "word": "viktig",
+    "english": "important",
+    "examples": "Det är en viktig fråga.\n(It is an important question.)\n\nFamiljen är viktig för mig.\n(Family is important to me.)",
+    "audio": "Det är en viktig fråga. Familjen är viktig för mig.",
+    "tags": ["swedish"],
+    "notes": "adjective; viktigt (neuter), viktiga (plural)",
+    "mochiId": "I3qw7BId"
+  },
+  {
+    "word": "ring",
+    "english": "ring, circle",
+    "examples": "Hon har en guldring på fingret.\n(She has a gold ring on her finger.)\n\nBarnen sitter i en ring.\n(The children sit in a circle.)",
+    "audio": "Hon har en guldring på fingret. Barnen sitter i en ring.",
+    "tags": ["swedish"],
+    "notes": "en ring; plural ringar",
+    "mochiId": "5pukA5kP"
+  },
+  {
+    "word": "eftersom",
+    "english": "since, because",
+    "examples": "Jag stannar hemma eftersom jag är sjuk.\n(I am staying home because I am sick.)\n\nEftersom det regnar tar vi bilen.\n(Since it is raining, we take the car.)",
+    "audio": "Jag stannar hemma eftersom jag är sjuk. Eftersom det regnar tar vi bilen.",
+    "tags": ["swedish"],
+    "notes": "subordinating conjunction",
+    "mochiId": "Bci3Yi6w"
+  },
+  {
+    "word": "deras",
+    "english": "their",
+    "examples": "Det är deras hus.\n(It is their house.)\n\nDeras barn går i samma skola.\n(Their children go to the same school.)",
+    "audio": "Det är deras hus. Deras barn går i samma skola.",
+    "tags": ["swedish"],
+    "notes": "possessive pronoun; invariable",
+    "mochiId": "Jf4zwNhE"
+  },
+  {
+    "word": "viss",
+    "english": "certain, specific",
+    "examples": "I vissa fall är det möjligt.\n(In certain cases it is possible.)\n\nHan har en viss charm.\n(He has a certain charm.)",
+    "audio": "I vissa fall är det möjligt. Han har en viss charm.",
+    "tags": ["swedish"],
+    "notes": "adjective; visst (neuter), vissa (plural)",
+    "mochiId": "j6U46w5l"
+  },
+  {
+    "word": "dock",
+    "english": "however, though",
+    "examples": "Det är dyrt, dock värt det.\n(It is expensive, however worth it.)\n\nJag förstår dock inte varför.\n(I do not understand why, though.)",
+    "audio": "Det är dyrt, dock värt det. Jag förstår dock inte varför.",
+    "tags": ["swedish"],
+    "notes": "adverb/conjunction",
+    "mochiId": "S2T1azYM"
+  },
+  {
+    "word": "egen",
+    "english": "own",
+    "examples": "Hon har sin egen lägenhet.\n(She has her own apartment.)\n\nVar och en får göra sitt eget val.\n(Everyone gets to make their own choice.)",
+    "audio": "Hon har sin egen lägenhet. Var och en får göra sitt eget val.",
+    "tags": ["swedish"],
+    "notes": "adjective; eget (neuter), egna (plural)",
+    "mochiId": "f842h3VR"
+  },
+  {
+    "word": "fram",
+    "english": "forward, forth",
+    "examples": "Kom fram till mig.\n(Come forward to me.)\n\nHan tog fram en bok.\n(He took out a book.)",
+    "audio": "Kom fram till mig. Han tog fram en bok.",
+    "tags": ["swedish"],
+    "notes": "adverb/particle",
+    "mochiId": "DbdZZtZ1"
+  },
+  {
+    "word": "honom",
+    "english": "him",
+    "examples": "Jag såg honom igår.\n(I saw him yesterday.)\n\nGe boken till honom.\n(Give the book to him.)",
+    "audio": "Jag såg honom igår. Ge boken till honom.",
+    "tags": ["swedish"],
+    "notes": "object form of han",
+    "mochiId": "ncaBFBHv"
+  },
+  {
+    "word": "länge",
+    "english": "long (time)",
+    "examples": "Hur länge stannar du?\n(How long are you staying?)\n\nJag har väntat länge.\n(I have waited long.)",
+    "audio": "Hur länge stannar du? Jag har väntat länge.",
+    "tags": ["swedish"],
+    "notes": "adverb; längre (comparative), längst (superlative)",
+    "mochiId": "K0t54Cth"
+  },
+  {
+    "word": "både",
+    "english": "both",
+    "examples": "Både du och jag vet det.\n(Both you and I know it.)\n\nHon talar både svenska och engelska.\n(She speaks both Swedish and English.)",
+    "audio": "Både du och jag vet det. Hon talar både svenska och engelska.",
+    "tags": ["swedish"],
+    "notes": "conjunction; både...och (both...and)",
+    "mochiId": "nLUIlvA0"
+  },
+  {
+    "word": "just",
+    "english": "just, precisely",
+    "examples": "Det var just det jag menade.\n(That was just what I meant.)\n\nHan kom just nu.\n(He came just now.)",
+    "audio": "Det var just det jag menade. Han kom just nu.",
+    "tags": ["swedish"],
+    "notes": "adverb",
+    "mochiId": "7Nd4jlRe"
+  },
+  {
+    "word": "ofta",
+    "english": "often",
+    "examples": "Vi träffas ofta.\n(We meet often.)\n\nHur ofta går du till gymmet?\n(How often do you go to the gym?)",
+    "audio": "Vi träffas ofta. Hur ofta går du till gymmet?",
+    "tags": ["swedish"],
+    "notes": "adverb; oftare (comparative), oftast (superlative)",
+    "mochiId": "0zBX0hmN"
+  },
+  {
+    "word": "varje",
+    "english": "every, each",
+    "examples": "Varje dag är en ny början.\n(Every day is a new beginning.)\n\nJag läser varje kväll.\n(I read every evening.)",
+    "audio": "Varje dag är en ny början. Jag läser varje kväll.",
+    "tags": ["swedish"],
+    "notes": "determiner; invariable",
+    "mochiId": "tyh3kkbY"
+  },
+  {
+    "word": "artikel",
+    "english": "article",
+    "examples": "Jag läste en intressant artikel.\n(I read an interesting article.)\n\nHon skrev artikeln om miljön.\n(She wrote the article about the environment.)",
+    "audio": "Jag läste en intressant artikel. Hon skrev artikeln om miljön.",
+    "tags": ["swedish"],
+    "notes": "en artikel; plural artiklar",
+    "mochiId": "r70kyXGs"
+  },
+  {
+    "word": "åt",
+    "english": "to, for (direction)",
+    "examples": "Gå åt höger.\n(Go to the right.)\n\nJag köpte en present åt henne.\n(I bought a present for her.)",
+    "audio": "Gå åt höger. Jag köpte en present åt henne.",
+    "tags": ["swedish"],
+    "notes": "preposition",
+    "mochiId": "td4aIsLm"
+  },
+  {
+    "word": "nog",
+    "english": "enough; probably",
+    "examples": "Det är nog sant.\n(It is probably true.)\n\nJag har fått nog.\n(I have had enough.)",
+    "audio": "Det är nog sant. Jag har fått nog.",
+    "tags": ["swedish"],
+    "notes": "adverb; modal particle",
+    "mochiId": "M0wfmgEW"
+  },
+  {
+    "word": "bok",
+    "english": "book",
+    "examples": "Jag läser en spännande bok.\n(I am reading an exciting book.)\n\nBöckerna står på hyllan.\n(The books are on the shelf.)",
+    "audio": "Jag läser en spännande bok. Böckerna står på hyllan.",
+    "tags": ["swedish"],
+    "notes": "en bok; plural böcker",
+    "mochiId": "4iy9aQmu"
+  },
+  {
+    "word": "varför",
+    "english": "why",
+    "examples": "Varför är du sen?\n(Why are you late?)\n\nJag förstår inte varför.\n(I do not understand why.)",
+    "audio": "Varför är du sen? Jag förstår inte varför.",
+    "tags": ["swedish"],
+    "notes": "interrogative/relative adverb",
+    "mochiId": "OkbyuCBQ"
+  },
+  {
+    "word": "därför",
+    "english": "therefore, that is why",
+    "examples": "Det regnar, därför stannar jag hemma.\n(It is raining, therefore I stay home.)\n\nDärför att jag ville det.\n(Because I wanted to.)",
+    "audio": "Det regnar, därför stannar jag hemma. Därför att jag ville det.",
+    "tags": ["swedish"],
+    "notes": "adverb; därför att (because)",
+    "mochiId": "2ENymN6x"
+  },
+  {
+    "word": "sen",
+    "english": "late; then",
+    "examples": "Du är sen igen.\n(You are late again.)\n\nFörst äter vi, sen går vi.\n(First we eat, then we go.)",
+    "audio": "Du är sen igen. Först äter vi, sen går vi.",
+    "tags": ["swedish"],
+    "notes": "adjective/adverb; sent (neuter), sena (plural); colloquial for sedan",
+    "mochiId": "GQricw9G"
+  },
+  {
+    "word": "hos",
+    "english": "at, with (someones place)",
+    "examples": "Jag bor hos mina föräldrar.\n(I live with my parents.)\n\nVi träffas hos dig.\n(We meet at your place.)",
+    "audio": "Jag bor hos mina föräldrar. Vi träffas hos dig.",
+    "tags": ["swedish"],
+    "notes": "preposition",
+    "mochiId": "PbdmcrFy"
+  },
+  {
+    "word": "alltid",
+    "english": "always",
+    "examples": "Hon kommer alltid i tid.\n(She always comes on time.)\n\nJag har alltid velat resa dit.\n(I have always wanted to travel there.)",
+    "audio": "Hon kommer alltid i tid. Jag har alltid velat resa dit.",
+    "tags": ["swedish"],
+    "notes": "adverb",
+    "mochiId": "KrgOa8UN"
+  },
+  {
+    "word": "samt",
+    "english": "and, as well as",
+    "examples": "Kaffe samt te serveras.\n(Coffee as well as tea is served.)\n\nAlla barn samt vuxna är välkomna.\n(All children as well as adults are welcome.)",
+    "audio": "Kaffe samt te serveras. Alla barn samt vuxna är välkomna.",
+    "tags": ["swedish"],
+    "notes": "conjunction; formal",
+    "mochiId": "G5QlS2zQ"
+  },
+  {
+    "word": "innan",
+    "english": "before",
+    "examples": "Ring mig innan du kommer.\n(Call me before you come.)\n\nInnan mötet började.\n(Before the meeting started.)",
+    "audio": "Ring mig innan du kommer. Innan mötet började.",
+    "tags": ["swedish"],
+    "notes": "conjunction/preposition",
+    "mochiId": "RhgBNMLF"
+  },
+  {
+    "word": "ur",
+    "english": "out of, from",
+    "examples": "Ta upp boken ur väskan.\n(Take the book out of the bag.)\n\nHan drack ur glaset.\n(He drank from the glass.)",
+    "audio": "Ta upp boken ur väskan. Han drack ur glaset.",
+    "tags": ["swedish"],
+    "notes": "preposition",
+    "mochiId": "GVQecfyA"
+  },
+  {
+    "word": "alltså",
+    "english": "thus, so, therefore",
+    "examples": "Du är sjuk, alltså bör du stanna hemma.\n(You are sick, so you should stay home.)\n\nAlltså, vad menar du?\n(So, what do you mean?)",
+    "audio": "Du är sjuk, alltså bör du stanna hemma. Alltså, vad menar du?",
+    "tags": ["swedish"],
+    "notes": "adverb/conjunction",
+    "mochiId": "ydNXfEaA"
+  },
+  {
+    "word": "innebära",
+    "english": "to mean, imply, involve",
+    "examples": "Vad innebär det?\n(What does it mean?)\n\nDet innebär mycket arbete.\n(It involves a lot of work.)",
+    "audio": "Vad innebär det? Det innebär mycket arbete.",
+    "tags": ["swedish"],
+    "notes": "verb; innebär, innebar, inneburit",
+    "mochiId": "qYxDOcXJ"
+  },
+  {
+    "word": "genom att",
+    "english": "by (doing)",
+    "examples": "Hon lärde sig genom att öva.\n(She learned by practicing.)\n\nGenom att spara pengar kunde han köpa huset.\n(By saving money, he could buy the house.)",
+    "audio": "Hon lärde sig genom att öva. Genom att spara pengar kunde han köpa huset.",
+    "tags": ["swedish"],
+    "notes": "prepositional phrase",
+    "mochiId": "AJoZYC0k"
+  },
+  {
+    "word": "politisk",
+    "english": "political",
+    "examples": "Det är en politisk fråga.\n(It is a political question.)\n\nHan har starka politiska åsikter.\n(He has strong political opinions.)",
+    "audio": "Det är en politisk fråga. Han har starka politiska åsikter.",
+    "tags": ["swedish"],
+    "notes": "adjective; politiskt (neuter), politiska (plural)",
+    "mochiId": "EuzFSgDz"
+  },
+  {
+    "word": "er",
+    "english": "your (plural/formal); you (object)",
+    "examples": "Är det er bil?\n(Is it your car?)\n\nJag såg er på torget.\n(I saw you in the square.)",
+    "audio": "Är det er bil? Jag såg er på torget.",
+    "tags": ["swedish"],
+    "notes": "possessive/personal pronoun; ert (neuter), era (plural)",
+    "mochiId": "jt9SuU9o"
+  },
+  {
+    "word": "så att",
+    "english": "so that",
+    "examples": "Tala högt så att alla hör.\n(Speak loudly so that everyone hears.)\n\nJag kom tidigt så att jag kunde förbereda mig.\n(I came early so that I could prepare.)",
+    "audio": "Tala högt så att alla hör. Jag kom tidigt så att jag kunde förbereda mig.",
+    "tags": ["swedish"],
+    "notes": "conjunction",
+    "mochiId": "Ib7yhdr2"
+  },
+  {
+    "word": "lika",
+    "english": "equally, alike",
+    "examples": "De är lika långa.\n(They are equally tall.)\n\nVi tänker lika.\n(We think alike.)",
+    "audio": "De är lika långa. Vi tänker lika.",
+    "tags": ["swedish"],
+    "notes": "adverb/adjective",
+    "mochiId": "ngAmQGh3"
   }
 ]
