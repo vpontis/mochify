@@ -11,9 +11,23 @@ This guide explains how to add and manage Swedish vocabulary cards in the Mochif
 
 ### Step-by-Step Process
 
-#### 1. Add Words to swedish-core.json
+#### 1. Create Word List for Confirmation
 
-Edit `vocab/swedish-core.json` and add new vocabulary entries following this structure:
+First, create a simple numbered list of Swedish words with English translations for review:
+
+```
+1. hej - hello, hi
+2. tack - thanks, thank you
+3. vad - what
+4. hur - how
+5. varför - why
+```
+
+Present this list for confirmation before proceeding to the next steps.
+
+#### 2. Add Words to swedish-core.json
+
+After confirmation, edit `vocab/swedish-core.json` and add new vocabulary entries following this structure:
 
 ```json
 {
@@ -36,7 +50,7 @@ Edit `vocab/swedish-core.json` and add new vocabulary entries following this str
 - `notes`: Grammar notes, conjugations, or usage tips
 - `mochiId`: (Auto-generated) Don't add this manually - it's created during sync
 
-#### 2. Sync to Mochi
+#### 3. Sync to Mochi
 
 Run the sync script to upload new cards and update existing ones:
 
@@ -50,7 +64,7 @@ The script will:
 - Update existing cards that have `mochiId`
 - Save the generated IDs back to `swedish-core.json`
 
-#### 3. Generate Images (Required for Visual Learning)
+#### 4. Generate Images (Required for Visual Learning)
 
 Generate AI-powered images for all new cards:
 
@@ -85,7 +99,7 @@ You can add an `imageHint` to any vocab item in `vocab/swedish-core.json`. Keep 
 
 If omitted, the generator writes a general prompt and lets the model pick an appropriate composition.
 
-#### 4. Re-sync to Add Images
+#### 5. Re-sync to Add Images
 
 After generating images, sync again to add them to the cards:
 
