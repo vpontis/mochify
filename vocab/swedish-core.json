@@ -2622,5 +2622,275 @@
     "tags": ["swedish"],
     "notes": "adverb/adjective",
     "mochiId": "ngAmQGh3"
+  },
+  {
+    "word": "gärna",
+    "english": "gladly, willingly, with pleasure",
+    "examples": "Jag hjälper dig gärna.\n(I'll gladly help you.)\n\nVill du gärna komma med?\n(Would you like to come along?)",
+    "audio": "Jag hjälper dig gärna. Vill du gärna komma med?",
+    "tags": ["swedish"],
+    "notes": "adverb expressing willingness or desire",
+    "mochiId": "sM7yCbNR"
+  },
+  {
+    "word": "ändå",
+    "english": "anyway, still, nevertheless",
+    "examples": "Det regnar men vi går ut ändå.\n(It's raining but we're going out anyway.)\n\nHan är trött men arbetar ändå.\n(He's tired but still working.)",
+    "audio": "Det regnar men vi går ut ändå. Han är trött men arbetar ändå.",
+    "tags": ["swedish"],
+    "notes": "adverb showing contrast",
+    "mochiId": "irhPavTc"
+  },
+  {
+    "word": "lyckas",
+    "english": "to succeed, to manage",
+    "examples": "Jag lyckades lösa problemet.\n(I managed to solve the problem.)\n\nHon lyckas alltid med sina projekt.\n(She always succeeds with her projects.)",
+    "audio": "Jag lyckades lösa problemet. Hon lyckas alltid med sina projekt.",
+    "tags": ["swedish"],
+    "notes": "deponent verb (lyckas/lyckades/lyckats)",
+    "mochiId": "e0BtoBcq"
+  },
+  {
+    "word": "dessutom",
+    "english": "besides, moreover, in addition",
+    "examples": "Det är dyrt och dessutom onödigt.\n(It's expensive and moreover unnecessary.)\n\nHan kan svenska och dessutom norska.\n(He knows Swedish and Norwegian besides.)",
+    "audio": "Det är dyrt och dessutom onödigt. Han kan svenska och dessutom norska.",
+    "tags": ["swedish"],
+    "notes": "adverb for adding information",
+    "mochiId": "DSKGz3gB"
+  },
+  {
+    "word": "tidigare",
+    "english": "earlier, previous, former",
+    "examples": "Vi träffades tidigare idag.\n(We met earlier today.)\n\nHans tidigare jobb var lärare.\n(His previous job was as a teacher.)",
+    "audio": "Vi träffades tidigare idag. Hans tidigare jobb var lärare.",
+    "tags": ["swedish"],
+    "notes": "adverb/adjective; comparative of tidig",
+    "mochiId": "vZrbwT4J"
+  },
+  {
+    "word": "väldigt",
+    "english": "very, really",
+    "examples": "Det är väldigt kallt ute.\n(It's very cold outside.)\n\nHon är väldigt snäll.\n(She is really kind.)",
+    "audio": "Det är väldigt kallt ute. Hon är väldigt snäll.",
+    "tags": ["swedish"],
+    "notes": "adverb intensifier, similar to mycket",
+    "mochiId": "wJi63BjS"
+  },
+  {
+    "word": "ja",
+    "english": "yes",
+    "examples": "Ja, jag kommer imorgon.\n(Yes, I'm coming tomorrow.)\n\nJa tack, gärna det!\n(Yes please, I'd like that!)",
+    "audio": "Ja, jag kommer imorgon. Ja tack, gärna det!",
+    "tags": ["swedish"],
+    "notes": "interjection; opposite of nej",
+    "mochiId": "tlvjxCz1"
+  },
+  {
+    "word": "faktiskt",
+    "english": "actually, in fact, really",
+    "examples": "Jag är faktiskt ganska trött.\n(I'm actually quite tired.)\n\nDet var faktiskt han som sa det.\n(It was actually him who said that.)",
+    "audio": "Jag är faktiskt ganska trött. Det var faktiskt han som sa det.",
+    "tags": ["swedish"],
+    "notes": "adverb emphasizing truth or reality",
+    "mochiId": "5B4kgj7Q"
+  },
+  {
+    "word": "ner",
+    "english": "down",
+    "examples": "Kom ner till köket!\n(Come down to the kitchen!)\n\nHan gick ner för trappan.\n(He went down the stairs.)",
+    "audio": "Kom ner till köket! Han gick ner för trappan.",
+    "tags": ["swedish"],
+    "notes": "particle indicating downward movement",
+    "mochiId": "jn3Civ0A"
+  },
+  {
+    "word": "sent",
+    "english": "late",
+    "examples": "Vi kom sent till festen.\n(We arrived late to the party.)\n\nDet är sent på kvällen.\n(It's late in the evening.)",
+    "audio": "Vi kom sent till festen. Det är sent på kvällen.",
+    "tags": ["swedish"],
+    "notes": "adverb; opposite of tidigt",
+    "mochiId": "RREUvYO8"
+  },
+  {
+    "word": "ekonomisk",
+    "english": "economic, economical",
+    "examples": "Den ekonomiska krisen påverkar alla.\n(The economic crisis affects everyone.)\n\nDet är mer ekonomiskt att köpa i bulk.\n(It's more economical to buy in bulk.)",
+    "audio": "Den ekonomiska krisen påverkar alla. Det är mer ekonomiskt att köpa i bulk.",
+    "tags": ["swedish"],
+    "notes": "adjective; ekonomiskt (neuter/adverb)",
+    "mochiId": "JWdJBKgH"
+  },
+  {
+    "word": "dålig",
+    "english": "bad, poor",
+    "examples": "Vädret är dåligt idag.\n(The weather is bad today.)\n\nHan har dålig hörsel.\n(He has poor hearing.)",
+    "audio": "Vädret är dåligt idag. Han har dålig hörsel.",
+    "tags": ["swedish"],
+    "notes": "adjective; dåligt (neuter), dåliga (plural)",
+    "mochiId": "4aG0VIWN"
+  },
+  {
+    "word": "verkligen",
+    "english": "really, truly",
+    "examples": "Jag menar det verkligen.\n(I really mean it.)\n\nÄr det verkligen sant?\n(Is it really true?)",
+    "audio": "Jag menar det verkligen. Är det verkligen sant?",
+    "tags": ["swedish"],
+    "notes": "adverb for emphasis",
+    "mochiId": "Ls4ofSGS"
+  },
+  {
+    "word": "fortfarande",
+    "english": "still, yet",
+    "examples": "Hon bor fortfarande i Stockholm.\n(She still lives in Stockholm.)\n\nÄr du fortfarande här?\n(Are you still here?)",
+    "audio": "Hon bor fortfarande i Stockholm. Är du fortfarande här?",
+    "tags": ["swedish"],
+    "notes": "adverb indicating continuation",
+    "mochiId": "2EqFqmnS"
+  },
+  {
+    "word": "även om",
+    "english": "even if, even though",
+    "examples": "Jag kommer även om det regnar.\n(I'll come even if it rains.)\n\nÄven om han är trött arbetar han.\n(Even though he's tired, he works.)",
+    "audio": "Jag kommer även om det regnar. Även om han är trött arbetar han.",
+    "tags": ["swedish"],
+    "notes": "conjunction introducing concession",
+    "mochiId": "JOB5KgqJ"
+  },
+  {
+    "word": "enda",
+    "english": "only, sole",
+    "examples": "Det är det enda alternativet.\n(It's the only option.)\n\nHon är mitt enda barn.\n(She is my only child.)",
+    "audio": "Det är det enda alternativet. Hon är mitt enda barn.",
+    "tags": ["swedish"],
+    "notes": "adjective; definite form of en",
+    "mochiId": "mfmOsx8T"
+  },
+  {
+    "word": "bort",
+    "english": "away",
+    "examples": "Gå bort härifrån!\n(Go away from here!)\n\nHan är bortrest.\n(He's away traveling.)",
+    "audio": "Gå bort härifrån! Han är bortrest.",
+    "tags": ["swedish"],
+    "notes": "particle indicating movement away",
+    "mochiId": "mu9J6BhO"
+  },
+  {
+    "word": "möjlig",
+    "english": "possible",
+    "examples": "Är det möjligt att komma imorgon?\n(Is it possible to come tomorrow?)\n\nAlla möjliga lösningar.\n(All possible solutions.)",
+    "audio": "Är det möjligt att komma imorgon? Alla möjliga lösningar.",
+    "tags": ["swedish"],
+    "notes": "adjective; möjligt (neuter), möjliga (plural)",
+    "mochiId": "c3Qq9n3G"
+  },
+  {
+    "word": "många",
+    "english": "many",
+    "examples": "Det finns många människor här.\n(There are many people here.)\n\nHur många kommer?\n(How many are coming?)",
+    "audio": "Det finns många människor här. Hur många kommer?",
+    "tags": ["swedish"],
+    "notes": "pronoun/determiner for quantity",
+    "mochiId": "id1Io7Li"
+  },
+  {
+    "word": "hända",
+    "english": "to happen, to occur",
+    "examples": "Vad hände igår?\n(What happened yesterday?)\n\nDet kan hända när som helst.\n(It can happen at any time.)",
+    "audio": "Vad hände igår? Det kan hända när som helst.",
+    "tags": ["swedish"],
+    "notes": "verb; händer/hände/hänt",
+    "mochiId": "AR43jEwB"
+  },
+  {
+    "word": "ämna",
+    "english": "to intend, to be about to",
+    "examples": "Jag ämnar resa imorgon.\n(I intend to travel tomorrow.)\n\nVad ämnar du göra?\n(What do you intend to do?)",
+    "audio": "Jag ämnar resa imorgon. Vad ämnar du göra?",
+    "tags": ["swedish"],
+    "notes": "verb; ämnar/ämnade/ämnat",
+    "mochiId": "aol2MEWe"
+  },
+  {
+    "word": "endast",
+    "english": "only, solely",
+    "examples": "Det gäller endast dig.\n(It applies only to you.)\n\nEndast medlemmar får komma in.\n(Only members may enter.)",
+    "audio": "Det gäller endast dig. Endast medlemmar får komma in.",
+    "tags": ["swedish"],
+    "notes": "adverb; more formal than bara",
+    "mochiId": "NzQl7ZTB"
+  },
+  {
+    "word": "vidare",
+    "english": "further, onwards",
+    "examples": "Låt oss gå vidare med planen.\n(Let's proceed with the plan.)\n\nOch så vidare.\n(And so on.)",
+    "audio": "Låt oss gå vidare med planen. Och så vidare.",
+    "tags": ["swedish"],
+    "notes": "adverb indicating continuation",
+    "mochiId": "hvP6v29Y"
+  },
+  {
+    "word": "ganska",
+    "english": "quite, rather, fairly",
+    "examples": "Det är ganska kallt ute.\n(It's quite cold outside.)\n\nHon är ganska lång.\n(She is rather tall.)",
+    "audio": "Det är ganska kallt ute. Hon är ganska lång.",
+    "tags": ["swedish"],
+    "notes": "adverb of degree",
+    "mochiId": "VaQxCCVH"
+  },
+  {
+    "word": "varenda",
+    "english": "every single, each and every",
+    "examples": "Varenda dag regnar det.\n(It rains every single day.)\n\nJag känner varenda person här.\n(I know each and every person here.)",
+    "audio": "Varenda dag regnar det. Jag känner varenda person här.",
+    "tags": ["swedish"],
+    "notes": "determiner; emphatic form of varje",
+    "mochiId": "W6qpJrLe"
+  },
+  {
+    "word": "heller",
+    "english": "either, neither",
+    "examples": "Jag vill inte heller.\n(I don't want to either.)\n\nInte han heller.\n(Not him either.)",
+    "audio": "Jag vill inte heller. Inte han heller.",
+    "tags": ["swedish"],
+    "notes": "adverb in negative contexts",
+    "mochiId": "c82YH8HT"
+  },
+  {
+    "word": "riktigt",
+    "english": "really, properly, correctly",
+    "examples": "Det är riktigt bra!\n(It's really good!)\n\nGör det riktigt.\n(Do it properly.)",
+    "audio": "Det är riktigt bra! Gör det riktigt.",
+    "tags": ["swedish"],
+    "notes": "adverb; also means 'correct' as adjective",
+    "mochiId": "B64axQco"
+  },
+  {
+    "word": "uppgift",
+    "english": "task, assignment, information",
+    "examples": "Jag har en viktig uppgift.\n(I have an important task.)\n\nEnligt uppgift kommer han imorgon.\n(According to information, he's coming tomorrow.)",
+    "audio": "Jag har en viktig uppgift. Enligt uppgift kommer han imorgon.",
+    "tags": ["swedish"],
+    "notes": "en uppgift, uppgifter (plural)",
+    "mochiId": "teHEhpRg"
+  },
+  {
+    "word": "nästan",
+    "english": "almost, nearly",
+    "examples": "Vi är nästan framme.\n(We're almost there.)\n\nDet är nästan midnatt.\n(It's nearly midnight.)",
+    "audio": "Vi är nästan framme. Det är nästan midnatt.",
+    "tags": ["swedish"],
+    "notes": "adverb of approximation",
+    "mochiId": "lts6jZyP"
+  },
+  {
+    "word": "bland",
+    "english": "among, amongst",
+    "examples": "Han sitter bland vännerna.\n(He sits among friends.)\n\nBland annat.\n(Among other things.)",
+    "audio": "Han sitter bland vännerna. Bland annat.",
+    "tags": ["swedish"],
+    "notes": "preposition; bland annat = among other things",
+    "mochiId": "oYx4Ek4D"
   }
 ]
