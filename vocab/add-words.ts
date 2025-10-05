@@ -42,23 +42,26 @@ async function generateVocabEntry(
   word: string,
 ): Promise<GeneratedEntry | null> {
   try {
-    const prompt = `Generate a comprehensive Swedish vocabulary entry for the word "${word}".
+    const prompt = `Generate a Swedish vocabulary entry for the word "${word}".
 
 Return a JSON object with this exact structure:
 {
   "word": "${word}",
   "english": "concise translation(s)",
-  "definition": "Brief explanation of meaning and usage",
-  "grammar": "Grammar info (verb conjugation, noun gender/plural, etc)",
+  "definition": "Brief explanation of meaning",
+  "grammar": "SHORT grammar note ONLY - examples: 'vet/visste/vetat (irregular verb)' or 'en bok, boken, böcker (common noun)' or 'god/gott/goda (adjective)'",
   "examples": [
     {"swedish": "Example sentence", "english": "Translation"},
     {"swedish": "Another example", "english": "Translation"}
   ],
-  "usage": "Usage notes, frequency, register (formal/informal), contexts",
+  "usage": "Brief usage note if important",
   "imageHint": "6-10 word scene description for image generation (no people)"
 }
 
-Make examples natural and practical. Include cultural context if relevant.`;
+IMPORTANT:
+- grammar must be a SHORT STRING (max 80 chars) with conjugations/forms only
+- Examples should be natural and practical
+- Keep it concise`;
 
     const response = await openai.chat.completions.create({
       model: "gpt-4o-mini",
@@ -66,7 +69,7 @@ Make examples natural and practical. Include cultural context if relevant.`;
         {
           role: "system",
           content:
-            "You are a Swedish language expert. Generate accurate, practical vocabulary entries.",
+            "You are a Swedish language expert. Generate accurate, practical vocabulary entries. Keep grammar notes SHORT and concise (max 80 chars). Focus on essential conjugations/declensions only.",
         },
         {
           role: "user",
@@ -97,16 +100,16 @@ function convertToVocabWord(entry: GeneratedEntry): VocabWord {
   // Build audio from Swedish sentences only
   const audioText = entry.examples.map((ex) => ex.swedish).join(" ");
 
-  // Build notes
-  const notesParts: string[] = [];
-  if (entry.grammar) {
-    notesParts.push(entry.grammar);
-  }
-  if (entry.definition && entry.definition !== entry.english) {
-    notesParts.push(entry.definition);
-  }
-  if (entry.usage) {
-    notesParts.push(entry.usage);
+  // Build notes - ONLY use grammar field, keep it concise
+  let notes = entry.grammar || "";
+
+  // Add brief usage note only if it's truly important and short
+  if (
+    entry.usage &&
+    entry.usage.length < 60 &&
+    !entry.usage.toLowerCase().includes("commonly used")
+  ) {
+    notes = notes ? `${notes}; ${entry.usage}` : entry.usage;
   }
 
   return {
@@ -115,7 +118,7 @@ function convertToVocabWord(entry: GeneratedEntry): VocabWord {
     examples: examplesText,
     audio: audioText,
     tags: ["swedish"],
-    notes: notesParts.join("; "),
+    notes: notes,
     imageHint: entry.imageHint,
   };
 }

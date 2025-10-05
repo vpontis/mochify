@@ -47,7 +47,7 @@ After confirmation, edit `vocab/swedish-core.json` and add new vocabulary entrie
 - `examples`: Swedish sentences with English translations in parentheses
 - `audio`: Text for text-to-speech (usually the example sentences)
 - `tags`: Use `["swedish"]` (omit "core" tags)
-- `notes`: Grammar notes, conjugations, or usage tips
+- `notes`: **SHORT** grammar notes only (max ~80 chars) - e.g., "vet/visste/vetat (irregular verb)" or "en bok, boken, böcker (common noun)"
 - `mochiId`: (Auto-generated) Don't add this manually - it's created during sync
 
 #### 3. Sync to Mochi
@@ -146,13 +146,18 @@ Always include 2-3 example sentences that:
 
 ### 2. Grammar Notes
 
-Include in the `notes` field:
+**Keep notes SHORT and concise (max ~80 chars)!** Include only:
 
-- Verb conjugations (present/past/supine)
-- Noun genders and plurals
-- Adjective forms (en/ett/plural)
-- Irregular forms
-- Common expressions using the word
+- Verb conjugations: `vet/visste/vetat (irregular verb)`
+- Noun forms: `en bok, boken, böcker (common noun)`
+- Adjective forms: `god/gott/goda (adjective)`
+- Brief irregular notes: `ligger/låg/legat (irregular verb)`
+
+**Do NOT include:**
+
+- Long explanations or usage contexts
+- Frequency information ("commonly used...")
+- Definitions (those go in the `english` field)
 
 ### 3. Audio Text
 

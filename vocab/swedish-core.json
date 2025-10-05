@@ -2899,7 +2899,7 @@
     "examples": "Jag vet vad du menar.\n(I know what you mean.)\n\nVisste du att Sverige är känt för sina vackra sjöar?\n(Did you know that Sweden is known for its beautiful lakes?)",
     "audio": "Jag vet vad du menar. Visste du att Sverige är känt för sina vackra sjöar?",
     "tags": ["swedish"],
-    "notes": "[object Object]; Veta is a verb that means to have knowledge or information about something. It is often used in contexts where someone is aware of facts or has learned something.; Veta is commonly used in both spoken and written Swedish. It is informal and can be used in everyday conversations. It is often paired with question words, such as 'vad' (what) or 'hur' (how), to inquire about information.",
+    "notes": "vet/visste/vetat (irregular verb)",
     "imageHint": "A serene lake surrounded by trees, reflecting the sky",
     "mochiId": "xuGv9N43"
   },
@@ -2909,7 +2909,7 @@
     "examples": "Jag ska försöka lära mig svenska.\n(I will try to learn Swedish.)\n\nHon försökte att laga bilen själv.\n(She tried to fix the car herself.)",
     "audio": "Jag ska försöka lära mig svenska. Hon försökte att laga bilen själv.",
     "tags": ["swedish"],
-    "notes": "[object Object]; Att göra ett försök att uppnå något eller att utföra en handling.; Används ofta i både formella och informella sammanhang. Vanligt förekommande i dagligt tal och skrift. Kan användas för att uttrycka avsikt eller ansträngning.",
+    "notes": "försöker/försökte/försökt (regular verb)",
     "imageHint": "A person attempting to climb a steep hill with determination.",
     "mochiId": "9gbJ2xl9"
   },
@@ -2919,7 +2919,7 @@
     "examples": "Jag behöver en kopp kaffe.\n(I need a cup of coffee.)\n\nVi behöver prata om det här.\n(We need to talk about this.)",
     "audio": "Jag behöver en kopp kaffe. Vi behöver prata om det här.",
     "tags": ["swedish"],
-    "notes": "[object Object]; Behöva is a verb that expresses necessity or requirement. It is used to indicate that something is essential or required in a particular context.; Behöva is commonly used in both spoken and written Swedish. It is a versatile verb that can be used in various contexts, from everyday conversations to more formal discussions. It is generally informal but can be used in formal contexts as well.",
+    "notes": "behöver/behövde/behövt (regular verb)",
     "imageHint": "A cozy kitchen with a steaming cup of coffee on the table",
     "mochiId": "UvAdegpB"
   },
@@ -2929,7 +2929,7 @@
     "examples": "Jag känner mig glad idag.\n(I feel happy today.)\n\nKänner du honom?\n(Do you know him?)",
     "audio": "Jag känner mig glad idag. Känner du honom?",
     "tags": ["swedish"],
-    "notes": "[object Object]; Känna is a Swedish verb that means to feel or to know in a personal or emotional context. It is often used to express familiarity or emotional sensations.; Känna is commonly used in both formal and informal contexts. It can refer to physical sensations, emotions, or personal knowledge of someone or something. It is frequently used in everyday conversation and can be found in various expressions, such as 'känna sig' (to feel oneself) and 'känna till' (to be familiar with).",
+    "notes": "känner/kände/känt (irregular verb)",
     "imageHint": "A serene landscape with a calm lake reflecting trees and mountains",
     "mochiId": "X0vqerqK"
   },
@@ -2939,7 +2939,7 @@
     "examples": "Jag gillar att läsa böcker på kvällarna.\n(I enjoy reading books in the evenings.)\n\nHon läser tidningen varje morgon.\n(She reads the newspaper every morning.)",
     "audio": "Jag gillar att läsa böcker på kvällarna. Hon läser tidningen varje morgon.",
     "tags": ["swedish"],
-    "notes": "[object Object]; To interpret written text or symbols, typically for information or enjoyment.; Commonly used in both formal and informal contexts. It is frequently used in educational settings, leisure activities, and daily routines. Reading is an important part of Swedish culture, with a high literacy rate and a strong emphasis on literature.",
+    "notes": "läser/läste/läst (irregular verb)",
     "imageHint": "A cozy reading nook with bookshelves and a comfortable chair",
     "mochiId": "Qn7X8hEe"
   },
@@ -2949,7 +2949,7 @@
     "examples": "Jag låter dig bestämma.\n(I let you decide.)\n\nDet låter bra!\n(That sounds good!)",
     "audio": "Jag låter dig bestämma. Det låter bra!",
     "tags": ["swedish"],
-    "notes": "[object Object]; The verb 'låta' primarily means to let or allow something to happen. It can also refer to the sound something makes or to express something in a certain way.; The verb 'låta' is commonly used in both spoken and written Swedish. It is versatile and can be used in various contexts, from casual conversations to more formal discussions. It is often used in expressions related to permission or sound.",
+    "notes": "låter/lät/låtit (irregular verb); also means 'to sound'",
     "imageHint": "A serene landscape with a flowing river and gentle sounds of nature",
     "mochiId": "VK7dL88U"
   },
@@ -2959,7 +2959,7 @@
     "examples": "Jag står vid fönstret.\n(I am standing by the window.)\n\nHon stod länge och tänkte.\n(She stood for a long time thinking.)",
     "audio": "Jag står vid fönstret. Hon stod länge och tänkte.",
     "tags": ["swedish"],
-    "notes": "[object Object]; A verb meaning to be in an upright position, to remain in a specified place, or to endure.; Commonly used in both formal and informal contexts. It can describe physical positioning or metaphorical states, such as 'stå för något' (to stand for something). It is frequently used in everyday conversation.",
+    "notes": "står/stod/stått (irregular verb)",
     "imageHint": "A serene landscape with a tree standing alone in a field.",
     "mochiId": "7kI3A6ky"
   },
@@ -2969,7 +2969,7 @@
     "examples": "Jag behöver visa mitt pass.\n(I need to show my passport.)\n\nHon har ett visum för att resa till USA.\n(She has a visa to travel to the USA.)",
     "audio": "Jag behöver visa mitt pass. Hon har ett visum för att resa till USA.",
     "tags": ["swedish"],
-    "notes": "[object Object]; The word 'visa' can refer to a document that allows entry into a country, or as a verb, it means to show or display something.; The verb 'visa' is commonly used in both formal and informal contexts, especially when referring to showing documents or items. The noun 'visum' is used in legal and travel contexts, often in discussions about immigration or travel requirements.",
+    "notes": "visar/visade/visat (regular verb)",
     "imageHint": "A close-up of a passport and a visa page on a wooden table",
     "mochiId": "CdULMllY"
   },
@@ -2979,7 +2979,7 @@
     "examples": "Jag gillar att använda min dator för att skriva.\n(I like to use my computer to write.)\n\nHon använde en gammal bok som stöd.\n(She used an old book as support.)",
     "audio": "Jag gillar att använda min dator för att skriva. Hon använde en gammal bok som stöd.",
     "tags": ["swedish"],
-    "notes": "[object Object]; To employ something for a particular purpose or to make use of something.; Commonly used in both formal and informal contexts. It can refer to physical objects, tools, or abstract concepts like time and resources. The verb is frequently used in everyday conversation and writing.",
+    "notes": "använder/använde/använt (irregular verb)",
     "imageHint": "A desk with a laptop, books, and stationery arranged neatly.",
     "mochiId": "xdiwS2h2"
   },
@@ -2989,7 +2989,7 @@
     "examples": "Kan du vända boken så att jag kan se framsidan?\n(Can you turn the book so I can see the front cover?)\n\nHon vände sitt liv helt efter flytten.\n(She turned her life completely around after the move.)",
     "audio": "Kan du vända boken så att jag kan se framsidan? Hon vände sitt liv helt efter flytten.",
     "tags": ["swedish"],
-    "notes": "[object Object]; Vända means to turn something around or to change direction. It can be used both literally and metaphorically.; Vända is commonly used in both spoken and written Swedish. It can be used in informal contexts, such as everyday conversations, as well as in more formal settings. The word is versatile and can apply to physical actions (like turning an object) as well as abstract concepts (like changing one's life direction).",
+    "notes": "vänder/vände/vänt (irregular verb)",
     "imageHint": "A book being turned over on a wooden table",
     "mochiId": "ipudxVQg"
   },
@@ -2999,7 +2999,7 @@
     "examples": "Kan du hålla den här boken?\n(Can you hold this book?)\n\nVi måste hålla oss till planen.\n(We must stick to the plan.)",
     "audio": "Kan du hålla den här boken? Vi måste hålla oss till planen.",
     "tags": ["swedish"],
-    "notes": "[object Object]; To grasp, maintain, or keep something in a certain position; also used in various idiomatic expressions.; Commonly used in both formal and informal contexts. It appears in many idiomatic expressions, such as 'hålla med' (to agree) and 'hålla på' (to be in the process of doing something). Frequency of use is high in everyday conversation.",
+    "notes": "håller/höll/hållit (irregular verb)",
     "imageHint": "A hand holding a book with a cozy reading nook in the background.",
     "mochiId": "6k22NxSb"
   },
@@ -3009,7 +3009,7 @@
     "examples": "Jag tänker på vad jag ska äta till middag.\n(I am thinking about what I will eat for dinner.)\n\nHon tänkte länge innan hon fattade ett beslut.\n(She thought for a long time before making a decision.)",
     "audio": "Jag tänker på vad jag ska äta till middag. Hon tänkte länge innan hon fattade ett beslut.",
     "tags": ["swedish"],
-    "notes": "[object Object]; To use one's mind to consider or reason about something; to form thoughts or opinions.; The verb 'tänka' is commonly used in both formal and informal contexts. It can refer to both the act of thinking and the process of considering options. It is frequently used in everyday conversation, especially when discussing plans or ideas.",
+    "notes": "tänker/tänkte/tänkt (irregular verb)",
     "imageHint": "A serene landscape with a calm lake reflecting trees and mountains, symbolizing contemplation.",
     "mochiId": "ktH02NoW"
   },
@@ -3019,7 +3019,7 @@
     "examples": "Hon lever ett lyckligt liv.\n(She lives a happy life.)\n\nDet är viktigt att ta hand om sitt liv.\n(It is important to take care of one's life.)",
     "audio": "Hon lever ett lyckligt liv. Det är viktigt att ta hand om sitt liv.",
     "tags": ["swedish"],
-    "notes": "[object Object]; Refers to the state of being alive, encompassing physical existence, vitality, and the experiences that come with living.; The word 'liv' is commonly used in both formal and informal contexts. It can refer to life in a general sense or be used in specific phrases such as 'liv och död' (life and death). It is frequently encountered in literature, conversations about health, and discussions on existential topics.",
+    "notes": "ett liv, livet, liv (neuter noun)",
     "imageHint": "A serene landscape with a sunrise over a calm lake, symbolizing life.",
     "mochiId": "IHaPdBlA"
   },
@@ -3029,7 +3029,7 @@
     "examples": "Vi lever i en global värld.\n(We live in a global world.)\n\nDet finns många olika kulturer i vår värld.\n(There are many different cultures in our world.)",
     "audio": "Vi lever i en global värld. Det finns många olika kulturer i vår värld.",
     "tags": ["swedish"],
-    "notes": "[object Object]; A term used to refer to the earth, the universe, or a particular realm of existence or experience.; The word 'värld' is commonly used in both formal and informal contexts. It can refer to the physical world, the concept of society, or metaphorically to different realms (e.g., 'fantasy world'). It is frequently used in discussions about global issues, culture, and philosophy.",
+    "notes": "en värld, världen, världar (common noun)",
     "imageHint": "A serene landscape showing mountains and a vast sky, symbolizing the world.",
     "mochiId": "BKaQ9QOC"
   },
@@ -3039,7 +3039,7 @@
     "examples": "Folk i Sverige älskar att fika.\n(People in Sweden love to have coffee and pastries.)\n\nDet finns många olika folk i världen.\n(There are many different peoples in the world.)",
     "audio": "Folk i Sverige älskar att fika. Det finns många olika folk i världen.",
     "tags": ["swedish"],
-    "notes": "Noun, common gender; plural form: 'folk'. The word is used in both singular and plural contexts, often referring to a collective group.; A term used to refer to a group of people, often in a casual or informal context. It can denote a community or the general populace.; The term 'folk' is commonly used in informal contexts and can refer to a specific group or the general population. It is frequently used in discussions about culture, traditions, and social gatherings. It can also appear in phrases like 'folkmusik' (folk music) or 'folkliv' (folk life), indicating cultural aspects.",
+    "notes": "ett folk, folket, folk (neuter noun); plural same as singular",
     "imageHint": "A serene landscape with traditional Swedish cottages and a quiet forest.",
     "mochiId": "CNXkoRBj"
   },
@@ -3049,7 +3049,7 @@
     "examples": "Regeringen presenterade sin nya budget idag.\n(The government presented its new budget today.)\n\nMånga människor är missnöjda med regeringens beslut.\n(Many people are dissatisfied with the government's decisions.)",
     "audio": "Regeringen presenterade sin nya budget idag. Många människor är missnöjda med regeringens beslut.",
     "tags": ["swedish"],
-    "notes": "Noun, common gender (en regering), plural: regeringar.; The governing body of a nation, state, or community, responsible for making and enforcing laws and policies.; The term 'regering' is commonly used in both formal and informal contexts when discussing politics or governance. It is frequently encountered in news articles, political discussions, and academic texts. The word can also be used in various phrases, such as 'regeringspartier' (government parties) or 'opposition' (the opposition).",
+    "notes": "en regering, regeringen, regeringar (common noun)",
     "imageHint": "A government building with flags and a clear sky.",
     "mochiId": "RGHdYnOd"
   },
@@ -3059,7 +3059,7 @@
     "examples": "Jag ska söka efter en ny lägenhet.\n(I will search for a new apartment.)\n\nHon söker efter sitt förlorade smycke.\n(She is looking for her lost jewelry.)",
     "audio": "Jag ska söka efter en ny lägenhet. Hon söker efter sitt förlorade smycke.",
     "tags": ["swedish"],
-    "notes": "[object Object]; To look for something or someone, to attempt to find or obtain.; Commonly used in both formal and informal contexts. It can refer to searching for physical items, information, or even opportunities. The verb is versatile and can be used in various phrases, such as 'söka jobb' (to seek a job) or 'söka hjälp' (to seek help).",
+    "notes": "söker/sökte/sökt (irregular verb)",
     "imageHint": "A person searching through a pile of books in a cozy library.",
     "mochiId": "FlBqKpsl"
   },
@@ -3069,7 +3069,7 @@
     "examples": "Jag har en sak att berätta för dig.\n(I have a thing to tell you.)\n\nDet är en viktig sak att tänka på.\n(It is an important matter to consider.)",
     "audio": "Jag har en sak att berätta för dig. Det är en viktig sak att tänka på.",
     "tags": ["swedish"],
-    "notes": "Noun, common gender (en sak), plural: saker.; A general term used to refer to an object, item, or matter. It can denote both physical objects and abstract concepts.; The word 'sak' is commonly used in both formal and informal contexts. It can refer to tangible items as well as abstract issues or matters. It is frequently used in everyday conversation and is versatile in its application.",
+    "notes": "en sak, saken, saker (common noun)",
     "imageHint": "A cluttered desk with various items like books, papers, and a coffee mug.",
     "mochiId": "PPW312q8"
   },
@@ -3079,7 +3079,7 @@
     "examples": "Det finns många intressanta personer på konferensen.\n(There are many interesting people at the conference.)\n\nHon är en omtänksam person.\n(She is a caring person.)",
     "audio": "Det finns många intressanta personer på konferensen. Hon är en omtänksam person.",
     "tags": ["swedish"],
-    "notes": "[object Object]; A human being regarded as an individual.; The word 'person' is commonly used in both formal and informal contexts. It is frequently used in everyday conversation, legal documents, and academic writing. In Swedish society, the concept of 'person' often emphasizes individuality and personal rights.",
+    "notes": "en person, personen, personer (common noun)",
     "imageHint": "A cozy café table with a coffee cup and an open book",
     "mochiId": "te4qpeuq"
   },
@@ -3089,7 +3089,7 @@
     "examples": "Jag ligger på soffan och läser en bok.\n(I am lying on the couch reading a book.)\n\nSkolan ligger nära parken.\n(The school is located near the park.)",
     "audio": "Jag ligger på soffan och läser en bok. Skolan ligger nära parken.",
     "tags": ["swedish"],
-    "notes": "[object Object]; The verb 'ligga' primarily means to lie down or to be in a horizontal position. It can also refer to the location of something.; The verb 'ligga' is commonly used in both spoken and written Swedish. It can be used in various contexts, from describing physical positions to indicating locations. It is informal and frequently used in everyday conversation.",
+    "notes": "ligger/låg/legat (irregular verb)",
     "imageHint": "A cozy living room with a couch and a book on a table.",
     "mochiId": "kEet2fcp"
   },
@@ -3099,7 +3099,7 @@
     "examples": "Min son älskar att spela fotboll.\n(My son loves to play football.)\n\nDe har två söner och en dotter.\n(They have two sons and one daughter.)",
     "audio": "Min son älskar att spela fotboll. De har två söner och en dotter.",
     "tags": ["swedish"],
-    "notes": "Noun, common gender (en son), plural: söner.; A male child in relation to his parents.; The word 'son' is commonly used in both formal and informal contexts. It is frequently used in family discussions, legal contexts (such as inheritance), and everyday conversations. In Swedish culture, family ties are important, and the term is often used affectionately.",
+    "notes": "en son, sonen, söner (common noun)",
     "imageHint": "A cozy family living room with toys scattered around.",
     "mochiId": "hWz3EOdH"
   },
@@ -3109,7 +3109,7 @@
     "examples": "Jag lägger boken på bordet.\n(I am putting the book on the table.)\n\nHon lade sina kläder i tvätten.\n(She put her clothes in the laundry.)",
     "audio": "Jag lägger boken på bordet. Hon lade sina kläder i tvätten.",
     "tags": ["swedish"],
-    "notes": "[object Object]; A versatile verb used to indicate the action of placing something in a specific position or location.; Commonly used in both formal and informal contexts. It can refer to physical placement as well as abstract concepts, such as laying down rules or plans. The verb is frequently used in everyday conversation.",
+    "notes": "lägger/lade/lagt (irregular verb)",
     "imageHint": "A serene scene of a book being placed on a wooden table.",
     "mochiId": "t0ZKCLBT"
   },
@@ -3119,7 +3119,7 @@
     "examples": "Det finns ett stort antal böcker på biblioteket.\n(There are a large number of books in the library.)\n\nVi behöver veta det exakta antalet deltagare.\n(We need to know the exact number of participants.)",
     "audio": "Det finns ett stort antal böcker på biblioteket. Vi behöver veta det exakta antalet deltagare.",
     "tags": ["swedish"],
-    "notes": "Noun, neuter gender; plural form is 'antal'. It is often used with a singular verb in Swedish.; A noun used to refer to a specific quantity or count of something.; Commonly used in both formal and informal contexts, especially in discussions involving statistics, data, or quantities. It is frequently used in academic, business, and everyday conversations.",
+    "notes": "ett antal, antalet, antal (neuter noun); plural same as singular",
     "imageHint": "A collection of various books on a library shelf.",
     "mochiId": "RAV1r5tD"
   },
@@ -3129,7 +3129,7 @@
     "examples": "Vi har ett problem med bilen.\n(We have a problem with the car.)\n\nHon löste problemet snabbt.\n(She solved the problem quickly.)",
     "audio": "Vi har ett problem med bilen. Hon löste problemet snabbt.",
     "tags": ["swedish"],
-    "notes": "Noun, neuter gender (ett problem), plural: problem.; Ett hinder eller en svårighet som behöver lösas eller hanteras.; Ordet 'problem' används ofta i både formella och informella sammanhang. Det är vanligt att använda det i vardagliga konversationer, akademiska texter och arbetsrelaterade diskussioner. Det kan referera till både små och stora svårigheter.",
+    "notes": "ett problem, problemet, problem (neuter noun)",
     "imageHint": "A cluttered desk with papers and a laptop, symbolizing a problem.",
     "mochiId": "IaVG3AAj"
   },
@@ -3139,7 +3139,7 @@
     "examples": "Det var ett fall av matförgiftning.\n(It was a case of food poisoning.)\n\nHan föll från cykeln.\n(He fell off the bike.)",
     "audio": "Det var ett fall av matförgiftning. Han föll från cykeln.",
     "tags": ["swedish"],
-    "notes": "[object Object]; The word 'fall' can refer to a physical descent or a situation or case in which something occurs. It is commonly used in both literal and figurative contexts.; The noun 'fall' is commonly used in both everyday language and formal contexts, often in legal or medical discussions. The verb 'falla' is frequently used in both spoken and written Swedish, and can describe physical actions or metaphorical situations, such as falling in love or falling into despair.",
+    "notes": "ett fall, fallet, fall (neuter noun); also verb falla/föll/fallit",
     "imageHint": "A serene autumn landscape with colorful leaves falling from trees",
     "mochiId": "EqHjWPau"
   },
@@ -3149,7 +3149,7 @@
     "examples": "Jag anser att det är viktigt att lära sig språk.\n(I consider it important to learn languages.)\n\nMånga anser att boken är en klassiker.\n(Many regard the book as a classic.)",
     "audio": "Jag anser att det är viktigt att lära sig språk. Många anser att boken är en klassiker.",
     "tags": ["swedish"],
-    "notes": "[object Object]; To have a particular opinion or belief about something or someone; to regard in a certain way.; The verb 'anse' is commonly used in both formal and informal contexts. It is often employed in discussions, debates, and academic writing to express opinions or judgments. It can also be used in everyday conversations when sharing personal views.",
+    "notes": "anser/ansåg/ansett (irregular verb)",
     "imageHint": "A serene landscape with a mountain and a lake reflecting the sky",
     "mochiId": "5MXPd5Ey"
   },
@@ -3159,7 +3159,7 @@
     "examples": "Jag behöver öva på att spela piano.\n(I need to practice playing the piano.)\n\nVi övar inför konserten nästa vecka.\n(We are rehearsing for the concert next week.)",
     "audio": "Jag behöver öva på att spela piano. Vi övar inför konserten nästa vecka.",
     "tags": ["swedish"],
-    "notes": "[object Object]; Öva means to practice or rehearse a skill, activity, or performance. It is commonly used in contexts related to learning, sports, music, and other activities that require repetition to improve proficiency.; Öva is commonly used in both formal and informal contexts. It is frequently used in educational settings, sports training, and artistic rehearsals. The term is versatile and can apply to various skills, making it a frequent choice in everyday conversation.",
+    "notes": "övar/övade/övat (regular verb)",
     "imageHint": "A quiet room with a piano and sheet music on a stand",
     "mochiId": "kr8HvVtI"
   },
@@ -3169,7 +3169,7 @@
     "examples": "Det finns en ny lag om miljöskydd.\n(There is a new law on environmental protection.)\n\nFotbollslaget vann matchen igår.\n(The football team won the match yesterday.)",
     "audio": "Det finns en ny lag om miljöskydd. Fotbollslaget vann matchen igår.",
     "tags": ["swedish"],
-    "notes": "[object Object]; The word 'lag' can refer to a legal statute or regulation, as well as a group of individuals organized for a common purpose, such as a sports team.; The term 'lag' is commonly used in both formal and informal contexts. In legal discussions, it refers to laws and regulations, while in sports, it denotes teams. It is frequently used in everyday conversation, especially when discussing sports or legal matters.",
+    "notes": "en lag, lagen, lagar (common noun); also means 'team'",
     "imageHint": "A courtroom with legal books and a soccer field with goalposts",
     "mochiId": "sT8bQRNh"
   },
@@ -3179,7 +3179,7 @@
     "examples": "Han fick ett slag i ansiktet.\n(He received a blow to the face.)\n\nDet finns många olika slag av frukter på marknaden.\n(There are many different kinds of fruits on the market.)",
     "audio": "Han fick ett slag i ansiktet. Det finns många olika slag av frukter på marknaden.",
     "tags": ["swedish"],
-    "notes": "Noun, common gender. Plural: 'slag' (same form). Can also be used as a verb in certain contexts, meaning to strike or hit.; The word 'slag' can refer to a physical blow or strike, as well as denote a type or kind of something in various contexts.; The noun 'slag' is commonly used in both formal and informal contexts. It is often used in sports, discussions about types of items, or in everyday conversations about physical actions. The verb form is less common but can be used in colloquial speech.",
+    "notes": "ett slag, slaget, slag (neuter noun); plural same as singular",
     "imageHint": "A close-up of a fruit market display with various types of fruits.",
     "mochiId": "2UB1RZ2I"
   },
@@ -3189,7 +3189,7 @@
     "examples": "Hon höll ett inspirerande tal på konferensen.\n(She gave an inspiring speech at the conference.)\n\nDet finns många olika tal i matematik.\n(There are many different numbers in mathematics.)",
     "audio": "Hon höll ett inspirerande tal på konferensen. Det finns många olika tal i matematik.",
     "tags": ["swedish"],
-    "notes": "[object Object]; The word 'tal' can refer to a spoken discourse or a numerical value, depending on the context in which it is used.; The word 'tal' is commonly used in both formal and informal contexts. In a formal setting, it often refers to speeches or presentations, while in everyday conversation, it can refer to numbers or counting. It is frequently used in educational contexts, particularly in mathematics and public speaking.",
+    "notes": "ett tal, talet, tal (neuter noun); means 'speech' or 'number'",
     "imageHint": "A classroom setting with a chalkboard filled with numbers and equations",
     "mochiId": "LNJBG7s8"
   },
@@ -3199,7 +3199,7 @@
     "examples": "Jag ska handla mat på affären.\n(I am going to shop for groceries at the store.)\n\nVi måste handla snabbt innan affären stänger.\n(We need to act quickly before the store closes.)",
     "audio": "Jag ska handla mat på affären. Vi måste handla snabbt innan affären stänger.",
     "tags": ["swedish"],
-    "notes": "[object Object]; The verb 'handla' primarily means to shop or buy goods, but it can also mean to act or take action in a broader sense.; The verb 'handla' is commonly used in everyday conversation, especially in contexts related to shopping and purchasing. It is informal and widely understood. In a broader context, it can also refer to taking action or making decisions.",
+    "notes": "handlar/handlade/handlat (regular verb)",
     "imageHint": "A grocery store aisle filled with various food items.",
     "mochiId": "Tp85XHaj"
   },
@@ -3209,7 +3209,7 @@
     "examples": "Jag tog en bild av solnedgången.\n(I took a picture of the sunset.)\n\nHon har många bilder i sitt album.\n(She has many images in her album.)",
     "audio": "Jag tog en bild av solnedgången. Hon har många bilder i sitt album.",
     "tags": ["swedish"],
-    "notes": "Noun, common gender. Singular: bild, Plural: bilder.; A representation of something visual, either in physical form (like a photograph or painting) or digital form (like a graphic or illustration).; The word 'bild' is commonly used in both formal and informal contexts. It can refer to photographs, illustrations, or any visual representation. In Swedish culture, sharing 'bilder' on social media is a popular way to connect with others. The term can also be used metaphorically, such as in 'skapa en bild av något' (to create a picture of something) which means to form an understanding or concept.",
+    "notes": "en bild, bilden, bilder (common noun)",
     "imageHint": "A serene landscape with mountains and a lake at sunset.",
     "mochiId": "AkadhlPw"
   },
@@ -3219,7 +3219,7 @@
     "examples": "Vänster sida av rummet är målad i blått.\n(The left side of the room is painted blue.)\n\nKan du vända till nästa sida i boken?\n(Can you turn to the next page in the book?)",
     "audio": "Vänster sida av rummet är målad i blått. Kan du vända till nästa sida i boken?",
     "tags": ["swedish"],
-    "notes": "Noun, gender: common (en sida), plural: sidor.; The word 'sida' can refer to a side of an object or a page in a book. It is commonly used in both physical and metaphorical contexts.; The word 'sida' is frequently used in everyday conversation and writing. It can be used in both formal and informal contexts. In addition to its literal meanings, it can also be used metaphorically, such as in discussions about different perspectives or aspects of a topic.",
+    "notes": "en sida, sidan, sidor (common noun)",
     "imageHint": "A close-up of an open book with visible pages and a decorative bookmark.",
     "mochiId": "6R5vywiZ"
   },
@@ -3229,7 +3229,7 @@
     "examples": "Vi behöver öka produktionen för att möta efterfrågan.\n(We need to increase production to meet demand.)\n\nHon vill öka sin kunskap om svenska språket.\n(She wants to increase her knowledge of the Swedish language.)",
     "audio": "Vi behöver öka produktionen för att möta efterfrågan. Hon vill öka sin kunskap om svenska språket.",
     "tags": ["swedish"],
-    "notes": "[object Object]; To make something larger in amount, degree, or size. Commonly used in both formal and informal contexts.; The verb 'öka' is frequently used in various contexts, including economics, education, and health. It can be used in both formal and informal settings. It is a common term in discussions about growth, improvement, and enhancement.",
+    "notes": "ökar/ökade/ökat (regular verb)",
     "imageHint": "A graph showing an upward trend with arrows and numbers",
     "mochiId": "P6uY5dG2"
   },
@@ -3239,7 +3239,7 @@
     "examples": "Det här är en god idé.\n(This is a good idea.)\n\nMaten var verkligen god.\n(The food was really good.)",
     "audio": "Det här är en god idé. Maten var verkligen god.",
     "tags": ["swedish"],
-    "notes": "Adjective; the positive form is 'god', the comparative form is 'bättre', and the superlative form is 'bäst'. It agrees in gender and number with the noun it modifies: 'god' (common singular), 'gott' (neuter singular), 'goda' (plural).; Describes something that is positive, beneficial, or of high quality. It can refer to moral quality, taste, or general satisfaction.; Commonly used in both formal and informal contexts. It can describe anything from food to experiences and moral qualities. It is frequently used in everyday conversation and writing.",
+    "notes": "god/gott/goda (adjective); comparative: bättre, superlative: bäst",
     "imageHint": "A cozy kitchen with a delicious meal on the table",
     "mochiId": "LZKrfeY5"
   },
@@ -3249,7 +3249,7 @@
     "examples": "Hon vill skapa en ny app.\n(She wants to create a new app.)\n\nKonstnären skapade ett fantastiskt verk.\n(The artist created a fantastic piece.)",
     "audio": "Hon vill skapa en ny app. Konstnären skapade ett fantastiskt verk.",
     "tags": ["swedish"],
-    "notes": "[object Object]; To bring something into existence or to produce something new, often used in artistic, technical, or conceptual contexts.; Commonly used in both formal and informal contexts, especially in discussions about art, technology, and innovation. The word can be used in various registers, from everyday conversation to academic discussions.",
+    "notes": "skapar/skapade/skapat (regular verb)",
     "imageHint": "A serene landscape with a canvas and paintbrushes, showcasing creativity.",
     "mochiId": "ZEELFviR"
   },
@@ -3259,7 +3259,7 @@
     "examples": "Jag har mycket arbete att göra idag.\n(I have a lot of work to do today.)\n\nArbetet pågår för fullt i byggnaden.\n(The work is in full swing in the building.)",
     "audio": "Jag har mycket arbete att göra idag. Arbetet pågår för fullt i byggnaden.",
     "tags": ["swedish"],
-    "notes": "[object Object]; Arbete refers to the act of working or the tasks and responsibilities associated with a job or profession. It can also denote a physical or mental effort put into achieving a goal.; The term 'arbete' is commonly used in both formal and informal contexts. It is frequently encountered in discussions about employment, productivity, and labor rights in Sweden, reflecting the country's strong work ethic. It can also be used in various phrases, such as 'arbetstid' (working hours) and 'arbetsmiljö' (work environment).",
+    "notes": "ett arbete, arbetet, arbeten (neuter noun)",
     "imageHint": "A quiet office space with a desk, computer, and paperwork.",
     "mochiId": "9vTVMY13"
   },
@@ -3269,7 +3269,7 @@
     "examples": "Jag måste kapa träet för att få plats.\n(I need to cut the wood to make space.)\n\nHon kapade av den trasiga delen av klänningen.\n(She severed the broken part of the dress.)",
     "audio": "Jag måste kapa träet för att få plats. Hon kapade av den trasiga delen av klänningen.",
     "tags": ["swedish"],
-    "notes": "[object Object]; Kapa means to cut or chop something, often used in a physical sense but can also imply reducing or limiting something.; Kapa is commonly used in both informal and formal contexts. It can refer to physical cutting, such as wood or fabric, as well as metaphorical uses like cutting ties or reducing expenses. It is frequently used in everyday conversation and is understood across various registers.",
+    "notes": "kapar/kapade/kapat (regular verb)",
     "imageHint": "A wooden log being cut in half with a saw.",
     "mochiId": "eKPTzzGG"
   },
@@ -3279,7 +3279,7 @@
     "examples": "Jag läser en intressant blogg om resor.\n(I read an interesting blog about travel.)\n\nHon skriver en blogg om matlagning och recept.\n(She writes a blog about cooking and recipes.)",
     "audio": "Jag läser en intressant blogg om resor. Hon skriver en blogg om matlagning och recept.",
     "tags": ["swedish"],
-    "notes": "[object Object]; En blogg är en webbplats eller en del av en webbplats där en person eller en grupp regelbundet publicerar artiklar, inlägg eller andra typer av innehåll, ofta i en personlig eller informell stil.; Ordet 'blogg' används oftast i informella sammanhang och är mycket vanligt i digital kommunikation. Bloggar kan handla om olika ämnen, inklusive mode, teknik, hälsa och livsstil. De är populära bland både amatörer och professionella skribenter.",
+    "notes": "en blogg, bloggen, bloggar (common noun)",
     "imageHint": "A laptop on a desk with a coffee cup and a notepad, showing a blog interface on the screen",
     "mochiId": "jfOBFdTu"
   },
@@ -3289,7 +3289,7 @@
     "examples": "Det gäller att vara försiktig.\n(It is important to be careful.)\n\nDenna regel gäller för alla.\n(This rule applies to everyone.)",
     "audio": "Det gäller att vara försiktig. Denna regel gäller för alla.",
     "tags": ["swedish"],
-    "notes": "[object Object]; The verb 'gälla' is used to indicate that something is applicable or relevant in a particular context. It can also mean that something is valid or holds true.; The verb 'gälla' is commonly used in both formal and informal contexts. It is often used in legal, administrative, or everyday situations to express applicability or validity. It is a versatile verb that can be used in various contexts, such as rules, regulations, and personal advice.",
+    "notes": "gäller/gällde/gällt (irregular verb)",
     "imageHint": "A signpost indicating rules or regulations in a public park",
     "mochiId": "WErhXq6H"
   },
@@ -3299,7 +3299,7 @@
     "examples": "Det verkar som om det kommer att regna.\n(It seems like it's going to rain.)\n\nHon verkar glad idag.\n(She appears happy today.)",
     "audio": "Det verkar som om det kommer att regna. Hon verkar glad idag.",
     "tags": ["swedish"],
-    "notes": "[object Object]; Verka is a verb that means to seem or to appear in a certain way, or to act or function in a particular manner. It is often used to describe the effect or influence of something.; Verka is commonly used in both spoken and written Swedish. It is suitable for informal and formal contexts. It can describe perceptions, feelings, or the functioning of objects and systems. It is frequently used in everyday conversation and literature.",
+    "notes": "verkar/verkade/verkat (regular verb)",
     "imageHint": "A cloudy sky with raindrops on a window, suggesting impending rain.",
     "mochiId": "8bcc7XwS"
   },
@@ -3309,7 +3309,7 @@
     "examples": "Jag gillar att tala svenska.\n(I like to speak Swedish.)\n\nKan du tala långsammare?\n(Can you speak more slowly?)",
     "audio": "Jag gillar att tala svenska. Kan du tala långsammare?",
     "tags": ["swedish"],
-    "notes": "[object Object]; To express thoughts, ideas, or feelings verbally; to communicate using spoken language.; The verb 'tala' is commonly used in both formal and informal contexts. It is appropriate in everyday conversations, educational settings, and public speaking. The frequency of use is high, especially among learners of the language.",
+    "notes": "talar/talade/talat (regular verb)",
     "imageHint": "A quiet room with books and a chalkboard, suggesting a language lesson.",
     "mochiId": "nTgFAKCI"
   },
@@ -3319,7 +3319,7 @@
     "examples": "Jag kan inte bära den tunga väskan.\n(I can't carry the heavy bag.)\n\nHon bär på en stor hemlighet.\n(She bears a big secret.)",
     "audio": "Jag kan inte bära den tunga väskan. Hon bär på en stor hemlighet.",
     "tags": ["swedish"],
-    "notes": "[object Object]; Bära is a verb that means to carry or to bear something physically or metaphorically. It can refer to holding something up, transporting it, or enduring a burden.; Bära is commonly used in both formal and informal contexts. It can be used literally (e.g., carrying objects) or figuratively (e.g., bearing responsibilities or emotions). The verb is frequently encountered in everyday conversation, literature, and idiomatic expressions.",
+    "notes": "bär/bar/burit (irregular verb)",
     "imageHint": "A person struggling to carry a large, heavy box in a dimly lit room.",
     "mochiId": "bRXBxbmt"
   },
@@ -3329,7 +3329,7 @@
     "examples": "Vi körde längs vägen mot Stockholm.\n(We drove along the road to Stockholm.)\n\nDet finns flera vägar att lösa problemet.\n(There are several ways to solve the problem.)",
     "audio": "Vi körde längs vägen mot Stockholm. Det finns flera vägar att lösa problemet.",
     "tags": ["swedish"],
-    "notes": "[object Object]; A path or route for vehicles or pedestrians; can refer to both physical roads and metaphorical paths.; Commonly used in both formal and informal contexts. 'Väg' can refer to literal roads or figurative paths in life, such as 'life's way' (livets väg). It is frequently used in everyday conversations, navigation, and discussions about travel.",
+    "notes": "en väg, vägen, vägar (common noun)",
     "imageHint": "A winding road through a lush green forest",
     "mochiId": "r0VmEEkF"
   },
@@ -3339,7 +3339,7 @@
     "examples": "Samhället förändras ständigt med nya idéer och teknologier.\n(Society is constantly changing with new ideas and technologies.)\n\nDet är viktigt att vi alla bidrar till ett bättre samhälle.\n(It is important that we all contribute to a better society.)",
     "audio": "Samhället förändras ständigt med nya idéer och teknologier. Det är viktigt att vi alla bidrar till ett bättre samhälle.",
     "tags": ["swedish"],
-    "notes": "Noun, neuter gender, singular: samhälle, plural: samhällen.; A group of individuals living together in a structured community, often characterized by shared institutions, norms, and values.; The term 'samhälle' is commonly used in both formal and informal contexts to discuss social structures, community issues, and collective behavior. It is frequently encountered in discussions about politics, sociology, and community development.",
+    "notes": "ett samhälle, samhället, samhällen (neuter noun)",
     "imageHint": "A peaceful neighborhood with houses, trees, and a park.",
     "mochiId": "7jYTYMa1"
   },
@@ -3349,7 +3349,7 @@
     "examples": "Statyn av Carl XVI Gustaf står i parken.\n(The statue of Carl XVI Gustaf stands in the park.)\n\nDe besökte en gammal stat av en viking.\n(They visited an old statue of a Viking.)",
     "audio": "Statyn av Carl XVI Gustaf står i parken. De besökte en gammal stat av en viking.",
     "tags": ["swedish"],
-    "notes": "[object Object]; A three-dimensional representation of a person or animal, often made of stone, metal, or other materials, typically used for decoration or to commemorate a historical figure.; The term 'stat' is commonly used in both formal and informal contexts, especially in discussions about art, history, and public monuments. Statues are significant in Swedish culture, often representing historical figures or events, and can be found in many public spaces.",
+    "notes": "en stat, staten, stater (common noun); means 'state' (not statue)",
     "imageHint": "A large stone statue in a public park surrounded by trees",
     "mochiId": "Vs8gjzlv"
   },
@@ -3359,7 +3359,7 @@
     "examples": "Stockholm är Sveriges huvudstad.\n(Stockholm is the capital city of Sweden.)\n\nMalmö är en vacker stad vid Öresund.\n(Malmö is a beautiful city by the Öresund.)",
     "audio": "Stockholm är Sveriges huvudstad. Malmö är en vacker stad vid Öresund.",
     "tags": ["swedish"],
-    "notes": "Noun, gender: common (en stad), plural: städer; A large human settlement characterized by significant infrastructure, population density, and economic activity. Often serves as a cultural and administrative center.; Commonly used in both formal and informal contexts. It can refer to both large cities and smaller towns, depending on the context. The term is frequently used in discussions about geography, culture, and urban development.",
+    "notes": "en stad, staden, städer (common noun)",
     "imageHint": "A skyline view of a city with modern buildings and greenery",
     "mochiId": "LcsUYRtm"
   },
@@ -3369,7 +3369,7 @@
     "examples": "Jag kan höra fåglarna sjunga.\n(I can hear the birds singing.)\n\nHar du hört nyheterna idag?\n(Have you heard the news today?)",
     "audio": "Jag kan höra fåglarna sjunga. Har du hört nyheterna idag?",
     "tags": ["swedish"],
-    "notes": "[object Object]; To perceive sound through the ear; to listen or be aware of sound.; The verb 'höra' is commonly used in both formal and informal contexts. It can refer to physical hearing as well as metaphorical understanding, such as hearing someone's opinion. It's frequently used in everyday conversations and is essential for discussing auditory experiences.",
+    "notes": "hör/hörde/hört (irregular verb)",
     "imageHint": "A serene landscape with birds singing in the trees",
     "mochiId": "F65yFC4Q"
   },
@@ -3379,7 +3379,7 @@
     "examples": "Mitt företag har vuxit snabbt de senaste åren.\n(My company has grown rapidly in recent years.)\n\nDet finns många företag som erbjuder hållbara produkter.\n(There are many companies that offer sustainable products.)",
     "audio": "Mitt företag har vuxit snabbt de senaste åren. Det finns många företag som erbjuder hållbara produkter.",
     "tags": ["swedish"],
-    "notes": "Noun, neuter gender; plural form: företag; definite form: företaget (the company).; A business organization that engages in commercial, industrial, or professional activities.; Commonly used in both formal and informal contexts. It is frequently encountered in business discussions, economic reports, and everyday conversations about work and commerce.",
+    "notes": "ett företag, företaget, företag (neuter noun)",
     "imageHint": "A modern office building with a logo, surrounded by greenery.",
     "mochiId": "cOSiBQzc"
   },
@@ -3389,7 +3389,7 @@
     "examples": "Det finns många möjligheter att utvecklas inom företaget.\n(There are many opportunities to develop within the company.)\n\nVi måste överväga alla möjligheter innan vi fattar ett beslut.\n(We must consider all possibilities before making a decision.)",
     "audio": "Det finns många möjligheter att utvecklas inom företaget. Vi måste överväga alla möjligheter innan vi fattar ett beslut.",
     "tags": ["swedish"],
-    "notes": "Noun, common gender (en), singular: möjlighet, plural: möjligheter.; A term used to describe the potential or chance for something to happen or be done.; Commonly used in both formal and informal contexts. It is frequently used in discussions about career, education, and life choices. The term is versatile and can be applied in various situations where options or chances are being evaluated.",
+    "notes": "en möjlighet, möjligheten, möjligheter (common noun)",
     "imageHint": "A serene landscape with open fields and a clear sky, symbolizing endless possibilities.",
     "mochiId": "aaGdTWC3"
   }
