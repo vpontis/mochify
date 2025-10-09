@@ -68,7 +68,6 @@ async function generateVocabularyImages() {
           word: entry.word,
           english: entry.english,
           outputPath: imagePath,
-          quality: "high",
           imageHint: entry.imageHint,
         });
 

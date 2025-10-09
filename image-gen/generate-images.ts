@@ -16,53 +16,49 @@ export interface ImageGenerationOptions {
   word: string;
   english: string;
   outputPath: string;
-  quality?: "low" | "medium" | "high" | "auto";
-  size?: "1024x1024" | "1024x1536" | "1536x1024" | "auto";
   imageHint?: string;
+}
+
+function buildScenePrompt(
+  word: string,
+  english: string,
+  imageHint?: string,
+): string {
+  const hintInstruction = imageHint
+    ? `Start from this hint: "${imageHint}".`
+    : "Invent a simple, memorable scene that clearly depicts the concept.";
+
+  return dedent`
+    Write 2–3 sentences describing a specific visual scene for the Swedish word "${word}" ("${english}").
+    ${hintInstruction}
+    Prefer using family characters: adult woman (32, black hair), adult man (32, dark blonde), and/or a 7‑month‑old baby (short black hair).
+    You do *NOT* have to use all three characters.
+    Keep it concrete and drawable. No text/letters/numbers in the image.
+  `;
 }
 
 export async function generateImage({
   word,
   english,
   outputPath,
-  quality = "high",
-  size = "1536x1024",
   imageHint,
 }: ImageGenerationOptions): Promise<string> {
-  const tag = `[${word}]`;
-
-  // Build a single user message to create a concise scene description
-  const forbidPeople = /environment only|no people/i.test(imageHint || "");
-  const hintLine = imageHint
-    ? `Start from this hint: "${imageHint}".`
-    : "If helpful, invent a simple, filmable scene that clearly depicts the concept.";
-
-  const promptCreationMessages = [
-    {
-      role: "user" as const,
-      content: dedent`
-        Write 2–3 sentences describing a specific, filmable visual scene for the Swedish word "${word}" ("${english}").
-        ${hintLine}
-        ${forbidPeople ? "No people — environment only." : "Prefer using the family characters: adult woman (32, black hair), adult man (32, dark blonde), and/or a 5‑month‑old baby (short black hair). Use descriptions, not names."}
-        Keep it concrete and drawable. No text/letters/numbers in the image.
-      `,
-    },
-  ];
-
-  // Minimal logging; avoid chat debug output
-
-  let sceneDescription: string;
+  // Step 1: Generate scene description
+  const scenePrompt = buildScenePrompt(word, english, imageHint);
+  console.log(scenePrompt);
 
   const promptResponse = await openai.chat.completions.create({
-    model: "gpt-5-mini",
-    messages: promptCreationMessages,
-    max_completion_tokens: 250,
+    model: "gpt-5-nano",
+    messages: [{ role: "user", content: scenePrompt }],
   });
 
-  sceneDescription = promptResponse.choices[0]?.message?.content?.trim() || "";
+  const sceneDescription =
+    promptResponse.choices[0]?.message?.content?.trim() || "";
+  console.log(promptResponse.choices[0]);
+  console.log("Scene description:", sceneDescription);
 
-  // Combine the scene with rendering requirements
-  const prompt = dedent`
+  // Step 2: Generate image with style instructions
+  const imagePrompt = dedent`
     ${sceneDescription}
     
     Style: Studio Ghibli animation, hand-drawn, soft watercolor textures, warm lighting.
@@ -72,59 +68,35 @@ export async function generateImage({
     Composition: Clear focal point, balanced, cinematic framing.
   `;
 
-  // Minimal logging; no prompt echo
-
-  const response = await openai.images.generate({
-    model: "gpt-image-1", // Latest model (2025) with better capabilities
-    prompt,
-    n: 1, // GPT-Image-1 only supports n=1 currently
-    size,
-    quality,
+  const imageResponse = await openai.images.generate({
+    model: "gpt-image-1",
+    prompt: imagePrompt,
+    n: 1,
+    size: "1024x1024", // Options: "1024x1024" (square), "1536x1024" (landscape), "1024x1536" (portrait)
+    quality: "medium", // Options: "low", "medium", "high", or "auto"
   });
 
-  let buffer: ArrayBuffer;
-
-  // Check if we got a URL or base64 data
-  if (response.data?.[0]?.url) {
-    const imageUrl = response.data[0].url;
-    const imageResponse = await fetch(imageUrl);
-    buffer = await imageResponse.arrayBuffer();
-  } else if (response.data?.[0]?.b64_json) {
-    const base64Data = response.data[0].b64_json;
-    const binaryString = atob(base64Data);
-    const bytes = new Uint8Array(binaryString.length);
-    for (let i = 0; i < binaryString.length; i++) {
-      bytes[i] = binaryString.charCodeAt(i);
-    }
-    buffer = bytes.buffer;
-  } else {
-    throw new Error("No image data returned (neither URL nor base64)");
+  // Step 3: Download and save image (OpenAI returns a URL by default)
+  const imageUrl = imageResponse.data?.[0]?.url;
+  if (!imageUrl) {
+    throw new Error("No image URL in response");
   }
 
-  // Save to local file
+  const imageData = await fetch(imageUrl);
+  const buffer = await imageData.arrayBuffer();
   await Bun.write(outputPath, buffer);
+
   return outputPath;
 }
 
 // Example usage when run directly
-async function main() {
+if (import.meta.main) {
   const testWord = {
     word: "Hej",
     english: "Hello",
-    context: "friendly greeting between people",
     outputPath: "./images/test-hej.png",
   };
 
-  try {
-    await generateImage(testWord);
-    console.log("\n✨ Image generation complete!");
-  } catch (error) {
-    console.error("Failed to generate test image:", error);
-  }
-}
-
-// Run if called directly
-if (import.meta.main) {
-  await main();
-  process.exit(0);
+  await generateImage(testWord);
+  console.log("\n✨ Image generation complete!");
 }
