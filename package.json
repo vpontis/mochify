@@ -4,17 +4,17 @@
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest",
+    "@types/bun": "1.2.23",
     "prettier": "^3.6.2"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5.9.3"
   },
   "dependencies": {
-    "commander": "^14.0.0",
+    "commander": "^14.0.1",
     "csv-parse": "^6.1.0",
-    "openai": "^5.13.1",
-    "p-limit": "^7.1.0",
-    "zod": "^4.0.17"
+    "openai": "^6.2.0",
+    "p-limit": "^7.1.1",
+    "zod": "^4.1.12"
   }
 }
