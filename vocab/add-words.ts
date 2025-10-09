@@ -257,12 +257,6 @@ async function generateImages() {
 }
 
 async function main() {
-  if (!process.env.OPENAI_API_KEY) {
-    console.error("❌ OPENAI_API_KEY environment variable is required");
-    console.error("Set it in your .env file or export it in your shell");
-    process.exit(1);
-  }
-
   const args = process.argv.slice(2);
 
   if (args.includes("--help") || args.includes("-h")) {
@@ -277,9 +271,6 @@ Usage:
 
 Options:
   --kelly <n>    Add next n words from Kelly frequency list
-  --sync-only    Just sync to Mochi without adding new words
-  --no-sync      Skip syncing to Mochi
-  --no-images    Skip image generation
   --help         Show this help message
 
 Examples:
@@ -294,18 +285,7 @@ The AI will automatically generate:
   • Natural example sentences
   • Usage notes and context
   • Image generation hints
-
-Note: Requires OPENAI_API_KEY in environment
 `);
-    return;
-  }
-
-  if (args.includes("--sync-only")) {
-    await syncToMochi();
-    if (!args.includes("--no-images")) {
-      await generateImages();
-      await syncToMochi();
-    }
     return;
   }
 
@@ -339,13 +319,10 @@ Note: Requires OPENAI_API_KEY in environment
 
   const newEntries = await processWords(words);
 
-  if (newEntries && newEntries.length > 0 && !args.includes("--no-sync")) {
+  if (newEntries && newEntries.length > 0) {
     await syncToMochi();
-
-    if (!args.includes("--no-images")) {
-      await generateImages();
-      await syncToMochi(); // Sync again to add images
-    }
+    await generateImages();
+    await syncToMochi(); // Sync again to add images
 
     console.log("\n✨ Complete! Your Swedish vocabulary has been enriched.");
   }
