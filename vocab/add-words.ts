@@ -13,6 +13,7 @@
 import OpenAI from "openai";
 import { parse } from "csv-parse/sync";
 import { dedent } from "../utils";
+import { Command } from "commander";
 
 interface VocabWord {
   word: string;
@@ -79,7 +80,6 @@ async function generateVocabEntry(
           content: prompt,
         },
       ],
-      temperature: 0.3,
       response_format: { type: "json_object" },
     });
 
@@ -150,15 +150,9 @@ async function getKellyWords(count: number = 20): Promise<string[]> {
   const newWords: string[] = [];
 
   for (const row of kellyWords) {
-    const word = row["Lemma"]?.toLowerCase().trim();
-    const pos = row["POS"] ?? "";
-    const rank = parseInt(row["ID"] ?? "0") || 0;
+    const word = row["Word"]?.toLowerCase().trim();
 
     if (!word || existingWords.has(word)) continue;
-    if (word.includes("(") || word.includes(".") || word.includes(","))
-      continue;
-    if (["proper name", "numeral"].includes(pos)) continue;
-    if (rank < 200) continue;
 
     newWords.push(word);
     if (newWords.length >= count) break;
@@ -257,75 +251,56 @@ async function generateImages() {
 }
 
 async function main() {
-  const args = process.argv.slice(2);
+  const program = new Command();
 
-  if (args.includes("--help") || args.includes("-h")) {
-    console.log(`
-AI-Powered Swedish Vocabulary Manager
+  program
+    .name("add-words")
+    .description("AI-powered Swedish vocabulary manager")
+    .argument("[words...]", "Swedish words to add")
+    .option("-k, --kelly <count>", "Add next N words from Kelly frequency list")
+    .option("--no-sync", "Skip syncing to Mochi")
+    .option("--no-images", "Skip image generation")
+    .action(async (inputWords: string[], options) => {
+      let words: string[] = [];
 
-Usage:
-  bun vocab/add-words.ts word1 word2 word3...     # Add specific words
-  bun vocab/add-words.ts --kelly <count>          # Add next N words from Kelly list
-  echo "word1 word2" | bun vocab/add-words.ts     # Pipe in words
-  bun vocab/add-words.ts --sync-only              # Just sync existing words
+      if (options.kelly) {
+        const count = parseInt(options.kelly) || 20;
+        words = await getKellyWords(count);
+        console.log(`📚 Selected ${words.length} words from Kelly list`);
+      } else if (inputWords.length > 0) {
+        words = inputWords;
+      } else if (!process.stdin.isTTY) {
+        // Read from stdin if no args provided
+        const input = await Bun.stdin.text();
+        words = input.split(/\s+/).filter((w) => w.length > 0);
+      }
 
-Options:
-  --kelly <n>    Add next n words from Kelly frequency list
-  --help         Show this help message
+      if (words.length === 0) {
+        console.log("No words provided. Use --help for usage information.");
+        return;
+      }
 
-Examples:
-  bun vocab/add-words.ts hej tack fika lagom
-  bun vocab/add-words.ts --kelly 20
-  cat words.txt | bun vocab/add-words.ts
+      console.log(
+        `🚀 Processing ${words.length} Swedish words: ${words.join(", ")}\n`,
+      );
 
-The AI will automatically generate:
-  • English translations
-  • Definitions and explanations
-  • Grammar information (gender, conjugations, etc.)
-  • Natural example sentences
-  • Usage notes and context
-  • Image generation hints
-`);
-    return;
-  }
+      const newEntries = await processWords(words);
 
-  let words: string[] = [];
+      if (newEntries && newEntries.length > 0 && options.sync !== false) {
+        await syncToMochi();
 
-  // Check for Kelly list option
-  const kellyIndex = args.indexOf("--kelly");
-  if (kellyIndex !== -1) {
-    const count = parseInt(args[kellyIndex + 1] ?? "20") || 20;
-    words = await getKellyWords(count);
-    console.log(`📚 Selected ${words.length} words from Kelly list`);
-  } else {
-    // Get words from arguments (excluding flags)
-    words = args.filter((arg) => !arg.startsWith("--"));
+        if (options.images !== false) {
+          await generateImages();
+          await syncToMochi(); // Sync again to add images
+        }
 
-    // If no words in arguments, try reading from stdin
-    if (words.length === 0 && !process.stdin.isTTY) {
-      const input = await Bun.stdin.text();
-      words = input.split(/\s+/).filter((w) => w.length > 0);
-    }
-  }
+        console.log(
+          "\n✨ Complete! Your Swedish vocabulary has been enriched.",
+        );
+      }
+    });
 
-  if (words.length === 0) {
-    console.log("No words provided. Use --help for usage information.");
-    return;
-  }
-
-  console.log(
-    `🚀 Processing ${words.length} Swedish words: ${words.join(", ")}\n`,
-  );
-
-  const newEntries = await processWords(words);
-
-  if (newEntries && newEntries.length > 0) {
-    await syncToMochi();
-    await generateImages();
-    await syncToMochi(); // Sync again to add images
-
-    console.log("\n✨ Complete! Your Swedish vocabulary has been enriched.");
-  }
+  await program.parseAsync();
 }
 
 await main();
