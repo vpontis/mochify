@@ -169,9 +169,5 @@ async function syncSwedishVocabulary() {
 
 // Run the script
 if (import.meta.main) {
-  try {
-    await syncSwedishVocabulary();
-  } catch (error) {
-    console.error("Error:", error);
-  }
+  await syncSwedishVocabulary();
 }
