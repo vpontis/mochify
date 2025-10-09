@@ -151,7 +151,7 @@ async function getKellyWords(count: number = 20): Promise<string[]> {
 
   for (const row of kellyWords) {
     const word = row["Lemma"]?.toLowerCase().trim();
-    const pos = row["POS"];
+    const pos = row["POS"] ?? "";
     const rank = parseInt(row["ID"] ?? "0") || 0;
 
     if (!word || existingWords.has(word)) continue;
