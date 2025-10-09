@@ -429,7 +429,8 @@ function createCLI() {
 // Run CLI if called directly
 if (import.meta.main) {
   const program = createCLI();
-  program.parse();
+  await program.parseAsync();
+  process.exit(0);
 }
 
 // Export for use as module
