@@ -1,5 +1,5 @@
 #!/usr/bin/env bun
-import { MochiClient } from "../mochi-client";
+import { MochiClient } from "../utils/mochi-client";
 import pLimit from "p-limit";
 import { existsSync } from "node:fs";
 

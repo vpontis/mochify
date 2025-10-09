@@ -81,7 +81,7 @@ bun image-gen/generate-images.ts
 ### API Client Usage
 
 ```typescript
-import { MochiClient } from "./mochi-client";
+import { MochiClient } from "./utils/mochi-client";
 
 const client = new MochiClient({ apiKey: process.env.MOCHI_API_KEY });
 

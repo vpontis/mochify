@@ -5,10 +5,8 @@
   "private": true,
   "devDependencies": {
     "@types/bun": "1.2.23",
+    "@typescript/native-preview": "7.0.0-dev.20251001.1",
     "prettier": "^3.6.2"
-  },
-  "peerDependencies": {
-    "typescript": "^5.9.3"
   },
   "dependencies": {
     "commander": "^14.0.1",

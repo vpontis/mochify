@@ -1,230 +1,107 @@
 ---
-description: Mochi Cards API client and CLI for language learning with spaced repetition
-globs: "*.ts, package.json, swedish-alphabet.json"
+description: Mochi Cards API client for Swedish vocabulary learning with AI-generated images
+globs: "utils/*.ts, vocab/*.ts, templates/*.md"
 alwaysApply: false
 ---
 
 # Mochify - Mochi Cards API Client
 
-A TypeScript library and CLI for creating and managing [Mochi](https://mochi.cards) flashcards programmatically, focusing on language learning with spaced repetition.
+TypeScript client and CLI for [Mochi](https://mochi.cards) flashcards. Currently focused on Swedish vocabulary learning with AI-powered images, but works as a general-purpose Mochi API client.
 
 ## Project Structure
 
-- `mochi-client.ts` - Main Mochi API client and CLI implementation
-- `fetch-json.ts` - HTTP utility with Zod validation for type-safe API calls
-- `sync-swedish-alphabet.ts` - Script to sync Swedish alphabet cards with Mochi
-- `swedish-alphabet.json` - Swedish alphabet learning data
+**Core API Client:**
 
-## Mochi API Overview
+- `utils/mochi-client.ts` - Mochi API client and CLI
+- `utils/fetch-json.ts` - HTTP utility with Zod validation
+- `utils.ts` - Utilities (dedent)
 
-### Core Concepts
+**Swedish Vocabulary:**
 
-- **Decks**: Hierarchical containers for organizing cards by topic or subject
-- **Cards**: Markdown-formatted flashcards with support for multiple sides (separated by `---`)
-- **Templates**: Reusable card structures with dynamic field placeholders
-- **Fields**: Structured data that can be embedded in templates using `<< FieldName >>` syntax
+- `vocab/add-words.ts` - AI-powered vocab generator (uses OpenAI)
+- `vocab/sync-swedish-vocabulary.ts` - Sync to Mochi
+- `vocab/gen-images.ts` - Generate DALL-E images (uses OpenAI)
+- `vocab/swedish-core.json` - Vocabulary data with Mochi IDs
+- `vocab/kelly-swedish.csv` - Swedish frequency list
+- `images/` - Generated images (355+ files)
 
-### Template System
+## Swedish Vocabulary Workflow
 
-Mochi's template system is powerful for creating consistent card formats:
+```bash
+# 1. Add words (AI generates translations, examples, grammar notes)
+bun vocab/add-words.ts hej tack fika
+bun vocab/add-words.ts --kelly 20  # Add next 20 from frequency list
 
-#### Field Embedding
+# 2. Sync to Mochi (creates/updates cards)
+bun vocab/sync-swedish-vocabulary.ts
 
-- Basic syntax: `<< FieldName >>` embeds the value of a field
-- Fields are defined when creating cards from templates
+# 3. Generate images
+bun vocab/gen-images.ts
 
-#### Conditional Rendering (Mustache-style)
-
-- Show if field exists: `<<# FieldName >>content<</ FieldName >>`
-- Show if field doesn't exist: `<<^ FieldName >>content<</ FieldName >>`
-
-#### Dynamic Field Types
-
-Templates support various dynamic field types that generate content automatically:
-
-- **Text-to-speech**: Generate audio pronunciation
-- **Translation**: Auto-translate between languages
-- **Image search**: Find relevant images
-- **Dictionary lookup**: Get definitions
-- **AI text generation**: Generate explanations or examples
-- **Language annotations**: Pinyin for Chinese, Furigana for Japanese
-
-#### Example Template
-
-```markdown
-## << Word >>
-
-<<#Pronunciation>>
-🔊 << Pronunciation >>
-<</Pronunciation>>
-
-<<#Translation>>
-Translation: << Translation >>
-<</Translation>>
-
----
-
-## Definition
-
-<< Definition >>
-
-<<#Example>>
-
-### Example
-
-<< Example >>
-<</Example>>
-
-<<#Notes>>
-
-### Notes
-
-<< Notes >>
-<</Notes>>
+# 4. Re-sync to add images to cards
+bun vocab/sync-swedish-vocabulary.ts
 ```
 
-### Card Creation Best Practices
+## General CLI Usage
 
-1. **Use consistent formatting**: Markdown headers for structure
-2. **Leverage templates**: Create reusable templates for similar card types
-3. **Use tags**: Add relevant tags for organization
-4. **Include context**: Add example sentences and usage notes
-5. **Primary field**: Designate one field as primary for UI representation
+```bash
+# List decks
+bun utils/mochi-client.ts list-decks
 
-## Mochi API Gotchas & Troubleshooting
+# Create deck
+bun utils/mochi-client.ts create-deck "My Deck"
 
-### Template vs Regular Cards
+# Create Q&A card
+bun utils/mochi-client.ts create-qa <deck-id> "Question?" "Answer"
 
-1. **Content field is always required**: Even when using templates with fields, the API requires a `content` field. Set it to empty string `""` for template-based cards.
+# List templates
+bun utils/mochi-client.ts list-templates
+```
 
-2. **Template field IDs vs Names**:
+## Mochi API Gotchas
 
-   - Templates reference fields by **name** in the content (e.g., `<< Word >>`)
-   - The API uses field **IDs** when setting values (e.g., `Vj1QoXZ7`)
-   - Field IDs can be retrieved by calling `getTemplate()` to inspect the template structure
+### Template Cards
 
-3. **Field ID mapping**: When using templates, always map field names to their IDs:
-   ```typescript
-   const FIELD_IDS = {
-     word: "name", // Primary field is often "name"
-     english: "Vj1QoXZ7", // Get actual IDs from template
-     examples: "mknO4gtZ",
-     audio: "nRezTqnS",
-   };
-   ```
+1. **Content field is required**: Even with templates, always set `content: ""` for template-based cards
+2. **Field IDs vs Names**: Templates use field names (`<< Word >>`), but API requires field IDs
+3. **Get field IDs**: Call `getTemplate(id)` to see field structure
 
-### API Response Validation
+Example field mapping:
 
-1. **Nullable fields**: The API may return `null` for optional fields like `template-id`. Update Zod schemas to handle nullables:
+```typescript
+const FIELD_IDS = {
+  word: "name", // Primary field is usually "name"
+  english: "Vj1QoXZ7", // Get these from getTemplate()
+  examples: "mknO4gtZ",
+};
+```
 
-   ```typescript
-   "template-id": z.string().nullable().optional()
-   ```
+### Common Issues
 
-2. **Field structure variations**: Template fields may be returned as objects or arrays depending on the endpoint. Use union types in schemas.
-
-3. **HTTP 422 errors**: Usually means required fields are missing or field IDs are incorrect. Check:
-   - Content field is included (even if empty)
-   - Field IDs match the template exactly
-   - All required template fields are provided
-
-### Deck Management
-
-1. **Deck names matter**: Be consistent with deck names - the exact name is used for finding/creating decks
-2. **Check existing decks**: Use `list-decks` to verify deck names and IDs before syncing
-
-### Debugging Tips
-
-1. **Get template details programmatically**:
-
-   ```typescript
-   const template = await client.getTemplate(templateId);
-   console.log(template.fields); // Shows all field IDs
-   ```
-
-2. **Verify card creation**: After creating cards with templates, fetch one to verify fields are set correctly:
-
-   ```typescript
-   const card = await client.getCard(cardId);
-   console.log(card.fields); // Check field values
-   ```
-
-3. **API error responses**: Add logging to see detailed error messages:
-   ```typescript
-   if (!response.ok) {
-     const error = await FetchError.fromResponse(response);
-     console.error("API Error:", error.responseText);
-   }
-   ```
+- **422 errors**: Missing required fields or wrong field IDs
+- **Nullable fields**: Use `.nullable().optional()` in Zod schemas for optional fields like `template-id`
+- **Field structure**: Template fields can be arrays or objects - use union types
 
 ## Runtime
 
-Default to using Bun instead of Node.js:
+Use Bun (not Node.js):
 
-- Use `bun <file>` instead of `node <file>` or `ts-node <file>`
-- Use `bun install` instead of `npm install` or `yarn install`
-- Use `bun run <script>` instead of `npm run <script>`
-- Bun automatically loads .env files, so don't use dotenv
+- `bun <file>` instead of `node` or `ts-node`
+- `bun install` instead of `npm install`
+- Bun auto-loads `.env` files
+- Prefer `Bun.file()` over `node:fs`
 
-## Bun APIs
+## Code Style
 
-When working with this codebase, prefer Bun's built-in APIs:
-
-- Prefer `Bun.file` over `node:fs`'s readFile/writeFile
-- Use `Bun.$` for shell commands instead of execa
-- Bun has built-in support for TypeScript and JSX
-
-## Testing
-
-Use `bun test` to run tests:
+**Named arguments for multiple parameters:**
 
 ```ts
-import { test, expect } from "bun:test";
+// Good
+function createCard({ content, deckId, tags }: {...}) { ... }
+createCard({ content: "...", deckId: "abc", tags: ["swedish"] });
 
-test("example test", () => {
-  expect(1).toBe(1);
-});
-```
-
-# Code Style Preferences
-
-## Function Arguments
-
-- Always use named arguments (object destructuring) for functions with more than one parameter
-- Single argument functions can use positional arguments
-- This improves readability and makes the code self-documenting
-
-Good examples:
-
-```ts
-// Single argument - positional is fine
-function getDeck(deckId: string) { ... }
-
-// Multiple arguments - use named
-function createCard({ content, deckId, tags }: {
-  content: string;
-  deckId: string;
-  tags?: string[];
-}) { ... }
-
-// Call with named arguments
-createCard({
-  content: "Card content",
-  deckId: "abc123",
-  tags: ["swedish", "alphabet"]
-});
-```
-
-Bad examples:
-
-```ts
-// Don't use positional for multiple arguments
+// Bad
 function createCard(content: string, deckId: string, tags?: string[]) { ... }
 ```
 
-# important-instruction-reminders
-
-Do what has been asked; nothing more, nothing less.
-NEVER create files unless they're absolutely necessary for achieving your goal.
-ALWAYS prefer editing an existing file to creating a new one.
-NEVER proactively create documentation files (\*.md) or README files. Only create documentation files if explicitly requested by the User.
+Single argument functions can use positional arguments.

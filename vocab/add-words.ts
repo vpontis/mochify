@@ -12,6 +12,7 @@
 
 import OpenAI from "openai";
 import { parse } from "csv-parse/sync";
+import { dedent } from "../utils";
 
 interface VocabWord {
   word: string;
@@ -42,29 +43,31 @@ async function generateVocabEntry(
   word: string,
 ): Promise<GeneratedEntry | null> {
   try {
-    const prompt = `Generate a Swedish vocabulary entry for the word "${word}".
+    const prompt = dedent`
+      Generate a Swedish vocabulary entry for the word "${word}".
 
-Return a JSON object with this exact structure:
-{
-  "word": "${word}",
-  "english": "concise translation(s)",
-  "definition": "Brief explanation of meaning",
-  "grammar": "SHORT grammar note ONLY - examples: 'vet/visste/vetat (irregular verb)' or 'en bok, boken, böcker (common noun)' or 'god/gott/goda (adjective)'",
-  "examples": [
-    {"swedish": "Example sentence", "english": "Translation"},
-    {"swedish": "Another example", "english": "Translation"}
-  ],
-  "usage": "Brief usage note if important",
-  "imageHint": "6-10 word scene description for image generation (no people)"
-}
+      Return a JSON object with this exact structure:
+      {
+        "word": "${word}",
+        "english": "concise translation(s)",
+        "definition": "Brief explanation of meaning",
+        "grammar": "SHORT grammar note ONLY - examples: 'vet/visste/vetat (irregular verb)' or 'en bok, boken, böcker (common noun)' or 'god/gott/goda (adjective)'",
+        "examples": [
+          {"swedish": "Example sentence", "english": "Translation"},
+          {"swedish": "Another example", "english": "Translation"}
+        ],
+        "usage": "Brief usage note if important",
+        "imageHint": "6-10 word scene description for image generation (no people)"
+      }
 
-IMPORTANT:
-- grammar must be a SHORT STRING (max 80 chars) with conjugations/forms only
-- Examples should be natural and practical
-- Keep it concise`;
+      IMPORTANT:
+      - grammar must be a SHORT STRING (max 80 chars) with conjugations/forms only
+      - Examples should be natural and practical
+      - Keep it concise
+    `;
 
     const response = await openai.chat.completions.create({
-      model: "gpt-4o-mini",
+      model: "gpt-5",
       messages: [
         {
           role: "system",
@@ -80,7 +83,7 @@ IMPORTANT:
       response_format: { type: "json_object" },
     });
 
-    const content = response.choices[0].message.content;
+    const content = response.choices[0]?.message?.content;
     if (!content) return null;
 
     return JSON.parse(content) as GeneratedEntry;
