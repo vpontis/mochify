@@ -135,7 +135,7 @@ async function getKellyWords(count: number = 20): Promise<string[]> {
   const kellyWords = parse(kellyCSV, {
     columns: true,
     skip_empty_lines: true,
-  });
+  }) as Array<Record<string, string>>;
 
   const existingWords = new Set(
     swedishCore
@@ -152,7 +152,7 @@ async function getKellyWords(count: number = 20): Promise<string[]> {
   for (const row of kellyWords) {
     const word = row["Lemma"]?.toLowerCase().trim();
     const pos = row["POS"];
-    const rank = parseInt(row["ID"]) || 0;
+    const rank = parseInt(row["ID"] ?? "0") || 0;
 
     if (!word || existingWords.has(word)) continue;
     if (word.includes("(") || word.includes(".") || word.includes(","))
