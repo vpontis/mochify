@@ -18,7 +18,7 @@ const VocabEntry = z.object({
 });
 
 const IMAGES_DIR = "./images";
-const CONCURRENCY = 1; // Process 5 images at a time
+const CONCURRENCY = 5; // Process 5 images at a time
 const limit = pLimit(CONCURRENCY);
 
 async function ensureImagesDir() {

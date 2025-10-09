@@ -45,7 +45,6 @@ export async function generateImage({
 }: ImageGenerationOptions): Promise<string> {
   // Step 1: Generate scene description
   const scenePrompt = buildScenePrompt(word, english, imageHint);
-  console.log(scenePrompt);
 
   const promptResponse = await openai.chat.completions.create({
     model: "gpt-5-nano",
@@ -54,8 +53,9 @@ export async function generateImage({
 
   const sceneDescription =
     promptResponse.choices[0]?.message?.content?.trim() || "";
-  console.log(promptResponse.choices[0]);
   console.log("Scene description:", sceneDescription);
+
+  const characterCount = Math.floor(Math.random() * 4);
 
   // Step 2: Generate image with style instructions
   const imagePrompt = dedent`
@@ -66,6 +66,7 @@ export async function generateImage({
     Important: No text, letters, words, or numbers anywhere in the image.
     Details: Rich environmental details, expressive character emotions if people are present.
     Composition: Clear focal point, balanced, cinematic framing.
+    Characters: Use ${characterCount} characters if that makes sense.
   `;
 
   const imageResponse = await openai.images.generate({
@@ -73,19 +74,29 @@ export async function generateImage({
     prompt: imagePrompt,
     n: 1,
     size: "1024x1024", // Options: "1024x1024" (square), "1536x1024" (landscape), "1024x1536" (portrait)
-    quality: "medium", // Options: "low", "medium", "high", or "auto"
+    quality: "high", // Options: "low", "medium", "high", or "auto"
   });
 
-  // Step 3: Download and save image (OpenAI returns a URL by default)
-  const imageUrl = imageResponse.data?.[0]?.url;
-  if (!imageUrl) {
-    throw new Error("No image URL in response");
+  // Step 3: Download and save image
+  const imageData = imageResponse.data?.[0];
+  if (!imageData) {
+    throw new Error("No image data in response");
   }
 
-  const imageData = await fetch(imageUrl);
-  const buffer = await imageData.arrayBuffer();
-  await Bun.write(outputPath, buffer);
+  let buffer: Buffer | ArrayBuffer;
 
+  if (imageData.url) {
+    // URL format
+    const response = await fetch(imageData.url);
+    buffer = await response.arrayBuffer();
+  } else if (imageData.b64_json) {
+    // Base64 format
+    buffer = Buffer.from(imageData.b64_json, "base64");
+  } else {
+    throw new Error("No image URL or base64 data in response");
+  }
+
+  await Bun.write(outputPath, buffer);
   return outputPath;
 }
 
