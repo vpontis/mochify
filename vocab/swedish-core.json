@@ -9,7 +9,7 @@
     "notes": "Most common conjunction"
   },
   {
-    "word": "att vara",
+    "word": "vara",
     "english": "to be",
     "examples": "Jag är från Sverige.\n(I am from Sweden.)\n\nHon är lärare på skolan.\n(She is a teacher at the school.)",
     "audio": "Jag är från Sverige. Hon är lärare på skolan.",
@@ -27,7 +27,7 @@
     "notes": "Also means 'for' in time expressions (i tre år)"
   },
   {
-    "word": "att ha",
+    "word": "ha",
     "english": "to have",
     "examples": "Jag har en hund hemma.\n(I have a dog at home.)\n\nHar du tid nu?\n(Do you have time now?)",
     "audio": "Jag har en hund hemma. Har du tid nu?",
@@ -99,7 +99,7 @@
     "notes": "Infinitive marker; also conjunction 'that'"
   },
   {
-    "word": "att kunna",
+    "word": "kunna",
     "english": "can, to be able to",
     "examples": "Kan du hjälpa mig?\n(Can you help me?)\n\nJag kan inte simma.\n(I cannot swim.)",
     "audio": "Kan du hjälpa mig? Jag kan inte simma.",
@@ -225,7 +225,7 @@
     "notes": "'dom' in spoken Swedish for both de/dem"
   },
   {
-    "word": "att få",
+    "word": "få",
     "english": "to get, may",
     "examples": "Får jag fråga något?\n(May I ask something?)\n\nJag fick ett brev.\n(I got a letter.)",
     "audio": "Får jag fråga något? Jag fick ett brev.",
@@ -261,7 +261,7 @@
     "notes": "He/him - same form"
   },
   {
-    "word": "att bli",
+    "word": "bli",
     "english": "to become, to be",
     "examples": "Det blir bra.\n(It will be fine.)\n\nHon blev glad.\n(She became happy.)",
     "audio": "Det blir bra. Hon blev glad.",
@@ -270,7 +270,7 @@
     "notes": "blir/blev/blivit (irregular)"
   },
   {
-    "word": "att komma",
+    "word": "komma",
     "english": "to come",
     "examples": "Kommer du imorgon?\n(Are you coming tomorrow?)\n\nDe kom sent.\n(They came late.)",
     "audio": "Kommer du imorgon? De kom sent.",
@@ -315,7 +315,7 @@
     "notes": "Much/very - both adjective and adverb"
   },
   {
-    "word": "att vilja",
+    "word": "vilja",
     "english": "to want",
     "examples": "Jag vill ha glass.\n(I want ice cream.)\n\nVad vill du göra?\n(What do you want to do?)",
     "audio": "Jag vill ha glass. Vad vill du göra?",
@@ -333,7 +333,7 @@
     "notes": "all/everything/everyone"
   },
   {
-    "word": "att göra",
+    "word": "göra",
     "english": "to do, to make",
     "examples": "Vad ska vi göra idag?\n(What should we do today?)\n\nJag gör frukost nu.\n(I'm making breakfast now.)",
     "audio": "Vad ska vi göra idag? Jag gör frukost nu.",
@@ -369,7 +369,7 @@
     "notes": "Someone/something/some"
   },
   {
-    "word": "att finna",
+    "word": "finna",
     "english": "to find",
     "examples": "Jag kan inte finna mina nycklar.\n(I can't find my keys.)\n\nVi fann lösningen.\n(We found the solution.)",
     "audio": "Jag kan inte finna mina nycklar. Vi fann lösningen.",
@@ -378,7 +378,7 @@
     "notes": "finner/fann/funnit (formal, 'hitta' more common)"
   },
   {
-    "word": "att ta",
+    "word": "ta",
     "english": "to take",
     "examples": "Ta med dig paraplyet.\n(Take the umbrella with you.)\n\nJag tar bussen.\n(I'll take the bus.)",
     "audio": "Ta med dig paraplyet. Jag tar bussen.",
@@ -396,7 +396,7 @@
     "notes": "When (question and conjunction)"
   },
   {
-    "word": "att se",
+    "word": "se",
     "english": "to see, to look",
     "examples": "Kan du se mig?\n(Can you see me?)\n\nVi ses imorgon!\n(See you tomorrow!)",
     "audio": "Kan du se mig? Vi ses imorgon!",
@@ -441,7 +441,7 @@
     "notes": "Now; often softens commands"
   },
   {
-    "word": "att gå",
+    "word": "gå",
     "english": "to go, to walk",
     "examples": "Jag går till skolan.\n(I walk to school.)\n\nVi går på bio ikväll.\n(We're going to the cinema tonight.)",
     "audio": "Jag går till skolan. Vi går på bio ikväll.",
@@ -450,7 +450,7 @@
     "notes": "går/gick/gått (irregular)"
   },
   {
-    "word": "att säga",
+    "word": "säga",
     "english": "to say",
     "examples": "Vad sa du?\n(What did you say?)\n\nHon säger alltid sanningen.\n(She always tells the truth.)",
     "audio": "Vad sa du? Hon säger alltid sanningen.",
@@ -549,7 +549,7 @@
     "notes": "ny/nytt/nya"
   },
   {
-    "word": "att veta",
+    "word": "veta",
     "english": "to know",
     "examples": "Jag vet inte.\n(I don't know.)\n\nVet du vägen?\n(Do you know the way?)",
     "audio": "Jag vet inte. Vet du vägen?",
@@ -567,7 +567,7 @@
     "notes": "'mera' is formal/old-fashioned"
   },
   {
-    "word": "att ge",
+    "word": "ge",
     "english": "to give",
     "examples": "Kan du ge mig saltet?\n(Can you give me the salt?)\n\nJag gav henne en present.\n(I gave her a present.)",
     "audio": "Kan du ge mig saltet? Jag gav henne en present.",
@@ -630,7 +630,7 @@
     "notes": "Three; 'trean' = bus/tram line 3"
   },
   {
-    "word": "att tycka",
+    "word": "tycka",
     "english": "to think (opinion)",
     "examples": "Jag tycker om dig.\n(I like you.)\n\nVad tycker du?\n(What do you think?)",
     "audio": "Jag tycker om dig. Vad tycker du?",
@@ -648,7 +648,7 @@
     "notes": "Self; 'själva' = even/actually"
   },
   {
-    "word": "att sätta",
+    "word": "sätta",
     "english": "to put, to set",
     "examples": "Sätt dig ner.\n(Sit down.)\n\nJag sätter på lampan.\n(I'm turning on the lamp.)",
     "audio": "Sätt dig ner. Jag sätter på lampan.",
@@ -711,7 +711,7 @@
     "notes": "Without; strong contrast to 'med'"
   },
   {
-    "word": "att ligga",
+    "word": "ligga",
     "english": "to lie (down)",
     "examples": "Boken ligger på bordet.\n(The book is lying on the table.)\n\nJag ligger i sängen.\n(I'm lying in bed.)",
     "audio": "Boken ligger på bordet. Jag ligger i sängen.",
@@ -720,7 +720,7 @@
     "notes": "ligger/låg/legat (irregular)"
   },
   {
-    "word": "att känna",
+    "word": "känna",
     "english": "to feel, to know (person)",
     "examples": "Jag känner mig trött.\n(I feel tired.)\n\nKänner du honom?\n(Do you know him?)",
     "audio": "Jag känner mig trött. Känner du honom?",
@@ -729,7 +729,7 @@
     "notes": "känner/kände/känt"
   },
   {
-    "word": "att behöva",
+    "word": "behöva",
     "english": "to need",
     "examples": "Jag behöver hjälp.\n(I need help.)\n\nVad behöver du?\n(What do you need?)",
     "audio": "Jag behöver hjälp. Vad behöver du?",
@@ -738,7 +738,7 @@
     "notes": "behöver/behövde/behövt"
   },
   {
-    "word": "att finnas",
+    "word": "finnas",
     "english": "to exist, there is/are",
     "examples": "Det finns kaffe i köket.\n(There's coffee in the kitchen.)\n\nFinns det tid?\n(Is there time?)",
     "audio": "Det finns kaffe i köket. Finns det tid?",
@@ -756,7 +756,7 @@
     "notes": "Which/what; exclamations too"
   },
   {
-    "word": "att heta",
+    "word": "heta",
     "english": "to be called",
     "examples": "Vad heter du?\n(What's your name?)\n\nJag heter Erik.\n(My name is Erik.)",
     "audio": "Vad heter du? Jag heter Erik.",
@@ -774,7 +774,7 @@
     "notes": "Time; 'i tid' = on time"
   },
   {
-    "word": "att tro",
+    "word": "tro",
     "english": "to believe, to think",
     "examples": "Jag tror det.\n(I think so.)\n\nTror du på mig?\n(Do you believe me?)",
     "audio": "Jag tror det. Tror du på mig?",
@@ -783,7 +783,7 @@
     "notes": "tror/trodde/trott"
   },
   {
-    "word": "att stå",
+    "word": "stå",
     "english": "to stand",
     "examples": "Han står vid dörren.\n(He's standing by the door.)\n\nVad står det?\n(What does it say?)",
     "audio": "Han står vid dörren. Vad står det?",
@@ -855,7 +855,7 @@
     "notes": "Adverb - 'already'"
   },
   {
-    "word": "att leva",
+    "word": "leva",
     "english": "to live",
     "examples": "Vi lever bara en gång.\n(We only live once.)\n\nHan lever fortfarande.\n(He's still alive.)",
     "audio": "Vi lever bara en gång. Han lever fortfarande.",
@@ -864,7 +864,7 @@
     "notes": "lever/levde/levt"
   },
   {
-    "word": "att börja",
+    "word": "börja",
     "english": "to begin, to start",
     "examples": "Vi börjar klockan nio.\n(We start at nine o'clock.)\n\nDet börjar regna.\n(It's starting to rain.)",
     "audio": "Vi börjar klockan nio. Det börjar regna.",
@@ -873,7 +873,7 @@
     "notes": "börjar/började/börjat"
   },
   {
-    "word": "att sitta",
+    "word": "sitta",
     "english": "to sit",
     "examples": "Var sitter du?\n(Where are you sitting?)\n\nSitt ner!\n(Sit down!)",
     "audio": "Var sitter du? Sitt ner!",
@@ -882,7 +882,7 @@
     "notes": "sitter/satt/suttit (irregular)"
   },
   {
-    "word": "att arbeta",
+    "word": "arbeta",
     "english": "to work",
     "examples": "Jag arbetar på ett kontor.\n(I work in an office.)\n\nHon arbetar hårt.\n(She works hard.)",
     "audio": "Jag arbetar på ett kontor. Hon arbetar hårt.",
@@ -891,7 +891,7 @@
     "notes": "arbetar/arbetade/arbetat"
   },
   {
-    "word": "att hjälpa",
+    "word": "hjälpa",
     "english": "to help",
     "examples": "Kan du hjälpa mig?\n(Can you help me?)\n\nTack för hjälpen!\n(Thanks for the help!)",
     "audio": "Kan du hjälpa mig? Tack för hjälpen!",
@@ -900,7 +900,7 @@
     "notes": "hjälper/hjälpte/hjälpt"
   },
   {
-    "word": "att lära",
+    "word": "lära",
     "english": "to learn, to teach",
     "examples": "Jag lär mig svenska.\n(I'm learning Swedish.)\n\nHon lär barn att läsa.\n(She teaches children to read.)",
     "audio": "Jag lär mig svenska. Hon lär barn att läsa.",
@@ -909,7 +909,7 @@
     "notes": "lär/lärde/lärt ('lära sig' = to learn)"
   },
   {
-    "word": "att tala",
+    "word": "tala",
     "english": "to speak",
     "examples": "Talar du engelska?\n(Do you speak English?)\n\nVi talar om vädret.\n(We're talking about the weather.)",
     "audio": "Talar du engelska? Vi talar om vädret.",
@@ -918,7 +918,7 @@
     "notes": "talar/talade/talat"
   },
   {
-    "word": "att läsa",
+    "word": "läsa",
     "english": "to read",
     "examples": "Jag läser en bok.\n(I'm reading a book.)\n\nKan du läsa detta?\n(Can you read this?)",
     "audio": "Jag läser en bok. Kan du läsa detta?",
@@ -927,7 +927,7 @@
     "notes": "läser/läste/läst"
   },
   {
-    "word": "att skriva",
+    "word": "skriva",
     "english": "to write",
     "examples": "Skriv ditt namn här.\n(Write your name here.)\n\nJag skriver ett brev.\n(I'm writing a letter.)",
     "audio": "Skriv ditt namn här. Jag skriver ett brev.",
@@ -936,7 +936,7 @@
     "notes": "skriver/skrev/skrivit (irregular)"
   },
   {
-    "word": "att äta",
+    "word": "äta",
     "english": "to eat",
     "examples": "Vad ska vi äta?\n(What shall we eat?)\n\nJag äter lunch nu.\n(I'm eating lunch now.)",
     "audio": "Vad ska vi äta? Jag äter lunch nu.",
@@ -945,7 +945,7 @@
     "notes": "äter/åt/ätit (irregular)"
   },
   {
-    "word": "att dricka",
+    "word": "dricka",
     "english": "to drink",
     "examples": "Vill du dricka något?\n(Do you want to drink something?)\n\nJag dricker kaffe.\n(I drink coffee.)",
     "audio": "Vill du dricka något? Jag dricker kaffe.",
@@ -954,7 +954,7 @@
     "notes": "dricker/drack/druckit (irregular)"
   },
   {
-    "word": "att sova",
+    "word": "sova",
     "english": "to sleep",
     "examples": "Jag behöver sova.\n(I need to sleep.)\n\nHan sover redan.\n(He's already sleeping.)",
     "audio": "Jag behöver sova. Han sover redan.",
@@ -963,7 +963,7 @@
     "notes": "sover/sov/sovit (irregular)"
   },
   {
-    "word": "att köpa",
+    "word": "köpa",
     "english": "to buy",
     "examples": "Jag ska köpa mjölk.\n(I'm going to buy milk.)\n\nVar köpte du det?\n(Where did you buy it?)",
     "audio": "Jag ska köpa mjölk. Var köpte du det?",
@@ -972,7 +972,7 @@
     "notes": "köper/köpte/köpt"
   },
   {
-    "word": "att sälja",
+    "word": "sälja",
     "english": "to sell",
     "examples": "De säljer frukt.\n(They sell fruit.)\n\nVi ska sälja huset.\n(We're going to sell the house.)",
     "audio": "De säljer frukt. Vi ska sälja huset.",
@@ -981,7 +981,7 @@
     "notes": "säljer/sålde/sålt (irregular)"
   },
   {
-    "word": "att betala",
+    "word": "betala",
     "english": "to pay",
     "examples": "Kan jag betala med kort?\n(Can I pay with card?)\n\nVem betalar?\n(Who's paying?)",
     "audio": "Kan jag betala med kort? Vem betalar?",
@@ -990,7 +990,7 @@
     "notes": "betalar/betalade/betalat"
   },
   {
-    "word": "att öppna",
+    "word": "öppna",
     "english": "to open",
     "examples": "Öppna dörren!\n(Open the door!)\n\nButiken öppnar klockan nio.\n(The store opens at nine.)",
     "audio": "Öppna dörren! Butiken öppnar klockan nio.",
@@ -999,7 +999,7 @@
     "notes": "öppnar/öppnade/öppnat"
   },
   {
-    "word": "att stänga",
+    "word": "stänga",
     "english": "to close",
     "examples": "Stäng fönstret.\n(Close the window.)\n\nVi stänger snart.\n(We're closing soon.)",
     "audio": "Stäng fönstret. Vi stänger snart.",
@@ -1008,7 +1008,7 @@
     "notes": "stänger/stängde/stängt"
   },
   {
-    "word": "att fråga",
+    "word": "fråga",
     "english": "to ask",
     "examples": "Får jag fråga något?\n(May I ask something?)\n\nFråga honom!\n(Ask him!)",
     "audio": "Får jag fråga något? Fråga honom!",
@@ -1017,7 +1017,7 @@
     "notes": "frågar/frågade/frågat"
   },
   {
-    "word": "att svara",
+    "word": "svara",
     "english": "to answer",
     "examples": "Kan du svara?\n(Can you answer?)\n\nHon svarade inte.\n(She didn't answer.)",
     "audio": "Kan du svara? Hon svarade inte.",
@@ -1026,7 +1026,7 @@
     "notes": "svarar/svarade/svarat"
   },
   {
-    "word": "att vänta",
+    "word": "vänta",
     "english": "to wait",
     "examples": "Vänta lite!\n(Wait a bit!)\n\nJag väntar på dig.\n(I'm waiting for you.)",
     "audio": "Vänta lite! Jag väntar på dig.",
@@ -1035,7 +1035,7 @@
     "notes": "väntar/väntade/väntat"
   },
   {
-    "word": "att titta",
+    "word": "titta",
     "english": "to look, to watch",
     "examples": "Titta här!\n(Look here!)\n\nVi tittar på TV.\n(We're watching TV.)",
     "audio": "Titta här! Vi tittar på TV.",
@@ -1044,7 +1044,7 @@
     "notes": "tittar/tittade/tittat"
   },
   {
-    "word": "att lyssna",
+    "word": "lyssna",
     "english": "to listen",
     "examples": "Lyssna på mig!\n(Listen to me!)\n\nJag lyssnar på musik.\n(I'm listening to music.)",
     "audio": "Lyssna på mig! Jag lyssnar på musik.",
@@ -1053,7 +1053,7 @@
     "notes": "lyssnar/lyssnade/lyssnat"
   },
   {
-    "word": "att prata",
+    "word": "prata",
     "english": "to talk, to speak",
     "examples": "Vi pratar svenska.\n(We speak Swedish.)\n\nPrata inte så högt!\n(Don't talk so loud!)",
     "audio": "Vi pratar svenska. Prata inte så högt!",
@@ -1062,7 +1062,7 @@
     "notes": "pratar/pratade/pratat"
   },
   {
-    "word": "att förstå",
+    "word": "förstå",
     "english": "to understand",
     "examples": "Förstår du?\n(Do you understand?)\n\nJag förstår inte.\n(I don't understand.)",
     "audio": "Förstår du? Jag förstår inte.",
@@ -1071,7 +1071,7 @@
     "notes": "förstår/förstod/förstått (irregular)"
   },
   {
-    "word": "att glömma",
+    "word": "glömma",
     "english": "to forget",
     "examples": "Glöm inte!\n(Don't forget!)\n\nJag glömde namnet.\n(I forgot the name.)",
     "audio": "Glöm inte! Jag glömde namnet.",
@@ -1080,7 +1080,7 @@
     "notes": "glömmer/glömde/glömt"
   },
   {
-    "word": "att minnas",
+    "word": "minnas",
     "english": "to remember",
     "examples": "Jag minns inte.\n(I don't remember.)\n\nMinns du mig?\n(Do you remember me?)",
     "audio": "Jag minns inte. Minns du mig?",
@@ -1089,7 +1089,7 @@
     "notes": "minns/mindes/mints (deponent verb)"
   },
   {
-    "word": "att tänka",
+    "word": "tänka",
     "english": "to think",
     "examples": "Vad tänker du på?\n(What are you thinking about?)\n\nJag tänker på dig.\n(I'm thinking of you.)",
     "audio": "Vad tänker du på? Jag tänker på dig.",
@@ -1098,7 +1098,7 @@
     "notes": "tänker/tänkte/tänkt"
   },
   {
-    "word": "att försöka",
+    "word": "försöka",
     "english": "to try",
     "examples": "Försök igen!\n(Try again!)\n\nJag ska försöka.\n(I'll try.)",
     "audio": "Försök igen! Jag ska försöka.",
@@ -1107,7 +1107,7 @@
     "notes": "försöker/försökte/försökt"
   },
   {
-    "word": "att sluta",
+    "word": "sluta",
     "english": "to stop, to quit",
     "examples": "Sluta med det!\n(Stop that!)\n\nNär slutar du?\n(When do you finish?)",
     "audio": "Sluta med det! När slutar du?",
@@ -1116,7 +1116,7 @@
     "notes": "slutar/slutade/slutat"
   },
   {
-    "word": "att spela",
+    "word": "spela",
     "english": "to play",
     "examples": "Barn spelar i parken.\n(Children play in the park.)\n\nHan spelar gitarr.\n(He plays guitar.)",
     "audio": "Barn spelar i parken. Han spelar gitarr.",
@@ -1125,7 +1125,7 @@
     "notes": "spelar/spelade/spelat"
   },
   {
-    "word": "att sjunga",
+    "word": "sjunga",
     "english": "to sing",
     "examples": "Hon sjunger vackert.\n(She sings beautifully.)\n\nVi sjunger tillsammans.\n(We sing together.)",
     "audio": "Hon sjunger vackert. Vi sjunger tillsammans.",
@@ -1134,7 +1134,7 @@
     "notes": "sjunger/sjöng/sjungit (irregular)"
   },
   {
-    "word": "att dansa",
+    "word": "dansa",
     "english": "to dance",
     "examples": "Vill du dansa?\n(Do you want to dance?)\n\nDe dansar hela natten.\n(They dance all night.)",
     "audio": "Vill du dansa? De dansar hela natten.",
@@ -1143,7 +1143,7 @@
     "notes": "dansar/dansade/dansat"
   },
   {
-    "word": "att resa",
+    "word": "resa",
     "english": "to travel",
     "examples": "Vi reser till Norge.\n(We're traveling to Norway.)\n\nJag reser ofta.\n(I travel often.)",
     "audio": "Vi reser till Norge. Jag reser ofta.",
@@ -1152,7 +1152,7 @@
     "notes": "reser/reste/rest"
   },
   {
-    "word": "att åka",
+    "word": "åka",
     "english": "to go (by vehicle)",
     "examples": "Vi åker bil.\n(We're going by car.)\n\nNär åker tåget?\n(When does the train leave?)",
     "audio": "Vi åker bil. När åker tåget?",
@@ -1161,7 +1161,7 @@
     "notes": "åker/åkte/åkt"
   },
   {
-    "word": "att flyga",
+    "word": "flyga",
     "english": "to fly",
     "examples": "Fåglar flyger.\n(Birds fly.)\n\nVi flyger till London.\n(We're flying to London.)",
     "audio": "Fåglar flyger. Vi flyger till London.",
@@ -1170,7 +1170,7 @@
     "notes": "flyger/flög/flugit (irregular)"
   },
   {
-    "word": "att köra",
+    "word": "köra",
     "english": "to drive",
     "examples": "Kan du köra bil?\n(Can you drive a car?)\n\nKör försiktigt!\n(Drive carefully!)",
     "audio": "Kan du köra bil? Kör försiktigt!",
@@ -1179,7 +1179,7 @@
     "notes": "kör/körde/kört"
   },
   {
-    "word": "att cykla",
+    "word": "cykla",
     "english": "to bike, to cycle",
     "examples": "Jag cyklar till jobbet.\n(I bike to work.)\n\nDe cyklar i skogen.\n(They're cycling in the forest.)",
     "audio": "Jag cyklar till jobbet. De cyklar i skogen.",
@@ -1188,7 +1188,7 @@
     "notes": "cyklar/cyklade/cyklat"
   },
   {
-    "word": "att springa",
+    "word": "springa",
     "english": "to run",
     "examples": "Barn springer i parken.\n(Children run in the park.)\n\nSpring inte!\n(Don't run!)",
     "audio": "Barn springer i parken. Spring inte!",
@@ -1197,7 +1197,7 @@
     "notes": "springer/sprang/sprungit (irregular)"
   },
   {
-    "word": "att simma",
+    "word": "simma",
     "english": "to swim",
     "examples": "Kan du simma?\n(Can you swim?)\n\nVi simmar i havet.\n(We swim in the sea.)",
     "audio": "Kan du simma? Vi simmar i havet.",
@@ -1206,7 +1206,7 @@
     "notes": "simmar/simmade/simmat"
   },
   {
-    "word": "att träna",
+    "word": "träna",
     "english": "to exercise, to train",
     "examples": "Jag tränar varje dag.\n(I exercise every day.)\n\nHon tränar fotboll.\n(She trains football.)",
     "audio": "Jag tränar varje dag. Hon tränar fotboll.",
@@ -1215,7 +1215,7 @@
     "notes": "tränar/tränade/tränat"
   },
   {
-    "word": "att vila",
+    "word": "vila",
     "english": "to rest",
     "examples": "Du behöver vila.\n(You need to rest.)\n\nJag vilar på soffan.\n(I'm resting on the sofa.)",
     "audio": "Du behöver vila. Jag vilar på soffan.",
@@ -1224,7 +1224,7 @@
     "notes": "vilar/vilade/vilat"
   },
   {
-    "word": "att vakna",
+    "word": "vakna",
     "english": "to wake up",
     "examples": "Jag vaknar tidigt.\n(I wake up early.)\n\nNär vaknade du?\n(When did you wake up?)",
     "audio": "Jag vaknar tidigt. När vaknade du?",
@@ -1233,7 +1233,7 @@
     "notes": "vaknar/vaknade/vaknat"
   },
   {
-    "word": "att bo",
+    "word": "bo",
     "english": "to live (reside)",
     "examples": "Var bor du?\n(Where do you live?)\n\nJag bor i Stockholm.\n(I live in Stockholm.)",
     "audio": "Var bor du? Jag bor i Stockholm.",
@@ -1323,7 +1323,7 @@
     "mochiId": "RPWqgGUZ"
   },
   {
-    "word": "att hoppas",
+    "word": "hoppas",
     "english": "to hope",
     "examples": "Jag hoppas det blir bra.\n(I hope it will be good.)\n\nVi hoppas på sol.\n(We hope for sun.)",
     "audio": "Jag hoppas det blir bra. Vi hoppas på sol.",
@@ -1332,7 +1332,7 @@
     "mochiId": "RyiB10iq"
   },
   {
-    "word": "att träffa",
+    "word": "träffa",
     "english": "to meet",
     "examples": "Ska vi träffas imorgon?\n(Shall we meet tomorrow?)\n\nJag träffade honom igår.\n(I met him yesterday.)",
     "audio": "Ska vi träffas imorgon? Jag träffade honom igår.",
@@ -1341,7 +1341,7 @@
     "mochiId": "UEXNgeAu"
   },
   {
-    "word": "att berätta",
+    "word": "berätta",
     "english": "to tell",
     "examples": "Berätta för mig!\n(Tell me!)\n\nHon berättade allt.\n(She told everything.)",
     "audio": "Berätta för mig! Hon berättade allt.",
@@ -1350,7 +1350,7 @@
     "mochiId": "iwxmoCQS"
   },
   {
-    "word": "att visa",
+    "word": "visa",
     "english": "to show",
     "examples": "Kan du visa mig?\n(Can you show me?)\n\nJag visar vägen.\n(I'll show the way.)",
     "audio": "Kan du visa mig? Jag visar vägen.",
@@ -1359,7 +1359,7 @@
     "mochiId": "3hF9qWco"
   },
   {
-    "word": "att låta",
+    "word": "låta",
     "english": "to let, to sound",
     "examples": "Låt mig hjälpa dig.\n(Let me help you.)\n\nDet låter bra.\n(That sounds good.)",
     "audio": "Låt mig hjälpa dig. Det låter bra.",
@@ -1368,7 +1368,7 @@
     "mochiId": "XUbNAPvq"
   },
   {
-    "word": "att betyda",
+    "word": "betyda",
     "english": "to mean",
     "examples": "Vad betyder det?\n(What does it mean?)\n\nDet betyder mycket.\n(It means a lot.)",
     "audio": "Vad betyder det? Det betyder mycket.",
@@ -1377,7 +1377,7 @@
     "mochiId": "hWV4AU8m"
   },
   {
-    "word": "att hända",
+    "word": "hända",
     "english": "to happen",
     "examples": "Vad händer?\n(What's happening?)\n\nDet hände igår.\n(It happened yesterday.)",
     "audio": "Vad händer? Det hände igår.",
@@ -1386,7 +1386,7 @@
     "mochiId": "70ZvowMo"
   },
   {
-    "word": "att fortsätta",
+    "word": "fortsätta",
     "english": "to continue",
     "examples": "Vi fortsätter imorgon.\n(We'll continue tomorrow.)\n\nFortsätt rakt fram.\n(Continue straight ahead.)",
     "audio": "Vi fortsätter imorgon. Fortsätt rakt fram.",
@@ -1395,7 +1395,7 @@
     "mochiId": "XkAA0yPH"
   },
   {
-    "word": "att använda",
+    "word": "använda",
     "english": "to use",
     "examples": "Får jag använda din penna?\n(May I use your pen?)\n\nVi använder datorer.\n(We use computers.)",
     "audio": "Får jag använda din penna? Vi använder datorer.",
@@ -1404,7 +1404,7 @@
     "mochiId": "GdTQ3n3u"
   },
   {
-    "word": "att följa",
+    "word": "följa",
     "english": "to follow",
     "examples": "Följ mig!\n(Follow me!)\n\nJag följer reglerna.\n(I follow the rules.)",
     "audio": "Följ mig! Jag följer reglerna.",
@@ -1413,7 +1413,7 @@
     "mochiId": "PxMVqMsf"
   },
   {
-    "word": "att utveckla",
+    "word": "utveckla",
     "english": "to develop",
     "examples": "Vi utvecklar nya produkter.\n(We develop new products.)\n\nBarnet utvecklas snabbt.\n(The child develops quickly.)",
     "audio": "Vi utvecklar nya produkter. Barnet utvecklas snabbt.",
@@ -1844,7 +1844,7 @@
     "mochiId": "lSUTAz2y"
   },
   {
-    "word": "att frysa",
+    "word": "frysa",
     "english": "to freeze",
     "examples": "Hon kan frysa vatten med en gest.\n(She can freeze water with a gesture.)\n\nLuften får oss att frysa om händerna.\n(The air makes us freeze our hands.)",
     "audio": "Hon kan frysa vatten med en gest. Luften får oss att frysa om händerna.",
@@ -1854,7 +1854,7 @@
     "mochiId": "rTuKFmWv"
   },
   {
-    "word": "att smälta",
+    "word": "smälta",
     "english": "to melt",
     "examples": "Solen börjar smälta isen på taken.\n(The sun starts to melt the ice on the roofs.)\n\nEtt varmt hjärta kan smälta vilken mur som helst.\n(A warm heart can melt any wall.)",
     "audio": "Solen börjar smälta isen på taken. Ett varmt hjärta kan smälta vilken mur som helst.",
@@ -2064,7 +2064,7 @@
     "mochiId": "JEfTaPTQ"
   },
   {
-    "word": "att rädda",
+    "word": "rädda",
     "english": "to rescue, to save",
     "examples": "Han försöker rädda byn från isen.\n(He tries to save the village from the ice.)\n\nVi måste rädda varandra från stormen.\n(We must rescue each other from the storm.)",
     "audio": "Han försöker rädda byn från isen. Vi måste rädda varandra från stormen.",
@@ -2074,7 +2074,7 @@
     "mochiId": "B6Ev4EmG"
   },
   {
-    "word": "att bygga",
+    "word": "bygga",
     "english": "to build",
     "examples": "Vi bygger murar av snöblock.\n(We build walls of snow blocks.)\n\nHon vill bygga något som varar.\n(She wants to build something that lasts.)",
     "audio": "Vi bygger murar av snöblock. Hon vill bygga något som varar.",

@@ -258,8 +258,6 @@ async function main() {
     .description("AI-powered Swedish vocabulary manager")
     .argument("[words...]", "Swedish words to add")
     .option("-k, --kelly <count>", "Add next N words from Kelly frequency list")
-    .option("--no-sync", "Skip syncing to Mochi")
-    .option("--no-images", "Skip image generation")
     .action(async (inputWords: string[], options) => {
       let words: string[] = [];
 
@@ -286,13 +284,10 @@ async function main() {
 
       const newEntries = await processWords(words);
 
-      if (newEntries && newEntries.length > 0 && options.sync !== false) {
+      if (newEntries && newEntries.length > 0) {
         await syncToMochi();
-
-        if (options.images !== false) {
-          await generateImages();
-          await syncToMochi(); // Sync again to add images
-        }
+        await generateImages();
+        await syncToMochi(); // Sync again to add images
 
         console.log(
           "\n✨ Complete! Your Swedish vocabulary has been enriched.",
