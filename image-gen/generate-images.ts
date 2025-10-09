@@ -52,31 +52,15 @@ export async function generateImage({
   // Minimal logging; avoid chat debug output
 
   let sceneDescription: string;
-  try {
-    const promptResponse = await openai.chat.completions.create({
-      model: "gpt-5-mini",
-      messages: promptCreationMessages,
-      temperature: 0.7,
-      max_completion_tokens: 250,
-    });
 
-    sceneDescription =
-      promptResponse.choices[0]?.message?.content?.trim() || "";
-    // Keep silent on success to reduce verbosity
-  } catch (error) {
-    // Suppress chat errors; we synthesize a fallback scene below
-    sceneDescription = "";
-  }
+  const promptResponse = await openai.chat.completions.create({
+    model: "gpt-5-mini",
+    messages: promptCreationMessages,
+    temperature: 0.7,
+    max_completion_tokens: 250,
+  });
 
-  // Fallback if GPT returns no scene
-  if (!sceneDescription || sceneDescription.trim().length === 0) {
-    const base = imageHint
-      ? `A filmable scene: ${imageHint}.`
-      : `An everyday scene illustrating "${english}": an adult and a baby interact with a single clear prop.`;
-    const detail = `Keep it grounded, with a clear focal action and readable lighting.`;
-    sceneDescription = `${base} ${detail}`;
-    // Silent fallback
-  }
+  sceneDescription = promptResponse.choices[0]?.message?.content?.trim() || "";
 
   // Combine the scene with rendering requirements
   const prompt = dedent`
@@ -91,41 +75,36 @@ export async function generateImage({
 
   // Minimal logging; no prompt echo
 
-  try {
-    const response = await openai.images.generate({
-      model: "gpt-image-1", // Latest model (2025) with better capabilities
-      prompt,
-      n: 1, // GPT-Image-1 only supports n=1 currently
-      size,
-      quality,
-    });
+  const response = await openai.images.generate({
+    model: "gpt-image-1", // Latest model (2025) with better capabilities
+    prompt,
+    n: 1, // GPT-Image-1 only supports n=1 currently
+    size,
+    quality,
+  });
 
-    let buffer: ArrayBuffer;
+  let buffer: ArrayBuffer;
 
-    // Check if we got a URL or base64 data
-    if (response.data?.[0]?.url) {
-      const imageUrl = response.data[0].url;
-      const imageResponse = await fetch(imageUrl);
-      buffer = await imageResponse.arrayBuffer();
-    } else if (response.data?.[0]?.b64_json) {
-      const base64Data = response.data[0].b64_json;
-      const binaryString = atob(base64Data);
-      const bytes = new Uint8Array(binaryString.length);
-      for (let i = 0; i < binaryString.length; i++) {
-        bytes[i] = binaryString.charCodeAt(i);
-      }
-      buffer = bytes.buffer;
-    } else {
-      throw new Error("No image data returned (neither URL nor base64)");
+  // Check if we got a URL or base64 data
+  if (response.data?.[0]?.url) {
+    const imageUrl = response.data[0].url;
+    const imageResponse = await fetch(imageUrl);
+    buffer = await imageResponse.arrayBuffer();
+  } else if (response.data?.[0]?.b64_json) {
+    const base64Data = response.data[0].b64_json;
+    const binaryString = atob(base64Data);
+    const bytes = new Uint8Array(binaryString.length);
+    for (let i = 0; i < binaryString.length; i++) {
+      bytes[i] = binaryString.charCodeAt(i);
     }
-
-    // Save to local file
-    await Bun.write(outputPath, buffer);
-    return outputPath;
-  } catch (error) {
-    console.error(`${tag} failed to generate image:`, error);
-    throw error;
+    buffer = bytes.buffer;
+  } else {
+    throw new Error("No image data returned (neither URL nor base64)");
   }
+
+  // Save to local file
+  await Bun.write(outputPath, buffer);
+  return outputPath;
 }
 
 // Example usage when run directly
@@ -147,11 +126,6 @@ async function main() {
 
 // Run if called directly
 if (import.meta.main) {
-  if (!Bun.env.OPENAI_API_KEY) {
-    console.error("Error: OPENAI_API_KEY environment variable is required");
-    console.error("Add it to your .env file or export it in your shell");
-    process.exit(1);
-  }
-
-  main().catch(console.error);
+  await main();
+  process.exit(0);
 }

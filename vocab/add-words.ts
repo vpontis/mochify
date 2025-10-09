@@ -314,7 +314,7 @@ Note: Requires OPENAI_API_KEY in environment
   // Check for Kelly list option
   const kellyIndex = args.indexOf("--kelly");
   if (kellyIndex !== -1) {
-    const count = parseInt(args[kellyIndex + 1]) || 20;
+    const count = parseInt(args[kellyIndex + 1] ?? "20") || 20;
     words = await getKellyWords(count);
     console.log(`📚 Selected ${words.length} words from Kelly list`);
   } else {
