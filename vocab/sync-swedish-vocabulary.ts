@@ -167,7 +167,10 @@ async function syncSwedishVocabulary() {
   console.log("🎉 Sync complete!");
 }
 
+export { syncSwedishVocabulary };
+
 // Run the script
 if (import.meta.main) {
   await syncSwedishVocabulary();
+  process.exit(0);
 }

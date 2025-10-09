@@ -28,7 +28,9 @@ async function ensureImagesDir() {
   }
 }
 
-async function main() {
+async function generateVocabularyImages() {
+  await ensureImagesDir();
+
   console.log("Loading Swedish Core vocabulary data...");
   const data = z.array(VocabEntry).parse(swedishCoreData);
   console.log(`Found ${data.length} vocabulary entries`);
@@ -81,6 +83,8 @@ async function main() {
   console.log(`📊 Generated ${results.length} images`);
 }
 
+export { generateVocabularyImages };
+
 // Run the script
 if (import.meta.main) {
   if (!Bun.env.OPENAI_API_KEY) {
@@ -88,6 +92,6 @@ if (import.meta.main) {
     process.exit(1);
   }
 
-  await ensureImagesDir();
-  main().catch(console.error);
+  await generateVocabularyImages();
+  process.exit(0);
 }

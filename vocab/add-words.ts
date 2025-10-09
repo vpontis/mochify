@@ -14,6 +14,8 @@ import OpenAI from "openai";
 import { parse } from "csv-parse/sync";
 import { dedent } from "../utils";
 import { Command } from "commander";
+import { syncSwedishVocabulary } from "./sync-swedish-vocabulary";
+import { generateVocabularyImages } from "./gen-images";
 
 interface VocabWord {
   word: string;
@@ -231,25 +233,6 @@ async function processWords(words: string[]) {
   return newEntries;
 }
 
-async function syncToMochi() {
-  console.log("\n🔄 Syncing to Mochi...");
-  const proc = Bun.spawn(["bun", "vocab/sync-swedish-vocabulary.ts"], {
-    stdout: "inherit",
-    stderr: "inherit",
-  });
-  await proc.exited;
-}
-
-async function generateImages() {
-  console.log("\n🎨 Generating images...");
-  const proc = Bun.spawn(["bun", "vocab/gen-images.ts"], {
-    env: { ...process.env },
-    stdout: "inherit",
-    stderr: "inherit",
-  });
-  await proc.exited;
-}
-
 async function main() {
   const program = new Command();
 
@@ -285,9 +268,14 @@ async function main() {
       const newEntries = await processWords(words);
 
       if (newEntries && newEntries.length > 0) {
-        await syncToMochi();
-        await generateImages();
-        await syncToMochi(); // Sync again to add images
+        console.log("\n🔄 Syncing to Mochi...");
+        await syncSwedishVocabulary();
+
+        console.log("\n🎨 Generating images...");
+        await generateVocabularyImages();
+
+        console.log("\n🔄 Syncing images to Mochi...");
+        await syncSwedishVocabulary();
 
         console.log(
           "\n✨ Complete! Your Swedish vocabulary has been enriched.",
@@ -298,4 +286,7 @@ async function main() {
   await program.parseAsync();
 }
 
-await main();
+if (import.meta.main) {
+  await main();
+  process.exit(0);
+}

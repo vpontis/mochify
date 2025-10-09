@@ -3392,5 +3392,25 @@
     "notes": "en möjlighet, möjligheten, möjligheter (common noun)",
     "imageHint": "A serene landscape with open fields and a clear sky, symbolizing endless possibilities.",
     "mochiId": "aaGdTWC3"
+  },
+  {
+    "word": "dess",
+    "english": "its; of it",
+    "examples": "Jag läste avtalet och granskade dess villkor.\n(I read the contract and examined its terms.)\n\nStaden och dess historia är fascinerande.\n(The city and its history are fascinating.)",
+    "audio": "Jag läste avtalet och granskade dess villkor. Staden och dess historia är fascinerande.",
+    "tags": ["swedish"],
+    "notes": "oböjligt possessivt pronomen",
+    "imageHint": "Open contract showing terms, city skyline background",
+    "mochiId": "bBwhSeMr"
+  },
+  {
+    "word": "å",
+    "english": "stream; small river",
+    "examples": "Vi följde ån genom skogen.\n(We followed the stream through the forest.)\n\nBron går över en liten å.\n(The bridge crosses a small stream.)",
+    "audio": "Vi följde ån genom skogen. Bron går över en liten å.",
+    "tags": ["swedish"],
+    "notes": "en å, ån, åar, åarna (common noun)",
+    "imageHint": "narrow stream winding through pine forest with rocks",
+    "mochiId": "kx0TQZmO"
   }
 ]

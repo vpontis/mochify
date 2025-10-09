@@ -56,7 +56,6 @@ export async function generateImage({
   const promptResponse = await openai.chat.completions.create({
     model: "gpt-5-mini",
     messages: promptCreationMessages,
-    temperature: 0.7,
     max_completion_tokens: 250,
   });
 
