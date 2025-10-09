@@ -1,3 +1,17 @@
+import prettier from "prettier";
+
+/**
+ * Writes JSON to a file with prettier formatting
+ */
+export const writeFormattedJSON = async (
+  path: string,
+  data: any,
+): Promise<void> => {
+  const jsonString = JSON.stringify(data, null, 2);
+  const formatted = await prettier.format(jsonString, { parser: "json" });
+  await Bun.write(path, formatted);
+};
+
 /**
  * Template literal tag that removes common leading whitespace from each line.
  * Useful for multiline strings with indentation in code that you want to output without the indentation.

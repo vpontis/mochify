@@ -16,10 +16,9 @@ const VocabEntry = z.object({
   mochiId: z.string().optional(),
   imageHint: z.string().optional(),
 });
-type VocabEntry = z.infer<typeof VocabEntry>;
 
 const IMAGES_DIR = "./images";
-const CONCURRENCY = 5; // Process 5 images at a time
+const CONCURRENCY = 1; // Process 5 images at a time
 const limit = pLimit(CONCURRENCY);
 
 async function ensureImagesDir() {

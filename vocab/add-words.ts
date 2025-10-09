@@ -12,7 +12,7 @@
 
 import OpenAI from "openai";
 import { parse } from "csv-parse/sync";
-import { dedent } from "../utils";
+import { dedent, writeFormattedJSON } from "../utils";
 import { Command } from "commander";
 import { syncSwedishVocabulary } from "./sync-swedish-vocabulary";
 import { generateVocabularyImages } from "./gen-images";
@@ -216,10 +216,7 @@ async function processWords(words: string[]) {
 
   // Save to file
   const updatedVocab = [...swedishCore, ...newEntries];
-  await Bun.write(
-    "vocab/swedish-core.json",
-    JSON.stringify(updatedVocab, null, 2),
-  );
+  await writeFormattedJSON("vocab/swedish-core.json", updatedVocab);
 
   console.log(`\n📊 Summary:`);
   console.log(`  ✅ Successfully added: ${newEntries.length} words`);

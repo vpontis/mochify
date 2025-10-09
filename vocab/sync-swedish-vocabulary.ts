@@ -1,5 +1,5 @@
 #!/usr/bin/env bun
-import { MochiClient } from "../utils/mochi-client";
+import { MochiClient, writeFormattedJSON } from "../utils";
 import pLimit from "p-limit";
 import { existsSync } from "node:fs";
 
@@ -131,10 +131,7 @@ async function syncSwedishVocabulary() {
       );
 
       // Save after each successful creation
-      await Bun.write(
-        "./vocab/swedish-core.json",
-        JSON.stringify(vocabulary, null, 2),
-      );
+      await writeFormattedJSON("./vocab/swedish-core.json", vocabulary);
     } catch (error) {
       failed++;
       console.error(
@@ -151,10 +148,7 @@ async function syncSwedishVocabulary() {
   await Promise.all(promises);
 
   // Save the updated JSON with IDs
-  await Bun.write(
-    "./vocab/swedish-core.json",
-    JSON.stringify(vocabulary, null, 2),
-  );
+  await writeFormattedJSON("./vocab/swedish-core.json", vocabulary);
 
   console.log("\n\n📊 Summary:");
   console.log(`  ⏭️  Skipped: ${skipped} cards (already synced)`);
