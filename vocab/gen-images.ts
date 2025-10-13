@@ -7,7 +7,6 @@ import { generateImage } from "../image-gen/generate-images";
 import { existsSync } from "node:fs";
 import { mkdir } from "node:fs/promises";
 import pLimit from "p-limit";
-import swedishCoreData from "./swedish-core.json";
 import { z } from "zod";
 
 const VocabEntry = z.object({
@@ -27,11 +26,15 @@ async function ensureImagesDir() {
   }
 }
 
-async function generateVocabularyImages() {
+async function generateVocabularyImages(
+  vocabFile: string = "./vocab/swedish-core.json",
+) {
   await ensureImagesDir();
 
-  console.log("Loading Swedish Core vocabulary data...");
-  const data = z.array(VocabEntry).parse(swedishCoreData);
+  console.log(`Loading vocabulary data from ${vocabFile}...`);
+  const file = Bun.file(vocabFile);
+  const vocabData = await file.json();
+  const data = z.array(VocabEntry).parse(vocabData);
   console.log(`Found ${data.length} vocabulary entries`);
 
   // Filter entries that need images

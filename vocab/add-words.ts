@@ -7,6 +7,7 @@
  * Usage:
  *   bun vocab/add-words.ts hej tack fika lagom
  *   bun vocab/add-words.ts --kelly 20  # Next 20 from Kelly list
+ *   bun vocab/add-words.ts --deck eGLrOJfM word1 word2  # Add to specific deck
  *   echo "hej tack fika" | bun vocab/add-words.ts
  */
 
@@ -163,16 +164,23 @@ async function getKellyWords(count: number = 20): Promise<string[]> {
   return newWords;
 }
 
-async function processWords(words: string[]) {
+async function processWords(
+  words: string[],
+  vocabFile: string = "vocab/swedish-core.json",
+) {
   console.log(
     `🤖 Using AI to generate comprehensive entries for ${words.length} Swedish words...\n`,
   );
 
-  const swedishCore: VocabWord[] = await Bun.file(
-    "vocab/swedish-core.json",
-  ).json();
+  // Load existing vocabulary
+  let existingVocab: VocabWord[] = [];
+  const file = Bun.file(vocabFile);
+  if (await file.exists()) {
+    existingVocab = await file.json();
+  }
+
   const existingWords = new Set(
-    swedishCore.map((item) => item.word.toLowerCase()),
+    existingVocab.map((item) => item.word.toLowerCase()),
   );
 
   const newEntries: VocabWord[] = [];
@@ -215,8 +223,8 @@ async function processWords(words: string[]) {
   }
 
   // Save to file
-  const updatedVocab = [...swedishCore, ...newEntries];
-  await writeFormattedJSON("vocab/swedish-core.json", updatedVocab);
+  const updatedVocab = [...existingVocab, ...newEntries];
+  await writeFormattedJSON(vocabFile, updatedVocab);
 
   console.log(`\n📊 Summary:`);
   console.log(`  ✅ Successfully added: ${newEntries.length} words`);
@@ -227,7 +235,7 @@ async function processWords(words: string[]) {
   }
   console.log(`  📚 Total vocabulary: ${updatedVocab.length} words`);
 
-  return newEntries;
+  return { newEntries, vocabFile };
 }
 
 async function main() {
@@ -238,6 +246,14 @@ async function main() {
     .description("AI-powered Swedish vocabulary manager")
     .argument("[words...]", "Swedish words to add")
     .option("-k, --kelly <count>", "Add next N words from Kelly frequency list")
+    .option(
+      "-d, --deck <deck-id>",
+      "Deck ID to add words to (will create deck-specific JSON file)",
+    )
+    .option(
+      "-n, --deck-name <name>",
+      "Deck name (required with --deck for first use)",
+    )
     .action(async (inputWords: string[], options) => {
       let words: string[] = [];
 
@@ -258,21 +274,62 @@ async function main() {
         return;
       }
 
+      // Determine vocab file and deck info
+      let vocabFile = "vocab/swedish-core.json";
+      let deckId: string | undefined;
+      let deckName: string | undefined;
+
+      if (options.deck) {
+        deckId = options.deck;
+        // Create a filename based on deck ID
+        vocabFile = `vocab/deck-${deckId}.json`;
+
+        // Check if we need deck name (for new files)
+        const file = Bun.file(vocabFile);
+        if (!(await file.exists()) && !options.deckName) {
+          console.error(
+            "❌ Error: --deck-name is required when creating a new deck file",
+          );
+          console.error(
+            `   Example: bun vocab/add-words.ts --deck ${deckId} --deck-name "Svenska 1" word1 word2`,
+          );
+          process.exit(1);
+        }
+        deckName = options.deckName;
+
+        console.log(`📂 Using deck-specific file: ${vocabFile}`);
+        if (deckName) {
+          console.log(`📚 Deck: ${deckName} (${deckId})`);
+        }
+      }
+
       console.log(
         `🚀 Processing ${words.length} Swedish words: ${words.join(", ")}\n`,
       );
 
-      const newEntries = await processWords(words);
+      const result = await processWords(words, vocabFile);
 
-      if (newEntries && newEntries.length > 0) {
+      if (result && result.newEntries.length > 0) {
         console.log("\n🔄 Syncing to Mochi...");
-        await syncSwedishVocabulary();
+        if (deckId && deckName) {
+          await syncSwedishVocabulary(vocabFile, deckId, deckName);
+        } else if (deckId) {
+          await syncSwedishVocabulary(vocabFile, deckId);
+        } else {
+          await syncSwedishVocabulary();
+        }
 
         console.log("\n🎨 Generating images...");
-        await generateVocabularyImages();
+        await generateVocabularyImages(vocabFile);
 
         console.log("\n🔄 Syncing images to Mochi...");
-        await syncSwedishVocabulary();
+        if (deckId && deckName) {
+          await syncSwedishVocabulary(vocabFile, deckId, deckName);
+        } else if (deckId) {
+          await syncSwedishVocabulary(vocabFile, deckId);
+        } else {
+          await syncSwedishVocabulary();
+        }
 
         console.log(
           "\n✨ Complete! Your Swedish vocabulary has been enriched.",

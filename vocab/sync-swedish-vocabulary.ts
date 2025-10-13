@@ -26,24 +26,42 @@ const FIELD_IDS = {
 // Limit concurrent API requests
 const limit = pLimit(1); // 1 concurrent request to avoid rate limiting
 
-async function syncSwedishVocabulary() {
+async function syncSwedishVocabulary(
+  vocabFile: string = "./vocab/swedish-core.json",
+  deckId?: string,
+  deckName?: string,
+) {
   const client = new MochiClient(process.env.MOCHI_API_KEY!);
 
   // Load the JSON file
-  const file = Bun.file("./vocab/swedish-core.json");
+  const file = Bun.file(vocabFile);
   const vocabulary: VocabularyItem[] = await file.json();
 
   console.log("🇸🇪 Swedish Vocabulary Sync\n");
 
   // Find or create deck
-  const decks = await client.listDecks();
-  let deck = decks.find((d) => d.name === "Swedish Core");
-
-  if (!deck) {
-    deck = await client.createDeck({ name: "Swedish Core" });
-    console.log(`✅ Created new deck: ${deck.name} (${deck.id})\n`);
+  let deck;
+  if (deckId) {
+    // Use existing deck by ID
+    try {
+      deck = await client.getDeck(deckId);
+      console.log(`📚 Using deck: ${deck.name} (${deck.id})\n`);
+    } catch (error) {
+      console.error(`❌ Error: Deck ${deckId} not found`);
+      process.exit(1);
+    }
   } else {
-    console.log(`📚 Using deck: ${deck.name} (${deck.id})\n`);
+    // Find or create deck by name (default behavior)
+    const decks = await client.listDecks();
+    const targetDeckName = deckName || "Swedish Core";
+    deck = decks.find((d) => d.name === targetDeckName);
+
+    if (!deck) {
+      deck = await client.createDeck({ name: targetDeckName });
+      console.log(`✅ Created new deck: ${deck.name} (${deck.id})\n`);
+    } else {
+      console.log(`📚 Using deck: ${deck.name} (${deck.id})\n`);
+    }
   }
 
   let created = 0;
@@ -131,7 +149,7 @@ async function syncSwedishVocabulary() {
       );
 
       // Save after each successful creation
-      await writeFormattedJSON("./vocab/swedish-core.json", vocabulary);
+      await writeFormattedJSON(vocabFile, vocabulary);
     } catch (error) {
       failed++;
       console.error(
@@ -148,7 +166,7 @@ async function syncSwedishVocabulary() {
   await Promise.all(promises);
 
   // Save the updated JSON with IDs
-  await writeFormattedJSON("./vocab/swedish-core.json", vocabulary);
+  await writeFormattedJSON(vocabFile, vocabulary);
 
   console.log("\n\n📊 Summary:");
   console.log(`  ⏭️  Skipped: ${skipped} cards (already synced)`);
@@ -157,7 +175,7 @@ async function syncSwedishVocabulary() {
   if (failed > 0) {
     console.log(`  ❌ Failed: ${failed} cards`);
   }
-  console.log("\n💾 IDs saved directly in vocab/swedish-core.json");
+  console.log(`\n💾 IDs saved directly in ${vocabFile}`);
   console.log("🎉 Sync complete!");
 }
 
