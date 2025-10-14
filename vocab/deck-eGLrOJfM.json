@@ -2010,63 +2010,223 @@
     "mochiId": "DpSvyO0V"
   },
   {
-    "word": "vit",
-    "english": "white",
-    "examples": "Jag vill ha ett vitt bord.\n(I want a white table.)\n\nVäggarna är vita.\n(The walls are white.)",
-    "audio": "Jag vill ha ett vitt bord. Väggarna är vita.",
+    "word": "person",
+    "english": "person; individual",
+    "examples": "Det var en trevlig person jag pratade med.\n(It was a nice person I spoke with.)\n\nVarje person måste visa legitimation vid ingången.\n(Each person must show ID at the entrance.)",
+    "audio": "Det var en trevlig person jag pratade med. Varje person måste visa legitimation vid ingången.",
     "tags": ["swedish"],
-    "notes": "vit/vitt/vita; vitare/vitast (adjective); Agrees with noun: en vit, ett vitt, vita (pl./def.).",
-    "imageHint": "White house, white fence, snowy yard, clear sky",
-    "mochiId": "az4mI13G"
+    "notes": "en person, personen, personer (common noun)",
+    "imageHint": "Empty office desk with ID badge and documents",
+    "mochiId": "a0vWLUNT"
   },
   {
-    "word": "orange",
-    "english": "orange (color)",
-    "examples": "Jag köpte en orange tröja.\n(I bought an orange sweater.)\n\nHimlen var orange vid solnedgången.\n(The sky was orange at sunset.)",
-    "audio": "Jag köpte en orange tröja. Himlen var orange vid solnedgången.",
+    "word": "text",
+    "english": "text; lyrics",
+    "examples": "Skriv en kort text om ämnet.\n(Write a short text on the topic.)\n\nLåten har en fin text.\n(The song has nice lyrics.)",
+    "audio": "Skriv en kort text om ämnet. Låten har en fin text.",
     "tags": ["swedish"],
-    "notes": "orange/oranget/oranga (adjective); Color only; fruit is 'apelsin'. Often: ett orange hus.",
-    "imageHint": "Bright orange house beside green trees and sky",
-    "mochiId": "xEYtuWOh"
+    "notes": "en text, texten, texter, texterna (common noun)",
+    "imageHint": "Open notebook with printed text and lyrics sheet",
+    "mochiId": "YL31luuv"
   },
   {
-    "word": "rosa",
-    "english": "pink",
-    "examples": "Hon köpte en rosa tröja.\n(She bought a pink sweater.)\n\nDe målade huset rosa.\n(They painted the house pink.)",
-    "audio": "Hon köpte en rosa tröja. De målade huset rosa.",
+    "word": "generell",
+    "english": "general; broad; overall",
+    "examples": "Det här är en generell rekommendation, inte en regel.\n(This is a general recommendation, not a rule.)\n\nVi behöver ett mer generellt angreppssätt.\n(We need a more general approach.)",
+    "audio": "Det här är en generell rekommendation, inte en regel. Vi behöver ett mer generellt angreppssätt.",
     "tags": ["swedish"],
-    "notes": "rosa/rosa/rosa (invariable adjective)",
-    "imageHint": "Pink house by lake with pink flowers",
-    "mochiId": "UJvjncln"
+    "notes": "generell/generellt/generella; mer/mest generell",
+    "imageHint": "Wide world map with broad arrows and labels",
+    "mochiId": "aTsAwxMU"
   },
   {
-    "word": "lila",
-    "english": "purple; violet",
-    "examples": "Jag köpte ett lila paraply.\n(I bought a purple umbrella.)\n\nDe bar lila jackor.\n(They wore purple jackets.)",
-    "audio": "Jag köpte ett lila paraply. De bar lila jackor.",
+    "word": "stryka",
+    "english": "iron; stroke; cross out",
+    "examples": "Jag måste stryka skjortan innan mötet.\n(I have to iron the shirt before the meeting.)\n\nKan du stryka över felstavningen?\n(Can you cross out the misspelling?)",
+    "audio": "Jag måste stryka skjortan innan mötet. Kan du stryka över felstavningen?",
     "tags": ["swedish"],
-    "notes": "lila (invariable adjective)",
-    "imageHint": "Purple umbrella by violet-painted wooden house",
-    "mochiId": "ShgIF0OY"
+    "notes": "stryker/strök/strukit (irreg. verb)",
+    "imageHint": "steam iron pressing a wrinkled shirt on board",
+    "mochiId": "UHxgzWhA"
   },
   {
-    "word": "brun",
-    "english": "brown",
-    "examples": "Han har bruna ögon och brunt hår.\n(He has brown eyes and brown hair.)\n\nVi målade dörren brun.\n(We painted the door brown.)",
-    "audio": "Han har bruna ögon och brunt hår. Vi målade dörren brun.",
+    "word": "under",
+    "english": "under, below; during; miracle, wonder",
+    "examples": "Boken ligger under bordet.\n(The book is under the table.)\n\nVi reste mycket under sommaren.\n(We traveled a lot during the summer.)",
+    "audio": "Boken ligger under bordet. Vi reste mycket under sommaren.",
     "tags": ["swedish"],
-    "notes": "brun/brunt/bruna; brunare; brunast/brunaste (adjective)",
-    "imageHint": "Brown leather bag on wooden table with coffee",
-    "mochiId": "H0n6Y8QI"
+    "notes": "prep/adv; ett under, undret, under, undren (neuter noun)",
+    "imageHint": "Book under table and a summer calendar",
+    "mochiId": "wuFqJHMk"
   },
   {
-    "word": "grå",
-    "english": "gray/grey; dull, bleak",
-    "examples": "Hennes jacka är grå.\n(Her jacket is gray.)\n\nEfter semestern kändes vardagen grå.\n(After the vacation, everyday life felt dull.)",
-    "audio": "Hennes jacka är grå. Efter semestern kändes vardagen grå.",
+    "word": "england",
+    "english": "England",
+    "examples": "Jag reste till England i somras.\n(I traveled to England last summer.)\n\nHon kommer från England.\n(She is from England.)",
+    "audio": "Jag reste till England i somras. Hon kommer från England.",
     "tags": ["swedish"],
-    "notes": "grå/grått/gråa; gråare/gråast (adjective)",
-    "imageHint": "Overcast sky above gray houses and wet street",
-    "mochiId": "ssztZjb9"
+    "notes": "egennamn, neutrum, oböjligt",
+    "imageHint": "Stone village, rolling hills, St George’s Cross flag",
+    "mochiId": "0lLupEkz"
+  },
+  {
+    "word": "universitet",
+    "english": "university",
+    "examples": "Han pluggar ekonomi på universitetet.\n(He studies economics at the university.)\n\nSverige har flera stora universitet.\n(Sweden has several large universities.)",
+    "audio": "Han pluggar ekonomi på universitetet. Sverige har flera stora universitet.",
+    "tags": ["swedish"],
+    "notes": "ett universitet, universitetet, universitet, universiteten (neuter noun)",
+    "imageHint": "Modern campus buildings, library, lecture hall, signage",
+    "mochiId": "zEEDP3GH"
+  },
+  {
+    "word": "extra",
+    "english": "extra; additional; spare",
+    "examples": "Kan jag få en extra stol?\n(Can I get an extra chair?)\n\nJag jobbar extra i helgen.\n(I'm working extra this weekend.)",
+    "audio": "Kan jag få en extra stol? Jag jobbar extra i helgen.",
+    "tags": ["swedish"],
+    "notes": "extra (invariable adj/adv); Common before nouns; as adverb with work/study; invariable.",
+    "imageHint": "Empty chair next to table with spare umbrella",
+    "mochiId": "DQ9W3OYO"
+  },
+  {
+    "word": "nära",
+    "english": "near; close; nearly/almost",
+    "examples": "Huset ligger nära sjön.\n(The house is near the lake.)\n\nVi har en nära relation.\n(We have a close relationship.)",
+    "audio": "Huset ligger nära sjön. Vi har en nära relation.",
+    "tags": ["swedish"],
+    "notes": "nära/närmare/närmast (adj/adv)",
+    "imageHint": "House close to lake shore, forest, short distance",
+    "mochiId": "cl1y0rA8"
+  },
+  {
+    "word": "sortera",
+    "english": "sort; categorize; arrange",
+    "examples": "Vi behöver sortera soporna i rätt behållare.\n(We need to sort the trash into the right bins.)\n\nHon sorterade mejlen efter avsändare.\n(She sorted the emails by sender.)",
+    "audio": "Vi behöver sortera soporna i rätt behållare. Hon sorterade mejlen efter avsändare.",
+    "tags": ["swedish"],
+    "notes": "sortera/sorterar/sorterade/sorterat; Ofta med 'efter' för kriterium: sortera efter storlek/färg.",
+    "imageHint": "labeled recycling bins with sorted paper glass plastic",
+    "mochiId": "Gh4ca9G7"
+  },
+  {
+    "word": "matematik",
+    "english": "mathematics; math",
+    "examples": "Jag pluggar matematik på universitetet.\n(I study mathematics at university.)\n\nHon fick högsta betyg i matematik.\n(She got top marks in math.)",
+    "audio": "Jag pluggar matematik på universitetet. Hon fick högsta betyg i matematik.",
+    "tags": ["swedish"],
+    "notes": "en; matematik, matematiken (no plural)",
+    "imageHint": "Chalkboard with algebra equations and geometric shapes",
+    "mochiId": "pYHouC0H"
+  },
+  {
+    "word": "lätt",
+    "english": "easy; light; easily; lightly; low-fat",
+    "examples": "Det är lätt att glömma nycklarna.\n(It's easy to forget the keys.)\n\nVäskan är lätt, jag kan bära den själv.\n(The bag is light; I can carry it myself.)",
+    "audio": "Det är lätt att glömma nycklarna. Väskan är lätt, jag kan bära den själv.",
+    "tags": ["swedish"],
+    "notes": "lätt/lätt/lätta; lättare; lättast; Adj and adverb; common in compounds: lättöl, lättmjölk.",
+    "imageHint": "Feather on scale, simple puzzle, low-fat milk carton",
+    "mochiId": "Nb321Yvi"
+  },
+  {
+    "word": "form",
+    "english": "shape; form; condition; baking pan",
+    "examples": "Han är i god form inför loppet.\n(He is in good shape before the race.)\n\nHäll smeten i en form och grädda.\n(Pour the batter into a pan and bake.)",
+    "audio": "Han är i god form inför loppet. Häll smeten i en form och grädda.",
+    "tags": ["swedish"],
+    "notes": "en form, formen, former, formerna (common noun)",
+    "imageHint": "metal loaf pan on table beside cake batter",
+    "mochiId": "gfcku4XR"
+  },
+  {
+    "word": "alfabet",
+    "english": "alphabet",
+    "examples": "Det svenska alfabetet har 29 bokstäver.\n(The Swedish alphabet has 29 letters.)\n\nBarnen lär sig alfabetet i skolan.\n(The children learn the alphabet at school.)",
+    "audio": "Det svenska alfabetet har 29 bokstäver. Barnen lär sig alfabetet i skolan.",
+    "tags": ["swedish"],
+    "notes": "ett alfabet, alfabetet, alfabet, alfabeten (neuter noun)",
+    "imageHint": "Chalkboard with Swedish alphabet letters and simple drawings",
+    "mochiId": "1ks4INdo"
+  },
+  {
+    "word": "efternamn",
+    "english": "surname; last name",
+    "examples": "Vad heter du i efternamn?\n(What's your last name?)\n\nHon bytte efternamn när hon gifte sig.\n(She changed her surname when she got married.)",
+    "audio": "Vad heter du i efternamn? Hon bytte efternamn när hon gifte sig.",
+    "tags": ["swedish"],
+    "notes": "ett efternamn, efternamnet, efternamn, efternamnen (neuter noun); Opposed to förnamn; common on forms and IDs.",
+    "imageHint": "Close-up of Swedish passport page showing surname field",
+    "mochiId": "dLvuMqCm"
+  },
+  {
+    "word": "stava",
+    "english": "to spell",
+    "examples": "Kan du stava ditt efternamn?\n(Can you spell your last name?)\n\nJag kan stava till \"sjuksköterska\".\n(I can spell \"nurse\".)",
+    "audio": "Kan du stava ditt efternamn? Jag kan stava till \"sjuksköterska\".",
+    "tags": ["swedish"],
+    "notes": "stava/stavar/stavade/stavat (verb)",
+    "imageHint": "Open dictionary and notebook with letters spelled out",
+    "mochiId": "NtP5MJ2I"
+  },
+  {
+    "word": "annan",
+    "english": "other; another",
+    "examples": "Jag vill prova en annan färg.\n(I want to try another color.)\n\nFinns det något annat alternativ?\n(Is there any other alternative?)",
+    "audio": "Jag vill prova en annan färg. Finns det något annat alternativ?",
+    "tags": ["swedish"],
+    "notes": "annan/annat/andra (adjective/pronoun); Agrees with noun: annan (en), annat (ett), andra (pl/def).",
+    "imageHint": "Two similar cups; one selected, another left behind",
+    "mochiId": "pMJ2FYa5"
+  },
+  {
+    "word": "använda",
+    "english": "use; employ",
+    "examples": "Kan jag använda din telefon?\n(Can I use your phone?)\n\nVi använder återvunnet material i produktionen.\n(We use recycled material in production.)",
+    "audio": "Kan jag använda din telefon? Vi använder återvunnet material i produktionen.",
+    "tags": ["swedish"],
+    "notes": "använda/använder/använde/använt (verb); Transitive; 'använda sig av' = make use of.",
+    "imageHint": "Workbench with tools and a computer running software",
+    "mochiId": "AGiFlcMJ"
+  },
+  {
+    "word": "som",
+    "english": "who/that/which; as",
+    "examples": "Boken som jag läser är spännande.\n(The book that I’m reading is exciting.)\n\nHon är lika lång som sin syster.\n(She is as tall as her sister.)",
+    "audio": "Boken som jag läser är spännande. Hon är lika lång som sin syster.",
+    "tags": ["swedish"],
+    "notes": "som (invariable relative pron./conj.); Used in relative clauses and comparisons; never inflects.",
+    "imageHint": "Two identical trees next to a red book",
+    "mochiId": "zOji2c6y"
+  },
+  {
+    "word": "tyska",
+    "english": "German (language); German woman",
+    "examples": "Jag pluggar tyska på universitetet.\n(I study German at university.)\n\nHon är en tyska från Berlin.\n(She is a German woman from Berlin.)",
+    "audio": "Jag pluggar tyska på universitetet. Hon är en tyska från Berlin.",
+    "tags": ["swedish"],
+    "notes": "en tyska, tyskan, tyskor, tyskorna (common noun); Also the language. Adjective base: tysk (tyskt/tyska).",
+    "imageHint": "German textbooks, dictionary, chalkboard with umlauts",
+    "mochiId": "0oOL8kM0"
+  },
+  {
+    "word": "forska",
+    "english": "research; conduct research",
+    "examples": "Hon forskar om klimatförändringar vid universitetet.\n(She researches climate change at the university.)\n\nVi måste forska mer innan vi drar några slutsatser.\n(We need to research more before drawing any conclusions.)",
+    "audio": "Hon forskar om klimatförändringar vid universitetet. Vi måste forska mer innan vi drar några slutsatser.",
+    "tags": ["swedish"],
+    "notes": "forska/forskar/forskade/forskat (regular verb)",
+    "imageHint": "Lab bench with microscope, test tubes, research notes, charts",
+    "mochiId": "aqWwBYiM"
+  },
+  {
+    "word": "institut",
+    "english": "institute; research institute",
+    "examples": "Han arbetar på ett tekniskt institut i Stockholm.\n(He works at a technical institute in Stockholm.)\n\nInstitutet publicerade en rapport om klimatförändringar.\n(The institute published a report on climate change.)",
+    "audio": "Han arbetar på ett tekniskt institut i Stockholm. Institutet publicerade en rapport om klimatförändringar.",
+    "tags": ["swedish"],
+    "notes": "ett institut, institutet, institut, instituten",
+    "imageHint": "Modern research building with institute sign, Scandinavian cityscape",
+    "mochiId": "sPgKOxM4"
   }
 ]
