@@ -20,6 +20,7 @@ import {
   syncSingleWord,
 } from "./sync-swedish-vocabulary";
 import { generateVocabularyImages } from "./gen-images";
+import pLimit from "p-limit";
 
 interface VocabWord {
   word: string;
@@ -213,62 +214,83 @@ async function processWords(
     existingVocab.map((item) => item.word.toLowerCase()),
   );
 
+  // Filter out existing words
+  const wordsToProcess = words
+    .map((w) => w.toLowerCase().trim())
+    .filter((w) => {
+      if (!w) return false;
+      if (existingWords.has(w)) {
+        console.log(`⏭️  Skipping "${w}" - already exists`);
+        return false;
+      }
+      return true;
+    });
+
+  if (wordsToProcess.length === 0) {
+    console.log("\n⚠️  No new words to add");
+    return;
+  }
+
   const newEntries: VocabWord[] = [];
   const failedWords: string[] = [];
 
-  for (const word of words) {
-    const cleanWord = word.toLowerCase().trim();
+  // Parallelize AI generation (5 concurrent)
+  const generateLimit = pLimit(5);
 
-    if (!cleanWord) continue;
+  // Generate all entries in parallel
+  console.log(
+    `🚀 Generating ${wordsToProcess.length} entries in parallel...\n`,
+  );
 
-    if (existingWords.has(cleanWord)) {
-      console.log(`⏭️  Skipping "${cleanWord}" - already exists`);
+  const generationResults = await Promise.all(
+    wordsToProcess.map((cleanWord) =>
+      generateLimit(async () => {
+        process.stdout.write(`📝 Generating "${cleanWord}"...`);
+        const generated = await generateVocabEntry(cleanWord);
+
+        if (generated) {
+          const vocabEntry = convertToVocabWord(generated);
+          console.log(` ✅`);
+          console.log(`   → ${generated.english}`);
+          return { success: true, word: cleanWord, entry: vocabEntry };
+        } else {
+          console.log(` ❌`);
+          return { success: false, word: cleanWord };
+        }
+      }),
+    ),
+  );
+
+  // Now sync each successful entry sequentially (to avoid file write conflicts)
+  console.log(
+    `\n🔄 Syncing ${generationResults.filter((r) => r.success).length} words to Mochi...\n`,
+  );
+
+  for (const result of generationResults) {
+    if (!result.success) {
+      failedWords.push(result.word);
       continue;
     }
 
-    process.stdout.write(`📝 Generating "${cleanWord}"...`);
-    const generated = await generateVocabEntry(cleanWord);
+    const vocabEntry = result.entry!;
+    newEntries.push(vocabEntry);
+    existingVocab.push(vocabEntry);
 
-    if (generated) {
-      const vocabEntry = convertToVocabWord(generated);
-      newEntries.push(vocabEntry);
-      existingVocab.push(vocabEntry); // Add to existing vocab immediately
-      console.log(` ✅`);
-      console.log(`   → ${generated.english}`);
-      console.log(`   → ${generated.definition}`);
-
-      // Sync this single word to Mochi immediately
-      try {
-        process.stdout.write(`🔄 Syncing "${cleanWord}" to Mochi...`);
-        const result = await syncSingleWord({
-          client,
-          deckId: deck.id,
-          item: vocabEntry,
-          vocabFile,
-          vocabulary: existingVocab,
-        });
-        console.log(` ✅ (${result.card.id})`);
-      } catch (error) {
-        console.log(` ❌`);
-        console.error(`   Error syncing: ${error}`);
-      }
-
-      console.log(); // Empty line for readability
-    } else {
-      failedWords.push(cleanWord);
+    try {
+      process.stdout.write(`🔄 Syncing "${result.word}"...`);
+      const syncResult = await syncSingleWord({
+        client,
+        deckId: deck.id,
+        item: vocabEntry,
+        vocabFile,
+        vocabulary: existingVocab,
+      });
+      console.log(` ✅ (${syncResult.card.id})`);
+    } catch (error) {
       console.log(` ❌`);
+      console.error(`   Error syncing: ${error}`);
+      failedWords.push(result.word);
     }
-
-    // Rate limiting
-    await new Promise((resolve) => setTimeout(resolve, 500));
-  }
-
-  if (newEntries.length === 0) {
-    console.log("\n⚠️  No new words were added");
-    if (failedWords.length > 0) {
-      console.log(`Failed words: ${failedWords.join(", ")}`);
-    }
-    return;
   }
 
   console.log(`\n📊 Summary:`);

@@ -1958,5 +1958,115 @@
     "notes": "en kille, killen, killar, killarna (common noun)",
     "imageHint": "empty soccer field with sneakers and backpack on bench",
     "mochiId": "2TE3sPBF"
+  },
+  {
+    "word": "fru",
+    "english": "wife; Mrs",
+    "examples": "Min fru jobbar som läkare.\n(My wife works as a doctor.)\n\nBrevet var adresserat till fru Andersson.\n(The letter was addressed to Mrs Andersson.)",
+    "audio": "Min fru jobbar som läkare. Brevet var adresserat till fru Andersson.",
+    "tags": ["swedish"],
+    "notes": "en fru, frun, fruar, fruarna (common noun)",
+    "imageHint": "Mailbox labeled fru Andersson beside apartment door",
+    "mochiId": "feK4h5jm"
+  },
+  {
+    "word": "pojke",
+    "english": "boy",
+    "examples": "Han är en pojke på sju år.\n(He is a seven-year-old boy.)\n\nPojken leker i parken.\n(The boy is playing in the park.)",
+    "audio": "Han är en pojke på sju år. Pojken leker i parken.",
+    "tags": ["swedish"],
+    "notes": "en pojke, pojken, pojkar, pojkarna (common noun)",
+    "imageHint": "empty playground with swings, soccer ball, backpack",
+    "mochiId": "MDtjtAQG"
+  },
+  {
+    "word": "flicka",
+    "english": "girl",
+    "examples": "Min dotter är en snäll flicka.\n(My daughter is a kind girl.)\n\nFlickorna leker i parken.\n(The girls are playing in the park.)",
+    "audio": "Min dotter är en snäll flicka. Flickorna leker i parken.",
+    "tags": ["swedish"],
+    "notes": "en flicka, flickan, flickor, flickorna (common noun); Neutral, often for children. Informal synonym: tjej.",
+    "imageHint": "Playground with swings, small pink backpack on bench",
+    "mochiId": "gFfTIKBo"
+  },
+  {
+    "word": "bonusbarn",
+    "english": "stepchild; partner's child",
+    "examples": "Jag hämtar mitt bonusbarn på förskolan idag.\n(I'm picking up my stepchild at preschool today.)\n\nHon kommer bra överens med sina bonusbarn.\n(She gets along well with her stepchildren.)",
+    "audio": "Jag hämtar mitt bonusbarn på förskolan idag. Hon kommer bra överens med sina bonusbarn.",
+    "tags": ["swedish"],
+    "notes": "ett bonusbarn, bonusbarnet, bonusbarn, bonusbarnen (neuter noun)",
+    "imageHint": "Cozy hallway with children's shoes, backpacks, shared home",
+    "mochiId": "acaTxIHz"
+  },
+  {
+    "word": "tre",
+    "english": "three",
+    "examples": "Jag har tre böcker.\n(I have three books.)\n\nBussen går om tre minuter.\n(The bus leaves in three minutes.)",
+    "audio": "Jag har tre böcker. Bussen går om tre minuter.",
+    "tags": ["swedish"],
+    "notes": "tre (grundtal), tredje (ordningstal); Used before plural nouns; noun is plural indefinite.",
+    "imageHint": "three apples and three cups on a table",
+    "mochiId": "DpSvyO0V"
+  },
+  {
+    "word": "vit",
+    "english": "white",
+    "examples": "Jag vill ha ett vitt bord.\n(I want a white table.)\n\nVäggarna är vita.\n(The walls are white.)",
+    "audio": "Jag vill ha ett vitt bord. Väggarna är vita.",
+    "tags": ["swedish"],
+    "notes": "vit/vitt/vita; vitare/vitast (adjective); Agrees with noun: en vit, ett vitt, vita (pl./def.).",
+    "imageHint": "White house, white fence, snowy yard, clear sky",
+    "mochiId": "az4mI13G"
+  },
+  {
+    "word": "orange",
+    "english": "orange (color)",
+    "examples": "Jag köpte en orange tröja.\n(I bought an orange sweater.)\n\nHimlen var orange vid solnedgången.\n(The sky was orange at sunset.)",
+    "audio": "Jag köpte en orange tröja. Himlen var orange vid solnedgången.",
+    "tags": ["swedish"],
+    "notes": "orange/oranget/oranga (adjective); Color only; fruit is 'apelsin'. Often: ett orange hus.",
+    "imageHint": "Bright orange house beside green trees and sky",
+    "mochiId": "xEYtuWOh"
+  },
+  {
+    "word": "rosa",
+    "english": "pink",
+    "examples": "Hon köpte en rosa tröja.\n(She bought a pink sweater.)\n\nDe målade huset rosa.\n(They painted the house pink.)",
+    "audio": "Hon köpte en rosa tröja. De målade huset rosa.",
+    "tags": ["swedish"],
+    "notes": "rosa/rosa/rosa (invariable adjective)",
+    "imageHint": "Pink house by lake with pink flowers",
+    "mochiId": "UJvjncln"
+  },
+  {
+    "word": "lila",
+    "english": "purple; violet",
+    "examples": "Jag köpte ett lila paraply.\n(I bought a purple umbrella.)\n\nDe bar lila jackor.\n(They wore purple jackets.)",
+    "audio": "Jag köpte ett lila paraply. De bar lila jackor.",
+    "tags": ["swedish"],
+    "notes": "lila (invariable adjective)",
+    "imageHint": "Purple umbrella by violet-painted wooden house",
+    "mochiId": "ShgIF0OY"
+  },
+  {
+    "word": "brun",
+    "english": "brown",
+    "examples": "Han har bruna ögon och brunt hår.\n(He has brown eyes and brown hair.)\n\nVi målade dörren brun.\n(We painted the door brown.)",
+    "audio": "Han har bruna ögon och brunt hår. Vi målade dörren brun.",
+    "tags": ["swedish"],
+    "notes": "brun/brunt/bruna; brunare; brunast/brunaste (adjective)",
+    "imageHint": "Brown leather bag on wooden table with coffee",
+    "mochiId": "H0n6Y8QI"
+  },
+  {
+    "word": "grå",
+    "english": "gray/grey; dull, bleak",
+    "examples": "Hennes jacka är grå.\n(Her jacket is gray.)\n\nEfter semestern kändes vardagen grå.\n(After the vacation, everyday life felt dull.)",
+    "audio": "Hennes jacka är grå. Efter semestern kändes vardagen grå.",
+    "tags": ["swedish"],
+    "notes": "grå/grått/gråa; gråare/gråast (adjective)",
+    "imageHint": "Overcast sky above gray houses and wet street",
+    "mochiId": "ssztZjb9"
   }
 ]
