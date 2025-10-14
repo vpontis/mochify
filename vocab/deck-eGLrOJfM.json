@@ -1,0 +1,1962 @@
+[
+  {
+    "word": "elev",
+    "english": "student; pupil (pre-university)",
+    "examples": "Skolan har över femhundra elever.\n(The school has over five hundred students.)\n\nVarje elev får ett eget schema.\n(Each student gets their own schedule.)",
+    "audio": "Skolan har över femhundra elever. Varje elev får ett eget schema.",
+    "tags": ["swedish"],
+    "notes": "en elev, eleven, elever, eleverna (common noun); Use for primary/secondary. For university, use 'student'.",
+    "imageHint": "empty classroom with desks, chalkboard, textbooks, backpacks",
+    "mochiId": "QmnMw0gO"
+  },
+  {
+    "word": "lärare",
+    "english": "teacher; instructor",
+    "examples": "Min lärare gav oss extra övningar.\n(My teacher gave us extra exercises.)\n\nHon är lärare i matematik på gymnasiet.\n(She is a math teacher at high school.)",
+    "audio": "Min lärare gav oss extra övningar. Hon är lärare i matematik på gymnasiet.",
+    "tags": ["swedish"],
+    "notes": "en lärare, läraren, lärare, lärarna (common noun)",
+    "imageHint": "empty classroom with chalkboard, desks, textbooks, projector",
+    "mochiId": "hukm5Gpv"
+  },
+  {
+    "word": "rivstart",
+    "english": "flying start; explosive start",
+    "examples": "Vi fick en rivstart i projektet och höll tidsplanen.\n(We got off to a flying start in the project and kept the schedule.)\n\nBilen gjorde en rivstart vid grönt och däcken tjöt.\n(The car shot off at green and the tires squealed.)",
+    "audio": "Vi fick en rivstart i projektet och höll tidsplanen. Bilen gjorde en rivstart vid grönt och däcken tjöt.",
+    "tags": ["swedish"],
+    "notes": "en rivstart, rivstarten, rivstarter, rivstarterna (common noun)",
+    "imageHint": "Car accelerates hard at green light, tire smoke",
+    "mochiId": "Lf2o0R6z"
+  },
+  {
+    "word": "kapitel",
+    "english": "chapter",
+    "examples": "Jag läste tre kapitel innan jag somnade.\n(I read three chapters before I fell asleep.)\n\nDet här kapitlet förklarar grunderna.\n(This chapter explains the basics.)",
+    "audio": "Jag läste tre kapitel innan jag somnade. Det här kapitlet förklarar grunderna.",
+    "tags": ["swedish"],
+    "notes": "ett kapitel, kapitlet, kapitel, kapitlen (neuter noun); Used for book/legal chapters; often abbreviated 'kap.'",
+    "imageHint": "Open book showing chapter heading and page numbers",
+    "mochiId": "O8hg4xPn"
+  },
+  {
+    "word": "sida",
+    "english": "side; page",
+    "examples": "Läs på sidan 12.\n(Read on page 12.)\n\nHan är på min sida.\n(He is on my side.)",
+    "audio": "Läs på sidan 12. Han är på min sida.",
+    "tags": ["swedish"],
+    "notes": "en sida, sidan, sidor, sidorna",
+    "imageHint": "Open book showing page numbers and paper sides",
+    "mochiId": "IborrBht"
+  },
+  {
+    "word": "kunna",
+    "english": "can; be able to; know (how to)",
+    "examples": "Jag kan komma imorgon.\n(I can come tomorrow.)\n\nKan du köra bil?\n(Can you drive a car?)",
+    "audio": "Jag kan komma imorgon. Kan du köra bil?",
+    "tags": ["swedish"],
+    "notes": "kan/kunde/kunnat",
+    "imageHint": "Open road, calendar, car keys, book, question marks",
+    "mochiId": "waqRHwFl"
+  },
+  {
+    "word": "svenska",
+    "english": "Swedish (language)",
+    "examples": "Jag lär mig svenska.\n(I’m learning Swedish.)\n\nSvenskan har många dialekter.\n(Swedish has many dialects.)",
+    "audio": "Jag lär mig svenska. Svenskan har många dialekter.",
+    "tags": ["swedish"],
+    "notes": "svenska, svenskan (no plural)",
+    "imageHint": "Open textbook with Swedish words and small flag",
+    "mochiId": "ArTvQrue"
+  },
+  {
+    "word": "kombinera",
+    "english": "combine; mix; match",
+    "examples": "Vi försöker kombinera arbete och familjeliv.\n(We try to combine work and family life.)\n\nKombinera pastan med en enkel tomatsås.\n(Combine the pasta with a simple tomato sauce.)",
+    "audio": "Vi försöker kombinera arbete och familjeliv. Kombinera pastan med en enkel tomatsås.",
+    "tags": ["swedish"],
+    "notes": "kombinerar/kombinerade/kombinerat (regular verb)",
+    "imageHint": "Color swatches and fabrics arranged together on desk",
+    "mochiId": "eMVazsSG"
+  },
+  {
+    "word": "foto",
+    "english": "photo; photograph",
+    "examples": "Kan du skicka ett foto på kvittot?\n(Can you send a photo of the receipt?)\n\nJag tog ett foto av solnedgången.\n(I took a photo of the sunset.)",
+    "audio": "Kan du skicka ett foto på kvittot? Jag tog ett foto av solnedgången.",
+    "tags": ["swedish"],
+    "notes": "ett foto, fotot, foton, fotona (neuter noun); Used for camera images; 'bild' is general. Verb: 'fota'.",
+    "imageHint": "Scattered printed photographs on wooden desk beside camera",
+    "mochiId": "cdg1zRna"
+  },
+  {
+    "word": "och",
+    "english": "and",
+    "examples": "Vi köpte bröd och mjölk.\n(We bought bread and milk.)\n\nHon läser och skriver varje dag.\n(She reads and writes every day.)",
+    "audio": "Vi köpte bröd och mjölk. Hon läser och skriver varje dag.",
+    "tags": ["swedish"],
+    "notes": "(konjunktion); No comma before 'och' in lists; formal alternative: 'samt'.",
+    "imageHint": "Kitchen table with bread and milk, coffee and tea",
+    "mochiId": "usXiLx3b"
+  },
+  {
+    "word": "ord",
+    "english": "word; term",
+    "examples": "Jag hittar inte rätt ord.\n(I can't find the right word.)\n\nVälj dina ord noggrant.\n(Choose your words carefully.)",
+    "audio": "Jag hittar inte rätt ord. Välj dina ord noggrant.",
+    "tags": ["swedish"],
+    "notes": "ett ord, ordet, ord, orden (neuter noun)",
+    "imageHint": "Open dictionary with highlighted word on wooden desk",
+    "mochiId": "3ahFG6rP"
+  },
+  {
+    "word": "hamburgare",
+    "english": "burger; hamburger",
+    "examples": "Jag tar en hamburgare utan lök, tack.\n(I'll have a burger without onion, thanks.)\n\nVi grillade hamburgare i helgen.\n(We grilled burgers this weekend.)",
+    "audio": "Jag tar en hamburgare utan lök, tack. Vi grillade hamburgare i helgen.",
+    "tags": ["swedish"],
+    "notes": "en hamburgare, hamburgaren, hamburgare, hamburgarna (common noun)",
+    "imageHint": "Juicy beef burger with bun, lettuce, tomato, cheese",
+    "mochiId": "2IcH7bBl"
+  },
+  {
+    "word": "advokat",
+    "english": "lawyer; attorney",
+    "examples": "Hon kontaktade en advokat för juridisk rådgivning.\n(She contacted a lawyer for legal advice.)\n\nAdvokaten företrädde honom i rätten.\n(The lawyer represented him in court.)",
+    "audio": "Hon kontaktade en advokat för juridisk rådgivning. Advokaten företrädde honom i rätten.",
+    "tags": ["swedish"],
+    "notes": "en advokat, advokaten, advokater, advokaterna (common noun)",
+    "imageHint": "Courtroom interior with scales of justice and law books",
+    "mochiId": "rB9hFCJp"
+  },
+  {
+    "word": "potatis",
+    "english": "potato",
+    "examples": "Vi ska äta köttbullar med potatis.\n(We're having meatballs with potatoes.)\n\nJag köpte fem potatisar till soppan.\n(I bought five potatoes for the soup.)",
+    "audio": "Vi ska äta köttbullar med potatis. Jag köpte fem potatisar till soppan.",
+    "tags": ["swedish"],
+    "notes": "en potatis, potatisen, potatisar (common noun); Often mass noun for food; use potatisar to count pieces",
+    "imageHint": "Brown potatoes on wooden table beside peeler",
+    "mochiId": "YaSBX8Ax"
+  },
+  {
+    "word": "mobil",
+    "english": "mobile phone; cellphone",
+    "examples": "Sätt mobilen på ljudlöst under mötet.\n(Put your phone on silent during the meeting.)\n\nHar du laddare till din mobil?\n(Do you have a charger for your phone?)",
+    "audio": "Sätt mobilen på ljudlöst under mötet. Har du laddare till din mobil?",
+    "tags": ["swedish"],
+    "notes": "en mobil, mobilen, mobiler, mobilerna (common noun); Colloquial; formal: mobiltelefon. Also adj: mobil = mobile.",
+    "imageHint": "Smartphone on wooden table with charger and coffee mug",
+    "mochiId": "RnAAbbXL"
+  },
+  {
+    "word": "papper",
+    "english": "paper; document(s)",
+    "examples": "Har du papper och penna?\n(Do you have paper and a pen?)\n\nJag måste lämna in pappren imorgon.\n(I have to hand in the papers tomorrow.)",
+    "audio": "Har du papper och penna? Jag måste lämna in pappren imorgon.",
+    "tags": ["swedish"],
+    "notes": "ett papper, pappret, papper, pappren (neuter noun)",
+    "imageHint": "desk with scattered papers, pen, folder, stamp",
+    "mochiId": "bKojSNbC"
+  },
+  {
+    "word": "kaffe",
+    "english": "coffee",
+    "examples": "Vill du ha en kopp kaffe?\n(Do you want a cup of coffee?)\n\nKan jag få en kaffe, tack?\n(Can I have a coffee, please?)",
+    "audio": "Vill du ha en kopp kaffe? Kan jag få en kaffe, tack?",
+    "tags": ["swedish"],
+    "notes": "ett kaffe, kaffet, kaffen (neuter noun)",
+    "imageHint": "Steaming mug of coffee on wooden table, beans",
+    "mochiId": "0fEd1OWI"
+  },
+  {
+    "word": "bok",
+    "english": "book; beech (tree)",
+    "examples": "Jag läser en bok.\n(I'm reading a book.)\n\nBokarna i skogen är gamla.\n(The beeches in the forest are old.)",
+    "audio": "Jag läser en bok. Bokarna i skogen är gamla.",
+    "tags": ["swedish"],
+    "notes": "en bok, boken, böcker, böckerna",
+    "imageHint": "Hardcover book on wooden table beside pen",
+    "mochiId": "XegpPvUV"
+  },
+  {
+    "word": "kanelbulle",
+    "english": "cinnamon bun; cinnamon roll",
+    "examples": "Jag köpte en kanelbulle till fikat.\n(I bought a cinnamon bun for the coffee break.)\n\nVill du ha en kanelbulle till kaffet?\n(Do you want a cinnamon bun with your coffee?)",
+    "audio": "Jag köpte en kanelbulle till fikat. Vill du ha en kanelbulle till kaffet?",
+    "tags": ["swedish"],
+    "notes": "en kanelbulle, kanelbullen, kanelbullar, kanelbullarna (common noun); Iconic in fika culture; often paired with coffee.",
+    "imageHint": "Fresh cinnamon buns on baking tray with sugar",
+    "mochiId": "yYqaGOtb"
+  },
+  {
+    "word": "penna",
+    "english": "pen; pencil",
+    "examples": "Har du en penna jag kan låna?\n(Do you have a pen I can borrow?)\n\nBläcket i pennan är slut.\n(The ink in the pen is finished.)",
+    "audio": "Har du en penna jag kan låna? Bläcket i pennan är slut.",
+    "tags": ["swedish"],
+    "notes": "en penna, pennan, pennor, pennorna",
+    "imageHint": "Blue ballpoint pen on open notebook on desk",
+    "mochiId": "ltMNREd4"
+  },
+  {
+    "word": "vatten",
+    "english": "water; waters",
+    "examples": "Kan jag få ett glas vatten?\n(Can I have a glass of water?)\n\nVattnet i sjön är iskallt.\n(The water in the lake is ice-cold.)",
+    "audio": "Kan jag få ett glas vatten? Vattnet i sjön är iskallt.",
+    "tags": ["swedish"],
+    "notes": "ett vatten, vattnet, vatten, vattnen (neuter noun)",
+    "imageHint": "clear glass of water on wooden table",
+    "mochiId": "zvgPDTBi"
+  },
+  {
+    "word": "lång",
+    "english": "long; tall (of people)",
+    "examples": "Vägen är lång.\n(The road is long.)\n\nHan är längre än sin bror.\n(He is taller than his brother.)",
+    "audio": "Vägen är lång. Han är längre än sin bror.",
+    "tags": ["swedish"],
+    "notes": "lång/långt/långa; längre/längst (adjective)",
+    "imageHint": "Long winding road through a dense pine forest",
+    "mochiId": "ODBMJugt"
+  },
+  {
+    "word": "vokal",
+    "english": "vowel",
+    "examples": "Svenska har nio vokaler.\n(Swedish has nine vowels.)\n\nOrdet 'skola' innehåller två vokaler.\n(The word 'skola' contains two vowels.)",
+    "audio": "Svenska har nio vokaler. Ordet 'skola' innehåller två vokaler.",
+    "tags": ["swedish"],
+    "notes": "en vokal, vokalen, vokaler, vokalerna (common noun)",
+    "imageHint": "Alphabet chart highlighting Swedish vowels in red",
+    "mochiId": "FSg1nJNd"
+  },
+  {
+    "word": "eller",
+    "english": "or",
+    "examples": "Vill du ha kaffe eller te?\n(Do you want coffee or tea?)\n\nVi kan ta bussen eller gå.\n(We can take the bus or walk.)",
+    "audio": "Vill du ha kaffe eller te? Vi kan ta bussen eller gå.",
+    "tags": ["swedish"],
+    "notes": "oböjligt (konjunktion); Links alternatives; often with 'antingen ... eller'.",
+    "imageHint": "Cafe menu listing coffee or tea options",
+    "mochiId": "5VoaTsMR"
+  },
+  {
+    "word": "konsonant",
+    "english": "consonant",
+    "examples": "Bokstaven 'm' är en konsonant.\n(The letter 'm' is a consonant.)\n\nOrd som börjar med två konsonanter kan vara svåra att uttala.\n(Words that begin with two consonants can be hard to pronounce.)",
+    "audio": "Bokstaven 'm' är en konsonant. Ord som börjar med två konsonanter kan vara svåra att uttala.",
+    "tags": ["swedish"],
+    "notes": "en konsonant, konsonanten, konsonanter, konsonanterna (common noun); Can mean sound or letter; contrasts with 'vokal'.",
+    "imageHint": "Classroom chalkboard with alphabet highlighting consonants",
+    "mochiId": "UcMU70YS"
+  },
+  {
+    "word": "exempel",
+    "english": "example; instance",
+    "examples": "Kan du ge ett exempel?\n(Can you give an example?)\n\nJag gillar frukt, till exempel äpplen och päron.\n(I like fruit, for example apples and pears.)",
+    "audio": "Kan du ge ett exempel? Jag gillar frukt, till exempel äpplen och päron.",
+    "tags": ["swedish"],
+    "notes": "ett exempel, exemplet, exempel, exemplen (neuter noun); Plural = singular; common in 'till exempel (t.ex.)'.",
+    "imageHint": "Open textbook page with example box and notes",
+    "mochiId": "tNtSvoLL"
+  },
+  {
+    "word": "på",
+    "english": "on; at; in (context-dependent)",
+    "examples": "Boken ligger på bordet.\n(The book is on the table.)\n\nVi ses på fredag.\n(See you on Friday.)",
+    "audio": "Boken ligger på bordet. Vi ses på fredag.",
+    "tags": ["swedish"],
+    "notes": "preposition (no inflection)",
+    "imageHint": "book on table, calendar, TV icon, bus stop",
+    "mochiId": "tdCsjlRB"
+  },
+  {
+    "word": "kurs",
+    "english": "course; exchange rate; direction",
+    "examples": "Jag går en kurs i svenska.\n(I'm taking a Swedish course.)\n\nKronans kurs har stärkts i år.\n(The krona's exchange rate has strengthened this year.)",
+    "audio": "Jag går en kurs i svenska. Kronans kurs har stärkts i år.",
+    "tags": ["swedish"],
+    "notes": "en kurs, kursen, kurser (common noun)",
+    "imageHint": "Empty classroom with whiteboard and books on desks",
+    "mochiId": "DMPaPijm"
+  },
+  {
+    "word": "heta",
+    "english": "be called; be named",
+    "examples": "Jag heter Anna.\n(My name is Anna.)\n\nFöretaget heter Nordic AB.\n(The company is called Nordic AB.)",
+    "audio": "Jag heter Anna. Företaget heter Nordic AB.",
+    "tags": ["swedish"],
+    "notes": "heter/hette/hetat (irregular verb)",
+    "imageHint": "Office door with nameplate reading 'Nordic AB'",
+    "mochiId": "diD7tXTf"
+  },
+  {
+    "word": "jag",
+    "english": "I",
+    "examples": "Jag är trött idag.\n(I am tired today.)\n\nJag tog med mig ett paraply.\n(I brought an umbrella with me.)",
+    "audio": "Jag är trött idag. Jag tog med mig ett paraply.",
+    "tags": ["swedish"],
+    "notes": "jag (subj), mig (obj), min/mitt/mina (poss.)",
+    "imageHint": "Open diary on desk, pen, coffee mug, morning light",
+    "mochiId": "PTTyeb99"
+  },
+  {
+    "word": "varifrån",
+    "english": "from where; where ... from",
+    "examples": "Varifrån kommer du?\n(Where are you from?)\n\nVarifrån fick du idén?\n(Where did you get the idea from?)",
+    "audio": "Varifrån kommer du? Varifrån fick du idén?",
+    "tags": ["swedish"],
+    "notes": "adverb (frågeord)",
+    "imageHint": "World map with arrows indicating origins and destinations",
+    "mochiId": "ACs9eGar"
+  },
+  {
+    "word": "komma",
+    "english": "to come; arrive",
+    "examples": "Kan du komma hem tidigare i dag?\n(Can you come home earlier today?)\n\nTåget kommer klockan sju.\n(The train arrives at seven.)",
+    "audio": "Kan du komma hem tidigare i dag? Tåget kommer klockan sju.",
+    "tags": ["swedish"],
+    "notes": "kommer/kom/kommit (irregular verb)",
+    "imageHint": "train arriving at station platform at sunset",
+    "mochiId": "nFjmKVPg"
+  },
+  {
+    "word": "från",
+    "english": "from; away from",
+    "examples": "Jag kommer från Sverige.\n(I am from Sweden.)\n\nFrån och med måndag gäller nya tider.\n(Starting Monday, new hours apply.)",
+    "audio": "Jag kommer från Sverige. Från och med måndag gäller nya tider.",
+    "tags": ["swedish"],
+    "notes": "preposition; Common in 'från ... till ...' and 'från och med' (fr.o.m.).",
+    "imageHint": "Map with arrow from village to city, distance",
+    "mochiId": "VAzJQ7dz"
+  },
+  {
+    "word": "nej",
+    "english": "no",
+    "examples": "Nej, det stämmer inte.\n(No, that's not correct.)\n\nNej tack, jag är mätt.\n(No thanks, I'm full.)",
+    "audio": "Nej, det stämmer inte. Nej tack, jag är mätt.",
+    "tags": ["swedish"],
+    "notes": "oböjligt (interjektion); Standalone negation; polite form: 'nej tack'.",
+    "imageHint": "red stop sign by closed gate in rain",
+    "mochiId": "x4vjYPEm"
+  },
+  {
+    "word": "jaha",
+    "english": "oh, I see, right, okay then",
+    "examples": "Jaha, så tåget är försenat.\n(I see, so the train is delayed.)\n\nJaha? Vad hände sen?\n(Oh? What happened next?)",
+    "audio": "Jaha, så tåget är försenat. Jaha? Vad hände sen?",
+    "tags": ["swedish"],
+    "notes": "interjektion (oböjligt)",
+    "imageHint": "Train station delay board and clock, overcast sky",
+    "mochiId": "hYjIKm3y"
+  },
+  {
+    "word": "vad",
+    "english": "what",
+    "examples": "Vad heter du?\n(What is your name?)\n\nJag vet inte vad han sa.\n(I don't know what he said.)",
+    "audio": "Vad heter du? Jag vet inte vad han sa.",
+    "tags": ["swedish"],
+    "notes": "oböjligt pronomen",
+    "imageHint": "large question mark on table with books",
+    "mochiId": "gnGigc54"
+  },
+  {
+    "word": "bra",
+    "english": "good; well",
+    "examples": "Det var en bra idé.\n(That was a good idea.)\n\nJag mår bra nu.\n(I feel well now.)",
+    "audio": "Det var en bra idé. Jag mår bra nu.",
+    "tags": ["swedish"],
+    "notes": "bra, bättre, bäst",
+    "imageHint": "Gold star sticker on high-quality product box",
+    "mochiId": "pMchROJS"
+  },
+  {
+    "word": "tala",
+    "english": "speak; talk",
+    "examples": "Kan vi tala senare?\n(Can we talk later?)\n\nHon talar svenska och engelska.\n(She speaks Swedish and English.)",
+    "audio": "Kan vi tala senare? Hon talar svenska och engelska.",
+    "tags": ["swedish"],
+    "notes": "tala/talar/talade/talat (verb); More formal than 'prata'. 'tala om' = tell/talk about.",
+    "imageHint": "Smartphone on desk with speech bubbles and microphone",
+    "mochiId": "MDoB6SEB"
+  },
+  {
+    "word": "språk",
+    "english": "language; tongue",
+    "examples": "Vilket språk pratar du hemma?\n(What language do you speak at home?)\n\nDet här programmet stöder flera språk.\n(This program supports multiple languages.)",
+    "audio": "Vilket språk pratar du hemma? Det här programmet stöder flera språk.",
+    "tags": ["swedish"],
+    "notes": "ett språk, språket, språk, språken; Neuter noun; used for human and programming languages",
+    "imageHint": "World map with different language scripts and alphabets",
+    "mochiId": "bfWypwiz"
+  },
+  {
+    "word": "grön",
+    "english": "green; inexperienced",
+    "examples": "Hon köpte ett grönt äpple.\n(She bought a green apple.)\n\nHan är fortfarande ganska grön på jobbet.\n(He is still quite inexperienced at work.)",
+    "audio": "Hon köpte ett grönt äpple. Han är fortfarande ganska grön på jobbet.",
+    "tags": ["swedish"],
+    "notes": "grön/grönt/gröna; grönare; grönast (adjective)",
+    "imageHint": "Bright green apple on wooden table indoors",
+    "mochiId": "DknTeAmQ"
+  },
+  {
+    "word": "blå",
+    "english": "blue",
+    "examples": "Himlen är blå idag.\n(The sky is blue today.)\n\nVi målade rummet blått.\n(We painted the room blue.)",
+    "audio": "Himlen är blå idag. Vi målade rummet blått.",
+    "tags": ["swedish"],
+    "notes": "blå/blått/blåa (adjective)",
+    "imageHint": "Clear blue sky over calm ocean water",
+    "mochiId": "2M3koMYs"
+  },
+  {
+    "word": "gul",
+    "english": "yellow",
+    "examples": "Ett gult hus ligger vid sjön.\n(A yellow house is by the lake.)\n\nGula blommor blommar i rabatten.\n(Yellow flowers are blooming in the flower bed.)",
+    "audio": "Ett gult hus ligger vid sjön. Gula blommor blommar i rabatten.",
+    "tags": ["swedish"],
+    "notes": "gul/gult/gula (adjective); Agrees with noun: en gul, ett gult, den/det/de gula.",
+    "imageHint": "Bright yellow sunflower field under clear blue sky",
+    "mochiId": "LB7BpYOy"
+  },
+  {
+    "word": "röd",
+    "english": "red",
+    "examples": "Jag köpte en röd cykel.\n(I bought a red bicycle.)\n\nEtt rött äpple var på bordet.\n(A red apple was on the table.)",
+    "audio": "Jag köpte en röd cykel. Ett rött äpple var på bordet.",
+    "tags": ["swedish"],
+    "notes": "röd/rött/röda; rödare; rödast(e) (adjective)",
+    "imageHint": "Shiny red apple on wooden table by window",
+    "mochiId": "L2pns8x1"
+  },
+  {
+    "word": "lite",
+    "english": "a little; a bit; some",
+    "examples": "Jag är lite trött.\n(I'm a little tired.)\n\nKan jag få lite vatten?\n(Can I have some water?)",
+    "audio": "Jag är lite trött. Kan jag få lite vatten?",
+    "tags": ["swedish"],
+    "notes": "adverb/determiner (no inflection)",
+    "imageHint": "Nearly empty water glass on wooden table",
+    "mochiId": "pUsf7OIT"
+  },
+  {
+    "word": "spanska",
+    "english": "Spanish (language)",
+    "examples": "Jag pluggar spanska på universitetet.\n(I study Spanish at university.)\n\nSpanskan talas i många länder.\n(Spanish is spoken in many countries.)",
+    "audio": "Jag pluggar spanska på universitetet. Spanskan talas i många länder.",
+    "tags": ["swedish"],
+    "notes": "spanska, spanskan (no plural)",
+    "imageHint": "Spanish textbook, Spain map, flag, classroom chalkboard",
+    "mochiId": "I3rYQ9wx"
+  },
+  {
+    "word": "så",
+    "english": "so; then; thus",
+    "examples": "Jag var trött, så jag gick hem.\n(I was tired, so I went home.)\n\nDet är så gott!\n(It is so tasty!)",
+    "audio": "Jag var trött, så jag gick hem. Det är så gott!",
+    "tags": ["swedish"],
+    "notes": "adverb/konj. (invariabel)",
+    "imageHint": "Cause and effect arrows on a whiteboard",
+    "mochiId": "PbAkHZVf"
+  },
+  {
+    "word": "klart",
+    "english": "clear; ready; of course; done",
+    "examples": "Det är klart att vi kommer.\n(Of course we will come.)\n\nVattnet är klart.\n(The water is clear.)",
+    "audio": "Det är klart att vi kommer. Vattnet är klart.",
+    "tags": ["swedish"],
+    "notes": "klar/klart/klara; klarare/klarast (adj/adv)",
+    "imageHint": "Clear lake water, finished checklist with checked boxes",
+    "mochiId": "nYqyDV9l"
+  },
+  {
+    "word": "vara",
+    "english": "be; last",
+    "examples": "Det är kallt idag.\n(It is cold today.)\n\nFilmen varar i två timmar.\n(The movie lasts two hours.)",
+    "audio": "Det är kallt idag. Filmen varar i två timmar.",
+    "tags": ["swedish"],
+    "notes": "vara/är/var/varit (irregular verb)",
+    "imageHint": "Clock and calendar beside a thermometer on table",
+    "mochiId": "DJwZg0hN"
+  },
+  {
+    "word": "var",
+    "english": "was; were; be (imperative)",
+    "examples": "Hon var hemma igår.\n(She was home yesterday.)\n\nVar försiktig!\n(Be careful!)",
+    "audio": "Hon var hemma igår. Var försiktig!",
+    "tags": ["swedish"],
+    "notes": "är/var/varit; var (imp.)",
+    "imageHint": "Calendar showing yesterday in empty living room",
+    "mochiId": "GFviX6iR"
+  },
+  {
+    "word": "ligga",
+    "english": "lie; be situated/located",
+    "examples": "Boken ligger på bordet.\n(The book is on the table.)\n\nGöteborg ligger på västkusten.\n(Gothenburg is on the west coast.)",
+    "audio": "Boken ligger på bordet. Göteborg ligger på västkusten.",
+    "tags": ["swedish"],
+    "notes": "ligga/ligger/låg/legat (irregular verb)",
+    "imageHint": "Book lying on wooden table beside window light",
+    "mochiId": "k3SNz5HE"
+  },
+  {
+    "word": "det",
+    "english": "it; that",
+    "examples": "Det är kallt idag.\n(It is cold today.)\n\nJag köpte ett hus; det var dyrt.\n(I bought a house; it was expensive.)",
+    "audio": "Det är kallt idag. Jag köpte ett hus; det var dyrt.",
+    "tags": ["swedish"],
+    "notes": "den/det/de (pronoun)",
+    "imageHint": "Snowy street, thermometer showing cold temperature, gray sky",
+    "mochiId": "wk2aAlVD"
+  },
+  {
+    "word": "i",
+    "english": "in; inside; at",
+    "examples": "Jag bor i Stockholm.\n(I live in Stockholm.)\n\nLägg boken i väskan.\n(Put the book in the bag.)",
+    "audio": "Jag bor i Stockholm. Lägg boken i väskan.",
+    "tags": ["swedish"],
+    "notes": "preposition (no inflection)",
+    "imageHint": "A book inside a bag on a wooden table",
+    "mochiId": "4BqkJLlH"
+  },
+  {
+    "word": "norra",
+    "english": "northern; north",
+    "examples": "Vi ska resa till norra Sverige i sommar.\n(We will travel to northern Sweden this summer.)\n\nDen norra ingången är stängd.\n(The north entrance is closed.)",
+    "audio": "Vi ska resa till norra Sverige i sommar. Den norra ingången är stängd.",
+    "tags": ["swedish"],
+    "notes": "norra (invariable adjective)",
+    "imageHint": "Map highlighting northern part of Sweden in blue",
+    "mochiId": "B5bZC3iC"
+  },
+  {
+    "word": "italien",
+    "english": "Italy",
+    "examples": "Vi reste till Italien i somras.\n(We traveled to Italy last summer.)\n\nItalien är känt för sin mat och kultur.\n(Italy is known for its food and culture.)",
+    "audio": "Vi reste till Italien i somras. Italien är känt för sin mat och kultur.",
+    "tags": ["swedish"],
+    "notes": "egennamn; oböjligt; Italien (stor bokstav)",
+    "imageHint": "Tuscan hills, vineyards, cypress trees, Mediterranean coastline",
+    "mochiId": "DKyslYwp"
+  },
+  {
+    "word": "prata",
+    "english": "talk; speak; chat",
+    "examples": "Vi kan prata senare.\n(We can talk later.)\n\nHon pratade med chefen om lönen.\n(She talked with the boss about the salary.)",
+    "audio": "Vi kan prata senare. Hon pratade med chefen om lönen.",
+    "tags": ["swedish"],
+    "notes": "prata/pratar/pratade/pratat (verb)",
+    "imageHint": "Two steaming coffee cups with speech bubbles above",
+    "mochiId": "J00K8OhK"
+  },
+  {
+    "word": "pyttelite",
+    "english": "a tiny bit; very slightly",
+    "examples": "Jag är bara pyttelite trött.\n(I'm just a tiny bit tired.)\n\nDet finns bara pyttelite mjölk kvar.\n(There is only a tiny bit of milk left.)",
+    "audio": "Jag är bara pyttelite trött. Det finns bara pyttelite mjölk kvar.",
+    "tags": ["swedish"],
+    "notes": "adverb (no inflection); Colloquial; used before adjectives or uncountable nouns.",
+    "imageHint": "Almost empty milk carton on a kitchen counter",
+    "mochiId": "dTd6OAU6"
+  },
+  {
+    "word": "italienska",
+    "english": "Italian (language); Italian woman; Italian (pl/def. adj.)",
+    "examples": "Jag läser italienska på kvällarna.\n(I study Italian in the evenings.)\n\nDe italienska vinerna är berömda.\n(The Italian wines are famous.)",
+    "audio": "Jag läser italienska på kvällarna. De italienska vinerna är berömda.",
+    "tags": ["swedish"],
+    "notes": "en italienska, italienskan, italienskor; italiensk/italienskt/italienska",
+    "imageHint": "Italian textbook, map of Italy, flag, café table",
+    "mochiId": "2r2gbbxs"
+  },
+  {
+    "word": "lyssna",
+    "english": "listen (to)",
+    "examples": "Kan du lyssna på mig en sekund?\n(Can you listen to me for a second?)\n\nHon lyssnade på musik hela kvällen.\n(She listened to music all evening.)",
+    "audio": "Kan du lyssna på mig en sekund? Hon lyssnade på musik hela kvällen.",
+    "tags": ["swedish"],
+    "notes": "lyssna/lyssnar/lyssnade/lyssnat; Takes på: lyssna på musik/någon. Active vs höra (perceive).",
+    "imageHint": "Close-up of headphones beside radio on desk",
+    "mochiId": "Xi5EArAu"
+  },
+  {
+    "word": "dialog",
+    "english": "dialogue, conversation",
+    "examples": "Vi behöver föra dialog med kommunen.\n(We need to engage in dialogue with the municipality.)\n\nFilmen innehåller väldigt lite dialog.\n(The film contains very little dialogue.)",
+    "audio": "Vi behöver föra dialog med kommunen. Filmen innehåller väldigt lite dialog.",
+    "tags": ["swedish"],
+    "notes": "en dialog, dialogen, dialoger, dialogerna (common noun)",
+    "imageHint": "Empty conference table with two microphones and notepads",
+    "mochiId": "RM72puvw"
+  },
+  {
+    "word": "vilken",
+    "english": "which; which one",
+    "examples": "Vilken buss går till centrum?\n(Which bus goes to the city center?)\n\nVilka böcker har du läst?\n(Which books have you read?)",
+    "audio": "Vilken buss går till centrum? Vilka böcker har du läst?",
+    "tags": ["swedish"],
+    "notes": "vilken/vilket/vilka (interrog./relative pron/determiner)",
+    "imageHint": "Bus stop with multiple route numbers and signs",
+    "mochiId": "Jl3IbIxd"
+  },
+  {
+    "word": "ha",
+    "english": "have; possess",
+    "examples": "Jag har inte tid idag.\n(I don't have time today.)\n\nVill du ha kaffe?\n(Do you want coffee?)",
+    "audio": "Jag har inte tid idag. Vill du ha kaffe?",
+    "tags": ["swedish"],
+    "notes": "har/hade/haft (irregular verb)",
+    "imageHint": "Still life of keys, wallet, book on table",
+    "mochiId": "1Dy6CMmf"
+  },
+  {
+    "word": "betoning",
+    "english": "stress; emphasis",
+    "examples": "På svenska ligger betoningen oftast på första stavelsen.\n(In Swedish the stress is usually on the first syllable.)\n\nLägg extra betoning på säkerheten i instruktionerna.\n(Put extra emphasis on safety in the instructions.)",
+    "audio": "På svenska ligger betoningen oftast på första stavelsen. Lägg extra betoning på säkerheten i instruktionerna.",
+    "tags": ["swedish"],
+    "notes": "en betoning, betoningen, betoningar (common noun); Common in phonetics and rhetoric; related verb: betona",
+    "imageHint": "Open dictionary page showing bolded stressed syllables and waveform",
+    "mochiId": "lEo06PGk"
+  },
+  {
+    "word": "ringa",
+    "english": "to call; to ring",
+    "examples": "Kan du ringa mig ikväll?\n(Can you call me tonight?)\n\nDet ringer på dörren.\n(The doorbell is ringing.)",
+    "audio": "Kan du ringa mig ikväll? Det ringer på dörren.",
+    "tags": ["swedish"],
+    "notes": "ringa/ringer/ringde/ringt (verb)",
+    "imageHint": "smartphone on table showing incoming call icon",
+    "mochiId": "1lXdLjS5"
+  },
+  {
+    "word": "in",
+    "english": "in, into, inside (motion)",
+    "examples": "Kom in, dörren är öppen.\n(Come in, the door is open.)\n\nHan gick in i butiken.\n(He went into the shop.)",
+    "audio": "Kom in, dörren är öppen. Han gick in i butiken.",
+    "tags": ["swedish"],
+    "notes": "adverb/partikel (oböjligt)",
+    "imageHint": "Open doorway showing cozy interior, snowy street outside",
+    "mochiId": "xkHSob3A"
+  },
+  {
+    "word": "igen",
+    "english": "again; back",
+    "examples": "Kan du säga det igen?\n(Can you say that again?)\n\nDet fungerar igen.\n(It works again.)",
+    "audio": "Kan du säga det igen? Det fungerar igen.",
+    "tags": ["swedish"],
+    "notes": "adverb (no inflection)",
+    "imageHint": "Reload icon on screen, task retrying",
+    "mochiId": "Wkg3zQof"
+  },
+  {
+    "word": "markera",
+    "english": "mark; highlight; indicate; signal",
+    "examples": "Markera texten du vill kopiera.\n(Highlight the text you want to copy.)\n\nGlöm inte att markera rutan 'Jag godkänner'.\n(Don't forget to tick the 'I agree' box.)",
+    "audio": "Markera texten du vill kopiera. Glöm inte att markera rutan 'Jag godkänner'.",
+    "tags": ["swedish"],
+    "notes": "markerar/markerade/markerat (verb)",
+    "imageHint": "Computer screen with highlighted text and checkbox ticked",
+    "mochiId": "wVqoaw8n"
+  },
+  {
+    "word": "uttala",
+    "english": "pronounce; articulate",
+    "examples": "Hur uttalar man det här ordet?\n(How do you pronounce this word?)\n\nKan du uttala mitt efternamn?\n(Can you pronounce my last name?)",
+    "audio": "Hur uttalar man det här ordet? Kan du uttala mitt efternamn?",
+    "tags": ["swedish"],
+    "notes": "uttala/uttalar/uttalade/uttalat (regular verb); With sig: uttala sig = express an opinion/comment.",
+    "imageHint": "Dictionary page with phonetic symbols and speech waveform",
+    "mochiId": "zwAz4MCy"
+  },
+  {
+    "word": "inte",
+    "english": "not",
+    "examples": "Jag vill inte gå.\n(I don't want to go.)\n\nDet är inte sant.\n(That is not true.)",
+    "audio": "Jag vill inte gå. Det är inte sant.",
+    "tags": ["swedish"],
+    "notes": "adverb (no inflection)",
+    "imageHint": "red prohibition sign over footsteps icon, neutral background",
+    "mochiId": "35QnRMrd"
+  },
+  {
+    "word": "titta",
+    "english": "look; watch",
+    "examples": "Kan du titta på det här?\n(Can you look at this?)\n\nVi tittar på film ikväll.\n(We're watching a movie tonight.)",
+    "audio": "Kan du titta på det här? Vi tittar på film ikväll.",
+    "tags": ["swedish"],
+    "notes": "titta/tittar/tittade/tittat (verb); Often with 'på': titta på något. More active than 'se'.",
+    "imageHint": "Binoculars on windowsill facing birds outside",
+    "mochiId": "aHJvQhQo"
+  },
+  {
+    "word": "ruta",
+    "english": "pane; square; box (form field)",
+    "examples": "Barnen råkade krossa en ruta med bollen.\n(The kids accidentally broke a windowpane with the ball.)\n\nKryssa i rätt ruta på blanketten.\n(Check the correct box on the form.)",
+    "audio": "Barnen råkade krossa en ruta med bollen. Kryssa i rätt ruta på blanketten.",
+    "tags": ["swedish"],
+    "notes": "en ruta, rutan, rutor, rutorna (common noun)",
+    "imageHint": "Windowpane and paper form with checkboxes and squares",
+    "mochiId": "qgNpOnh7"
+  },
+  {
+    "word": "här",
+    "english": "here",
+    "examples": "Här är nycklarna.\n(Here are the keys.)\n\nStäll väskan här, tack.\n(Put the bag here, please.)",
+    "audio": "Här är nycklarna. Ställ väskan här, tack.",
+    "tags": ["swedish"],
+    "notes": "adverb (no inflection)",
+    "imageHint": "desk with arrow marking a specific spot labeled 'här'",
+    "mochiId": "qeYpMhTR"
+  },
+  {
+    "word": "nedanför",
+    "english": "below; down below; beneath",
+    "examples": "Se tabellen nedanför för detaljer.\n(See the table below for details.)\n\nHuset ligger nedanför kyrkan.\n(The house is below the church.)",
+    "audio": "Se tabellen nedanför för detaljer. Huset ligger nedanför kyrkan.",
+    "tags": ["swedish"],
+    "notes": "adverb; preposition (no inflection)",
+    "imageHint": "Red cottage below hillside, arrow pointing downward",
+    "mochiId": "lRvdUZ7V"
+  },
+  {
+    "word": "se",
+    "english": "see; look (appear); meet",
+    "examples": "Vi ses i morgon.\n(See you tomorrow.)\n\nDet ser bra ut.\n(It looks good.)",
+    "audio": "Vi ses i morgon. Det ser bra ut.",
+    "tags": ["swedish"],
+    "notes": "ser/såg/sett (irregular verb); Common in 'vi ses' (see you); 'se ut' = appear/look.",
+    "imageHint": "Binoculars viewing distant mountains and lighthouse at dusk",
+    "mochiId": "AGACatiV"
+  },
+  {
+    "word": "ett",
+    "english": "a (neuter); one",
+    "examples": "Kan jag få ett glas vatten?\n(Can I have a glass of water?)\n\nJag tar ett.\n(I'll take one.)",
+    "audio": "Kan jag få ett glas vatten? Jag tar ett.",
+    "tags": ["swedish"],
+    "notes": "en/ett (artikel, räkneord, pronomen)",
+    "imageHint": "Clock showing one o'clock beside a small house",
+    "mochiId": "sOwf9oGh"
+  },
+  {
+    "word": "system",
+    "english": "system; arrangement; setup",
+    "examples": "Vi måste uppgradera vårt IT-system innan sommaren.\n(We need to upgrade our IT system before the summer.)\n\nDet svenska skolsystemet behöver reformer.\n(The Swedish school system needs reforms.)",
+    "audio": "Vi måste uppgradera vårt IT-system innan sommaren. Det svenska skolsystemet behöver reformer.",
+    "tags": ["swedish"],
+    "notes": "ett system, systemet, system, systemen (neuter noun); Common in compounds: skolsystem, nervsystem, datasystem.",
+    "imageHint": "Server racks with flowchart and connected nodes",
+    "mochiId": "FF3ZIVIP"
+  },
+  {
+    "word": "för",
+    "english": "for; too; in 'för att': to/in order to",
+    "examples": "Tack för hjälpen.\n(Thanks for the help.)\n\nDet är för dyrt.\n(It’s too expensive.)",
+    "audio": "Tack för hjälpen. Det är för dyrt.",
+    "tags": ["swedish"],
+    "notes": "preposition/particle (no inflection)",
+    "imageHint": "wrapped gift beside thank-you card on table",
+    "mochiId": "8qkZCOjY"
+  },
+  {
+    "word": "verb",
+    "english": "verb",
+    "examples": "Kan du ge ett exempel på ett verb?\n(Can you give an example of a verb?)\n\nI svenskan böjs verb i olika tempus.\n(In Swedish, verbs are inflected for tense.)",
+    "audio": "Kan du ge ett exempel på ett verb? I svenskan böjs verb i olika tempus.",
+    "tags": ["swedish"],
+    "notes": "ett verb, verbet, verb, verben (neuter noun); Grammatical term used in linguistics and language teaching.",
+    "imageHint": "Blackboard with sentence and the verb highlighted",
+    "mochiId": "p8QKgA28"
+  },
+  {
+    "word": "position",
+    "english": "position; rank; stance",
+    "examples": "GPS:en visar vår exakta position.\n(The GPS shows our exact position.)\n\nHon stärkte sin position i företaget.\n(She strengthened her position in the company.)",
+    "audio": "GPS:en visar vår exakta position. Hon stärkte sin position i företaget.",
+    "tags": ["swedish"],
+    "notes": "en position, positionen, positioner, positionerna (common noun)",
+    "imageHint": "map with GPS marker showing precise position",
+    "mochiId": "29rh9AeO"
+  },
+  {
+    "word": "läsa",
+    "english": "read; study (at university)",
+    "examples": "Jag läser en bok varje kväll.\n(I read a book every evening.)\n\nHon läser juridik vid universitetet.\n(She studies law at the university.)",
+    "audio": "Jag läser en bok varje kväll. Hon läser juridik vid universitetet.",
+    "tags": ["swedish"],
+    "notes": "läsa/läser/läste/läst (verb)",
+    "imageHint": "Open book on desk, glasses, lamp, printed text",
+    "mochiId": "gOaWooy0"
+  },
+  {
+    "word": "sätta",
+    "english": "put; set; place",
+    "examples": "Kan du sätta koppen på bordet?\n(Can you put the cup on the table?)\n\nSätt på lampan, det är mörkt.\n(Turn on the lamp, it's dark.)",
+    "audio": "Kan du sätta koppen på bordet? Sätt på lampan, det är mörkt.",
+    "tags": ["swedish"],
+    "notes": "sätta/sätter/satte/satt (irregular verb)",
+    "imageHint": "Coffee mug set on wooden table in kitchen",
+    "mochiId": "FvMKrn49"
+  },
+  {
+    "word": "ett",
+    "english": "a/an; one (neuter)",
+    "examples": "Jag köpte ett äpple.\n(I bought an apple.)\n\nDet tar ett år.\n(It takes one year.)",
+    "audio": "Jag köpte ett äpple. Det tar ett år.",
+    "tags": ["swedish"],
+    "notes": "article/number: en (common), ett (neuter)",
+    "imageHint": "Single green apple on wooden table near window",
+    "mochiId": "6KMXOO0T"
+  },
+  {
+    "word": "kryss",
+    "english": "cross (X), crossword (colloq.), beating (sailing)",
+    "examples": "Sätt ett kryss i rutan om du godkänner.\n(Put an X in the box if you agree.)\n\nHon löste helgens kryss i tidningen.\n(She solved the weekend's crossword in the newspaper.)",
+    "audio": "Sätt ett kryss i rutan om du godkänner. Hon löste helgens kryss i tidningen.",
+    "tags": ["swedish"],
+    "notes": "ett kryss, krysset, kryss, kryssen (neuter noun)",
+    "imageHint": "Checkbox with X and newspaper crossword grid",
+    "mochiId": "VLd3Zcm9"
+  },
+  {
+    "word": "sätta",
+    "english": "to put; set; place",
+    "examples": "Kan du sätta på kaffebryggaren?\n(Can you turn on the coffee maker?)\n\nSätt glaset på bordet.\n(Put the glass on the table.)",
+    "audio": "Kan du sätta på kaffebryggaren? Sätt glaset på bordet.",
+    "tags": ["swedish"],
+    "notes": "sätta/sätter/satte/satt (irregular verb)",
+    "imageHint": "Coffee maker starting on kitchen counter, cup beside",
+    "mochiId": "kmUQF5rX"
+  },
+  {
+    "word": "alla",
+    "english": "everyone; all (plural)",
+    "examples": "Alla är välkomna.\n(Everyone is welcome.)\n\nAlla bilarna är parkerade här.\n(All the cars are parked here.)",
+    "audio": "Alla är välkomna. Alla bilarna är parkerade här.",
+    "tags": ["swedish"],
+    "notes": "all/allt/alla (adj); pronoun: alla",
+    "imageHint": "Several identical cars parked together in one lot",
+    "mochiId": "FS3qujni"
+  },
+  {
+    "word": "fråga",
+    "english": "question; ask",
+    "examples": "Har du någon fråga?\n(Do you have any question?)\n\nKan jag få fråga en sak?\n(May I ask something?)",
+    "audio": "Har du någon fråga? Kan jag få fråga en sak?",
+    "tags": ["swedish"],
+    "notes": "en fråga, frågan, frågor, frågorna; fråga, frågar, frågade, frågat",
+    "imageHint": "Notepad with large question mark on desk",
+    "mochiId": "ecG459OH"
+  },
+  {
+    "word": "svara",
+    "english": "answer; respond",
+    "examples": "Kan du svara på mejlet?\n(Can you reply to the email?)\n\nHan svarade inte på frågan.\n(He didn't answer the question.)",
+    "audio": "Kan du svara på mejlet? Han svarade inte på frågan.",
+    "tags": ["swedish"],
+    "notes": "svara/svarar/svarade/svarat (regelb. verb)",
+    "imageHint": "Ringing phone on desk with open email inbox",
+    "mochiId": "kTGcSLP7"
+  },
+  {
+    "word": "frågeord",
+    "english": "question word; interrogative word",
+    "examples": "Frågeord som 'vad' och 'varför' inleder ofta frågor.\n(Question words like 'what' and 'why' often start questions.)\n\nLäraren repeterade alla frågeord inför provet.\n(The teacher reviewed all the question words before the test.)",
+    "audio": "Frågeord som 'vad' och 'varför' inleder ofta frågor. Läraren repeterade alla frågeord inför provet.",
+    "tags": ["swedish"],
+    "notes": "ett frågeord, frågeordet, frågeord, frågeorden (neut.); Grammatikterm; exempel: vad, vem, var, när, hur, varför.",
+    "imageHint": "Chalkboard with Swedish question words and punctuation marks",
+    "mochiId": "y2kSlhYq"
+  },
+  {
+    "word": "mingla",
+    "english": "mingle; circulate",
+    "examples": "Vi hann mingla lite innan föreställningen.\n(We had time to mingle a bit before the show.)\n\nHon gillar att mingla på konferenser och mässor.\n(She likes to mingle at conferences and trade fairs.)",
+    "audio": "Vi hann mingla lite innan föreställningen. Hon gillar att mingla på konferenser och mässor.",
+    "tags": ["swedish"],
+    "notes": "minglar/minglade/minglat (verb); Often used for events/receptions; casual, neutral tone.",
+    "imageHint": "Reception hall with cocktail tables, name tags, drinks, banners",
+    "mochiId": "JGxWjIA1"
+  },
+  {
+    "word": "grupp",
+    "english": "group; cluster",
+    "examples": "Vi delade klassen i fyra grupper.\n(We divided the class into four groups.)\n\nGruppen träffas varje onsdag.\n(The group meets every Wednesday.)",
+    "audio": "Vi delade klassen i fyra grupper. Gruppen träffas varje onsdag.",
+    "tags": ["swedish"],
+    "notes": "en grupp, gruppen, grupper, grupperna",
+    "imageHint": "Several colored stones sorted into small groups on table",
+    "mochiId": "CYW9uonA"
+  },
+  {
+    "word": "skriva",
+    "english": "write; compose",
+    "examples": "Jag måste skriva ett mejl till chefen.\n(I need to write an email to the boss.)\n\nKan du skriva under kontraktet idag?\n(Can you sign the contract today?)",
+    "audio": "Jag måste skriva ett mejl till chefen. Kan du skriva under kontraktet idag?",
+    "tags": ["swedish"],
+    "notes": "skriver/skrev/skrivit (irregular verb)",
+    "imageHint": "Notebook, pen, and laptop on wooden desk",
+    "mochiId": "4KBmA3YY"
+  },
+  {
+    "word": "namn",
+    "english": "name",
+    "examples": "Mitt namn är Anna.\n(My name is Anna.)\n\nSkriv ditt namn här, tack.\n(Please write your name here.)",
+    "audio": "Mitt namn är Anna. Skriv ditt namn här, tack.",
+    "tags": ["swedish"],
+    "notes": "ett namn, namnet, namn, namnen",
+    "imageHint": "Paper form labeled Name with pen on desk",
+    "mochiId": "YcvgZBeH"
+  },
+  {
+    "word": "land",
+    "english": "country; land; shore",
+    "examples": "Sverige är ett nordiskt land.\n(Sweden is a Nordic country.)\n\nDe bor på landet utanför stan.\n(They live in the countryside outside the city.)",
+    "audio": "Sverige är ett nordiskt land. De bor på landet utanför stan.",
+    "tags": ["swedish"],
+    "notes": "ett land, landet, länder, länderna (neuter noun)",
+    "imageHint": "Coastline, farmland, national border map of a country",
+    "mochiId": "h8fjWM8W"
+  },
+  {
+    "word": "colombia",
+    "english": "Colombia (country)",
+    "examples": "Jag reste runt i Colombia i tre veckor.\n(I traveled around Colombia for three weeks.)\n\nKaffet från Colombia är känt för sin kvalitet.\n(Coffee from Colombia is known for its quality.)",
+    "audio": "Jag reste runt i Colombia i tre veckor. Kaffet från Colombia är känt för sin kvalitet.",
+    "tags": ["swedish"],
+    "notes": "egennamn; oböjligt (land); Skrivs med stor bokstav; utan artikel; oftast 'i Colombia'.",
+    "imageHint": "Map of Colombia, Andes mountains, coffee plantations, coast",
+    "mochiId": "1BRykSIi"
+  },
+  {
+    "word": "irland",
+    "english": "Ireland",
+    "examples": "Vi reste runt i Irland i två veckor.\n(We traveled around Ireland for two weeks.)\n\nDet regnar ofta på Irland.\n(It often rains in Ireland.)",
+    "audio": "Vi reste runt i Irland i två veckor. Det regnar ofta på Irland.",
+    "tags": ["swedish"],
+    "notes": "egennamn (land); oböjligt, genitiv: Irlands; Skrivs med stor bokstav. i Irland=landet; på Irland=ön.",
+    "imageHint": "Green hills, rugged cliffs, stone walls, cloudy Atlantic coast",
+    "mochiId": "tSsjgacU"
+  },
+  {
+    "word": "franska",
+    "english": "French (language)",
+    "examples": "Jag lär mig franska.\n(I’m learning French.)\n\nVi såg filmen på franska.\n(We watched the film in French.)",
+    "audio": "Jag lär mig franska. Vi såg filmen på franska.",
+    "tags": ["swedish"],
+    "notes": "franska, franskan (no plural)",
+    "imageHint": "French textbook, dictionary, notebook, coffee on desk",
+    "mochiId": "MlLBQEIs"
+  },
+  {
+    "word": "presentera",
+    "english": "present; introduce",
+    "examples": "Hon ska presentera projektet på mötet.\n(She will present the project at the meeting.)\n\nFår jag presentera min kollega?\n(May I introduce my colleague?)",
+    "audio": "Hon ska presentera projektet på mötet. Får jag presentera min kollega?",
+    "tags": ["swedish"],
+    "notes": "presentera/presenterar/presenterade/presenterat",
+    "imageHint": "Conference room, projector screen displaying charts and graphs",
+    "mochiId": "kzsFNZ8D"
+  },
+  {
+    "word": "varandra",
+    "english": "each other; one another",
+    "examples": "De tittade på varandra och log.\n(They looked at each other and smiled.)\n\nVi hjälper varandra när det behövs.\n(We help each other when needed.)",
+    "audio": "De tittade på varandra och log. Vi hjälper varandra när det behövs.",
+    "tags": ["swedish"],
+    "notes": "varandra/varandras (reciprocal pronoun)",
+    "imageHint": "Two adjacent houses facing each other across street",
+    "mochiId": "nBIQNpC1"
+  },
+  {
+    "word": "hon",
+    "english": "she",
+    "examples": "Hon kommer snart.\n(She is coming soon.)\n\nHon heter Anna och bor i Uppsala.\n(Her name is Anna and she lives in Uppsala.)",
+    "audio": "Hon kommer snart. Hon heter Anna och bor i Uppsala.",
+    "tags": ["swedish"],
+    "notes": "hon/henne/hennes",
+    "imageHint": "Open Swedish grammar book highlighting pronouns on desk",
+    "mochiId": "92eJwxEJ"
+  },
+  {
+    "word": "han",
+    "english": "he",
+    "examples": "Han är här nu.\n(He is here now.)\n\nDet är hans bok.\n(That is his book.)",
+    "audio": "Han är här nu. Det är hans bok.",
+    "tags": ["swedish"],
+    "notes": "han, honom, hans (pronoun)",
+    "imageHint": "Sign for men's restroom on clean tiled corridor",
+    "mochiId": "lFK5NGuG"
+  },
+  {
+    "word": "den",
+    "english": "that; it; the (with adjectives)",
+    "examples": "Den röda bilen är min.\n(The red car is mine.)\n\nTa den där boken.\n(Take that book.)",
+    "audio": "Den röda bilen är min. Ta den där boken.",
+    "tags": ["swedish"],
+    "notes": "den/det/de (pronoun/determiner); For en-words; pattern: den + adj + noun; also with här/där.",
+    "imageHint": "Red car and blue book on wooden table",
+    "mochiId": "TNMzxJE2"
+  },
+  {
+    "word": "vi",
+    "english": "we",
+    "examples": "Vi måste gå nu.\n(We have to go now.)\n\nKan vi få notan, tack?\n(Can we get the bill, please?)",
+    "audio": "Vi måste gå nu. Kan vi få notan, tack?",
+    "tags": ["swedish"],
+    "notes": "vi/oss/vår/vårt/våra (pronoun)",
+    "imageHint": "Two coffee cups beside one shared notebook",
+    "mochiId": "QRZiLlpg"
+  },
+  {
+    "word": "ni",
+    "english": "you (plural), you all; formal sg. (dated)",
+    "examples": "Är ni redo?\n(Are you ready?)\n\nKan ni hjälpa mig?\n(Can you help me?)",
+    "audio": "Är ni redo? Kan ni hjälpa mig?",
+    "tags": ["swedish"],
+    "notes": "ni (subj), er (obj), er/ert/era (poss)",
+    "imageHint": "Empty classroom with many desks and whiteboard",
+    "mochiId": "P3JRun4Y"
+  },
+  {
+    "word": "de",
+    "english": "they; the (plural)",
+    "examples": "De kommer imorgon.\n(They are coming tomorrow.)\n\nDe stora hundarna skällde hela natten.\n(The big dogs barked all night.)",
+    "audio": "De kommer imorgon. De stora hundarna skällde hela natten.",
+    "tags": ["swedish"],
+    "notes": "de (subj), dem (obj), dom (colloq) (pronoun)",
+    "imageHint": "Two stacks of books labeled de här and de där",
+    "mochiId": "eHRM5Lpo"
+  },
+  {
+    "word": "subjektspronomen",
+    "english": "subject pronoun",
+    "examples": "I meningen \"Jag läser\" är \"jag\" ett subjektspronomen.\n(In the sentence \"Jag läser\", \"jag\" is a subject pronoun.)\n\nVilka ord är subjektspronomen i meningen?\n(Which words are subject pronouns in the sentence?)",
+    "audio": "I meningen \"Jag läser\" är \"jag\" ett subjektspronomen. Vilka ord är subjektspronomen i meningen?",
+    "tags": ["swedish"],
+    "notes": "ett subjektspronomen; -et, -, -en (neuter noun)",
+    "imageHint": "Open Swedish grammar book showing subject pronoun table",
+    "mochiId": "x9Y0STDv"
+  },
+  {
+    "word": "pronomen",
+    "english": "pronoun",
+    "examples": "Vilket pronomen ska vi använda här?\n(Which pronoun should we use here?)\n\nByt ut namnet mot ett pronomen.\n(Replace the name with a pronoun.)",
+    "audio": "Vilket pronomen ska vi använda här? Byt ut namnet mot ett pronomen.",
+    "tags": ["swedish"],
+    "notes": "ett pronomen, pronomenet, pronomen, pronomenen (neuter noun)",
+    "imageHint": "Open grammar book showing Swedish pronoun examples",
+    "mochiId": "iMZ6i5Js"
+  },
+  {
+    "word": "säga",
+    "english": "say; tell",
+    "examples": "Kan du säga det igen?\n(Can you say that again?)\n\nSäg till om du behöver hjälp.\n(Tell me if you need help.)",
+    "audio": "Kan du säga det igen? Säg till om du behöver hjälp.",
+    "tags": ["swedish"],
+    "notes": "säger/sa(sade)/sagt; säg! (irregular verb)",
+    "imageHint": "Speech bubble over smartphone on desk, text quote",
+    "mochiId": "w3mPbfq1"
+  },
+  {
+    "word": "klass",
+    "english": "class; category; quality grade",
+    "examples": "Vi är i samma klass.\n(We are in the same class.)\n\nHon reste i första klass.\n(She traveled in first class.)",
+    "audio": "Vi är i samma klass. Hon reste i första klass.",
+    "tags": ["swedish"],
+    "notes": "en klass, klassen, klasser (common noun)",
+    "imageHint": "Empty classroom with rows of desks and chalkboard",
+    "mochiId": "w1OVxwgm"
+  },
+  {
+    "word": "om",
+    "english": "if; about; around; again (in compounds)",
+    "examples": "Om det regnar stannar vi hemma.\n(If it rains, we'll stay home.)\n\nVi pratade om resan hela kvällen.\n(We talked about the trip all evening.)",
+    "audio": "Om det regnar stannar vi hemma. Vi pratade om resan hela kvällen.",
+    "tags": ["swedish"],
+    "notes": "preposition/konjunktion/partikel – oföränderlig",
+    "imageHint": "Rain over house; suitcase and map on table",
+    "mochiId": "nDfHOdBE"
+  },
+  {
+    "word": "arbeta",
+    "english": "work",
+    "examples": "Jag arbetar hemifrån två dagar i veckan.\n(I work from home two days a week.)\n\nHan har arbetat som kock i tio år.\n(He has worked as a chef for ten years.)",
+    "audio": "Jag arbetar hemifrån två dagar i veckan. Han har arbetat som kock i tio år.",
+    "tags": ["swedish"],
+    "notes": "arbeta/arbetar/arbetade/arbetat; Informal: jobba. Common preps: arbeta med/på/för.",
+    "imageHint": "Office desk with laptop, papers, coffee mug",
+    "mochiId": "xipJ1P9d"
+  },
+  {
+    "word": "ingenjör",
+    "english": "engineer",
+    "examples": "Hon arbetar som ingenjör på ett energibolag.\n(She works as an engineer at an energy company.)\n\nJag pluggar till ingenjör på KTH.\n(I’m studying to become an engineer at KTH.)",
+    "audio": "Hon arbetar som ingenjör på ett energibolag. Jag pluggar till ingenjör på KTH.",
+    "tags": ["swedish"],
+    "notes": "en ingenjör, ingenjören, ingenjörer, ingenjörerna (common noun)",
+    "imageHint": "Blueprints, gears, laptop on desk, construction cranes outside",
+    "mochiId": "50rFyo6M"
+  },
+  {
+    "word": "läkare",
+    "english": "doctor; physician",
+    "examples": "Hon arbetar som läkare på sjukhuset.\n(She works as a doctor at the hospital.)\n\nJag ska träffa läkaren imorgon.\n(I’m going to see the doctor tomorrow.)",
+    "audio": "Hon arbetar som läkare på sjukhuset. Jag ska träffa läkaren imorgon.",
+    "tags": ["swedish"],
+    "notes": "en läkare, läkaren, läkare, läkarna (common noun); Gender‑neutral term for MDs; 'doktor' is title/colloquial.",
+    "imageHint": "hospital examination room with stethoscope and medical chart",
+    "mochiId": "uExbdykl"
+  },
+  {
+    "word": "tandläkare",
+    "english": "dentist",
+    "examples": "Jag ska till tandläkaren i morgon.\n(I'm going to the dentist tomorrow.)\n\nMin tandläkare sa att jag behöver en fyllning.\n(My dentist said I need a filling.)",
+    "audio": "Jag ska till tandläkaren i morgon. Min tandläkare sa att jag behöver en fyllning.",
+    "tags": ["swedish"],
+    "notes": "en tandläkare, tandläkaren, tandläkare, tandläkarna (common noun)",
+    "imageHint": "dental chair, tools, bright lamp, clean clinic room",
+    "mochiId": "ZXzPkW5C"
+  },
+  {
+    "word": "sjuksköterska",
+    "english": "nurse; registered nurse",
+    "examples": "Min syster är sjuksköterska på akuten.\n(My sister is a nurse in the emergency room.)\n\nFråga sjuksköterskan om råd om du är osäker.\n(Ask the nurse for advice if you are unsure.)",
+    "audio": "Min syster är sjuksköterska på akuten. Fråga sjuksköterskan om råd om du är osäker.",
+    "tags": ["swedish"],
+    "notes": "en sjuksköterska, -n, -or, -orna (common noun)",
+    "imageHint": "Empty hospital nurse station with monitors, charts, supplies",
+    "mochiId": "3zZFWx3e"
+  },
+  {
+    "word": "busschaufför",
+    "english": "bus driver",
+    "examples": "Min bror är busschaufför och jobbar nattpass.\n(My brother is a bus driver and works night shifts.)\n\nFråga busschauffören var du ska kliva av.\n(Ask the bus driver where you should get off.)",
+    "audio": "Min bror är busschaufför och jobbar nattpass. Fråga busschauffören var du ska kliva av.",
+    "tags": ["swedish"],
+    "notes": "en busschaufför, busschauffören, busschaufförer, busschaufförerna (common noun); Everyday term; neutral. More formal: bussförare.",
+    "imageHint": "Empty city bus interior, driver's seat and steering wheel",
+    "mochiId": "QOVLZZNY"
+  },
+  {
+    "word": "frisör",
+    "english": "hairdresser; barber",
+    "examples": "Jag ska till frisören i eftermiddag.\n(I'm going to the hairdresser this afternoon.)\n\nHon bokade en tid hos en ny frisör.\n(She booked an appointment with a new hairdresser.)",
+    "audio": "Jag ska till frisören i eftermiddag. Hon bokade en tid hos en ny frisör.",
+    "tags": ["swedish"],
+    "notes": "en frisör, frisören, frisörer, frisörerna (common noun); Gender-neutral; the shop is called frisörsalong.",
+    "imageHint": "Empty hair salon interior with chairs, mirrors, scissors",
+    "mochiId": "wdHSpU0N"
+  },
+  {
+    "word": "webbdesigner",
+    "english": "web designer; website designer",
+    "examples": "Vi behöver anlita en erfaren webbdesigner till projektet.\n(We need to hire an experienced web designer for the project.)\n\nMin syster är webbdesigner och frilansar från hemmet.\n(My sister is a web designer and freelances from home.)",
+    "audio": "Vi behöver anlita en erfaren webbdesigner till projektet. Min syster är webbdesigner och frilansar från hemmet.",
+    "tags": ["swedish"],
+    "notes": "en webbdesigner, webbdesignern, webbdesigners, webbdesignerna (common noun)",
+    "imageHint": "Computer showing website mockups, color palettes, UI elements",
+    "mochiId": "NlSiWidW"
+  },
+  {
+    "word": "fotograf",
+    "english": "photographer",
+    "examples": "Hon anlitade en fotograf till bröllopet.\n(She hired a photographer for the wedding.)\n\nFotografen levererade bilderna dagen efter.\n(The photographer delivered the photos the next day.)",
+    "audio": "Hon anlitade en fotograf till bröllopet. Fotografen levererade bilderna dagen efter.",
+    "tags": ["swedish"],
+    "notes": "en fotograf, fotografen, fotografer, fotograferna (common noun); Yrkestitel; ej att förväxla med fotografi (‘photograph’).",
+    "imageHint": "camera gear on studio table with softbox lights",
+    "mochiId": "mUZcNmbY"
+  },
+  {
+    "word": "servitör",
+    "english": "waiter; server",
+    "examples": "Servitören tog vår beställning snabbt.\n(The waiter took our order quickly.)\n\nHar ni jobbat som servitör tidigare?\n(Have you worked as a waiter before?)",
+    "audio": "Servitören tog vår beställning snabbt. Har ni jobbat som servitör tidigare?",
+    "tags": ["swedish"],
+    "notes": "en servitör, servitören, servitörer, servitörerna (common noun)",
+    "imageHint": "Set restaurant table with plates, menus, glasses, cutlery",
+    "mochiId": "dXvVjfNB"
+  },
+  {
+    "word": "kock",
+    "english": "chef, cook",
+    "examples": "Min bror är kock på en restaurang.\n(My brother is a chef at a restaurant.)\n\nKocken lagade en vegetarisk soppa.\n(The cook prepared a vegetarian soup.)",
+    "audio": "Min bror är kock på en restaurang. Kocken lagade en vegetarisk soppa.",
+    "tags": ["swedish"],
+    "notes": "en kock, kocken, kockar, kockarna (common noun)",
+    "imageHint": "Professional kitchen with pots, pans, steaming stove",
+    "mochiId": "NjBSUg6t"
+  },
+  {
+    "word": "nähä",
+    "english": "oh, I see; oh really?; well then",
+    "examples": "Nähä, då får vi ta bussen istället.\n(Oh, I see, then we'll take the bus instead.)\n\nNähä? Så det blir ingen match ikväll?\n(Oh really? So there's no game tonight?)",
+    "audio": "Nähä, då får vi ta bussen istället. Nähä? Så det blir ingen match ikväll?",
+    "tags": ["swedish"],
+    "notes": "interjektion (oböjligt)",
+    "imageHint": "Rainy bus stop with canceled departure notice",
+    "mochiId": "RU2cpbeV"
+  },
+  {
+    "word": "göra",
+    "english": "do; make",
+    "examples": "Vad ska du göra i helgen?\n(What are you going to do this weekend?)\n\nDet gör mig glad.\n(It makes me happy.)",
+    "audio": "Vad ska du göra i helgen? Det gör mig glad.",
+    "tags": ["swedish"],
+    "notes": "gör/gjorde/gjort (irregular verb); Very common; many set phrases; impersonal: 'Det gör ont'.",
+    "imageHint": "Workbench with tools, half-built wooden box, soft light",
+    "mochiId": "Wv65GHkt"
+  },
+  {
+    "word": "då",
+    "english": "then; at that time; in that case",
+    "examples": "Vi ses då!\n(See you then!)\n\nOm du inte kan, då tar jag det.\n(If you can’t, then I’ll take it.)",
+    "audio": "Vi ses då! Om du inte kan, då tar jag det.",
+    "tags": ["swedish"],
+    "notes": "adverb/konjunktion (oböjligt)",
+    "imageHint": "Calendar and clock indicating a future scheduled time",
+    "mochiId": "XHuQfDG1"
+  },
+  {
+    "word": "plugga",
+    "english": "study; cram",
+    "examples": "Jag måste plugga inför tentan.\n(I have to study for the exam.)\n\nVi ska plugga matte på biblioteket ikväll.\n(We'll study math at the library tonight.)",
+    "audio": "Jag måste plugga inför tentan. Vi ska plugga matte på biblioteket ikväll.",
+    "tags": ["swedish"],
+    "notes": "pluggar/pluggade/pluggat (verb)",
+    "imageHint": "Open textbooks, notes, laptop on library desk",
+    "mochiId": "7sEP6Txr"
+  },
+  {
+    "word": "studera",
+    "english": "study; examine",
+    "examples": "Jag studerar svenska på kvällarna.\n(I study Swedish in the evenings.)\n\nHon studerar till ingenjör vid universitetet.\n(She is studying to become an engineer at the university.)",
+    "audio": "Jag studerar svenska på kvällarna. Hon studerar till ingenjör vid universitetet.",
+    "tags": ["swedish"],
+    "notes": "studera/studerar/studerade/studerat",
+    "imageHint": "Open textbooks, laptop, notes on wooden desk",
+    "mochiId": "Z8XdP2go"
+  },
+  {
+    "word": "design",
+    "english": "design; styling",
+    "examples": "Vi gillar telefonens design.\n(We like the phone's design.)\n\nMöbeln har en tidlös design.\n(The piece of furniture has a timeless design.)",
+    "audio": "Vi gillar telefonens design. Möbeln har en tidlös design.",
+    "tags": ["swedish"],
+    "notes": "en design, designen, designer (common noun)",
+    "imageHint": "Minimalist chair with sleek Scandinavian design in studio",
+    "mochiId": "Y05feyE4"
+  },
+  {
+    "word": "pensionär",
+    "english": "retiree; pensioner",
+    "examples": "Min mormor är pensionär och har mer tid nu.\n(My grandmother is retired and has more time now.)\n\nPensionärer får ofta rabatt på kollektivtrafiken.\n(Pensioners often get discounts on public transport.)",
+    "audio": "Min mormor är pensionär och har mer tid nu. Pensionärer får ofta rabatt på kollektivtrafiken.",
+    "tags": ["swedish"],
+    "notes": "en pensionär, pensionären, pensionärer, pensionärerna (common noun); Neutral term for retired adults; use är/blir pensionär.",
+    "imageHint": "retirement home exterior, garden path, mailbox, Swedish flag",
+    "mochiId": "8GNlcTo1"
+  },
+  {
+    "word": "jobba",
+    "english": "work; do a job",
+    "examples": "Jag jobbar på ett café i stan.\n(I work at a café in town.)\n\nVi jobbar över ikväll för att bli klara.\n(We’re working overtime tonight to finish.)",
+    "audio": "Jag jobbar på ett café i stan. Vi jobbar över ikväll för att bli klara.",
+    "tags": ["swedish"],
+    "notes": "jobbar/jobbade/jobbat (verb, group 1)",
+    "imageHint": "office desk with laptop, paperwork, clock, evening light",
+    "mochiId": "lsQpmGI2"
+  },
+  {
+    "word": "ja",
+    "english": "yes; yeah",
+    "examples": "Ja, jag kommer klockan tre.\n(Yes, I'll come at three.)\n\nVill du ha kaffe? Ja, tack.\n(Do you want coffee? Yes, please.)",
+    "audio": "Ja, jag kommer klockan tre. Vill du ha kaffe? Ja, tack.",
+    "tags": ["swedish"],
+    "notes": "invariable interjection (no inflection)",
+    "imageHint": "Green checkmark beside a Swedish ja speech bubble",
+    "mochiId": "pylb5GmS"
+  },
+  {
+    "word": "med",
+    "english": "with; by; using",
+    "examples": "Vill du ha kaffe med mjölk?\n(Do you want coffee with milk?)\n\nHon öppnade dörren med en nyckel.\n(She opened the door with a key.)",
+    "audio": "Vill du ha kaffe med mjölk? Hon öppnade dörren med en nyckel.",
+    "tags": ["swedish"],
+    "notes": "preposition (no inflection)",
+    "imageHint": "Coffee cup with milk beside a door key",
+    "mochiId": "Ack9h7h2"
+  },
+  {
+    "word": "barn",
+    "english": "child; children",
+    "examples": "De har två barn.\n(They have two children.)\n\nBarnet sover i rummet.\n(The child is sleeping in the room.)",
+    "audio": "De har två barn. Barnet sover i rummet.",
+    "tags": ["swedish"],
+    "notes": "ett barn, barnet, barn, barnen (neuter noun)",
+    "imageHint": "Empty playground with swings, slide, sandbox, toys",
+    "mochiId": "O6XZSu4H"
+  },
+  {
+    "word": "förskola",
+    "english": "preschool; daycare",
+    "examples": "Mitt barn börjar i förskolan i augusti.\n(My child starts preschool in August.)\n\nFörskolan är stängd på röda dagar.\n(The preschool is closed on public holidays.)",
+    "audio": "Mitt barn börjar i förskolan i augusti. Förskolan är stängd på röda dagar.",
+    "tags": ["swedish"],
+    "notes": "en förskola, förskolan, förskolor, förskolorna (common noun); Often municipal. Informal dagis is outdated; use förskola.",
+    "imageHint": "Swedish preschool building with playground, sandbox, tricycles outside",
+    "mochiId": "r6W9Ufmb"
+  },
+  {
+    "word": "nu",
+    "english": "now; currently",
+    "examples": "Vi måste gå nu.\n(We have to go now.)\n\nNu förstår jag.\n(Now I understand.)",
+    "audio": "Vi måste gå nu. Nu förstår jag.",
+    "tags": ["swedish"],
+    "notes": "adverb (no inflection); Time adverb; often stresses immediacy; contrasts with 'då'.",
+    "imageHint": "Wall clock and calendar showing today on desk",
+    "mochiId": "yga4xmQl"
+  },
+  {
+    "word": "söka",
+    "english": "to seek; to search; to apply (for)",
+    "examples": "Jag måste söka jobb snart.\n(I need to apply for jobs soon.)\n\nVi söker efter nycklarna i hallen.\n(We are searching for the keys in the hallway.)",
+    "audio": "Jag måste söka jobb snart. Vi söker efter nycklarna i hallen.",
+    "tags": ["swedish"],
+    "notes": "söka/söker/sökte/sökt (verb); söka efter + noun (search); söka jobb; söka till X (apply)",
+    "imageHint": "Open laptop, job application form, scattered keys on table",
+    "mochiId": "hPXyUExt"
+  },
+  {
+    "word": "jobb",
+    "english": "job; work (colloq.)",
+    "examples": "Jag söker ett nytt jobb.\n(I'm looking for a new job.)\n\nDet är mycket jobb kvar.\n(There is a lot of work left.)",
+    "audio": "Jag söker ett nytt jobb. Det är mycket jobb kvar.",
+    "tags": ["swedish"],
+    "notes": "ett jobb, jobbet, jobb, jobben (neuter noun); Colloquial; arbete is more formal. Can be count or mass.",
+    "imageHint": "Office desk with computer, documents, coffee mug, calendar",
+    "mochiId": "VR5fgf6V"
+  },
+  {
+    "word": "restaurang",
+    "english": "restaurant",
+    "examples": "Vi ska äta på restaurang ikväll.\n(We’re going to eat at a restaurant tonight.)\n\nDen nya restaurangen på hörnet är väldigt populär.\n(The new restaurant on the corner is very popular.)",
+    "audio": "Vi ska äta på restaurang ikväll. Den nya restaurangen på hörnet är väldigt populär.",
+    "tags": ["swedish"],
+    "notes": "en restaurang, restaurangen, restauranger, restaurangerna; Often with 'på': gå/äta på restaurang",
+    "imageHint": "Cozy Scandinavian restaurant interior, wooden tables, menu board",
+    "mochiId": "TuZhGC2G"
+  },
+  {
+    "word": "lycka",
+    "english": "happiness; luck; good fortune",
+    "examples": "Lycka till med intervjun!\n(Good luck with the interview!)\n\nPengar ger inte lycka.\n(Money doesn't bring happiness.)",
+    "audio": "Lycka till med intervjun! Pengar ger inte lycka.",
+    "tags": ["swedish"],
+    "notes": "en lycka, lyckan; pl. lyckor (common noun)",
+    "imageHint": "Four-leaf clover on sunlit meadow, clear blue sky",
+    "mochiId": "kxOeUYb7"
+  },
+  {
+    "word": "till",
+    "english": "to; until; for; as; extra",
+    "examples": "Jag går till affären.\n(I'm going to the store.)\n\nVi jobbar till klockan fem.\n(We work until five o'clock.)",
+    "audio": "Jag går till affären. Vi jobbar till klockan fem.",
+    "tags": ["swedish"],
+    "notes": "preposition/partikel (ingen böjning)",
+    "imageHint": "Road sign to store and clock showing five",
+    "mochiId": "awgnl3YI"
+  },
+  {
+    "word": "negation",
+    "english": "negation; denial",
+    "examples": "I svenskan markeras negation ofta med 'inte'.\n(In Swedish, negation is often marked with 'inte'.)\n\nInom logik inverterar negation ett påståendes sanningsvärde.\n(In logic, negation inverts a statement's truth value.)",
+    "audio": "I svenskan markeras negation ofta med 'inte'. Inom logik inverterar negation ett påståendes sanningsvärde.",
+    "tags": ["swedish"],
+    "notes": "en negation, negationen, negationer (common noun); Formellt/tekniskt ord; vardag: inte/ingen/inget.",
+    "imageHint": "Chalkboard with NOT symbol and crossed-out sentence",
+    "mochiId": "MzBoFj1t"
+  },
+  {
+    "word": "mening",
+    "english": "sentence; meaning; point; opinion",
+    "examples": "Kan du skriva en mening till?\n(Can you write one more sentence?)\n\nEnligt min mening är priset för högt.\n(In my opinion, the price is too high.)",
+    "audio": "Kan du skriva en mening till? Enligt min mening är priset för högt.",
+    "tags": ["swedish"],
+    "notes": "en mening, meningen, meningar (common noun)",
+    "imageHint": "Open book with highlighted sentence and question mark",
+    "mochiId": "fynWbHqC"
+  },
+  {
+    "word": "ukraina",
+    "english": "Ukraine",
+    "examples": "Jag har släkt i Ukraina.\n(I have relatives in Ukraine.)\n\nHon reste till Ukraina i somras.\n(She traveled to Ukraine last summer.)",
+    "audio": "Jag har släkt i Ukraina. Hon reste till Ukraina i somras.",
+    "tags": ["swedish"],
+    "notes": "egennamn; oböjligt; Proper noun; capitalize: Ukraina. Use i/till/från Ukraina.",
+    "imageHint": "Map of Eastern Europe highlighting Ukraine in yellow",
+    "mochiId": "FVLcWsfN"
+  },
+  {
+    "word": "portugisiska",
+    "english": "Portuguese (language)",
+    "examples": "Hon talar flytande portugisiska.\n(She speaks fluent Portuguese.)\n\nKursen i portugisiska börjar nästa vecka.\n(The Portuguese course starts next week.)",
+    "audio": "Hon talar flytande portugisiska. Kursen i portugisiska börjar nästa vecka.",
+    "tags": ["swedish"],
+    "notes": "en portugisiska, portugisiskan (språk); Lowercase language name; also means 'a Portuguese woman'.",
+    "imageHint": "Portuguese language textbook beside Portugal map and flag",
+    "mochiId": "W76viyEd"
+  },
+  {
+    "word": "filosofi",
+    "english": "philosophy; approach",
+    "examples": "Hon pluggar filosofi på universitetet.\n(She studies philosophy at university.)\n\nFöretagets filosofi är att sätta kunden först.\n(The company's philosophy is to put the customer first.)",
+    "audio": "Hon pluggar filosofi på universitetet. Företagets filosofi är att sätta kunden först.",
+    "tags": ["swedish"],
+    "notes": "en filosofi, filosofin, filosofier (common noun); Used for academic field or someone's guiding principles.",
+    "imageHint": "Stack of philosophy books on wooden desk, chalkboard",
+    "mochiId": "Hl4rZecx"
+  },
+  {
+    "word": "psykologi",
+    "english": "psychology",
+    "examples": "Hon pluggar psykologi vid universitetet.\n(She studies psychology at the university.)\n\nForskning inom psykologi används i vården och på arbetsplatser.\n(Research in psychology is used in healthcare and workplaces.)",
+    "audio": "Hon pluggar psykologi vid universitetet. Forskning inom psykologi används i vården och på arbetsplatser.",
+    "tags": ["swedish"],
+    "notes": "en psykologi, psykologin (uncountable; no plural)",
+    "imageHint": "Brain diagram, open textbooks, notes, research graphs, chalkboard",
+    "mochiId": "dStN6etZ"
+  },
+  {
+    "word": "yrke",
+    "english": "profession; occupation",
+    "examples": "Vilket yrke har du?\n(What is your profession?)\n\nHan bytte yrke efter tio år.\n(He changed profession after ten years.)",
+    "audio": "Vilket yrke har du? Han bytte yrke efter tio år.",
+    "tags": ["swedish"],
+    "notes": "ett yrke, yrket, yrken (neuter noun)",
+    "imageHint": "Assorted professional tools on table: wrench, stethoscope, gavel",
+    "mochiId": "0lK1aVVT"
+  },
+  {
+    "word": "it-företag",
+    "english": "IT company; tech firm",
+    "examples": "Hon jobbar på ett it-företag i Stockholm.\n(She works at an IT company in Stockholm.)\n\nMånga it-företag söker juniora utvecklare.\n(Many IT companies are looking for junior developers.)",
+    "audio": "Hon jobbar på ett it-företag i Stockholm. Många it-företag söker juniora utvecklare.",
+    "tags": ["swedish"],
+    "notes": "ett it-företag, it-företaget, it-företag, it-företagen (neuter noun)",
+    "imageHint": "Empty modern office with server racks and code screens",
+    "mochiId": "onTmmhfS"
+  },
+  {
+    "word": "bank",
+    "english": "bank (finance); sandbank",
+    "examples": "Jag satte in lönen på banken.\n(I deposited my salary at the bank.)\n\nFartyget gick på en bank utanför kusten.\n(The ship ran onto a sandbank off the coast.)",
+    "audio": "Jag satte in lönen på banken. Fartyget gick på en bank utanför kusten.",
+    "tags": ["swedish"],
+    "notes": "en bank, banken, banker, bankerna (common noun); At the bank = på banken. Not to confuse with bänk (bench).",
+    "imageHint": "Modern Scandinavian bank facade with ATM, empty street",
+    "mochiId": "lXs7tokj"
+  },
+  {
+    "word": "ekonomi",
+    "english": "economy; finances; economics",
+    "examples": "Vi måste se över vår ekonomi innan vi reser.\n(We need to review our finances before we travel.)\n\nHon pluggar ekonomi på universitetet.\n(She studies economics at the university.)",
+    "audio": "Vi måste se över vår ekonomi innan vi reser. Hon pluggar ekonomi på universitetet.",
+    "tags": ["swedish"],
+    "notes": "en ekonomi, ekonomin, ekonomier, ekonomierna (common noun)",
+    "imageHint": "graphs, coins, budget notebook, calculator on desk",
+    "mochiId": "eTmuoaGy"
+  },
+  {
+    "word": "programmerare",
+    "english": "programmer; software developer",
+    "examples": "Min syster är programmerare på ett IT-företag.\n(My sister is a programmer at an IT company.)\n\nFöretaget söker en erfaren programmerare med kunskaper i Java.\n(The company is looking for an experienced programmer with Java skills.)",
+    "audio": "Min syster är programmerare på ett IT-företag. Företaget söker en erfaren programmerare med kunskaper i Java.",
+    "tags": ["swedish"],
+    "notes": "en programmerare, programmeraren, programmerare, programmerarna (common noun)",
+    "imageHint": "Desk with monitors showing code, keyboard, coffee cup",
+    "mochiId": "ZKdNXPg7"
+  },
+  {
+    "word": "ekonom",
+    "english": "economist; finance professional",
+    "examples": "Hon jobbar som ekonom på kommunen.\n(She works as an economist for the municipality.)\n\nFöretaget söker en ekonom med erfarenhet av budgetarbete.\n(The company is seeking an economist with budgeting experience.)",
+    "audio": "Hon jobbar som ekonom på kommunen. Företaget söker en ekonom med erfarenhet av budgetarbete.",
+    "tags": ["swedish"],
+    "notes": "en ekonom, ekonomen, ekonomer, ekonomerna (common noun)",
+    "imageHint": "Office desk with spreadsheets, calculator, financial reports, graphs",
+    "mochiId": "DjnDRaOg"
+  },
+  {
+    "word": "förskolelärare",
+    "english": "preschool teacher; early childhood teacher",
+    "examples": "Min syster arbetar som förskolelärare i Uppsala.\n(My sister works as a preschool teacher in Uppsala.)\n\nFör att bli förskolelärare krävs en högskoleutbildning.\n(To become a preschool teacher, a university degree is required.)",
+    "audio": "Min syster arbetar som förskolelärare i Uppsala. För att bli förskolelärare krävs en högskoleutbildning.",
+    "tags": ["swedish"],
+    "notes": "en förskolelärare, förskoleläraren, förskolelärare, förskolelärarna",
+    "imageHint": "Empty preschool classroom with toys, low tables, colorful posters",
+    "mochiId": "X9efKKQi"
+  },
+  {
+    "word": "programmering",
+    "english": "programming; coding",
+    "examples": "Jag pluggar programmering på universitetet.\n(I study programming at the university.)\n\nHon jobbar med programmering av mobilappar.\n(She works on programming mobile apps.)",
+    "audio": "Jag pluggar programmering på universitetet. Hon jobbar med programmering av mobilappar.",
+    "tags": ["swedish"],
+    "notes": "en programmering, programmeringen, programmeringar, programmeringarna",
+    "imageHint": "Laptop with code editor showing colorful code lines",
+    "mochiId": "fAmWCaFa"
+  },
+  {
+    "word": "studera",
+    "english": "study; examine",
+    "examples": "Jag studerar svenska på universitetet.\n(I study Swedish at the university.)\n\nVi måste studera resultaten innan vi beslutar.\n(We must study the results before we decide.)",
+    "audio": "Jag studerar svenska på universitetet. Vi måste studera resultaten innan vi beslutar.",
+    "tags": ["swedish"],
+    "notes": "studera/studerar/studerade/studerat",
+    "imageHint": "Open textbooks, laptop, notes on a library desk",
+    "mochiId": "Tk1WooKt"
+  },
+  {
+    "word": "till",
+    "english": "to; for; until; more",
+    "examples": "Jag går till jobbet.\n(I'm walking to work.)\n\nButiken är öppen till 18.\n(The store is open until 6 pm.)",
+    "audio": "Jag går till jobbet. Butiken är öppen till 18.",
+    "tags": ["swedish"],
+    "notes": "preposition/adverb (no inflection)",
+    "imageHint": "shopfront sign shows Öppet till 18:00 at dusk",
+    "mochiId": "KpK1YWej"
+  },
+  {
+    "word": "till",
+    "english": "to; until; up to; for; more/extra",
+    "examples": "Vi ska åka till Stockholm i morgon.\n(We are going to Stockholm tomorrow.)\n\nKan jag få en kopp kaffe till?\n(Can I have another cup of coffee?)",
+    "audio": "Vi ska åka till Stockholm i morgon. Kan jag få en kopp kaffe till?",
+    "tags": ["swedish"],
+    "notes": "preposition/partikel (invariable)",
+    "imageHint": "cafe closing clock showing five, extra coffee cup on counter",
+    "mochiId": "d5FEaYoT"
+  },
+  {
+    "word": "höra",
+    "english": "hear; belong (with 'höra till')",
+    "examples": "Jag kan inte höra dig.\n(I can't hear you.)\n\nDet här hör inte hit.\n(This doesn't belong here.)",
+    "audio": "Jag kan inte höra dig. Det här hör inte hit.",
+    "tags": ["swedish"],
+    "notes": "höra/hör/hörde/hört (verb)",
+    "imageHint": "Small radio on table emitting sound waves",
+    "mochiId": "SI6UHN6u"
+  },
+  {
+    "word": "kryssa",
+    "english": "tick/check; cross off; cruise; tack (sailing)",
+    "examples": "Kryssa i rutan om du accepterar villkoren.\n(Tick the box if you accept the terms.)\n\nVi ska kryssa i Medelhavet i sommar.\n(We are going on a cruise in the Mediterranean this summer.)",
+    "audio": "Kryssa i rutan om du accepterar villkoren. Vi ska kryssa i Medelhavet i sommar.",
+    "tags": ["swedish"],
+    "notes": "kryssar/kryssade/kryssat (verb)",
+    "imageHint": "Ballot paper with checkbox marked X, pen on table",
+    "mochiId": "6lDPwagG"
+  },
+  {
+    "word": "för",
+    "english": "for; too; because of",
+    "examples": "Det är för kallt för att bada.\n(It’s too cold to swim.)\n\nTack för hjälpen!\n(Thanks for the help!)",
+    "audio": "Det är för kallt för att bada. Tack för hjälpen!",
+    "tags": ["swedish"],
+    "notes": "oböjligt (preposition/partikel)",
+    "imageHint": "Snowy beach, cold water, thermometer below zero",
+    "mochiId": "u5oH6al6"
+  },
+  {
+    "word": "rätt",
+    "english": "right; correct; quite; dish; right (law); court",
+    "examples": "Du har rätt.\n(You are right.)\n\nVi beställde en vegetarisk rätt.\n(We ordered a vegetarian dish.)",
+    "audio": "Du har rätt. Vi beställde en vegetarisk rätt.",
+    "tags": ["swedish"],
+    "notes": "adj: rätt/rätt/rätta; adv: rätt; subst: en rätt, rätten, rätter",
+    "imageHint": "restaurant table with plated vegetarian dish and menu",
+    "mochiId": "QUKOWOsX"
+  },
+  {
+    "word": "alternativ",
+    "english": "alternative, option, choice",
+    "examples": "Vi måste hitta ett alternativ till plastpåsar.\n(We need to find an alternative to plastic bags.)\n\nDet bästa alternativet är att ta tåget.\n(The best option is to take the train.)",
+    "audio": "Vi måste hitta ett alternativ till plastpåsar. Det bästa alternativet är att ta tåget.",
+    "tags": ["swedish"],
+    "notes": "ett alternativ, alternativet, alternativ, alternativen (neuter noun); Often used with 'till' for an alternative to something.",
+    "imageHint": "Forked road with signposts pointing to different options",
+    "mochiId": "zY8704LZ"
+  },
+  {
+    "word": "rätt",
+    "english": "right; correct; dish; course; quite",
+    "examples": "Du har rätt.\n(You are right.)\n\nVilken rätt rekommenderar du?\n(Which dish do you recommend?)",
+    "audio": "Du har rätt. Vilken rätt rekommenderar du?",
+    "tags": ["swedish"],
+    "notes": "rätt/rätt/rätta (adjective); en rätt, rätten, rätter (common noun)",
+    "imageHint": "Menu and plates of dishes on restaurant table",
+    "mochiId": "OlqnfYJt"
+  },
+  {
+    "word": "alternativ",
+    "english": "alternative; option",
+    "examples": "Vi behöver ett bättre alternativ till plastpåsar.\n(We need a better alternative to plastic bags.)\n\nDet finns flera alternativ att välja mellan.\n(There are several options to choose from.)",
+    "audio": "Vi behöver ett bättre alternativ till plastpåsar. Det finns flera alternativ att välja mellan.",
+    "tags": ["swedish"],
+    "notes": "ett alternativ, alternativet, alternativ, alternativen (neuter noun)",
+    "imageHint": "Crossroads with multiple signposts showing different options",
+    "mochiId": "K9XgdOPN"
+  },
+  {
+    "word": "polis",
+    "english": "police officer; the police",
+    "examples": "Jag pratade med en polis efter olyckan.\n(I spoke with a police officer after the accident.)\n\nRing polisen om det är en nödsituation.\n(Call the police if it's an emergency.)",
+    "audio": "Jag pratade med en polis efter olyckan. Ring polisen om det är en nödsituation.",
+    "tags": ["swedish"],
+    "notes": "en polis, polisen, poliser, poliserna (common noun)",
+    "imageHint": "Swedish police car by station, blue lights, night",
+    "mochiId": "hG6THHhj"
+  },
+  {
+    "word": "biolog",
+    "english": "biologist",
+    "examples": "Min syster är biolog och forskar om havsekosystem.\n(My sister is a biologist and researches marine ecosystems.)\n\nBiologen förklarade hur växter anpassar sig till klimatet.\n(The biologist explained how plants adapt to the climate.)",
+    "audio": "Min syster är biolog och forskar om havsekosystem. Biologen förklarade hur växter anpassar sig till klimatet.",
+    "tags": ["swedish"],
+    "notes": "en biolog, biologen, biologer, biologerna (common noun)",
+    "imageHint": "Microscopes on lab bench with plant and insect samples",
+    "mochiId": "fBVPaJko"
+  },
+  {
+    "word": "kemist",
+    "english": "chemist",
+    "examples": "Hon är kemist på ett läkemedelsföretag.\n(She is a chemist at a pharmaceutical company.)\n\nKemister analyserar prover i laboratoriet.\n(Chemists analyze samples in the laboratory.)",
+    "audio": "Hon är kemist på ett läkemedelsföretag. Kemister analyserar prover i laboratoriet.",
+    "tags": ["swedish"],
+    "notes": "en kemist, kemisten, kemister, kemisterna (common noun); Means scientist in chemistry; pharmacist is 'apotekare'.",
+    "imageHint": "Laboratory bench with glassware, flasks, and instruments",
+    "mochiId": "wRvJC6wY"
+  },
+  {
+    "word": "gift",
+    "english": "poison; married",
+    "examples": "Hon är gift med Johan.\n(She is married to Johan.)\n\nGiftet i ormens bett är farligt.\n(The poison in the snake’s bite is dangerous.)",
+    "audio": "Hon är gift med Johan. Giftet i ormens bett är farligt.",
+    "tags": ["swedish"],
+    "notes": "ett gift, giftet, gifter, gifterna; gift/gift/gifta (adj.)",
+    "imageHint": "Bottle labeled poison beside snake warning sign",
+    "mochiId": "5B8uQl7k"
+  },
+  {
+    "word": "sambo",
+    "english": "cohabiting partner; live-in partner",
+    "examples": "Min sambo och jag köpte en lägenhet i våras.\n(My partner and I bought an apartment last spring.)\n\nDe har varit sambor i fem år.\n(They've been cohabiting for five years.)",
+    "audio": "Min sambo och jag köpte en lägenhet i våras. De har varit sambor i fem år.",
+    "tags": ["swedish"],
+    "notes": "en sambo, sambon, sambor, samborna (common noun)",
+    "imageHint": "Cozy shared apartment interior, two toothbrushes, shared mail",
+    "mochiId": "d2PFD3U1"
+  },
+  {
+    "word": "singel",
+    "english": "single (unpartnered), single (song), gravel",
+    "examples": "Hon har varit singel i två år.\n(She has been single for two years.)\n\nBandet släpper en ny singel på fredag.\n(The band is releasing a new single on Friday.)",
+    "audio": "Hon har varit singel i två år. Bandet släpper en ny singel på fredag.",
+    "tags": ["swedish"],
+    "notes": "en singel, singeln, singlar (common noun); Also means round gravel in building contexts.",
+    "imageHint": "vinyl single record and cover on wooden table",
+    "mochiId": "sVVPuJjn"
+  },
+  {
+    "word": "min",
+    "english": "my; mine",
+    "examples": "Det här är min bok.\n(This is my book.)\n\nJag har glömt mina nycklar.\n(I forgot my keys.)",
+    "audio": "Det här är min bok. Jag har glömt mina nycklar.",
+    "tags": ["swedish"],
+    "notes": "min/mitt/mina; Agrees with possessed noun: en=min, ett=mitt, plural=mina.",
+    "imageHint": "Book and keys on a wooden table",
+    "mochiId": "b4qXl2Lm"
+  },
+  {
+    "word": "man",
+    "english": "one; you (impersonal); man; husband",
+    "examples": "I Sverige dricker man mycket kaffe.\n(In Sweden, people drink a lot of coffee.)\n\nHon träffade en man på banken.\n(She met a man at the bank.)",
+    "audio": "I Sverige dricker man mycket kaffe. Hon träffade en man på banken.",
+    "tags": ["swedish"],
+    "notes": "man/en/ens; en man, mannen, män, männen; Pronoun for general statements; object en, genitive ens.",
+    "imageHint": "empty bench with hat and wedding ring",
+    "mochiId": "SjBGukA5"
+  },
+  {
+    "word": "schweizare",
+    "english": "Swiss (person), Swiss national",
+    "examples": "Han är schweizare men bor i Malmö.\n(He is Swiss but lives in Malmö.)\n\nVi träffade en schweizare på tåget.\n(We met a Swiss person on the train.)",
+    "audio": "Han är schweizare men bor i Malmö. Vi träffade en schweizare på tåget.",
+    "tags": ["swedish"],
+    "notes": "en schweizare, schweizaren, schweizare, schweizarna (common noun)",
+    "imageHint": "Swiss flag, Alps, chalet, lake, snow-capped mountains",
+    "mochiId": "MiOGjApv"
+  },
+  {
+    "word": "men",
+    "english": "but; yet; however",
+    "examples": "Jag försökte ringa, men ingen svarade.\n(I tried to call, but no one answered.)\n\nDet är dyrt men bra.\n(It’s expensive but good.)",
+    "audio": "Jag försökte ringa, men ingen svarade. Det är dyrt men bra.",
+    "tags": ["swedish"],
+    "notes": "konjunktion (oböjligt); Samordnande; ofta komma före; normal ordföljd efter men.",
+    "imageHint": "Forked road with sun one way, rain other",
+    "mochiId": "60s6i3Zn"
+  },
+  {
+    "word": "två",
+    "english": "two",
+    "examples": "Jag har två hundar.\n(I have two dogs.)\n\nVi kommer om två timmar.\n(We'll arrive in two hours.)",
+    "audio": "Jag har två hundar. Vi kommer om två timmar.",
+    "tags": ["swedish"],
+    "notes": "två (grundtal), andra (ordningstal)",
+    "imageHint": "Two red apples on a wooden kitchen table",
+    "mochiId": "FUjuQxa3"
+  },
+  {
+    "word": "en",
+    "english": "a; one",
+    "examples": "Jag köpte en bok.\n(I bought a book.)\n\nJag tar en till.\n(I'll take one more.)",
+    "audio": "Jag köpte en bok. Jag tar en till.",
+    "tags": ["swedish"],
+    "notes": "en/ett (indef. article & numeral)",
+    "imageHint": "Desk with one book and one apple",
+    "mochiId": "1EI9QkzX"
+  },
+  {
+    "word": "son",
+    "english": "son; male child",
+    "examples": "Min son börjar skolan i höst.\n(My son starts school this fall.)\n\nDe har två söner och en dotter.\n(They have two sons and a daughter.)",
+    "audio": "Min son börjar skolan i höst. De har två söner och en dotter.",
+    "tags": ["swedish"],
+    "notes": "en son, sonen, söner, sönerna (common noun)",
+    "imageHint": "Family tree diagram with highlighted son branch",
+    "mochiId": "VIhjc8lC"
+  },
+  {
+    "word": "dotter",
+    "english": "daughter",
+    "examples": "Min dotter börjar skolan i höst.\n(My daughter starts school this autumn.)\n\nDe har två döttrar och en son.\n(They have two daughters and a son.)",
+    "audio": "Min dotter börjar skolan i höst. De har två döttrar och en son.",
+    "tags": ["swedish"],
+    "notes": "en dotter, dottern, döttrar, döttrarna (common noun)",
+    "imageHint": "Family tree diagram showing daughter branch highlighted",
+    "mochiId": "wcLkR8if"
+  },
+  {
+    "word": "svensk",
+    "english": "Swedish; a Swede",
+    "examples": "Det är ett svenskt företag.\n(It is a Swedish company.)\n\nEn svensk vann tävlingen.\n(A Swede won the competition.)",
+    "audio": "Det är ett svenskt företag. En svensk vann tävlingen.",
+    "tags": ["swedish"],
+    "notes": "svensk/svenskt/svenska (adj); en svensk, svensken, svenskar, svenskarna (noun); Lowercase in Swedish. Adj for nationality; noun = person.",
+    "imageHint": "Swedish flag by red cottage near forest lake",
+    "mochiId": "207Ctonw"
+  },
+  {
+    "word": "också",
+    "english": "also; too",
+    "examples": "Jag vill också gå.\n(I want to go too.)\n\nDet är också viktigt.\n(It is also important.)",
+    "audio": "Jag vill också gå. Det är också viktigt.",
+    "tags": ["swedish"],
+    "notes": "adverb (no inflection)",
+    "imageHint": "Notebook checklist with extra item and plus sign",
+    "mochiId": "xgP55RdW"
+  },
+  {
+    "word": "flickvän",
+    "english": "girlfriend",
+    "examples": "Hon är min flickvän.\n(She is my girlfriend.)\n\nSka du ta med din flickvän på festen?\n(Are you bringing your girlfriend to the party?)",
+    "audio": "Hon är min flickvän. Ska du ta med din flickvän på festen?",
+    "tags": ["swedish"],
+    "notes": "en flickvän, flickvännen, flickvänner, flickvännerna",
+    "imageHint": "Two coffee cups on cafe table, red roses",
+    "mochiId": "2m2M5fN5"
+  },
+  {
+    "word": "bo",
+    "english": "live; reside",
+    "examples": "Jag bor i Göteborg nu.\n(I live in Gothenburg now.)\n\nHur länge har du bott här?\n(How long have you lived here?)",
+    "audio": "Jag bor i Göteborg nu. Hur länge har du bott här?",
+    "tags": ["swedish"],
+    "notes": "bo/bor/bodde/bott (verb); bo i + stad/land; bo på hotell. Not leva (be alive).",
+    "imageHint": "red wooden house in Swedish countryside at dusk",
+    "mochiId": "nrCquRiG"
+  },
+  {
+    "word": "bo",
+    "english": "live; reside",
+    "examples": "Jag bor i Göteborg.\n(I live in Gothenburg.)\n\nHur länge har du bott här?\n(How long have you lived here?)",
+    "audio": "Jag bor i Göteborg. Hur länge har du bott här?",
+    "tags": ["swedish"],
+    "notes": "bo/bor/bodde/bott (verb); Often with i/på: bo i Stockholm; bo på hotell.",
+    "imageHint": "Apartment building with lit windows at dusk",
+    "mochiId": "ltacANa4"
+  },
+  {
+    "word": "ihop",
+    "english": "together; together with; in one piece",
+    "examples": "Vi flyttade ihop förra året.\n(We moved in together last year.)\n\nHåll papperen ihop med ett gem.\n(Keep the papers together with a paperclip.)",
+    "audio": "Vi flyttade ihop förra året. Håll papperen ihop med ett gem.",
+    "tags": ["swedish"],
+    "notes": "adverb/partikel; oböjligt",
+    "imageHint": "Puzzle pieces joined together on a wooden table",
+    "mochiId": "wsk07nBW"
+  },
+  {
+    "word": "a",
+    "english": "letter a; the letter A",
+    "examples": "Bokstaven a är en vokal.\n(The letter a is a vowel.)\n\nOrdet 'apa' börjar med a.\n(The word 'apa' starts with a.)",
+    "audio": "Bokstaven a är en vokal. Ordet 'apa' börjar med a.",
+    "tags": ["swedish"],
+    "notes": "ett a, a:t, a:n, a:na (neuter noun)",
+    "imageHint": "Close-up of lowercase letter a on lined paper",
+    "mochiId": "2x5VGy2G"
+  },
+  {
+    "word": "toppen",
+    "english": "great; awesome; excellent",
+    "examples": "Det är toppen!\n(That's great!)\n\nHelgen var toppen.\n(The weekend was great.)",
+    "audio": "Det är toppen! Helgen var toppen.",
+    "tags": ["swedish"],
+    "notes": "toppen (invariable adj/adv)",
+    "imageHint": "Trophy on mountain peak under clear sky",
+    "mochiId": "nj7VMIJ8"
+  },
+  {
+    "word": "par",
+    "english": "pair; couple; a couple (of); par (golf)",
+    "examples": "Jag köpte ett par nya skor.\n(I bought a new pair of shoes.)\n\nVi ses om ett par dagar.\n(See you in a couple of days.)",
+    "audio": "Jag köpte ett par nya skor. Vi ses om ett par dagar.",
+    "tags": ["swedish"],
+    "notes": "ett par, paret, par, paren (neuter noun)",
+    "imageHint": "Two matching shoes beside two socks on floor",
+    "mochiId": "H31Qgk5J"
+  },
+  {
+    "word": "sverige",
+    "english": "Sweden",
+    "examples": "Jag bor i Sverige.\n(I live in Sweden.)\n\nSveriges huvudstad är Stockholm.\n(Sweden's capital is Stockholm.)",
+    "audio": "Jag bor i Sverige. Sveriges huvudstad är Stockholm.",
+    "tags": ["swedish"],
+    "notes": "Sverige, Sveriges (egennamn)",
+    "imageHint": "Map of Sweden with forests, lakes, long coastline",
+    "mochiId": "h8HeJjIH"
+  },
+  {
+    "word": "skilja",
+    "english": "separate; distinguish; divorce (reflexive)",
+    "examples": "Det är svårt att skilja på fakta och åsikter.\n(It's hard to distinguish between facts and opinions.)\n\nDe skilde sig förra året.\n(They divorced last year.)",
+    "audio": "Det är svårt att skilja på fakta och åsikter. De skilde sig förra året.",
+    "tags": ["swedish"],
+    "notes": "skilja/skiljer/skilde/skilt (irregular verb); skilja på X och Y = distinguish; skilja sig = divorce",
+    "imageHint": "Two similar items separated, labels show differences",
+    "mochiId": "IPnHQ7sq"
+  },
+  {
+    "word": "samma",
+    "english": "same; identical",
+    "examples": "Vi har samma problem som förra året.\n(We have the same problem as last year.)\n\nDe bor i samma hus.\n(They live in the same house.)",
+    "audio": "Vi har samma problem som förra året. De bor i samma hus.",
+    "tags": ["swedish"],
+    "notes": "samma (indeclinable adjective); Before noun; same form for en/ett/plural; often with 'som'.",
+    "imageHint": "Two identical red mugs on wooden table",
+    "mochiId": "p72yD8PB"
+  },
+  {
+    "word": "år",
+    "english": "year",
+    "examples": "Jag är 25 år.\n(I am 25 years old.)\n\nVi ses nästa år.\n(See you next year.)",
+    "audio": "Jag är 25 år. Vi ses nästa år.",
+    "tags": ["swedish"],
+    "notes": "ett år, året, år, åren (neuter noun)",
+    "imageHint": "Wall calendar showing all twelve months of the year",
+    "mochiId": "3Uu3VivG"
+  },
+  {
+    "word": "kvinna",
+    "english": "woman",
+    "examples": "Hon är en stark och självständig kvinna.\n(She is a strong and independent woman.)\n\nKvinnan i butiken hjälpte mig.\n(The woman in the shop helped me.)",
+    "audio": "Hon är en stark och självständig kvinna. Kvinnan i butiken hjälpte mig.",
+    "tags": ["swedish"],
+    "notes": "en kvinna, kvinnan, kvinnor, kvinnorna (common noun); Neutral for adult female; not for girls. 'fru' = wife.",
+    "imageHint": "Women's restroom sign on a tiled wall",
+    "mochiId": "MazVDNdQ"
+  },
+  {
+    "word": "sedan",
+    "english": "since; ago; then/afterwards",
+    "examples": "Jag har bott här sedan 2010.\n(I have lived here since 2010.)\n\nDet hände för två veckor sedan.\n(It happened two weeks ago.)",
+    "audio": "Jag har bott här sedan 2010. Det hände för två veckor sedan.",
+    "tags": ["swedish"],
+    "notes": "adverb/preposition/konjunktion (oböjligt)",
+    "imageHint": "Calendar and clock showing years and weeks passing",
+    "mochiId": "JEiZ5QV6"
+  },
+  {
+    "word": "källa",
+    "english": "source; spring; reference",
+    "examples": "Ange alltid källa när du citerar.\n(Always provide a source when you quote.)\n\nVattnet kommer från en naturlig källa.\n(The water comes from a natural spring.)",
+    "audio": "Ange alltid källa när du citerar. Vattnet kommer från en naturlig källa.",
+    "tags": ["swedish"],
+    "notes": "en källa, källan, källor, källorna (common noun)",
+    "imageHint": "Forest spring emerging from rocks, small source sign",
+    "mochiId": "E0sUfsk8"
+  },
+  {
+    "word": "skild",
+    "english": "divorced; separate; distinct",
+    "examples": "De är skilda sedan förra året.\n(They have been divorced since last year.)\n\nVi har skilda uppfattningar i frågan.\n(We have differing opinions on the matter.)",
+    "audio": "De är skilda sedan förra året. Vi har skilda uppfattningar i frågan.",
+    "tags": ["swedish"],
+    "notes": "skild/skilt/skilda (adjective); About people = divorced; with 'från' = separate from.",
+    "imageHint": "Two separated wedding rings on wooden table",
+    "mochiId": "kX980qx2"
+  },
+  {
+    "word": "separerad",
+    "english": "separated; estranged",
+    "examples": "De är separerade men inte skilda.\n(They are separated but not divorced.)\n\nÄggen ska hållas separerade från rått kött.\n(Eggs should be kept separate from raw meat.)",
+    "audio": "De är separerade men inte skilda. Äggen ska hållas separerade från rått kött.",
+    "tags": ["swedish"],
+    "notes": "separerad/separerat/separerade (adjective; perfect participle)",
+    "imageHint": "Two bins with recyclables kept apart",
+    "mochiId": "MxZYePzY"
+  },
+  {
+    "word": "tjej",
+    "english": "girl; girlfriend (colloq.)",
+    "examples": "Hon är en snäll tjej.\n(She is a nice girl.)\n\nJag ska träffa min tjej ikväll.\n(I'm meeting my girlfriend tonight.)",
+    "audio": "Hon är en snäll tjej. Jag ska träffa min tjej ikväll.",
+    "tags": ["swedish"],
+    "notes": "en tjej, tjejen, tjejer, tjejerna (common noun)",
+    "imageHint": "Pink bicycle, school backpack, football on sunny field",
+    "mochiId": "6ch2mCZ0"
+  },
+  {
+    "word": "pojkvän",
+    "english": "boyfriend; male romantic partner",
+    "examples": "Hon presenterade sin pojkvän för oss.\n(She introduced her boyfriend to us.)\n\nVi ska träffa min pojkväns föräldrar i helgen.\n(We're meeting my boyfriend's parents this weekend.)",
+    "audio": "Hon presenterade sin pojkvän för oss. Vi ska träffa min pojkväns föräldrar i helgen.",
+    "tags": ["swedish"],
+    "notes": "en pojkvän, pojkvännen, pojkvänner, pojkvännerna",
+    "imageHint": "Two coffee mugs with heart pattern on table",
+    "mochiId": "agTts1du"
+  },
+  {
+    "word": "kille",
+    "english": "guy; boy; boyfriend",
+    "examples": "Min kille kommer senare.\n(My boyfriend is coming later.)\n\nDet stod två killar vid busshållplatsen.\n(There were two guys at the bus stop.)",
+    "audio": "Min kille kommer senare. Det stod två killar vid busshållplatsen.",
+    "tags": ["swedish"],
+    "notes": "en kille, killen, killar, killarna (common noun)",
+    "imageHint": "empty soccer field with sneakers and backpack on bench",
+    "mochiId": "2TE3sPBF"
+  }
+]

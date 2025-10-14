@@ -26,6 +26,91 @@ const FIELD_IDS = {
 // Limit concurrent API requests
 const limit = pLimit(1); // 1 concurrent request to avoid rate limiting
 
+// Sync a single vocabulary item to Mochi
+async function syncSingleWord({
+  client,
+  deckId,
+  item,
+  vocabFile,
+  vocabulary,
+}: {
+  client: MochiClient;
+  deckId: string;
+  item: VocabularyItem;
+  vocabFile: string;
+  vocabulary: VocabularyItem[];
+}) {
+  try {
+    // Check if image exists for this card
+    const imagePath = `./images/${item.mochiId}.png`;
+    let notesWithImage = item.notes || "";
+
+    if (item.mochiId && existsSync(imagePath)) {
+      const imageUrl = `https://raw.githubusercontent.com/vpontis/mochify/refs/heads/master/images/${item.mochiId}.png`;
+      notesWithImage = notesWithImage
+        ? `${notesWithImage}\n\n![${item.word}](${imageUrl})`
+        : `![${item.word}](${imageUrl})`;
+    }
+
+    // Build field data for template
+    const fieldData = {
+      [FIELD_IDS.word]: {
+        id: FIELD_IDS.word,
+        value: item.word,
+      },
+      [FIELD_IDS.english]: {
+        id: FIELD_IDS.english,
+        value: item.english,
+      },
+      [FIELD_IDS.examples]: {
+        id: FIELD_IDS.examples,
+        value: item.examples,
+      },
+      [FIELD_IDS.audio]: {
+        id: FIELD_IDS.audio,
+        value: item.audio,
+      },
+      [FIELD_IDS.notes]: {
+        id: FIELD_IDS.notes,
+        value: notesWithImage,
+      },
+    };
+
+    // If already has ID, update the card
+    if (item.mochiId) {
+      const card = await client.createCard({
+        id: item.mochiId, // Will update existing card
+        content: "",
+        "deck-id": deckId,
+        "template-id": VOCABULARY_TEMPLATE_ID,
+        fields: fieldData,
+        tags: item.tags,
+      });
+
+      return { action: "updated", card };
+    }
+
+    // Create new card
+    const card = await client.createCard({
+      content: "",
+      "deck-id": deckId,
+      "template-id": VOCABULARY_TEMPLATE_ID,
+      fields: fieldData,
+      tags: item.tags,
+    });
+
+    // Update the item with the new ID
+    item.mochiId = card.id;
+
+    // Save the updated vocabulary
+    await writeFormattedJSON(vocabFile, vocabulary);
+
+    return { action: "created", card };
+  } catch (error) {
+    throw new Error(`Failed to sync ${item.word}: ${error}`);
+  }
+}
+
 async function syncSwedishVocabulary(
   vocabFile: string = "./vocab/swedish-core.json",
   deckId?: string,
@@ -179,7 +264,7 @@ async function syncSwedishVocabulary(
   console.log("🎉 Sync complete!");
 }
 
-export { syncSwedishVocabulary };
+export { syncSwedishVocabulary, syncSingleWord };
 
 // Run the script
 if (import.meta.main) {

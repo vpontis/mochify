@@ -13,9 +13,12 @@
 
 import OpenAI from "openai";
 import { parse } from "csv-parse/sync";
-import { dedent, writeFormattedJSON } from "../utils";
+import { dedent, writeFormattedJSON, MochiClient } from "../utils";
 import { Command } from "commander";
-import { syncSwedishVocabulary } from "./sync-swedish-vocabulary";
+import {
+  syncSwedishVocabulary,
+  syncSingleWord,
+} from "./sync-swedish-vocabulary";
 import { generateVocabularyImages } from "./gen-images";
 
 interface VocabWord {
@@ -167,10 +170,37 @@ async function getKellyWords(count: number = 20): Promise<string[]> {
 async function processWords(
   words: string[],
   vocabFile: string = "vocab/swedish-core.json",
+  deckId?: string,
+  deckName?: string,
 ) {
   console.log(
     `🤖 Using AI to generate comprehensive entries for ${words.length} Swedish words...\n`,
   );
+
+  // Set up Mochi client and deck once at the start
+  const client = new MochiClient(process.env.MOCHI_API_KEY!);
+
+  let deck;
+  if (deckId) {
+    try {
+      deck = await client.getDeck(deckId);
+      console.log(`📚 Using deck: ${deck.name} (${deck.id})\n`);
+    } catch (error) {
+      console.error(`❌ Error: Deck ${deckId} not found`);
+      process.exit(1);
+    }
+  } else {
+    const decks = await client.listDecks();
+    const targetDeckName = deckName || "Swedish Core";
+    deck = decks.find((d) => d.name === targetDeckName);
+
+    if (!deck) {
+      deck = await client.createDeck({ name: targetDeckName });
+      console.log(`✅ Created new deck: ${deck.name} (${deck.id})\n`);
+    } else {
+      console.log(`📚 Using deck: ${deck.name} (${deck.id})\n`);
+    }
+  }
 
   // Load existing vocabulary
   let existingVocab: VocabWord[] = [];
@@ -202,9 +232,28 @@ async function processWords(
     if (generated) {
       const vocabEntry = convertToVocabWord(generated);
       newEntries.push(vocabEntry);
+      existingVocab.push(vocabEntry); // Add to existing vocab immediately
       console.log(` ✅`);
       console.log(`   → ${generated.english}`);
       console.log(`   → ${generated.definition}`);
+
+      // Sync this single word to Mochi immediately
+      try {
+        process.stdout.write(`🔄 Syncing "${cleanWord}" to Mochi...`);
+        const result = await syncSingleWord({
+          client,
+          deckId: deck.id,
+          item: vocabEntry,
+          vocabFile,
+          vocabulary: existingVocab,
+        });
+        console.log(` ✅ (${result.card.id})`);
+      } catch (error) {
+        console.log(` ❌`);
+        console.error(`   Error syncing: ${error}`);
+      }
+
+      console.log(); // Empty line for readability
     } else {
       failedWords.push(cleanWord);
       console.log(` ❌`);
@@ -222,18 +271,14 @@ async function processWords(
     return;
   }
 
-  // Save to file
-  const updatedVocab = [...existingVocab, ...newEntries];
-  await writeFormattedJSON(vocabFile, updatedVocab);
-
   console.log(`\n📊 Summary:`);
   console.log(`  ✅ Successfully added: ${newEntries.length} words`);
   if (failedWords.length > 0) {
     console.log(
-      `  ❌ Failed: ${failedWords.length} words (${failedWords.join(", ")})`,
+      `  ❌ Failed: ${failedWords.length} words (${failedWords.join(", ")}")`,
     );
   }
-  console.log(`  📚 Total vocabulary: ${updatedVocab.length} words`);
+  console.log(`  📚 Total vocabulary: ${existingVocab.length} words`);
 
   return { newEntries, vocabFile };
 }
@@ -254,6 +299,7 @@ async function main() {
       "-n, --deck-name <name>",
       "Deck name (required with --deck for first use)",
     )
+    .option("-l, --limit <count>", "Limit number of words to process")
     .action(async (inputWords: string[], options) => {
       let words: string[] = [];
 
@@ -272,6 +318,17 @@ async function main() {
       if (words.length === 0) {
         console.log("No words provided. Use --help for usage information.");
         return;
+      }
+
+      // Apply limit if specified
+      if (options.limit) {
+        const limit = parseInt(options.limit);
+        if (words.length > limit) {
+          console.log(
+            `⚠️  Limiting to first ${limit} words (total: ${words.length})`,
+          );
+          words = words.slice(0, limit);
+        }
       }
 
       // Determine vocab file and deck info
@@ -307,33 +364,10 @@ async function main() {
         `🚀 Processing ${words.length} Swedish words: ${words.join(", ")}\n`,
       );
 
-      const result = await processWords(words, vocabFile);
+      const result = await processWords(words, vocabFile, deckId, deckName);
 
       if (result && result.newEntries.length > 0) {
-        console.log("\n🔄 Syncing to Mochi...");
-        if (deckId && deckName) {
-          await syncSwedishVocabulary(vocabFile, deckId, deckName);
-        } else if (deckId) {
-          await syncSwedishVocabulary(vocabFile, deckId);
-        } else {
-          await syncSwedishVocabulary();
-        }
-
-        console.log("\n🎨 Generating images...");
-        await generateVocabularyImages(vocabFile);
-
-        console.log("\n🔄 Syncing images to Mochi...");
-        if (deckId && deckName) {
-          await syncSwedishVocabulary(vocabFile, deckId, deckName);
-        } else if (deckId) {
-          await syncSwedishVocabulary(vocabFile, deckId);
-        } else {
-          await syncSwedishVocabulary();
-        }
-
-        console.log(
-          "\n✨ Complete! Your Swedish vocabulary has been enriched.",
-        );
+        console.log("\n✨ Complete! Added", result.newEntries.length, "words");
       }
     });
 

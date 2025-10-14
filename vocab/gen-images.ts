@@ -82,6 +82,9 @@ async function generateVocabularyImages(
 
   console.log("\n✨ Image generation complete!");
   console.log(`📊 Generated ${results.length} images`);
+
+  // Return the mochiIds of entries that got new images
+  return results;
 }
 
 export { generateVocabularyImages };
