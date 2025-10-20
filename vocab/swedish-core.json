@@ -3344,12 +3344,12 @@
     "mochiId": "7jYTYMa1"
   },
   {
-    "word": "stat",
+    "word": "staty",
     "english": "statue, statue of a person",
-    "examples": "Statyn av Carl XVI Gustaf står i parken.\n(The statue of Carl XVI Gustaf stands in the park.)\n\nDe besökte en gammal stat av en viking.\n(They visited an old statue of a Viking.)",
-    "audio": "Statyn av Carl XVI Gustaf står i parken. De besökte en gammal stat av en viking.",
+    "examples": "Statyn av Carl XVI Gustaf står i parken.\n(The statue of Carl XVI Gustaf stands in the park.)\n\nDe besökte en gammal staty av en viking.\n(They visited an old statue of a Viking.)",
+    "audio": "Statyn av Carl XVI Gustaf står i parken. De besökte en gammal staty av en viking.",
     "tags": ["swedish"],
-    "notes": "en stat, staten, stater (common noun); means 'state' (not statue)",
+    "notes": "en staty, statyn, statyer (common noun)",
     "imageHint": "A large stone statue in a public park surrounded by trees",
     "mochiId": "Vs8gjzlv"
   },
