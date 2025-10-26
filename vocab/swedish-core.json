@@ -1895,9 +1895,9 @@
   },
   {
     "word": "fjäll",
-    "english": "fell, mountain plateau",
-    "examples": "Fjället lyser blått i månskenet.\n(The fell shines blue in the moonlight.)\n\nDe rider över snötäckta fjäll.\n(They ride across snow-covered fells.)",
-    "audio": "Fjället lyser blått i månskenet. De rider över snötäckta fjäll.",
+    "english": "mountain, mountain range",
+    "examples": "Vi åker till fjällen varje vinter.\n(We go to the mountains every winter.)\n\nFjället är täckt med snö.\n(The mountain is covered with snow.)",
+    "audio": "Vi åker till fjällen varje vinter. Fjället är täckt med snö.",
     "tags": ["swedish"],
     "notes": "ett fjäll; plural fjäll",
     "imageHint": "wide plateau; reindeer tracks crossing wind-sculpted snow",
