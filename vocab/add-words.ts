@@ -234,8 +234,7 @@ async function processWords(
   const newEntries: VocabWord[] = [];
   const failedWords: string[] = [];
 
-  // Parallelize AI generation (5 concurrent)
-  const generateLimit = pLimit(5);
+  const generateLimit = pLimit(10);
 
   // Generate all entries in parallel
   console.log(
