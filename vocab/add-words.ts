@@ -15,11 +15,7 @@ import OpenAI from "openai";
 import { parse } from "csv-parse/sync";
 import { dedent, writeFormattedJSON, MochiClient } from "../utils";
 import { Command } from "commander";
-import {
-  syncSwedishVocabulary,
-  syncSingleWord,
-} from "./sync-swedish-vocabulary";
-import { generateVocabularyImages } from "./gen-images";
+import { existsSync } from "node:fs";
 import pLimit from "p-limit";
 
 interface VocabWord {
@@ -42,6 +38,19 @@ interface GeneratedEntry {
   usage: string;
   imageHint: string;
 }
+
+// Mochi template configuration
+const VOCABULARY_TEMPLATE_ID = "GAFwzU5S";
+const FIELD_IDS = {
+  word: "name",
+  english: "Vj1QoXZ7",
+  examples: "mknO4gtZ",
+  audio: "nRezTqnS",
+  notes: "c64dCRkt",
+};
+
+// Write lock for serializing JSON file writes
+const writeLock = pLimit(1);
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
@@ -133,6 +142,78 @@ function convertToVocabWord(entry: GeneratedEntry): VocabWord {
   };
 }
 
+async function saveWord(vocabEntry: VocabWord, vocabFile: string) {
+  return writeLock(async () => {
+    const file = Bun.file(vocabFile);
+    let vocab: VocabWord[] = [];
+
+    if (await file.exists()) {
+      vocab = await file.json();
+    }
+
+    const index = vocab.findIndex((v) => v.word === vocabEntry.word);
+    if (index >= 0) {
+      vocab[index] = vocabEntry; // Update existing
+    } else {
+      vocab.push(vocabEntry); // Add new
+    }
+
+    await writeFormattedJSON(vocabFile, vocab);
+  });
+}
+
+async function syncToMochi(
+  client: MochiClient,
+  deckId: string,
+  item: VocabWord,
+): Promise<{ action: "created" | "updated"; cardId: string }> {
+  // Check if image exists
+  const imagePath = `./images/${item.mochiId}.png`;
+  let notesWithImage = item.notes || "";
+
+  if (item.mochiId && existsSync(imagePath)) {
+    const imageUrl = `https://raw.githubusercontent.com/vpontis/mochify/refs/heads/master/images/${item.mochiId}.png`;
+    notesWithImage = notesWithImage
+      ? `${notesWithImage}\n\n![${item.word}](${imageUrl})`
+      : `![${item.word}](${imageUrl})`;
+  }
+
+  const fieldData = {
+    [FIELD_IDS.word]: { id: FIELD_IDS.word, value: item.word },
+    [FIELD_IDS.english]: { id: FIELD_IDS.english, value: item.english },
+    [FIELD_IDS.examples]: { id: FIELD_IDS.examples, value: item.examples },
+    [FIELD_IDS.audio]: { id: FIELD_IDS.audio, value: item.audio },
+    [FIELD_IDS.notes]: { id: FIELD_IDS.notes, value: notesWithImage },
+  };
+
+  if (item.mochiId) {
+    // Update existing card
+    const card = await client.createCard({
+      id: item.mochiId,
+      content: "",
+      "deck-id": deckId,
+      "template-id": VOCABULARY_TEMPLATE_ID,
+      fields: fieldData,
+      tags: item.tags,
+    });
+    return { action: "updated", cardId: card.id };
+  }
+
+  // Create new card
+  const card = await client.createCard({
+    content: "",
+    "deck-id": deckId,
+    "template-id": VOCABULARY_TEMPLATE_ID,
+    fields: fieldData,
+    tags: item.tags,
+  });
+
+  // Update item with new ID
+  item.mochiId = card.id;
+
+  return { action: "created", cardId: card.id };
+}
+
 async function getKellyWords(count: number = 20): Promise<string[]> {
   const kellyCSV = await Bun.file("vocab/kelly-swedish.csv").text();
   const swedishCore: VocabWord[] = await Bun.file(
@@ -175,7 +256,7 @@ async function processWords(
   deckName?: string,
 ) {
   console.log(
-    `🤖 Using AI to generate comprehensive entries for ${words.length} Swedish words...\n`,
+    `🤖 Processing ${words.length} Swedish words with AI generation and sync...\n`,
   );
 
   // Set up Mochi client and deck once at the start
@@ -203,7 +284,7 @@ async function processWords(
     }
   }
 
-  // Load existing vocabulary
+  // Load existing vocabulary to check for duplicates
   let existingVocab: VocabWord[] = [];
   const file = Bun.file(vocabFile);
   if (await file.exists()) {
@@ -231,77 +312,70 @@ async function processWords(
     return;
   }
 
-  const newEntries: VocabWord[] = [];
-  const failedWords: string[] = [];
-
-  const generateLimit = pLimit(10);
-
-  // Generate all entries in parallel
   console.log(
-    `🚀 Generating ${wordsToProcess.length} entries in parallel...\n`,
+    `\n🚀 Processing ${wordsToProcess.length} words in parallel (AI gen → Mochi sync → JSON save)...\n`,
   );
 
-  const generationResults = await Promise.all(
-    wordsToProcess.map((cleanWord) =>
-      generateLimit(async () => {
-        process.stdout.write(`📝 Generating "${cleanWord}"...`);
-        const generated = await generateVocabEntry(cleanWord);
+  // Track stats
+  const stats = {
+    newEntries: [] as VocabWord[],
+    failedWords: [] as string[],
+  };
 
-        if (generated) {
+  // Process each word through full pipeline in parallel
+  const processLimit = pLimit(10);
+
+  await Promise.all(
+    wordsToProcess.map((word) =>
+      processLimit(async () => {
+        try {
+          // 1. AI Generation
+          process.stdout.write(`📝 [${word}] Generating...`);
+          const generated = await generateVocabEntry(word);
+
+          if (!generated) {
+            console.log(` ❌ Failed`);
+            stats.failedWords.push(word);
+            return;
+          }
+
           const vocabEntry = convertToVocabWord(generated);
           console.log(` ✅`);
           console.log(`   → ${generated.english}`);
-          return { success: true, word: cleanWord, entry: vocabEntry };
-        } else {
+
+          // 2. Sync to Mochi
+          process.stdout.write(`   🔄 Syncing to Mochi...`);
+          const syncResult = await syncToMochi(client, deck.id, vocabEntry);
+          console.log(` ✅ (${syncResult.cardId})`);
+
+          // 3. Save to JSON (with write lock)
+          process.stdout.write(`   💾 Saving to JSON...`);
+          await saveWord(vocabEntry, vocabFile);
+          console.log(` ✅\n`);
+
+          stats.newEntries.push(vocabEntry);
+        } catch (error) {
           console.log(` ❌`);
-          return { success: false, word: cleanWord };
+          console.error(`   Error: ${error}\n`);
+          stats.failedWords.push(word);
         }
       }),
     ),
   );
 
-  // Now sync each successful entry sequentially (to avoid file write conflicts)
-  console.log(
-    `\n🔄 Syncing ${generationResults.filter((r) => r.success).length} words to Mochi...\n`,
-  );
-
-  for (const result of generationResults) {
-    if (!result.success) {
-      failedWords.push(result.word);
-      continue;
-    }
-
-    const vocabEntry = result.entry!;
-    newEntries.push(vocabEntry);
-    existingVocab.push(vocabEntry);
-
-    try {
-      process.stdout.write(`🔄 Syncing "${result.word}"...`);
-      const syncResult = await syncSingleWord({
-        client,
-        deckId: deck.id,
-        item: vocabEntry,
-        vocabFile,
-        vocabulary: existingVocab,
-      });
-      console.log(` ✅ (${syncResult.card.id})`);
-    } catch (error) {
-      console.log(` ❌`);
-      console.error(`   Error syncing: ${error}`);
-      failedWords.push(result.word);
-    }
-  }
+  // Re-read final vocabulary count
+  const finalVocab: VocabWord[] = await Bun.file(vocabFile).json();
 
   console.log(`\n📊 Summary:`);
-  console.log(`  ✅ Successfully added: ${newEntries.length} words`);
-  if (failedWords.length > 0) {
+  console.log(`  ✅ Successfully added: ${stats.newEntries.length} words`);
+  if (stats.failedWords.length > 0) {
     console.log(
-      `  ❌ Failed: ${failedWords.length} words (${failedWords.join(", ")}")`,
+      `  ❌ Failed: ${stats.failedWords.length} words (${stats.failedWords.join(", ")})`,
     );
   }
-  console.log(`  📚 Total vocabulary: ${existingVocab.length} words`);
+  console.log(`  📚 Total vocabulary: ${finalVocab.length} words`);
 
-  return { newEntries, vocabFile };
+  return { newEntries: stats.newEntries, vocabFile };
 }
 
 async function main() {
