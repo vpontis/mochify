@@ -52,6 +52,9 @@ const FIELD_IDS = {
 // Write lock for serializing JSON file writes
 const writeLock = pLimit(1);
 
+// Mochi sync lock - only allow one Mochi API request at a time due to rate limiting
+const mochiSyncLimit = pLimit(1);
+
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
@@ -343,9 +346,11 @@ async function processWords(
           console.log(` ✅`);
           console.log(`   → ${generated.english}`);
 
-          // 2. Sync to Mochi
+          // 2. Sync to Mochi (rate limited to 1 concurrent request)
           process.stdout.write(`   🔄 Syncing to Mochi...`);
-          const syncResult = await syncToMochi(client, deck.id, vocabEntry);
+          const syncResult = await mochiSyncLimit(() =>
+            syncToMochi(client, deck.id, vocabEntry),
+          );
           console.log(` ✅ (${syncResult.cardId})`);
 
           // 3. Save to JSON (with write lock)
