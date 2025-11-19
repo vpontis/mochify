@@ -7942,5 +7942,505 @@
     "notes": "gammal–äldre–äldst/äldsta (adj.); Comparative is invariable. As noun: de äldre = the elderly.",
     "imageHint": "Old brick house beside newer modern building",
     "mochiId": "ryakmeBu"
+  },
+  {
+    "word": "kolla",
+    "english": "check; look; watch (informal)",
+    "examples": "Kan du kolla om dörren är låst?\n(Can you check if the door is locked?)\n\nJag ska kolla på matchen ikväll.\n(I'll watch the game tonight.)",
+    "audio": "Kan du kolla om dörren är låst? Jag ska kolla på matchen ikväll.",
+    "tags": ["swedish"],
+    "notes": "kolla, kollar, kollade, kollat (verb); Colloquial. 'kolla på' = watch; bare 'kolla' = check.",
+    "imageHint": "Open notebook, smartphone screen, checklist with green checkmarks",
+    "mochiId": "BprRo7BE"
+  },
+  {
+    "word": "fylla",
+    "english": "fill; top up; turn (age)",
+    "examples": "Kan du fylla glaset med vatten?\n(Can you fill the glass with water?)\n\nHon fyller trettio nästa vecka.\n(She turns thirty next week.)",
+    "audio": "Kan du fylla glaset med vatten? Hon fyller trettio nästa vecka.",
+    "tags": ["swedish"],
+    "notes": "fylla/fyller/fyllde/fyllt (verb)",
+    "imageHint": "Glass of water being filled from pitcher on table",
+    "mochiId": "bYRhnwTH"
+  },
+  {
+    "word": "kontroll",
+    "english": "control; check; inspection",
+    "examples": "Vi måste ha bättre kontroll över budgeten.\n(We need better control over the budget.)\n\nPolisen gjorde en kontroll av körkortet.\n(The police carried out a license check.)",
+    "audio": "Vi måste ha bättre kontroll över budgeten. Polisen gjorde en kontroll av körkortet.",
+    "tags": ["swedish"],
+    "notes": "en kontroll, kontrollen, kontroller (common noun)",
+    "imageHint": "empty border checkpoint with barrier and inspection booth",
+    "mochiId": "Jfvp4hDb"
+  },
+  {
+    "word": "bestämmelse",
+    "english": "regulation; provision; rule; stipulation; clause",
+    "examples": "Avtalet innehåller flera strikta bestämmelser.\n(The contract contains several strict provisions.)\n\nVi måste följa kommunens bestämmelser om parkering.\n(We must follow the municipality’s parking regulations.)",
+    "audio": "Avtalet innehåller flera strikta bestämmelser. Vi måste följa kommunens bestämmelser om parkering.",
+    "tags": ["swedish"],
+    "notes": "en bestämmelse, bestämmelsen, bestämmelser",
+    "imageHint": "Open law book with highlighted provisions and bookmarks",
+    "mochiId": "EyLVis7S"
+  },
+  {
+    "word": "gud",
+    "english": "god; deity; God",
+    "examples": "Hon ber till Gud varje kväll.\n(She prays to God every evening.)\n\nDe gamla grekerna dyrkade många gudar.\n(The ancient Greeks worshipped many gods.)",
+    "audio": "Hon ber till Gud varje kväll. De gamla grekerna dyrkade många gudar.",
+    "tags": ["swedish"],
+    "notes": "en gud, guden, gudar, gudarna",
+    "imageHint": "Sunlit stone temple with altar and divine symbols",
+    "mochiId": "eFjRvVgi"
+  },
+  {
+    "word": "förändra",
+    "english": "change; alter; transform",
+    "examples": "Vi måste förändra våra vanor för att må bättre.\n(We need to change our habits to feel better.)\n\nFöretaget förändrade sin strategi efter krisen.\n(The company changed its strategy after the crisis.)",
+    "audio": "Vi måste förändra våra vanor för att må bättre. Företaget förändrade sin strategi efter krisen.",
+    "tags": ["swedish"],
+    "notes": "förändra/förändrar/förändrade/förändrat (verb)",
+    "imageHint": "City skyline before and after redevelopment, buildings transformed",
+    "mochiId": "DhRbvJp2"
+  },
+  {
+    "word": "insats",
+    "english": "effort; contribution; operation; insert",
+    "examples": "Tack för din insats i projektet.\n(Thank you for your contribution to the project.)\n\nPolisen genomförde en stor insats i natt.\n(The police carried out a major operation last night.)",
+    "audio": "Tack för din insats i projektet. Polisen genomförde en stor insats i natt.",
+    "tags": ["swedish"],
+    "notes": "en insats, insatsen, insatser (common noun)",
+    "imageHint": "Toolbox with removable insert tray on workbench",
+    "mochiId": "hjBHxS9F"
+  },
+  {
+    "word": "ris",
+    "english": "rice; twigs/brushwood; criticism (in 'ris och ros')",
+    "examples": "Vi kokar ris till kycklingen.\n(We’re cooking rice for the chicken.)\n\nHon satte fjädrar i påskriset.\n(She put feathers in the Easter twigs.)",
+    "audio": "Vi kokar ris till kycklingen. Hon satte fjädrar i påskriset.",
+    "tags": ["swedish"],
+    "notes": "ett ris, riset, ris, risen (neuter noun); Mostly uncountable. 'Ris och ros' = criticism and praise.",
+    "imageHint": "Bowl of uncooked rice beside decorated birch twigs",
+    "mochiId": "OTDfhQgO"
+  },
+  {
+    "word": "nät",
+    "english": "net; mesh; (the) internet",
+    "examples": "Fiskaren lagade sitt trasiga nät.\n(The fisherman repaired his torn net.)\n\nJag hittade informationen på nätet.\n(I found the information online.)",
+    "audio": "Fiskaren lagade sitt trasiga nät. Jag hittade informationen på nätet.",
+    "tags": ["swedish"],
+    "notes": "ett nät, nätet, nät, näten (neuter noun)",
+    "imageHint": "fishing net hanging on pier beside water",
+    "mochiId": "UF74Cih3"
+  },
+  {
+    "word": "tysk",
+    "english": "German; a German (person)",
+    "examples": "Jag köpte en tysk bil.\n(I bought a German car.)\n\nDet satt en tysk bredvid mig på tåget.\n(A German sat next to me on the train.)",
+    "audio": "Jag köpte en tysk bil. Det satt en tysk bredvid mig på tåget.",
+    "tags": ["swedish"],
+    "notes": "tysk/tyskt/tyska (adjective); en tysk, tysken, tyskar, tyskarna (noun)",
+    "imageHint": "German flag, autobahn sign, car on motorway",
+    "mochiId": "evnkUP6B"
+  },
+  {
+    "word": "drabba",
+    "english": "hit; affect (negatively); befall",
+    "examples": "Staden drabbades av ett strömavbrott i natt.\n(The city was hit by a power outage last night.)\n\nTorkan drabbar lantbrukare hårt.\n(The drought hits farmers hard.)",
+    "audio": "Staden drabbades av ett strömavbrott i natt. Torkan drabbar lantbrukare hårt.",
+    "tags": ["swedish"],
+    "notes": "drabba/drabbar/drabbade/drabbat (verb); Often passive: drabbas av [sth]; active: X drabbar Y.",
+    "imageHint": "Storm floods coastal town; buildings damaged, dark skies",
+    "mochiId": "0hNFuTtY"
+  },
+  {
+    "word": "resurs",
+    "english": "resource; asset",
+    "examples": "Skolan saknar resurser för extra stöd.\n(The school lacks resources for extra support.)\n\nVatten är en viktig resurs för samhället.\n(Water is an important resource for society.)",
+    "audio": "Skolan saknar resurser för extra stöd. Vatten är en viktig resurs för samhället.",
+    "tags": ["swedish"],
+    "notes": "en resurs, resursen, resurser, resurserna (common noun)",
+    "imageHint": "Stacked coins, water reservoir, books on table",
+    "mochiId": "PzWAWG79"
+  },
+  {
+    "word": "lösa",
+    "english": "solve; buy (a ticket); redeem; dissolve",
+    "examples": "Kan du lösa det här problemet?\n(Can you solve this problem?)\n\nJag måste lösa biljett innan tåget går.\n(I need to buy a ticket before the train leaves.)",
+    "audio": "Kan du lösa det här problemet? Jag måste lösa biljett innan tåget går.",
+    "tags": ["swedish"],
+    "notes": "löser/löste/löst (regular verb)",
+    "imageHint": "notebook with solved equation, ticket machine, sugar dissolving",
+    "mochiId": "ZTGL5Hxe"
+  },
+  {
+    "word": "teknik",
+    "english": "technology; technique; engineering",
+    "examples": "Företaget investerar i ny teknik för att bli mer effektivt.\n(The company is investing in new technology to become more efficient.)\n\nHon studerar teknik på universitetet.\n(She studies engineering at the university.)",
+    "audio": "Företaget investerar i ny teknik för att bli mer effektivt. Hon studerar teknik på universitetet.",
+    "tags": ["swedish"],
+    "notes": "en teknik, tekniken, tekniker (common noun)",
+    "imageHint": "Modern factory machines and circuit boards on workbench",
+    "mochiId": "GcFqpVfv"
+  },
+  {
+    "word": "behandla",
+    "english": "treat; deal with; process",
+    "examples": "Läkaren behandlar patienten för infektionen.\n(The doctor is treating the patient for the infection.)\n\nFrågan behandlades på mötet.\n(The issue was addressed at the meeting.)",
+    "audio": "Läkaren behandlar patienten för infektionen. Frågan behandlades på mötet.",
+    "tags": ["swedish"],
+    "notes": "behandla/behandlar/behandlade/behandlat",
+    "imageHint": "sterile clinic room, medication, files, treatment cart",
+    "mochiId": "moi1SDAU"
+  },
+  {
+    "word": "tjäna",
+    "english": "earn; serve; be of use",
+    "examples": "Hon tjänar bra som ingenjör.\n(She earns well as an engineer.)\n\nDet tjänar inget till att klaga.\n(There's no point in complaining.)",
+    "audio": "Hon tjänar bra som ingenjör. Det tjänar inget till att klaga.",
+    "tags": ["swedish"],
+    "notes": "tjäna/tjänar/tjänade/tjänat (verb)",
+    "imageHint": "Payslip, calculator and coins on office desk",
+    "mochiId": "1ZXmEQap"
+  },
+  {
+    "word": "försök",
+    "english": "attempt; try",
+    "examples": "Gör ett nytt försök imorgon.\n(Make another attempt tomorrow.)\n\nFörsök igen, det går bättre nästa gång.\n(Try again; it will go better next time.)",
+    "audio": "Gör ett nytt försök imorgon. Försök igen, det går bättre nästa gång.",
+    "tags": ["swedish"],
+    "notes": "ett försök, försöket, försök, försöken; Common in ‘göra ett försök’. Also imperative of ‘försöka’.",
+    "imageHint": "Stopwatch, crumpled paper, retry icon on screen",
+    "mochiId": "rZcSYjPg"
+  },
+  {
+    "word": "argument",
+    "english": "argument; point (reasoning)",
+    "examples": "Har du något starkt argument för ditt förslag?\n(Do you have a strong argument for your proposal?)\n\nDebatten saknade hållbara argument.\n(The debate lacked solid arguments.)",
+    "audio": "Har du något starkt argument för ditt förslag? Debatten saknade hållbara argument.",
+    "tags": ["swedish"],
+    "notes": "ett argument, argumentet, argument, argumenten (neuter noun); Means reason/point, not quarrel. For quarrel: gräl/bråk.",
+    "imageHint": "Desk with papers, bullet points, arrows connecting points",
+    "mochiId": "zOusmwTf"
+  },
+  {
+    "word": "fru",
+    "english": "wife; Mrs",
+    "examples": "Min fru jobbar som läkare.\n(My wife works as a doctor.)\n\nKan jag tala med fru Andersson?\n(May I speak with Mrs Andersson?)",
+    "audio": "Min fru jobbar som läkare. Kan jag tala med fru Andersson?",
+    "tags": ["swedish"],
+    "notes": "en fru, frun, fruar, fruarna (common noun); Use for one's spouse; 'fru + surname' is formal/dated.",
+    "imageHint": "Envelope labeled 'Fru Andersson' on wooden desk",
+    "mochiId": "jxcht3JX"
+  },
+  {
+    "word": "istället för",
+    "english": "instead of; rather than",
+    "examples": "Vi tog tåget istället för bilen.\n(We took the train instead of the car.)\n\nHon jobbade hemifrån istället för att pendla.\n(She worked from home instead of commuting.)",
+    "audio": "Vi tog tåget istället för bilen. Hon jobbade hemifrån istället för att pendla.",
+    "tags": ["swedish"],
+    "notes": "preposition",
+    "imageHint": "Train chosen instead of car, car crossed out",
+    "mochiId": "hQ7t8BLd"
+  },
+  {
+    "word": "våld",
+    "english": "violence; force (coercion)",
+    "examples": "Polisen ska inte använda onödigt våld.\n(The police should not use unnecessary force.)\n\nHon lämnade relationen på grund av våld.\n(She left the relationship because of violence.)",
+    "audio": "Polisen ska inte använda onödigt våld. Hon lämnade relationen på grund av våld.",
+    "tags": ["swedish"],
+    "notes": "ett våld, våldet (neuter noun; no plural); Mostly uncountable; common: med våld, använda/ta till våld.",
+    "imageHint": "Shattered window, overturned table, broken door, dark hallway",
+    "mochiId": "yUUsth5K"
+  },
+  {
+    "word": "ställning",
+    "english": "position; posture; score; stand/scaffold",
+    "examples": "Byt ställning när du sitter länge.\n(Change position when you sit for a long time.)\n\nEfter paus var ställningen 2–1 till gästerna.\n(After the break the score was 2–1 to the visitors.)",
+    "audio": "Byt ställning när du sitter länge. Efter paus var ställningen 2–1 till gästerna.",
+    "tags": ["swedish"],
+    "notes": "en ställning, ställningen, ställningar (common noun)",
+    "imageHint": "Scaffolding around a house under renovation",
+    "mochiId": "aVCuPdeN"
+  },
+  {
+    "word": "fundera",
+    "english": "think, consider, ponder",
+    "examples": "Jag behöver fundera på saken ett tag.\n(I need to think it over for a while.)\n\nHon funderar på att byta jobb.\n(She is considering changing jobs.)",
+    "audio": "Jag behöver fundera på saken ett tag. Hon funderar på att byta jobb.",
+    "tags": ["swedish"],
+    "notes": "fundera/funderar/funderade/funderat (verb); Often with på/över: fundera på ngt; på att + infinitive.",
+    "imageHint": "Open notebook, coffee mug, desk with lamp at night",
+    "mochiId": "Yke3c0nJ"
+  },
+  {
+    "word": "räcka",
+    "english": "suffice; be enough; reach; hand",
+    "examples": "Räcker det med en timme?\n(Is one hour enough?)\n\nKan du räcka mig saltet?\n(Can you hand me the salt?)",
+    "audio": "Räcker det med en timme? Kan du räcka mig saltet?",
+    "tags": ["swedish"],
+    "notes": "räcker/räckte/räckt (verb)",
+    "imageHint": "Salt shaker across table just out of reach",
+    "mochiId": "OHFOvKx8"
+  },
+  {
+    "word": "bättre",
+    "english": "better",
+    "examples": "Jag mår mycket bättre idag.\n(I feel much better today.)\n\nDen här modellen är bättre än den gamla.\n(This model is better than the old one.)",
+    "audio": "Jag mår mycket bättre idag. Den här modellen är bättre än den gamla.",
+    "tags": ["swedish"],
+    "notes": "bra/bättre/bäst (adj/adv); Used as adj and adv; use 'än' for comparisons.",
+    "imageHint": "Two laptops side by side, one clearly better",
+    "mochiId": "HJcdB5OC"
+  },
+  {
+    "word": "fara",
+    "english": "danger; risk; to go, travel",
+    "examples": "Det är ingen fara.\n(There is no danger.)\n\nHon for hem tidigt.\n(She went home early.)",
+    "audio": "Det är ingen fara. Hon for hem tidigt.",
+    "tags": ["swedish"],
+    "notes": "en fara, faran, faror (noun); far/for/farit (irreg. verb)",
+    "imageHint": "Red warning sign on icy mountain road, avalanche risk",
+    "mochiId": "RYXLThqt"
+  },
+  {
+    "word": "utföra",
+    "english": "carry out; perform; execute",
+    "examples": "Vi måste utföra testet före lanseringen.\n(We must carry out the test before the launch.)\n\nRoboten utförde uppdraget enligt instruktionerna.\n(The robot executed the task according to the instructions.)",
+    "audio": "Vi måste utföra testet före lanseringen. Roboten utförde uppdraget enligt instruktionerna.",
+    "tags": ["swedish"],
+    "notes": "utför/utförde/utfört; pp: utförd/utfört/utförda (verb)",
+    "imageHint": "Industrial robot performing precise task on factory assembly line",
+    "mochiId": "vYv3bPY2"
+  },
+  {
+    "word": "sommar",
+    "english": "summer",
+    "examples": "Vi åker till landet varje sommar.\n(We go to the countryside every summer.)\n\nSommaren i Sverige kan vara ljus och lång.\n(Summer in Sweden can be bright and long.)",
+    "audio": "Vi åker till landet varje sommar. Sommaren i Sverige kan vara ljus och lång.",
+    "tags": ["swedish"],
+    "notes": "en sommar, sommaren, somrar (common noun)",
+    "imageHint": "Sunny Swedish archipelago, red cottages, wildflowers, blue water",
+    "mochiId": "GMAF67Lh"
+  },
+  {
+    "word": "villkor",
+    "english": "condition; term; requirement",
+    "examples": "Avtalet gäller endast under följande villkor.\n(The agreement applies only under the following terms.)\n\nVi kan låna ut utrustningen på villkor att den återlämnas i tid.\n(We can lend the equipment on condition that it is returned on time.)",
+    "audio": "Avtalet gäller endast under följande villkor. Vi kan låna ut utrustningen på villkor att den återlämnas i tid.",
+    "tags": ["swedish"],
+    "notes": "ett villkor, villkoret, villkor, villkoren (neuter noun)",
+    "imageHint": "Close-up of contract showing highlighted terms and conditions",
+    "mochiId": "4ahP62JV"
+  },
+  {
+    "word": "kund",
+    "english": "customer; client",
+    "examples": "Jag är kund hos den här banken.\n(I am a customer of this bank.)\n\nFöretaget tappade en viktig kund.\n(The company lost an important client.)",
+    "audio": "Jag är kund hos den här banken. Företaget tappade en viktig kund.",
+    "tags": ["swedish"],
+    "notes": "en kund, kunden, kunder, kunderna (common noun)",
+    "imageHint": "Store counter with shopping bags, receipt and cash register",
+    "mochiId": "7lidePRS"
+  },
+  {
+    "word": "visst",
+    "english": "sure; certainly; of course; right?; certain (neuter)",
+    "examples": "Visst kommer du imorgon?\n(You're coming tomorrow, right?)\n\nEtt visst ansvar följer med jobbet.\n(A certain responsibility comes with the job.)",
+    "audio": "Visst kommer du imorgon? Ett visst ansvar följer med jobbet.",
+    "tags": ["swedish"],
+    "notes": "viss/visst/vissa (adj); visst (adverb/partikel)",
+    "imageHint": "Calendar with tomorrow circled and a bold checkmark",
+    "mochiId": "uvdGkxLm"
+  },
+  {
+    "word": "rörelse",
+    "english": "movement; motion; (social) movement; business",
+    "examples": "Det gör ont vid minsta rörelse.\n(It hurts with the slightest movement.)\n\nHan sålde sin rörelse förra året.\n(He sold his business last year.)",
+    "audio": "Det gör ont vid minsta rörelse. Han sålde sin rörelse förra året.",
+    "tags": ["swedish"],
+    "notes": "en rörelse, rörelsen, rörelser (common noun)",
+    "imageHint": "Swinging pendulum illustrating motion; shop storefront indicating business",
+    "mochiId": "X5iG9IHn"
+  },
+  {
+    "word": "främst",
+    "english": "primarily; mainly; chiefly; foremost; at the front",
+    "examples": "Vi prioriterar främst kvalitet och hållbarhet.\n(We prioritize mainly quality and sustainability.)\n\nDen främsta anledningen är kostnaden.\n(The main reason is the cost.)",
+    "audio": "Vi prioriterar främst kvalitet och hållbarhet. Den främsta anledningen är kostnaden.",
+    "tags": ["swedish"],
+    "notes": "adverb; adj superlative: främst/främsta",
+    "imageHint": "Items on shelf, foremost item highlighted with star",
+    "mochiId": "BRiODjql"
+  },
+  {
+    "word": "händelse",
+    "english": "event, incident, occurrence",
+    "examples": "Det var en ovanlig händelse som påverkade hela staden.\n(It was an unusual event that affected the whole city.)\n\nI händelse av brand, använd trapporna.\n(In case of fire, use the stairs.)",
+    "audio": "Det var en ovanlig händelse som påverkade hela staden. I händelse av brand, använd trapporna.",
+    "tags": ["swedish"],
+    "notes": "en händelse, händelsen, händelser (common noun); Often formal; fixed phrase 'i händelse av' = 'in case of'.",
+    "imageHint": "Fire alarm, staircase, emergency sign in hallway",
+    "mochiId": "bUNGs7FR"
+  },
+  {
+    "word": "högt",
+    "english": "loudly; high; tall",
+    "examples": "De skrattade högt åt skämtet.\n(They laughed loudly at the joke.)\n\nEtt högt torn syntes på långt håll.\n(A tall tower was visible from far away.)",
+    "audio": "De skrattade högt åt skämtet. Ett högt torn syntes på långt håll.",
+    "tags": ["swedish"],
+    "notes": "hög/högt/höga; högre; högst (adj + adv)",
+    "imageHint": "Tall tower on high cliff with loudspeaker",
+    "mochiId": "ggSHRLrR"
+  },
+  {
+    "word": "president",
+    "english": "president (head of state)",
+    "examples": "USA:s president bor i Vita huset.\n(The U.S. president lives in the White House.)\n\nI Sverige har vi en statsminister, inte en president.\n(In Sweden we have a prime minister, not a president.)",
+    "audio": "USA:s president bor i Vita huset. I Sverige har vi en statsminister, inte en president.",
+    "tags": ["swedish"],
+    "notes": "en president, presidenten, presidenter, presidenterna (common noun)",
+    "imageHint": "Presidential palace facade with flag, podium, official seal",
+    "mochiId": "DQ4JTV8s"
+  },
+  {
+    "word": "uppstå",
+    "english": "arise; occur; emerge",
+    "examples": "Det kan uppstå problem om vi väntar för länge.\n(Problems can arise if we wait too long.)\n\nDet har uppstått en missuppfattning.\n(A misunderstanding has arisen.)",
+    "audio": "Det kan uppstå problem om vi väntar för länge. Det har uppstått en missuppfattning.",
+    "tags": ["swedish"],
+    "notes": "uppstår/uppstod/uppstått (irregular verb)",
+    "imageHint": "Warning lights on server rack, smoke rising",
+    "mochiId": "60a7i2J3"
+  },
+  {
+    "word": "emellertid",
+    "english": "however; nevertheless; nonetheless; yet",
+    "examples": "Emellertid hade jag inte tid.\n(However, I didn't have time.)\n\nLeveransen var emellertid försenad.\n(The delivery was, however, delayed.)",
+    "audio": "Emellertid hade jag inte tid. Leveransen var emellertid försenad.",
+    "tags": ["swedish"],
+    "notes": "adverb (satsadverb)",
+    "imageHint": "Two diverging roads with warning sign and cloudy sky",
+    "mochiId": "NIAYsNq2"
+  },
+  {
+    "word": "acceptera",
+    "english": "accept; agree to; tolerate",
+    "examples": "Jag kan inte acceptera det här beslutet.\n(I can't accept this decision.)\n\nHon accepterade ursäkten efter en stund.\n(She accepted the apology after a while.)",
+    "audio": "Jag kan inte acceptera det här beslutet. Hon accepterade ursäkten efter en stund.",
+    "tags": ["swedish"],
+    "notes": "accepterar/accepterade/accepterat (verb)",
+    "imageHint": "Signed contract on desk, green checkmark stamp",
+    "mochiId": "J9Pmvpul"
+  },
+  {
+    "word": "så kallad",
+    "english": "so-called; alleged",
+    "examples": "Den så kallade experten hade fel.\n(The so-called expert was wrong.)\n\nVi testade en så kallad snabbfix, men den höll inte.\n(We tried a so-called quick fix, but it didn’t hold.)",
+    "audio": "Den så kallade experten hade fel. Vi testade en så kallad snabbfix, men den höll inte.",
+    "tags": ["swedish"],
+    "notes": "så kallad/så kallat/så kallade (adjective); Före substantiv; markerar terminologi eller skepsis/ironi.",
+    "imageHint": "Product box labeled 'så kallad' with question mark",
+    "mochiId": "c8PM2ERC"
+  },
+  {
+    "word": "orsak",
+    "english": "cause; reason",
+    "examples": "Vad är orsaken till förseningen?\n(What is the reason for the delay?)\n\nStress är en vanlig orsak till huvudvärk.\n(Stress is a common cause of headaches.)",
+    "audio": "Vad är orsaken till förseningen? Stress är en vanlig orsak till huvudvärk.",
+    "tags": ["swedish"],
+    "notes": "en orsak, orsaken, orsaker, orsakerna (common noun); More formal/causal than 'anledning'; used in explanations.",
+    "imageHint": "Stopped train at platform with delay notice board",
+    "mochiId": "syWGOMG5"
+  },
+  {
+    "word": "sök",
+    "english": "search; seek; apply (for)",
+    "examples": "Sök på nätet först.\n(Search online first.)\n\nSök jobbet senast på fredag.\n(Apply for the job by Friday.)",
+    "audio": "Sök på nätet först. Sök jobbet senast på fredag.",
+    "tags": ["swedish"],
+    "notes": "söka/söker/sökte/sökt; imperativ: sök; Imperative form; common on buttons; also used for applying.",
+    "imageHint": "Computer search bar with magnifying glass icon",
+    "mochiId": "YsyponTG"
+  },
+  {
+    "word": "bilda",
+    "english": "form; constitute; found",
+    "examples": "Vi ska bilda en förening i höst.\n(We are going to form an association this fall.)\n\nDe små företagen bildar majoriteten av marknaden.\n(Small companies make up the majority of the market.)",
+    "audio": "Vi ska bilda en förening i höst. De små företagen bildar majoriteten av marknaden.",
+    "tags": ["swedish"],
+    "notes": "bildar/bildade/bildat (verb)",
+    "imageHint": "Puzzle pieces forming a circle on wooden table",
+    "mochiId": "jiKAiqJw"
+  },
+  {
+    "word": "framför",
+    "english": "in front of; before (spatial)",
+    "examples": "Bilen parkerade framför huset.\n(The car parked in front of the house.)\n\nGå framför mig, så följer jag.\n(Walk in front of me, and I'll follow.)",
+    "audio": "Bilen parkerade framför huset. Gå framför mig, så följer jag.",
+    "tags": ["swedish"],
+    "notes": "invariable preposition/adverb",
+    "imageHint": "Red car parked in front of a yellow house",
+    "mochiId": "wLdajTTA"
+  },
+  {
+    "word": "ande",
+    "english": "spirit; ghost",
+    "examples": "Hon kände närvaron av en ande i det gamla huset.\n(She felt the presence of a spirit in the old house.)\n\nDe försökte få kontakt med andarna genom ett medium.\n(They tried to contact the spirits through a medium.)",
+    "audio": "Hon kände närvaron av en ande i det gamla huset. De försökte få kontakt med andarna genom ett medium.",
+    "tags": ["swedish"],
+    "notes": "en ande, anden, andar, andarna (common noun)",
+    "imageHint": "Old wooden house interior with faint glowing spirit",
+    "mochiId": "J0m3QvID"
+  },
+  {
+    "word": "försvinna",
+    "english": "disappear; vanish",
+    "examples": "Min plånbok verkar ha försvunnit.\n(My wallet seems to have disappeared.)\n\nSolen försvann bakom molnen.\n(The sun disappeared behind the clouds.)",
+    "audio": "Min plånbok verkar ha försvunnit. Solen försvann bakom molnen.",
+    "tags": ["swedish"],
+    "notes": "försvinner/försvann/försvunnit (irreg. verb)",
+    "imageHint": "Sun disappearing behind clouds over quiet lake",
+    "mochiId": "CgnlKmGv"
+  },
+  {
+    "word": "fel",
+    "english": "wrong; error; fault; mistake",
+    "examples": "Det var mitt fel.\n(It was my fault.)\n\nDet är fel på bilen.\n(There's something wrong with the car.)",
+    "audio": "Det var mitt fel. Det är fel på bilen.",
+    "tags": ["swedish"],
+    "notes": "ett fel, felet, fel, felen; fel (oböjligt adj/adv)",
+    "imageHint": "Car dashboard with error warning light lit",
+    "mochiId": "NnL2eJ7H"
+  },
+  {
+    "word": "huvud",
+    "english": "head; main/principal (prefix)",
+    "examples": "Jag har ont i huvudet.\n(I have a headache.)\n\nTa på dig hjälmen och skydda huvudet.\n(Put on the helmet and protect your head.)",
+    "audio": "Jag har ont i huvudet. Ta på dig hjälmen och skydda huvudet.",
+    "tags": ["swedish"],
+    "notes": "ett huvud, huvudet, huvuden, huvudena; Very common in compounds: huvudvärk, huvudstad, huvudfråga.",
+    "imageHint": "Anatomical head model and safety helmet on desk",
+    "mochiId": "mLOBKSZ6"
+  },
+  {
+    "word": "natur",
+    "english": "nature; character",
+    "examples": "Vi tog en lång promenad i naturen.\n(We took a long walk in nature.)\n\nHon är blyg till naturen.\n(She is shy by nature.)",
+    "audio": "Vi tog en lång promenad i naturen. Hon är blyg till naturen.",
+    "tags": ["swedish"],
+    "notes": "en natur, naturen, naturer (common noun)",
+    "imageHint": "Swedish forest, lake, mossy rocks, summer light",
+    "mochiId": "W6XE1TZ9"
+  },
+  {
+    "word": "innehåll",
+    "english": "content; contents; subject matter",
+    "examples": "Läs igenom innehållet innan du skriver under.\n(Read the contents before you sign.)\n\nWebbsidans innehåll uppdateras dagligen.\n(The website's content is updated daily.)",
+    "audio": "Läs igenom innehållet innan du skriver under. Webbsidans innehåll uppdateras dagligen.",
+    "tags": ["swedish"],
+    "notes": "ett innehåll, innehållet, innehåll",
+    "imageHint": "Open book showing table of contents and chapters",
+    "mochiId": "fpSZSldy"
   }
 ]
