@@ -9152,5 +9152,295 @@
     "notes": "en ordförande, ordföranden, ordförande (pl), ordförandena",
     "imageHint": "Empty boardroom table with gavel, agenda, microphones",
     "mochiId": "4wUa2fv6"
+  },
+  {
+    "word": "journalist",
+    "english": "journalist, reporter",
+    "examples": "Hon arbetar som journalist på en dagstidning.\n(She works as a journalist at a daily newspaper.)\n\nJournalisten ställde svåra frågor under intervjun.\n(The journalist asked tough questions during the interview.)",
+    "audio": "Hon arbetar som journalist på en dagstidning. Journalisten ställde svåra frågor under intervjun.",
+    "tags": ["swedish"],
+    "notes": "en journalist, journalisten, journalister (common noun)",
+    "imageHint": "Newsroom desk with notebook, microphone, camera, newspapers",
+    "mochiId": "tvUgqxFA"
+  },
+  {
+    "word": "nyhet",
+    "english": "news; news item; new product",
+    "examples": "Har du hört nyheterna på radion?\n(Have you heard the news on the radio?)\n\nDet här är en nyhet i sortimentet.\n(This is a new item in the range.)",
+    "audio": "Har du hört nyheterna på radion? Det här är en nyhet i sortimentet.",
+    "tags": ["swedish"],
+    "notes": "en nyhet, nyheten, nyheter, nyheterna (common noun)",
+    "imageHint": "Newspaper front page, TV news screen, store shelf label",
+    "mochiId": "qsjUN5c5"
+  },
+  {
+    "word": "låt",
+    "english": "song; tune",
+    "examples": "Det här är min favoritlåt.\n(This is my favorite song.)\n\nKan du spela den där låten igen?\n(Can you play that song again?)",
+    "audio": "Det här är min favoritlåt. Kan du spela den där låten igen?",
+    "tags": ["swedish"],
+    "notes": "en låt, låten, låtar (common noun); Also the imperative of 'låta' = 'let' (e.g., Låt oss...).",
+    "imageHint": "vinyl record and headphones on wooden table",
+    "mochiId": "D1F2vb2J"
+  },
+  {
+    "word": "stoppa",
+    "english": "stop (trans.), stuff, put in, plug, block, darn",
+    "examples": "Kan du stoppa musiken?\n(Can you stop the music?)\n\nHon stoppade brevet i kuvertet.\n(She put the letter into the envelope.)",
+    "audio": "Kan du stoppa musiken? Hon stoppade brevet i kuvertet.",
+    "tags": ["swedish"],
+    "notes": "stoppa/stoppar/stoppade/stoppat (verb)",
+    "imageHint": "letter halfway inserted into envelope on wooden desk",
+    "mochiId": "vtpXVC2E"
+  },
+  {
+    "word": "kris",
+    "english": "crisis; critical situation",
+    "examples": "Landet befinner sig i en ekonomisk kris.\n(The country is in an economic crisis.)\n\nVid kris ska du följa myndigheternas råd.\n(In a crisis, you should follow the authorities' advice.)",
+    "audio": "Landet befinner sig i en ekonomisk kris. Vid kris ska du följa myndigheternas råd.",
+    "tags": ["swedish"],
+    "notes": "en kris, krisen, kriser, kriserna",
+    "imageHint": "Empty grocery shelves with red downward stock graph",
+    "mochiId": "WaiXLOeg"
+  },
+  {
+    "word": "sekvens",
+    "english": "sequence",
+    "examples": "Den mest spännande sekvensen i filmen var biljaktsscenen.\n(The most exciting sequence in the film was the car chase.)\n\nAnalysen visade en kort DNA-sekvens med en mutation.\n(The analysis showed a short DNA sequence with a mutation.)",
+    "audio": "Den mest spännande sekvensen i filmen var biljaktsscenen. Analysen visade en kort DNA-sekvens med en mutation.",
+    "tags": ["swedish"],
+    "notes": "en sekvens, sekvensen, sekvenser (common noun); Common in film/math/genetics; everyday synonym: 'följd'.",
+    "imageHint": "Filmstrip frames and DNA helix showing ordered sequence",
+    "mochiId": "pz3e4mzh"
+  },
+  {
+    "word": "herr",
+    "english": "Mr; sir",
+    "examples": "Herr Andersson, ni har ett telefonsamtal.\n(Mr Andersson, you have a phone call.)\n\nUrsäkta, herrn, ni tappade er plånbok.\n(Excuse me, sir, you dropped your wallet.)",
+    "audio": "Herr Andersson, ni har ett telefonsamtal. Ursäkta, herrn, ni tappade er plånbok.",
+    "tags": ["swedish"],
+    "notes": "oböjligt; best.: herrn (tilltal)",
+    "imageHint": "envelope addressed to Herr Andersson on wooden desk",
+    "mochiId": "mkkYetJg"
+  },
+  {
+    "word": "förekomma",
+    "english": "occur; happen; be found; preempt; forestall",
+    "examples": "Det förekommer ofta fel i rapporten.\n(Errors often occur in the report.)\n\nFöretaget försökte förekomma kritik genom ökad transparens.\n(The company tried to preempt criticism through increased transparency.)",
+    "audio": "Det förekommer ofta fel i rapporten. Företaget försökte förekomma kritik genom ökad transparens.",
+    "tags": ["swedish"],
+    "notes": "förekomma/förekommer/förekom/förekommit (irregular verb); Common as 'det förekommer'. Transitive = preempt (formal).",
+    "imageHint": "Report with statistics of incidents occurring over time",
+    "mochiId": "0KoOFUkP"
+  },
+  {
+    "word": "rycka",
+    "english": "tug; yank; jerk; snatch; twitch",
+    "examples": "Han ryckte i dörrhandtaget.\n(He tugged the doorknob.)\n\nDet ryckte i ögonlocket hela dagen.\n(My eyelid twitched all day.)",
+    "audio": "Han ryckte i dörrhandtaget. Det ryckte i ögonlocket hela dagen.",
+    "tags": ["swedish"],
+    "notes": "rycka, rycker, ryckte, ryckt (verb)",
+    "imageHint": "closed wooden door with slightly twisted metal handle",
+    "mochiId": "IWa31MCW"
+  },
+  {
+    "word": "trycka",
+    "english": "press; push; print",
+    "examples": "Tryck på knappen för att starta maskinen.\n(Press the button to start the machine.)\n\nFörlaget trycker boken nästa vecka.\n(The publisher will print the book next week.)",
+    "audio": "Tryck på knappen för att starta maskinen. Förlaget trycker boken nästa vecka.",
+    "tags": ["swedish"],
+    "notes": "tryck! trycker, tryckte, tryckt (verb, grupp 2); trycka på knappen; trycka på = betona; tryckas = passiv.",
+    "imageHint": "industrial printing press with stacks of books",
+    "mochiId": "6pInWXfz"
+  },
+  {
+    "word": "numera",
+    "english": "nowadays; these days",
+    "examples": "Numera jobbar jag hemifrån tre dagar i veckan.\n(These days I work from home three days a week.)\n\nVi använder numera digitala kvitton i stället för papper.\n(We now use digital receipts instead of paper.)",
+    "audio": "Numera jobbar jag hemifrån tre dagar i veckan. Vi använder numera digitala kvitton i stället för papper.",
+    "tags": ["swedish"],
+    "notes": "adverb (no inflection)",
+    "imageHint": "old factory replaced by modern office building",
+    "mochiId": "S7JburE4"
+  },
+  {
+    "word": "betydligt",
+    "english": "considerably; significantly; much",
+    "examples": "Det blev betydligt dyrare än väntat.\n(It turned out considerably more expensive than expected.)\n\nHon mår betydligt bättre nu.\n(She feels much better now.)",
+    "audio": "Det blev betydligt dyrare än väntat. Hon mår betydligt bättre nu.",
+    "tags": ["swedish"],
+    "notes": "adverb; Common before comparatives to intensify degree.",
+    "imageHint": "Line chart with significant upward trend, bold arrow",
+    "mochiId": "I5mQY0vZ"
+  },
+  {
+    "word": "tillstånd",
+    "english": "permission, permit, license; state, condition",
+    "examples": "Du behöver tillstånd för att filma här.\n(You need a permit to film here.)\n\nPatientens tillstånd förbättrades under natten.\n(The patient's condition improved during the night.)",
+    "audio": "Du behöver tillstånd för att filma här. Patientens tillstånd förbättrades under natten.",
+    "tags": ["swedish"],
+    "notes": "ett tillstånd, tillståndet, tillstånd, tillstånden (neuter noun)",
+    "imageHint": "Official permit document stamped on an office desk",
+    "mochiId": "qHJ1gshR"
+  },
+  {
+    "word": "kosta",
+    "english": "cost (money/time/effort)",
+    "examples": "Hur mycket kostar det?\n(How much does it cost?)\n\nDet kostade mig mycket tid.\n(It cost me a lot of time.)",
+    "audio": "Hur mycket kostar det? Det kostade mig mycket tid.",
+    "tags": ["swedish"],
+    "notes": "kostar/kostade/kostat (verb)",
+    "imageHint": "Store shelf with price tags in Swedish kronor",
+    "mochiId": "AQMd8qPU"
+  },
+  {
+    "word": "imorgon",
+    "english": "tomorrow",
+    "examples": "Vi ses imorgon.\n(See you tomorrow.)\n\nMötet är imorgon klockan nio.\n(The meeting is tomorrow at nine.)",
+    "audio": "Vi ses imorgon. Mötet är imorgon klockan nio.",
+    "tags": ["swedish"],
+    "notes": "adverb (no inflection); Also spelled 'i morgon'; both forms accepted.",
+    "imageHint": "Calendar with tomorrow's date circled and sunrise",
+    "mochiId": "mb11c4y6"
+  },
+  {
+    "word": "band",
+    "english": "band (music), ribbon, tape, bond",
+    "examples": "Ett band spelar på festivalen i kväll.\n(A band is playing at the festival tonight.)\n\nJag knöt ett band runt paketet.\n(I tied a ribbon around the package.)",
+    "audio": "Ett band spelar på festivalen i kväll. Jag knöt ett band runt paketet.",
+    "tags": ["swedish"],
+    "notes": "ett band, bandet, band, banden (neuter noun)",
+    "imageHint": "Empty stage with instruments and red ribbon spool",
+    "mochiId": "FbPMuecq"
+  },
+  {
+    "word": "värd",
+    "english": "worth; worthy",
+    "examples": "Det är inte värt besväret.\n(It’s not worth the trouble.)\n\nDen här boken är värd att läsa.\n(This book is worth reading.)",
+    "audio": "Det är inte värt besväret. Den här boken är värd att läsa.",
+    "tags": ["swedish"],
+    "notes": "värd/värt/värda (adjective); Used after vara; often värt + att + infinitive.",
+    "imageHint": "Quality backpack with price tag on store shelf",
+    "mochiId": "kanq9i9K"
+  },
+  {
+    "word": "slutsats",
+    "english": "conclusion; inference",
+    "examples": "Vi drog slutsatsen att projektet behövde mer tid.\n(We concluded that the project needed more time.)\n\nKan du motivera din slutsats med data?\n(Can you justify your conclusion with data?)",
+    "audio": "Vi drog slutsatsen att projektet behövde mer tid. Kan du motivera din slutsats med data?",
+    "tags": ["swedish"],
+    "notes": "en slutsats, slutsatsen, slutsatser, slutsatserna",
+    "imageHint": "notebook with flowchart leading to highlighted conclusion",
+    "mochiId": "hq9or5TR"
+  },
+  {
+    "word": "klass",
+    "english": "class; grade (school); category",
+    "examples": "Jag går i samma klass som Anna.\n(I'm in the same class as Anna.)\n\nVilken klass går din son i?\n(What grade is your son in?)",
+    "audio": "Jag går i samma klass som Anna. Vilken klass går din son i?",
+    "tags": ["swedish"],
+    "notes": "en klass, klassen, klasser, klasserna (common noun)",
+    "imageHint": "Empty classroom with rows of desks and blackboard",
+    "mochiId": "9xKC0dLz"
+  },
+  {
+    "word": "global",
+    "english": "global; worldwide",
+    "examples": "Klimatförändringar är ett globalt problem.\n(Climate change is a global problem.)\n\nVi konkurrerar på globala marknader.\n(We compete in global markets.)",
+    "audio": "Klimatförändringar är ett globalt problem. Vi konkurrerar på globala marknader.",
+    "tags": ["swedish"],
+    "notes": "global/globalt/globala (adjective); Common in business, politics, environment; antonym: lokal.",
+    "imageHint": "World map with connected lines showing global network",
+    "mochiId": "0ZNZv5IX"
+  },
+  {
+    "word": "uttrycka",
+    "english": "express; convey; articulate",
+    "examples": "Hon har svårt att uttrycka sina känslor.\n(She has difficulty expressing her feelings.)\n\nDet är viktigt att kunna uttrycka sig tydligt.\n(It is important to be able to express oneself clearly.)",
+    "audio": "Hon har svårt att uttrycka sina känslor. Det är viktigt att kunna uttrycka sig tydligt.",
+    "tags": ["swedish"],
+    "notes": "uttrycka/uttrycker/uttryckte/uttryckt (verb)",
+    "imageHint": "Notebook, pen, speech bubbles, abstract art conveying ideas",
+    "mochiId": "R8Cth4GY"
+  },
+  {
+    "word": "stol",
+    "english": "chair",
+    "examples": "Kan du flytta stolen lite?\n(Can you move the chair a bit?)\n\nVi behöver fler stolar till mötet.\n(We need more chairs for the meeting.)",
+    "audio": "Kan du flytta stolen lite? Vi behöver fler stolar till mötet.",
+    "tags": ["swedish"],
+    "notes": "en stol, stolen, stolar, stolarna (common noun)",
+    "imageHint": "wooden chair by table in bright kitchen",
+    "mochiId": "zvvuCP2k"
+  },
+  {
+    "word": "förbättra",
+    "english": "improve; enhance; make better",
+    "examples": "Vi behöver förbättra vår kundservice.\n(We need to improve our customer service.)\n\nHon tränar för att förbättra sin kondition.\n(She trains to improve her fitness.)",
+    "audio": "Vi behöver förbättra vår kundservice. Hon tränar för att förbättra sin kondition.",
+    "tags": ["swedish"],
+    "notes": "förbättra/förbättrar/förbättrade/förbättrat (verb)",
+    "imageHint": "Before and after chart with rising arrow",
+    "mochiId": "5HGROHUC"
+  },
+  {
+    "word": "mitt",
+    "english": "my (neuter); mine (neuter)",
+    "examples": "Det är mitt rum.\n(That is my room.)\n\nHuset är mitt.\n(The house is mine.)",
+    "audio": "Det är mitt rum. Huset är mitt.",
+    "tags": ["swedish"],
+    "notes": "min/mitt/mina (possessive pronoun)",
+    "imageHint": "small Swedish house labeled mitt hus, simple yard",
+    "mochiId": "M76Vjyop"
+  },
+  {
+    "word": "effektiv",
+    "english": "effective; efficient",
+    "examples": "Den här metoden är mycket effektiv.\n(This method is very effective.)\n\nVi behöver ett effektivt system för kundsupport.\n(We need an efficient system for customer support.)",
+    "audio": "Den här metoden är mycket effektiv. Vi behöver ett effektivt system för kundsupport.",
+    "tags": ["swedish"],
+    "notes": "effektiv/effektivt/effektiva; effektivare; effektivast (adjective)",
+    "imageHint": "Clock on tidy desk, organized files, completed tasks",
+    "mochiId": "gUo1BIA6"
+  },
+  {
+    "word": "relation",
+    "english": "relationship; relation",
+    "examples": "De har en nära relation.\n(They have a close relationship.)\n\nRelationen mellan pris och kvalitet är viktig.\n(The relationship between price and quality is important.)",
+    "audio": "De har en nära relation. Relationen mellan pris och kvalitet är viktig.",
+    "tags": ["swedish"],
+    "notes": "en relation, relationen, relationer (common noun)",
+    "imageHint": "Two interconnected nodes between price and quality icons",
+    "mochiId": "0jFaXJwt"
+  },
+  {
+    "word": "agera",
+    "english": "act; take action; play (a role)",
+    "examples": "Vi måste agera snabbt innan problemet blir värre.\n(We must act quickly before the problem gets worse.)\n\nFöretaget agerade på kundernas feedback.\n(The company acted on the customers' feedback.)",
+    "audio": "Vi måste agera snabbt innan problemet blir värre. Företaget agerade på kundernas feedback.",
+    "tags": ["swedish"],
+    "notes": "agerar/agerade/agerat; agera! (verb)",
+    "imageHint": "control room console with flashing alarm indicators",
+    "mochiId": "kK9SIzqY"
+  },
+  {
+    "word": "list",
+    "english": "moulding/trim; cunning, guile",
+    "examples": "Vi ska sätta upp en ny list runt dörren.\n(We're going to put up new trim around the door.)\n\nHan vann med list, inte kraft.\n(He won by guile, not force.)",
+    "audio": "Vi ska sätta upp en ny list runt dörren. Han vann med list, inte kraft.",
+    "tags": ["swedish"],
+    "notes": "en list, listen, lister, listerna (common noun)",
+    "imageHint": "Door frame with wooden moulding and carpenter tools",
+    "mochiId": "tphOKW8k"
+  },
+  {
+    "word": "central",
+    "english": "central; key; essential",
+    "examples": "Frågan är central i debatten.\n(The issue is central in the debate.)\n\nMuseet ligger centralt i staden.\n(The museum is centrally located in the city.)",
+    "audio": "Frågan är central i debatten. Museet ligger centralt i staden.",
+    "tags": ["swedish"],
+    "notes": "central/centralt/centrala; mer central/mest central (adjective)",
+    "imageHint": "City map highlighting central district and streets",
+    "mochiId": "iSKEtiA8"
   }
 ]
