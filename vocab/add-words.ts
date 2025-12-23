@@ -86,23 +86,16 @@ async function generateVocabEntry(
       - Keep it concise
     `;
 
-    const response = await openai.chat.completions.create({
-      model: "gpt-5",
-      messages: [
-        {
-          role: "system",
-          content:
-            "You are a Swedish language expert. Generate accurate, practical vocabulary entries. Keep grammar notes SHORT and concise (max 80 chars). Focus on essential conjugations/declensions only.",
-        },
-        {
-          role: "user",
-          content: prompt,
-        },
-      ],
-      response_format: { type: "json_object" },
+    const response = await openai.responses.create({
+      model: "gpt-5.2",
+      reasoning: { effort: "medium" },
+      instructions:
+        "You are a Swedish language expert. Generate accurate, practical vocabulary entries. Keep grammar notes SHORT and concise (max 80 chars). Focus on essential conjugations/declensions only.",
+      input: prompt,
+      text: { format: { type: "json_object" } },
     });
 
-    const content = response.choices[0]?.message?.content;
+    const content = response.output_text;
     if (!content) return null;
 
     return JSON.parse(content) as GeneratedEntry;
