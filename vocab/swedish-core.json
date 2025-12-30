@@ -13792,5 +13792,505 @@
     "notes": "subjunktion/adverb: förrän (efter negation), ofta med inte",
     "imageHint": "Closed door with clock showing five o'clock",
     "mochiId": "2LXV6QBw"
+  },
+  {
+    "word": "publik",
+    "english": "audience; public",
+    "examples": "Publiken applåderade efter konserten.\n(The audience applauded after the concert.)\n\nFöreställningen hade en stor publik.\n(The performance had a large audience.)",
+    "audio": "Publiken applåderade efter konserten. Föreställningen hade en stor publik.",
+    "tags": ["swedish"],
+    "notes": "en publik, publiken, publiker",
+    "imageHint": "Empty theater with seats facing a lit stage",
+    "mochiId": "1goRHDGS"
+  },
+  {
+    "word": "motstånd",
+    "english": "resistance; opposition",
+    "examples": "Det blev starkt motstånd mot förslaget.\n(There was strong opposition to the proposal.)\n\nMotståndet i kretsen är för högt.\n(The resistance in the circuit is too high.)",
+    "audio": "Det blev starkt motstånd mot förslaget. Motståndet i kretsen är för högt.",
+    "tags": ["swedish"],
+    "notes": "ett motstånd, motståndet, motstånd (neutrum)",
+    "imageHint": "close-up of resistor on circuit board, macro",
+    "mochiId": "djxucEzO"
+  },
+  {
+    "word": "vänsterparti",
+    "english": "left-wing party",
+    "examples": "Hon gick med i ett vänsterparti inför valet.\n(She joined a left-wing party ahead of the election.)\n\nVänsterpartierna i riksdagen röstade emot förslaget.\n(The left-wing parties in parliament voted against the proposal.)",
+    "audio": "Hon gick med i ett vänsterparti inför valet. Vänsterpartierna i riksdagen röstade emot förslaget.",
+    "tags": ["swedish"],
+    "notes": "ett vänsterparti, vänsterpartiet, vänsterpartier",
+    "imageHint": "ballot box, political posters, Swedish parliament building exterior",
+    "mochiId": "xhL0PhIy"
+  },
+  {
+    "word": "lägenhet",
+    "english": "apartment, flat",
+    "examples": "Jag hyr en lägenhet i stan.\n(I rent an apartment in the city.)\n\nLägenheten har två rum och ett kök.\n(The apartment has two rooms and a kitchen.)",
+    "audio": "Jag hyr en lägenhet i stan. Lägenheten har två rum och ett kök.",
+    "tags": ["swedish"],
+    "notes": "en lägenhet, lägenheten, lägenheter, lägenheterna",
+    "imageHint": "Bright modern apartment interior, kitchen and living room",
+    "mochiId": "KXdgSflj"
+  },
+  {
+    "word": "mana",
+    "english": "urge, exhort, call on",
+    "examples": "Hon manade honom att söka jobbet direkt.\n(She urged him to apply for the job right away.)\n\nSkyltarna manar till försiktighet på den hala vägen.\n(The signs call for caution on the slippery road.)",
+    "audio": "Hon manade honom att söka jobbet direkt. Skyltarna manar till försiktighet på den hala vägen.",
+    "tags": ["swedish"],
+    "notes": "manar/manade/manat (verb)",
+    "imageHint": "warning sign by icy road, foggy winter landscape",
+    "mochiId": "pKs0ghEA"
+  },
+  {
+    "word": "lida",
+    "english": "to suffer; to endure",
+    "examples": "Han lider av svår allergi.\n(He suffers from a severe allergy.)\n\nDet är många som får lida för andras misstag.\n(Many people have to suffer because of others' mistakes.)",
+    "audio": "Han lider av svår allergi. Det är många som får lida för andras misstag.",
+    "tags": ["swedish"],
+    "notes": "lider/led/lidit (irregular verb)",
+    "imageHint": "dark stormy sky over cracked dry ground",
+    "mochiId": "6Qggbp3C"
+  },
+  {
+    "word": "uppmana",
+    "english": "urge; encourage; exhort",
+    "examples": "Myndigheten uppmanar alla att stanna hemma vid symtom.\n(The authority urges everyone to stay home if they have symptoms.)\n\nHon uppmanade honom att säga ifrån om något kändes fel.\n(She encouraged him to speak up if something felt wrong.)",
+    "audio": "Myndigheten uppmanar alla att stanna hemma vid symtom. Hon uppmanade honom att säga ifrån om något kändes fel.",
+    "tags": ["swedish"],
+    "notes": "uppmanar/uppmanade/uppmanat (verb)",
+    "imageHint": "Official notice board urging action, bold text",
+    "mochiId": "HwNt3t3F"
+  },
+  {
+    "word": "väljare",
+    "english": "voter, electorate member",
+    "examples": "Väljare kan rösta i riksdagsvalet vart fjärde år.\n(Voters can vote in the parliamentary election every four years.)\n\nMånga väljare bytte parti inför valet.\n(Many voters switched parties ahead of the election.)",
+    "audio": "Väljare kan rösta i riksdagsvalet vart fjärde år. Många väljare bytte parti inför valet.",
+    "tags": ["swedish"],
+    "notes": "en väljare, väljaren, väljare, väljarna",
+    "imageHint": "Ballot box, voting booth, ballots, election posters indoors",
+    "mochiId": "fH2NHCVF"
+  },
+  {
+    "word": "vidta",
+    "english": "take, undertake (measures/actions)",
+    "examples": "Kommunen har vidtagit åtgärder för att minska översvämningsrisken.\n(The municipality has taken measures to reduce the flood risk.)\n\nVi måste vidta rätt åtgärder innan problemet blir värre.\n(We must take the right actions before the problem gets worse.)",
+    "audio": "Kommunen har vidtagit åtgärder för att minska översvämningsrisken. Vi måste vidta rätt åtgärder innan problemet blir värre.",
+    "tags": ["swedish"],
+    "notes": "vidta/vidtar/vidtog/vidtagit (verb)",
+    "imageHint": "storm drain, sandbags, warning signs, flooded street",
+    "mochiId": "noUpThsO"
+  },
+  {
+    "word": "användare",
+    "english": "user; user account holder",
+    "examples": "Varje användare måste godkänna villkoren innan inloggning.\n(Each user must accept the terms before logging in.)\n\nSystemet loggar aktivitet för alla användare.\n(The system logs activity for all users.)",
+    "audio": "Varje användare måste godkänna villkoren innan inloggning. Systemet loggar aktivitet för alla användare.",
+    "tags": ["swedish"],
+    "notes": "en användare, användaren, användare, användarna",
+    "imageHint": "laptop screen with login form and app icons",
+    "mochiId": "EmQ23aEw"
+  },
+  {
+    "word": "inre",
+    "english": "inner, internal",
+    "examples": "Dörren har ett inre lås som är svårare att bryta upp.\n(The door has an internal lock that is harder to force open.)\n\nHon försöker hitta lugn i sin inre värld.\n(She tries to find calm in her inner world.)",
+    "audio": "Dörren har ett inre lås som är svårare att bryta upp. Hon försöker hitta lugn i sin inre värld.",
+    "tags": ["swedish"],
+    "notes": "inre (adj., indeclinable)",
+    "imageHint": "Cutaway view of a building showing inner rooms",
+    "mochiId": "KZVRVQbW"
+  },
+  {
+    "word": "reda",
+    "english": "order, tidiness",
+    "examples": "Det är bra reda i förrådet nu.\n(There’s good order in the storage room now.)\n\nJag vill ha reda på vilka nycklar som hör till vilken dörr.\n(I want to keep track of which keys belong to which door.)",
+    "audio": "Det är bra reda i förrådet nu. Jag vill ha reda på vilka nycklar som hör till vilken dörr.",
+    "tags": ["swedish"],
+    "notes": "en reda, redan, redor (common noun)",
+    "imageHint": "tidy storage room with labeled boxes and neat shelves",
+    "mochiId": "oRC90Oau"
+  },
+  {
+    "word": "avslöja",
+    "english": "reveal, expose, disclose",
+    "examples": "Polisen avslöjade bedrägeriet efter en lång utredning.\n(The police exposed the fraud after a long investigation.)\n\nHon ville inte avslöja sitt lösenord.\n(She didn't want to disclose her password.)",
+    "audio": "Polisen avslöjade bedrägeriet efter en lång utredning. Hon ville inte avslöja sitt lösenord.",
+    "tags": ["swedish"],
+    "notes": "avslöjar/avslöjade/avslöjat (verb)",
+    "imageHint": "open safe with scattered documents, flashlight beam, dark room",
+    "mochiId": "cEVexASt"
+  },
+  {
+    "word": "konkurrens",
+    "english": "competition, rivalry",
+    "examples": "Det är hård konkurrens om jobben i branschen.\n(There is tough competition for jobs in the industry.)\n\nÖkad konkurrens pressar ner priserna.\n(Increased competition pushes prices down.)",
+    "audio": "Det är hård konkurrens om jobben i branschen. Ökad konkurrens pressar ner priserna.",
+    "tags": ["swedish"],
+    "notes": "en konkurrens, konkurrensen, konkurrenser",
+    "imageHint": "Two store price tags undercutting each other on shelf",
+    "mochiId": "fsiuDnws"
+  },
+  {
+    "word": "utmaning",
+    "english": "challenge",
+    "examples": "Det största just nu är att hitta en bra balans mellan jobb och fritid.\n(The biggest challenge right now is finding a good balance between work and free time.)\n\nAtt lära sig svenska kan vara en utmaning, men det går med övning.\n(Learning Swedish can be a challenge, but it works with practice.)",
+    "audio": "Det största just nu är att hitta en bra balans mellan jobb och fritid. Att lära sig svenska kan vara en utmaning, men det går med övning.",
+    "tags": ["swedish"],
+    "notes": "en utmaning, utmaningen, utmaningar, utmaningarna",
+    "imageHint": "brant bergsstig med stenblock och mörka moln",
+    "mochiId": "8bJXOqI9"
+  },
+  {
+    "word": "återvända",
+    "english": "return, go back",
+    "examples": "Hon återvände till Sverige efter två år utomlands.\n(She returned to Sweden after two years abroad.)\n\nVi måste återvända innan det blir mörkt.\n(We have to go back before it gets dark.)",
+    "audio": "Hon återvände till Sverige efter två år utomlands. Vi måste återvända innan det blir mörkt.",
+    "tags": ["swedish"],
+    "notes": "återvänder/återvände/återvänt (verb)",
+    "imageHint": "forest path leading back to a cabin at dusk",
+    "mochiId": "LmdjGgnf"
+  },
+  {
+    "word": "nedan",
+    "english": "below, underneath",
+    "examples": "Se tabellen nedan för mer information.\n(See the table below for more information.)\n\nNycklarna ligger i lådan nedan.\n(The keys are in the drawer below.)",
+    "audio": "Se tabellen nedan för mer information. Nycklarna ligger i lådan nedan.",
+    "tags": ["swedish"],
+    "notes": "adverb (place/direction)",
+    "imageHint": "printed page with chart and arrow pointing down",
+    "mochiId": "N8rKSYFt"
+  },
+  {
+    "word": "placera",
+    "english": "place, position; invest",
+    "examples": "Placera vasen mitt på bordet.\n(Place the vase in the middle of the table.)\n\nHan placerade sina pengar i fonder.\n(He invested his money in funds.)",
+    "audio": "Placera vasen mitt på bordet. Han placerade sina pengar i fonder.",
+    "tags": ["swedish"],
+    "notes": "placerar/placerade/placerat (verb)",
+    "imageHint": "vase centered on wooden table, bright window light",
+    "mochiId": "7O9KsdhN"
+  },
+  {
+    "word": "litteratur",
+    "english": "literature",
+    "examples": "Hon läser svensk litteratur på universitetet.\n(She studies Swedish literature at the university.)\n\nJag gillar modern litteratur men också klassiker.\n(I like modern literature but also classics.)",
+    "audio": "Hon läser svensk litteratur på universitetet. Jag gillar modern litteratur men också klassiker.",
+    "tags": ["swedish"],
+    "notes": "en litteratur, litteraturen (common noun)",
+    "imageHint": "Bookshelves with mixed novels and textbooks in library",
+    "mochiId": "Sq4NR0JU"
+  },
+  {
+    "word": "lopp",
+    "english": "race; course (of events)",
+    "examples": "Hon vann loppet med en sekunds marginal.\n(She won the race by a one-second margin.)\n\nI längden jämnar det ut sig i det långa loppet.\n(In the long run, it evens out.)",
+    "audio": "Hon vann loppet med en sekunds marginal. I längden jämnar det ut sig i det långa loppet.",
+    "tags": ["swedish"],
+    "notes": "ett lopp, loppet, lopp, loppen; Vanligt i uttrycket \"i det långa loppet\" (= i längden).",
+    "imageHint": "Tom löparbana med mållinje och stoppur",
+    "mochiId": "MD2RNHY7"
+  },
+  {
+    "word": "ana",
+    "english": "suspect, sense, have a hunch",
+    "examples": "Jag anade att något var fel.\n(I suspected that something was wrong.)\n\nHon anade inte hur svårt det skulle bli.\n(She had no idea how hard it would be.)",
+    "audio": "Jag anade att något var fel. Hon anade inte hur svårt det skulle bli.",
+    "tags": ["swedish"],
+    "notes": "anar/anade/anat (verb)",
+    "imageHint": "dark hallway, slightly open door, faint light, tension",
+    "mochiId": "2bR2dh62"
+  },
+  {
+    "word": "detalj",
+    "english": "detail, particular",
+    "examples": "Jag vill gå igenom varje detalj innan vi bestämmer oss.\n(I want to go through every detail before we decide.)\n\nDen här detaljen gör stor skillnad för resultatet.\n(This detail makes a big difference to the result.)",
+    "audio": "Jag vill gå igenom varje detalj innan vi bestämmer oss. Den här detaljen gör stor skillnad för resultatet.",
+    "tags": ["swedish"],
+    "notes": "en detalj, detaljen, detaljer, detaljerna; Används ofta i uttrycket \"i detalj\" (= i detaljform).",
+    "imageHint": "Close-up of mechanical parts with highlighted tiny component",
+    "mochiId": "TzhcEiRP"
+  },
+  {
+    "word": "inställning",
+    "english": "setting; attitude; stance",
+    "examples": "Jag ändrade inställningarna på mobilen.\n(I changed the settings on my phone.)\n\nHon har en positiv inställning till förändringar.\n(She has a positive attitude toward changes.)",
+    "audio": "Jag ändrade inställningarna på mobilen. Hon har en positiv inställning till förändringar.",
+    "tags": ["swedish"],
+    "notes": "en inställning, inställningen, inställningar; Vanligt både om teknik (settings) och om attityd/hållning.",
+    "imageHint": "smartphone settings menu on screen, close-up",
+    "mochiId": "wmlVEntb"
+  },
+  {
+    "word": "lös",
+    "english": "loose; free; unsolved",
+    "examples": "Skruven sitter löst, så dra åt den.\n(The screw is loose, so tighten it.)\n\nPolisen är fortfarande lös.\n(The suspect is still at large.)",
+    "audio": "Skruven sitter löst, så dra åt den. Polisen är fortfarande lös.",
+    "tags": ["swedish"],
+    "notes": "lös/löst/lösa (adjective)",
+    "imageHint": "Loose screw on wooden board, simple tools nearby",
+    "mochiId": "JxH6xA6k"
+  },
+  {
+    "word": "armé",
+    "english": "army, armed forces",
+    "examples": "Landet byggde upp en ny armé efter kriget.\n(The country built up a new army after the war.)\n\nArmén sattes in för att skydda gränsen.\n(The army was deployed to protect the border.)",
+    "audio": "Landet byggde upp en ny armé efter kriget. Armén sattes in för att skydda gränsen.",
+    "tags": ["swedish"],
+    "notes": "en armé, armén, arméer, arméerna",
+    "imageHint": "Military base with vehicles, flags, and equipment, empty",
+    "mochiId": "LyzOjnp0"
+  },
+  {
+    "word": "rekommendera",
+    "english": "to recommend, to suggest",
+    "examples": "Kan du rekommendera en bra restaurang i närheten?\n(Can you recommend a good restaurant nearby?)\n\nJag rekommenderar att du bokar i förväg.\n(I recommend that you book in advance.)",
+    "audio": "Kan du rekommendera en bra restaurang i närheten? Jag rekommenderar att du bokar i förväg.",
+    "tags": ["swedish"],
+    "notes": "rekommenderar/rekommenderade/rekommenderat (verb)",
+    "imageHint": "Restaurant menu beside map and guidebook on table",
+    "mochiId": "y0y8gMoB"
+  },
+  {
+    "word": "liberal",
+    "english": "liberal; open-minded",
+    "examples": "Hon har en liberal syn på utbildning.\n(She has a liberal view on education.)\n\nPartiet vill ha en mer liberal ekonomisk politik.\n(The party wants a more liberal economic policy.)",
+    "audio": "Hon har en liberal syn på utbildning. Partiet vill ha en mer liberal ekonomisk politik.",
+    "tags": ["swedish"],
+    "notes": "liberal/liberalt/liberala (adjektiv)",
+    "imageHint": "Open book beside voting ballot and scales of justice",
+    "mochiId": "9Wez79UJ"
+  },
+  {
+    "word": "egenskap",
+    "english": "quality, characteristic, property, trait",
+    "examples": "Tålamod är en viktig egenskap i det här jobbet.\n(Patience is an important quality in this job.)\n\nMaterialet har bra egenskaper och tål fukt.\n(The material has good properties and withstands moisture.)",
+    "audio": "Tålamod är en viktig egenskap i det här jobbet. Materialet har bra egenskaper och tål fukt.",
+    "tags": ["swedish"],
+    "notes": "en egenskap, egenskapen, egenskaper, egenskaperna",
+    "imageHint": "Close-up of materials labeled with properties, moisture droplets",
+    "mochiId": "jmXoePsK"
+  },
+  {
+    "word": "pröva",
+    "english": "try; test; attempt",
+    "examples": "Kan jag få pröva de här skorna?\n(Can I try on these shoes?)\n\nVi måste pröva en annan lösning.\n(We have to try another solution.)",
+    "audio": "Kan jag få pröva de här skorna? Vi måste pröva en annan lösning.",
+    "tags": ["swedish"],
+    "notes": "prövar/prövade/prövat (verb)",
+    "imageHint": "shoe store shelf with several pairs of shoes",
+    "mochiId": "I0cTDHvy"
+  },
+  {
+    "word": "synpunkt",
+    "english": "viewpoint, opinion, point of view",
+    "examples": "Jag vill gärna höra din synpunkt på förslaget.\n(I’d really like to hear your opinion on the proposal.)\n\nUr miljösynpunkt är det här ett bättre val.\n(From an environmental standpoint, this is a better choice.)",
+    "audio": "Jag vill gärna höra din synpunkt på förslaget. Ur miljösynpunkt är det här ett bättre val.",
+    "tags": ["swedish"],
+    "notes": "en synpunkt, synpunkten, synpunkter",
+    "imageHint": "notepad with bullet points, question marks, office desk",
+    "mochiId": "HhqSwlgU"
+  },
+  {
+    "word": "angående",
+    "english": "regarding, concerning, about",
+    "examples": "Jag har en fråga angående fakturan.\n(I have a question regarding the invoice.)\n\nVi skickar ett mejl angående leveransen.\n(We are sending an email about the delivery.)",
+    "audio": "Jag har en fråga angående fakturan. Vi skickar ett mejl angående leveransen.",
+    "tags": ["swedish"],
+    "notes": "angående (preposition)",
+    "imageHint": "Invoice and delivery note on desk, email draft open",
+    "mochiId": "X0d6v2fv"
+  },
+  {
+    "word": "undan",
+    "english": "away, out of the way; off; aside",
+    "examples": "Flytta undan stolen, tack.\n(Move the chair out of the way, please.)\n\nHon tog undan disken efter maten.\n(She cleared away the dishes after the meal.)",
+    "audio": "Flytta undan stolen, tack. Hon tog undan disken efter maten.",
+    "tags": ["swedish"],
+    "notes": "adverb (no inflection)",
+    "imageHint": "kitchen counter with dishes being cleared away",
+    "mochiId": "vnPwqY9M"
+  },
+  {
+    "word": "präst",
+    "english": "priest; pastor; clergy member",
+    "examples": "Prästen höll en kort predikan i kyrkan.\n(The priest gave a short sermon in the church.)\n\nVi bokade tid med en präst för dopet.\n(We booked an appointment with a priest for the baptism.)",
+    "audio": "Prästen höll en kort predikan i kyrkan. Vi bokade tid med en präst för dopet.",
+    "tags": ["swedish"],
+    "notes": "en präst, prästen, präster (common noun)",
+    "imageHint": "Old stone church interior with altar and candles",
+    "mochiId": "CHeHxR9C"
+  },
+  {
+    "word": "bostad",
+    "english": "home, dwelling, housing",
+    "examples": "Vi letar efter en bostad nära centrum.\n(We are looking for a home near the city center.)\n\nDet är svårt att hitta bostad i Stockholm.\n(It is hard to find housing in Stockholm.)",
+    "audio": "Vi letar efter en bostad nära centrum. Det är svårt att hitta bostad i Stockholm.",
+    "tags": ["swedish"],
+    "notes": "en bostad, bostaden, bostäder",
+    "imageHint": "Cozy Swedish apartment interior, furniture, evening light",
+    "mochiId": "pHnWjhCw"
+  },
+  {
+    "word": "vardag",
+    "english": "weekday; everyday life",
+    "examples": "Det är en vanlig vardag för mig.\n(It’s a normal weekday for me.)\n\nJag tar bussen till jobbet varje vardag.\n(I take the bus to work every weekday.)",
+    "audio": "Det är en vanlig vardag för mig. Jag tar bussen till jobbet varje vardag.",
+    "tags": ["swedish"],
+    "notes": "en vardag, vardagen, vardagar, vardagarna",
+    "imageHint": "quiet city street with bus stop, weekday morning",
+    "mochiId": "y0KbD7im"
+  },
+  {
+    "word": "gratis",
+    "english": "free (of charge)",
+    "examples": "Kaffet är gratis idag.\n(The coffee is free today.)\n\nDu får en extra biljett gratis.\n(You get an extra ticket for free.)",
+    "audio": "Kaffet är gratis idag. Du får en extra biljett gratis.",
+    "tags": ["swedish"],
+    "notes": "gratis (adverb)",
+    "imageHint": "Store sign reading 'Gratis' beside product display",
+    "mochiId": "lMYsSUjW"
+  },
+  {
+    "word": "webbplats",
+    "english": "website, site",
+    "examples": "Jag hittade informationen på företagets webbplats.\n(I found the information on the company's website.)\n\nWebbplatsen ligger nere just nu.\n(The website is down right now.)",
+    "audio": "Jag hittade informationen på företagets webbplats. Webbplatsen ligger nere just nu.",
+    "tags": ["swedish"],
+    "notes": "en webbplats, webbplatsen, webbplatser",
+    "imageHint": "Laptop screen showing clean website layout and domain bar",
+    "mochiId": "FMSE3UFK"
+  },
+  {
+    "word": "återkomma",
+    "english": "return; come back; recur",
+    "examples": "Jag återkommer med besked i morgon.\n(I’ll get back to you with an answer tomorrow.)\n\nProblemet återkommer varje vinter.\n(The problem recurs every winter.)",
+    "audio": "Jag återkommer med besked i morgon. Problemet återkommer varje vinter.",
+    "tags": ["swedish"],
+    "notes": "återkommer/återkom/återkommit (verb)",
+    "imageHint": "Snowy road with recurring pothole, winter setting",
+    "mochiId": "AilQCVRd"
+  },
+  {
+    "word": "bevisa",
+    "english": "prove, demonstrate",
+    "examples": "Kan du bevisa att påståendet stämmer?\n(Can you prove that the claim is true?)\n\nFingeravtrycken bevisade att han var på platsen.\n(The fingerprints proved that he was at the scene.)",
+    "audio": "Kan du bevisa att påståendet stämmer? Fingeravtrycken bevisade att han var på platsen.",
+    "tags": ["swedish"],
+    "notes": "bevisa/bevisade/bevisat (verb)",
+    "imageHint": "Magnifying glass over documents and stamped evidence folders",
+    "mochiId": "Ln1BgqZQ"
+  },
+  {
+    "word": "förbjuda",
+    "english": "to forbid, to prohibit",
+    "examples": "Det är förbjudet att röka här.\n(It is forbidden to smoke here.)\n\nSkolan förbjöd mobiltelefoner under lektionerna.\n(The school prohibited mobile phones during lessons.)",
+    "audio": "Det är förbjudet att röka här. Skolan förbjöd mobiltelefoner under lektionerna.",
+    "tags": ["swedish"],
+    "notes": "förbjuda/förbjöd/förbjudit (irregular verb)",
+    "imageHint": "No smoking sign on a door, indoor hallway",
+    "mochiId": "dWNfILk3"
+  },
+  {
+    "word": "uttala",
+    "english": "pronounce; express; state",
+    "examples": "Hur uttalar man det här ordet?\n(How do you pronounce this word?)\n\nHon uttalade sig tydligt i frågan.\n(She expressed herself clearly on the issue.)",
+    "audio": "Hur uttalar man det här ordet? Hon uttalade sig tydligt i frågan.",
+    "tags": ["swedish"],
+    "notes": "uttala/uttalade/uttalat (verb)",
+    "imageHint": "Close-up of dictionary page with phonetic symbols, sound waves",
+    "mochiId": "sjt1PDq0"
+  },
+  {
+    "word": "försäljning",
+    "english": "sale; sales",
+    "examples": "Försäljningen ökade med tio procent i år.\n(Sales increased by ten percent this year.)\n\nButiken har rea för att få upp försäljningen.\n(The store has a sale to boost sales.)",
+    "audio": "Försäljningen ökade med tio procent i år. Butiken har rea för att få upp försäljningen.",
+    "tags": ["swedish"],
+    "notes": "en försäljning, försäljningen, försäljningar",
+    "imageHint": "store shelves with price tags and cash register",
+    "mochiId": "DzvzV4ZG"
+  },
+  {
+    "word": "investering",
+    "english": "investment",
+    "examples": "Vi gjorde en investering i nya maskiner för att öka produktionen.\n(We made an investment in new machines to increase production.)\n\nDet är en långsiktig investering som kan ge hög avkastning.\n(It’s a long-term investment that can yield high returns.)",
+    "audio": "Vi gjorde en investering i nya maskiner för att öka produktionen. Det är en långsiktig investering som kan ge hög avkastning.",
+    "tags": ["swedish"],
+    "notes": "en investering, investeringen, investeringar",
+    "imageHint": "Stack of coins beside growing plant, ledger book",
+    "mochiId": "kNrsUMzX"
+  },
+  {
+    "word": "populär",
+    "english": "popular, well-liked",
+    "examples": "Den här appen är väldigt populär bland studenter.\n(This app is very popular among students.)\n\nDet är en populär restaurang, så boka bord i förväg.\n(It’s a popular restaurant, so book a table in advance.)",
+    "audio": "Den här appen är väldigt populär bland studenter. Det är en populär restaurang, så boka bord i förväg.",
+    "tags": ["swedish"],
+    "notes": "populär/populärt/populära (adjective)",
+    "imageHint": "Busy restaurant entrance with reservation sign at dusk",
+    "mochiId": "e7cUzjIf"
+  },
+  {
+    "word": "fira",
+    "english": "celebrate; observe (a holiday)",
+    "examples": "Vi ska fira hennes födelsedag i helgen.\n(We’re going to celebrate her birthday this weekend.)\n\nDe firar jul med hela familjen.\n(They celebrate Christmas with the whole family.)",
+    "audio": "Vi ska fira hennes födelsedag i helgen. De firar jul med hela familjen.",
+    "tags": ["swedish"],
+    "notes": "firar/firade/firat (verb)",
+    "imageHint": "Festive table with candles, balloons, and wrapped gifts",
+    "mochiId": "5kM8g0LR"
+  },
+  {
+    "word": "klubb",
+    "english": "club; (cudgel) club",
+    "examples": "Jag är med i en tennisklubb.\n(I’m a member of a tennis club.)\n\nDe gick till en nattklubb efter konserten.\n(They went to a nightclub after the concert.)",
+    "audio": "Jag är med i en tennisklubb. De gick till en nattklubb efter konserten.",
+    "tags": ["swedish"],
+    "notes": "en klubb, klubben, klubbar, klubbarna",
+    "imageHint": "tennis racket and balls beside a clubhouse sign",
+    "mochiId": "o6da0DGW"
+  },
+  {
+    "word": "citat",
+    "english": "quote, quotation",
+    "examples": "Jag skrev ner ett citat från boken.\n(I wrote down a quote from the book.)\n\nArtikeln innehåller flera citat från intervjun.\n(The article contains several quotations from the interview.)",
+    "audio": "Jag skrev ner ett citat från boken. Artikeln innehåller flera citat från intervjun.",
+    "tags": ["swedish"],
+    "notes": "ett citat, citatet, citat (neuter noun); Används för ordagranna återgivningar; ofta med källa/namn.",
+    "imageHint": "Open book with highlighted line and quotation marks",
+    "mochiId": "7iJzDAQf"
+  },
+  {
+    "word": "palestinier",
+    "english": "Palestinian",
+    "examples": "Han är palestinier och bor i Sverige.\n(He is Palestinian and lives in Sweden.)\n\nMånga palestinier har släktingar i olika länder.\n(Many Palestinians have relatives in different countries.)",
+    "audio": "Han är palestinier och bor i Sverige. Många palestinier har släktingar i olika länder.",
+    "tags": ["swedish"],
+    "notes": "en palestinier, palestinieren, palestinier, palestinierna",
+    "imageHint": "Olive grove, stone terrace, distant city skyline",
+    "mochiId": "OckQVTgS"
+  },
+  {
+    "word": "fiende",
+    "english": "enemy, foe",
+    "examples": "De såg varandra som fiender efter bråket.\n(They saw each other as enemies after the quarrel.)\n\nKylen är vår värsta fiende när elen går.\n(The fridge is our worst enemy when the power goes out.)",
+    "audio": "De såg varandra som fiender efter bråket. Kylen är vår värsta fiende när elen går.",
+    "tags": ["swedish"],
+    "notes": "en fiende, fienden, fiender, fienderna",
+    "imageHint": "Dark storm clouds over abandoned battlefield, broken flags",
+    "mochiId": "UYdGx2RZ"
+  },
+  {
+    "word": "unik",
+    "english": "unique, one-of-a-kind",
+    "examples": "Det här är en unik möjlighet som inte kommer tillbaka.\n(This is a unique opportunity that won’t come back.)\n\nVarje snöflinga har ett unikt mönster.\n(Every snowflake has a unique pattern.)",
+    "audio": "Det här är en unik möjlighet som inte kommer tillbaka. Varje snöflinga har ett unikt mönster.",
+    "tags": ["swedish"],
+    "notes": "unik/unikt/unika (adjective)",
+    "imageHint": "Single snowflake on dark surface, intricate pattern",
+    "mochiId": "JmwhnW1w"
   }
 ]
