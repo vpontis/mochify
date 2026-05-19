@@ -1,7 +1,6 @@
 #!/usr/bin/env bun
 import { MochiClient, writeFormattedJSON } from "../utils";
 import pLimit from "p-limit";
-import { existsSync } from "node:fs";
 
 interface VocabularyItem {
   word: string;
@@ -41,17 +40,6 @@ async function syncSingleWord({
   vocabulary: VocabularyItem[];
 }) {
   try {
-    // Check if image exists for this card
-    const imagePath = `./images/${item.mochiId}.png`;
-    let notesWithImage = item.notes || "";
-
-    if (item.mochiId && existsSync(imagePath)) {
-      const imageUrl = `https://raw.githubusercontent.com/vpontis/mochify/refs/heads/master/images/${item.mochiId}.png`;
-      notesWithImage = notesWithImage
-        ? `${notesWithImage}\n\n![${item.word}](${imageUrl})`
-        : `![${item.word}](${imageUrl})`;
-    }
-
     // Build field data for template
     const fieldData = {
       [FIELD_IDS.word]: {
@@ -72,7 +60,7 @@ async function syncSingleWord({
       },
       [FIELD_IDS.notes]: {
         id: FIELD_IDS.notes,
-        value: notesWithImage,
+        value: item.notes || "",
       },
     };
 
@@ -161,17 +149,6 @@ async function syncSwedishVocabulary(
     }
 
     try {
-      // Check if image exists for this card
-      const imagePath = `./images/${item.mochiId}.png`;
-      let notesWithImage = item.notes || "";
-
-      if (item.mochiId && existsSync(imagePath)) {
-        const imageUrl = `https://raw.githubusercontent.com/vpontis/mochify/refs/heads/master/images/${item.mochiId}.png`;
-        notesWithImage = notesWithImage
-          ? `${notesWithImage}\n\n![${item.word}](${imageUrl})`
-          : `![${item.word}](${imageUrl})`;
-      }
-
       // Build field data for template
       const fieldData = {
         [FIELD_IDS.word]: {
@@ -192,7 +169,7 @@ async function syncSwedishVocabulary(
         },
         [FIELD_IDS.notes]: {
           id: FIELD_IDS.notes,
-          value: notesWithImage,
+          value: item.notes || "",
         },
       };
 

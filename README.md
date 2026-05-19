@@ -8,7 +8,6 @@ A TypeScript library and CLI for creating and managing [Mochi](https://mochi.car
 - 🎯 Type-safe API calls with Zod validation
 - 📚 Bulk card creation and management
 - 🗣️ Language learning focused (Swedish alphabet & vocabulary)
-- 🖼️ AI-powered image generation for vocabulary cards (OpenAI)
 - 📋 Template-based card creation with dynamic fields
 - 🔄 Incremental sync - only creates/updates changed cards
 - ⚡ Built with Bun for fast execution
@@ -39,11 +38,11 @@ Create a `.env` file with your API keys:
 
 ```env
 MOCHI_API_KEY=your_mochi_api_key_here
-OPENAI_API_KEY=your_openai_api_key_here  # Optional: for image generation
+OPENAI_API_KEY=your_openai_api_key_here  # For AI-generated vocab entries
 ```
 
 - Get your Mochi API key from the [Mochi settings](https://app.mochi.cards/settings/api)
-- Get your OpenAI API key from the [OpenAI platform](https://platform.openai.com/api-keys) (optional, only needed for image generation)
+- Get your OpenAI API key from the [OpenAI platform](https://platform.openai.com/api-keys)
 
 ## Usage
 
@@ -64,18 +63,6 @@ bun alphabet/sync-swedish-alphabet.ts
 
 # Sync Swedish vocabulary cards
 bun vocab/sync-swedish-vocabulary.ts
-
-# Add notes to existing vocabulary cards
-bun vocab/add-notes-to-vocabulary.ts
-
-# Generate images for vocabulary cards
-bun vocab/gen-images.ts
-
-# Update vocabulary template
-bun vocab/update-vocabulary-template.ts
-
-# Generate individual images using OpenAI
-bun image-gen/generate-images.ts
 ```
 
 ### API Client Usage
@@ -172,20 +159,8 @@ Common greeting, informal
 
 ### Vocabulary Workflow
 
-1. **Define vocabulary** in `vocab/swedish-core.json`
+1. **Add words** with `bun vocab/add-words.ts hej tack fika` (AI generates entries)
 2. **Sync to Mochi** with `bun vocab/sync-swedish-vocabulary.ts`
-3. **Generate images** with `bun vocab/gen-images.ts` (uses OpenAI)
-4. **Add grammar notes** with `bun vocab/add-notes-to-vocabulary.ts`
-5. **Update templates** with `bun vocab/update-vocabulary-template.ts`
-
-### Image Generation
-
-AI-generated images help with vocabulary retention:
-
-- Uses OpenAI's latest image models
-- Generates contextual illustrations for vocabulary words
-- Supports multiple quality levels (low/medium/high)
-- Images are saved locally and can be uploaded to cards
 
 ### Card Format
 
@@ -207,24 +182,17 @@ Answer or additional information
 
 ```
 mochify/
-├── mochi-client.ts             # Main API client and CLI
-├── fetch-json.ts               # HTTP utility with Zod validation
+├── utils/
+│   ├── mochi-client.ts         # Main API client and CLI
+│   └── fetch-json.ts           # HTTP utility with Zod validation
 ├── utils.ts                    # Shared utilities
-├── alphabet/
-│   ├── swedish-alphabet.json   # Swedish alphabet learning data
-│   └── sync-swedish-alphabet.ts # Swedish alphabet sync script
 ├── vocab/
+│   ├── add-words.ts            # AI-powered vocab generator
 │   ├── swedish-core.json       # Core Swedish vocabulary
 │   ├── sync-swedish-vocabulary.ts # Vocabulary sync script
-│   ├── add-notes-to-vocabulary.ts # Add notes to existing cards
-│   ├── gen-images.ts           # Generate images for vocab cards
-│   └── update-vocabulary-template.ts # Template management
-├── image-gen/
-│   └── generate-images.ts      # OpenAI image generation
+│   └── kelly-swedish.csv       # Swedish frequency list
 ├── templates/
-│   ├── swedish-alphabet-template.md # Alphabet card template
 │   └── swedish-vocabulary-template.md # Vocabulary card template
-├── images/                     # Generated vocabulary images
 └── CLAUDE.md                   # AI assistant instructions
 ```
 
@@ -234,7 +202,7 @@ mochify/
 
 - **[Zod](https://zod.dev/)** - Schema validation and type inference
 - **[Commander.js](https://github.com/tj/commander.js)** - CLI framework
-- **[OpenAI](https://github.com/openai/openai-node)** - Image generation API
+- **[OpenAI](https://github.com/openai/openai-node)** - AI vocab entry generation
 - **[p-limit](https://github.com/sindresorhus/p-limit)** - Concurrent request limiting
 
 ### Development Dependencies

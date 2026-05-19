@@ -1,12 +1,12 @@
 ---
-description: Mochi Cards API client for Swedish vocabulary learning with AI-generated images
+description: Mochi Cards API client for Swedish vocabulary learning
 globs: "utils/*.ts, vocab/*.ts, templates/*.md"
 alwaysApply: false
 ---
 
 # Mochify - Mochi Cards API Client
 
-TypeScript client and CLI for [Mochi](https://mochi.cards) flashcards. Currently focused on Swedish vocabulary learning with AI-powered images, but works as a general-purpose Mochi API client.
+TypeScript client and CLI for [Mochi](https://mochi.cards) flashcards. Currently focused on Swedish vocabulary learning, but works as a general-purpose Mochi API client.
 
 ## Project Structure
 
@@ -20,10 +20,8 @@ TypeScript client and CLI for [Mochi](https://mochi.cards) flashcards. Currently
 
 - `vocab/add-words.ts` - AI-powered vocab generator (uses OpenAI)
 - `vocab/sync-swedish-vocabulary.ts` - Sync to Mochi
-- `vocab/gen-images.ts` - Generate DALL-E images (uses OpenAI)
 - `vocab/swedish-core.json` - Vocabulary data with Mochi IDs
 - `vocab/kelly-swedish.csv` - Swedish frequency list
-- `images/` - Generated images (355+ files)
 
 ## Swedish Vocabulary Workflow
 
@@ -33,12 +31,6 @@ bun vocab/add-words.ts hej tack fika
 bun vocab/add-words.ts --kelly 20  # Add next 20 from frequency list
 
 # 2. Sync to Mochi (creates/updates cards)
-bun vocab/sync-swedish-vocabulary.ts
-
-# 3. Generate images
-bun vocab/gen-images.ts
-
-# 4. Re-sync to add images to cards
 bun vocab/sync-swedish-vocabulary.ts
 ```
 

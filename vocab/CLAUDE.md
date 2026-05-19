@@ -1,6 +1,6 @@
 ---
 description: Complete guide for managing Swedish vocabulary in the Mochify system
-globs: "vocab/*.json, vocab/*.ts, images/*.png"
+globs: "vocab/*.json, vocab/*.ts"
 ---
 
 # Swedish Vocabulary Management Guide
@@ -63,55 +63,6 @@ The script will:
 - Create new cards for entries without `mochiId`
 - Update existing cards that have `mochiId`
 - Save the generated IDs back to `swedish-core.json`
-
-#### 4. Generate Images (Required for Visual Learning)
-
-Generate AI-powered images for all new cards:
-
-```bash
-bun vocab/gen-images.ts
-```
-
-This script:
-
-- Uses OpenAI's DALL-E to create contextual images
-- Saves images as `images/{mochiId}.png`
-- Skips cards that already have images
-- Processes 5 images concurrently for efficiency
-
-**Note:** Requires `OPENAI_API_KEY` in your `.env` file
-
-### Optional: Guide Images with a Hint
-
-You can add an `imageHint` to any vocab item in `vocab/swedish-core.json`. Keep it short (6–15 words) and concrete; it seeds the scene the AI elaborates:
-
-```json
-{
-  "word": "norrsken",
-  "english": "northern lights",
-  "examples": "Norrskenet lyser över fjällen.\n(The northern lights shine over the fells.)\n\nVi står tysta och ser norrsken dansa.\n(We stand silent and watch the northern lights dance.)",
-  "audio": "Norrskenet lyser över fjällen. Vi står tysta och ser norrsken dansa.",
-  "tags": ["swedish"],
-  "notes": "ett norrsken; plural norrsken",
-  "imageHint": "environment only: aurora over snowy ridge; no people"
-}
-```
-
-If omitted, the generator writes a general prompt and lets the model pick an appropriate composition.
-
-#### 5. Re-sync to Add Images
-
-After generating images, sync again to add them to the cards:
-
-```bash
-bun vocab/sync-swedish-vocabulary.ts
-```
-
-The sync script automatically:
-
-- Detects images in the `images/` directory
-- Adds image links to the card notes
-- Updates the cards in Mochi with the images
 
 ## Vocabulary Sources
 
@@ -195,15 +146,7 @@ bun -e "JSON.parse(require('fs').readFileSync('vocab/swedish-core.json', 'utf8')
 
 # 3. Sync to Mochi (creates cards and saves mochiId)
 bun vocab/sync-swedish-vocabulary.ts
-
-# 4. Generate images for all new cards (REQUIRED)
-bun vocab/gen-images.ts
-
-# 5. Re-sync to add images to cards
-bun vocab/sync-swedish-vocabulary.ts
 ```
-
-**Important:** Always generate images after adding new cards. Visual memory aids significantly improve retention for language learning.
 
 ## Troubleshooting
 

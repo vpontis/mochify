@@ -15,7 +15,6 @@ import OpenAI from "openai";
 import { parse } from "csv-parse/sync";
 import { dedent, writeFormattedJSON, MochiClient } from "../utils";
 import { Command } from "commander";
-import { existsSync } from "node:fs";
 import pLimit from "p-limit";
 
 interface VocabWord {
@@ -26,7 +25,6 @@ interface VocabWord {
   tags: string[];
   notes: string;
   mochiId?: string;
-  imageHint?: string;
 }
 
 interface GeneratedEntry {
@@ -36,7 +34,6 @@ interface GeneratedEntry {
   grammar: string;
   examples: Array<{ swedish: string; english: string }>;
   usage: string;
-  imageHint: string;
 }
 
 // Mochi template configuration
@@ -76,8 +73,7 @@ async function generateVocabEntry(
           {"swedish": "Example sentence", "english": "Translation"},
           {"swedish": "Another example", "english": "Translation"}
         ],
-        "usage": "Brief usage note if important",
-        "imageHint": "6-10 word scene description for image generation (no people)"
+        "usage": "Brief usage note if important"
       }
 
       IMPORTANT:
@@ -87,7 +83,7 @@ async function generateVocabEntry(
     `;
 
     const response = await openai.responses.create({
-      model: "gpt-5.2",
+      model: "gpt-5.5",
       reasoning: { effort: "medium" },
       instructions:
         "You are a Swedish language expert. Generate accurate, practical vocabulary entries. Keep grammar notes SHORT and concise (max 80 chars). Focus on essential conjugations/declensions only.",
@@ -134,7 +130,6 @@ function convertToVocabWord(entry: GeneratedEntry): VocabWord {
     audio: audioText,
     tags: ["swedish"],
     notes: notes,
-    imageHint: entry.imageHint,
   };
 }
 
@@ -163,23 +158,12 @@ async function syncToMochi(
   deckId: string,
   item: VocabWord,
 ): Promise<{ action: "created" | "updated"; cardId: string }> {
-  // Check if image exists
-  const imagePath = `./images/${item.mochiId}.png`;
-  let notesWithImage = item.notes || "";
-
-  if (item.mochiId && existsSync(imagePath)) {
-    const imageUrl = `https://raw.githubusercontent.com/vpontis/mochify/refs/heads/master/images/${item.mochiId}.png`;
-    notesWithImage = notesWithImage
-      ? `${notesWithImage}\n\n![${item.word}](${imageUrl})`
-      : `![${item.word}](${imageUrl})`;
-  }
-
   const fieldData = {
     [FIELD_IDS.word]: { id: FIELD_IDS.word, value: item.word },
     [FIELD_IDS.english]: { id: FIELD_IDS.english, value: item.english },
     [FIELD_IDS.examples]: { id: FIELD_IDS.examples, value: item.examples },
     [FIELD_IDS.audio]: { id: FIELD_IDS.audio, value: item.audio },
-    [FIELD_IDS.notes]: { id: FIELD_IDS.notes, value: notesWithImage },
+    [FIELD_IDS.notes]: { id: FIELD_IDS.notes, value: item.notes || "" },
   };
 
   if (item.mochiId) {
