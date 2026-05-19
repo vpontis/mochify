@@ -5008,5 +5008,1375 @@
     "notes": "preposition; With time means 'around'; with place means close by/at.",
     "imageHint": "A house by a lakeshore at sunset",
     "mochiId": "jLp02Jxs"
+  },
+  {
+    "word": "äpple",
+    "english": "apple",
+    "examples": "Jag äter ett äpple till frukost.\n(I eat an apple for breakfast.)\n\nKan du skära äpplet i klyftor?\n(Can you cut the apple into wedges?)",
+    "audio": "Jag äter ett äpple till frukost. Kan du skära äpplet i klyftor?",
+    "tags": ["swedish"],
+    "notes": "ett äpple, äpplet, äpplen (neuter noun)",
+    "imageHint": "Red apple on wooden table, knife, apple slices",
+    "mochiId": "sOoMoYZN"
+  },
+  {
+    "word": "apelsin",
+    "english": "orange",
+    "examples": "Jag köpte en apelsin på affären.\n(I bought an orange at the store.)\n\nVill du ha apelsinjuice till frukost?\n(Do you want orange juice for breakfast?)",
+    "audio": "Jag köpte en apelsin på affären. Vill du ha apelsinjuice till frukost?",
+    "tags": ["swedish"],
+    "notes": "en apelsin, apelsinen, apelsiner, apelsinerna",
+    "imageHint": "Orange on cutting board with sliced segments",
+    "mochiId": "9yvP47PF"
+  },
+  {
+    "word": "bak",
+    "english": "back, rear; behind",
+    "examples": "Nycklarna ligger bak i bilen.\n(The keys are in the back of the car.)\n\nStäll cykeln bak huset.\n(Put the bike behind the house.)",
+    "audio": "Nycklarna ligger bak i bilen. Ställ cykeln bak huset.",
+    "tags": ["swedish"],
+    "notes": "bak (adverb/preposition)",
+    "imageHint": "Bicycle parked behind a small red house",
+    "mochiId": "8vLVpTEx"
+  },
+  {
+    "word": "baka",
+    "english": "to bake",
+    "examples": "Jag ska baka bröd i kväll.\n(I'm going to bake bread tonight.)\n\nHon bakade kanelbullar till fikat.\n(She baked cinnamon buns for the coffee break.)",
+    "audio": "Jag ska baka bröd i kväll. Hon bakade kanelbullar till fikat.",
+    "tags": ["swedish"],
+    "notes": "bakar/bakade/bakat (verb)",
+    "imageHint": "fresh bread loaf, flour, rolling pin, oven tray",
+    "mochiId": "ILFdRiKZ"
+  },
+  {
+    "word": "ärta",
+    "english": "pea",
+    "examples": "Jag vill ha ärtor till fisken.\n(I want peas with the fish.)\n\nHon åt soppa med ärtor och morötter.\n(She ate soup with peas and carrots.)",
+    "audio": "Jag vill ha ärtor till fisken. Hon åt soppa med ärtor och morötter.",
+    "tags": ["swedish"],
+    "notes": "en ärta, ärtan, ärtor; Vanligt i mat: gröna ärtor; också i uttrycket “ärtsoppa”.",
+    "imageHint": "Skål med gröna ärtor på köksbord",
+    "mochiId": "p6oW4eWa"
+  },
+  {
+    "word": "andra",
+    "english": "other; second; to breathe",
+    "examples": "Vi tar den andra vägen hem.\n(We'll take the other way home.)\n\nJag kan inte andas genom näsan.\n(I can't breathe through my nose.)",
+    "audio": "Vi tar den andra vägen hem. Jag kan inte andas genom näsan.",
+    "tags": ["swedish"],
+    "notes": "annan/annat/andra (adj); andas/andas/andades/andats (verb)",
+    "imageHint": "two different roads through a quiet forest",
+    "mochiId": "yk5kuoV6"
+  },
+  {
+    "word": "bageri",
+    "english": "bakery",
+    "examples": "Jag köper färskt bröd på bageriet varje morgon.\n(I buy fresh bread at the bakery every morning.)\n\nDet doftar kanelbullar utanför bageriet.\n(It smells like cinnamon buns outside the bakery.)",
+    "audio": "Jag köper färskt bröd på bageriet varje morgon. Det doftar kanelbullar utanför bageriet.",
+    "tags": ["swedish"],
+    "notes": "ett bageri, bageriet, bagerier",
+    "imageHint": "Bakery storefront with bread loaves and pastries in window",
+    "mochiId": "UAvqcjCo"
+  },
+  {
+    "word": "bakprodukt",
+    "english": "baked good; bakery product",
+    "examples": "Vi säljer bakprodukter som bröd och kanelbullar varje morgon.\n(We sell baked goods like bread and cinnamon buns every morning.)\n\nDen här bakprodukten innehåller gluten och mjölk.\n(This baked product contains gluten and milk.)",
+    "audio": "Vi säljer bakprodukter som bröd och kanelbullar varje morgon. Den här bakprodukten innehåller gluten och mjölk.",
+    "tags": ["swedish"],
+    "notes": "en bakprodukt, bakprodukten, bakprodukter, bakprodukterna",
+    "imageHint": "Assortment of bread, buns, and cookies on counter",
+    "mochiId": "4PEvBa6I"
+  },
+  {
+    "word": "bokstav",
+    "english": "letter (of the alphabet)",
+    "examples": "Hur många bokstäver finns det i alfabetet?\n(How many letters are there in the alphabet?)\n\nSkriv ditt namn med stora bokstäver.\n(Write your name in capital letters.)",
+    "audio": "Hur många bokstäver finns det i alfabetet? Skriv ditt namn med stora bokstäver.",
+    "tags": ["swedish"],
+    "notes": "en bokstav, bokstaven, bokstäver, bokstäverna",
+    "imageHint": "Alphabet letters arranged neatly on a wooden desk",
+    "mochiId": "gIfF3xaB"
+  },
+  {
+    "word": "bröd",
+    "english": "bread",
+    "examples": "Kan du skära upp brödet?\n(Can you slice the bread?)\n\nJag köper färskt bröd på bageriet varje lördag.\n(I buy fresh bread at the bakery every Saturday.)",
+    "audio": "Kan du skära upp brödet? Jag köper färskt bröd på bageriet varje lördag.",
+    "tags": ["swedish"],
+    "notes": "ett bröd, brödet, bröd, bröden (noun)",
+    "imageHint": "Freshly baked loaf on wooden cutting board, kitchen",
+    "mochiId": "faarjLaO"
+  },
+  {
+    "word": "brownie",
+    "english": "brownie (chocolate square)",
+    "examples": "Jag bakade brownies till fikat.\n(I baked brownies for the coffee break.)\n\nDen här brownien är kladdig och chokladig.\n(This brownie is gooey and chocolatey.)",
+    "audio": "Jag bakade brownies till fikat. Den här brownien är kladdig och chokladig.",
+    "tags": ["swedish"],
+    "notes": "en brownie, brownien, brownies (common noun); Lånord; ofta böjt som 'brownies'. Uttal ungefär [braʊni].",
+    "imageHint": "Fudgy chocolate brownie squares on rustic wooden plate",
+    "mochiId": "JACzpHe9"
+  },
+  {
+    "word": "bulle",
+    "english": "bun, sweet roll",
+    "examples": "Jag tar en kanelbulle till kaffet.\n(I’ll have a cinnamon bun with my coffee.)\n\nDet finns nybakade bullar i köket.\n(There are freshly baked buns in the kitchen.)",
+    "audio": "Jag tar en kanelbulle till kaffet. Det finns nybakade bullar i köket.",
+    "tags": ["swedish"],
+    "notes": "en bulle, bullen, bullar, bullarna",
+    "imageHint": "Fresh cinnamon buns on plate beside coffee cup",
+    "mochiId": "mixCAJ2G"
+  },
+  {
+    "word": "burk",
+    "english": "jar, can, tin",
+    "examples": "Kan du öppna burken med sylt?\n(Can you open the jar of jam?)\n\nJag köpte en burk krossade tomater.\n(I bought a can of crushed tomatoes.)",
+    "audio": "Kan du öppna burken med sylt? Jag köpte en burk krossade tomater.",
+    "tags": ["swedish"],
+    "notes": "en burk, burken, burkar, burkarna",
+    "imageHint": "Glass jar with jam on wooden kitchen counter",
+    "mochiId": "bbag1SFQ"
+  },
+  {
+    "word": "chips",
+    "english": "crisps; potato chips",
+    "examples": "Vi köpte chips och läsk till filmen.\n(We bought crisps and soda for the movie.)\n\nKan du ställa fram en skål med chips?\n(Can you put out a bowl of crisps?)",
+    "audio": "Vi köpte chips och läsk till filmen. Kan du ställa fram en skål med chips?",
+    "tags": ["swedish"],
+    "notes": "chips (pl.), chipsen, chips; I Sverige betyder 'chips' vanligtvis potatischips (crisps).",
+    "imageHint": "Skål med potatischips på soffbord, kvällsljus",
+    "mochiId": "I8wAh8wt"
+  },
+  {
+    "word": "chark",
+    "english": "cold cuts; cured meats; deli meats",
+    "examples": "Vi köpte chark och ost till fredagsmyset.\n(We bought cold cuts and cheese for Friday cozy time.)\n\nDet finns en charkdisk längst bak i butiken.\n(There is a deli counter at the back of the store.)",
+    "audio": "Vi köpte chark och ost till fredagsmyset. Det finns en charkdisk längst bak i butiken.",
+    "tags": ["swedish"],
+    "notes": "en chark, charken (common noun)",
+    "imageHint": "Deli counter with assorted sliced meats and sausages",
+    "mochiId": "MCKzNJ8m"
+  },
+  {
+    "word": "choklad",
+    "english": "chocolate",
+    "examples": "Jag köpte en chokladkaka till efterrätt.\n(I bought a chocolate bar for dessert.)\n\nHon vill ha varm choklad när det är kallt ute.\n(She wants hot chocolate when it's cold outside.)",
+    "audio": "Jag köpte en chokladkaka till efterrätt. Hon vill ha varm choklad när det är kallt ute.",
+    "tags": ["swedish"],
+    "notes": "en choklad, chokladen, choklader",
+    "imageHint": "Chokladkaka och varm choklad på köksbord",
+    "mochiId": "kDlwL8a9"
+  },
+  {
+    "word": "ask",
+    "english": "ash (tree); box, case",
+    "examples": "Det står en ask vid staketet.\n(There is an ash tree by the fence.)\n\nKan du ge mig en ask tändstickor?\n(Can you give me a box of matches?)",
+    "audio": "Det står en ask vid staketet. Kan du ge mig en ask tändstickor?",
+    "tags": ["swedish"],
+    "notes": "en ask, asken, askar",
+    "imageHint": "A small matchbox on a wooden table",
+    "mochiId": "kYqILEhM"
+  },
+  {
+    "word": "chokladboll",
+    "english": "chocolate ball; no-bake chocolate truffle",
+    "examples": "Jag köpte en chokladboll till fikat.\n(I bought a chocolate ball for the coffee break.)\n\nRulla chokladbollarna i kokos innan du ställer in dem i kylen.\n(Roll the chocolate balls in coconut before you put them in the fridge.)",
+    "audio": "Jag köpte en chokladboll till fikat. Rulla chokladbollarna i kokos innan du ställer in dem i kylen.",
+    "tags": ["swedish"],
+    "notes": "en chokladboll, chokladbollen, chokladbollar",
+    "imageHint": "chokladbollar on plate with coconut, coffee cup, table",
+    "mochiId": "p7yk1j2E"
+  },
+  {
+    "word": "chokladruta",
+    "english": "chocolate square, chocolate bar (piece)",
+    "examples": "Jag tog en chokladruta till kaffet.\n(I had a chocolate square with my coffee.)\n\nBryt av två chokladrutor och smält dem i en skål.\n(Break off two chocolate squares and melt them in a bowl.)",
+    "audio": "Jag tog en chokladruta till kaffet. Bryt av två chokladrutor och smält dem i en skål.",
+    "tags": ["swedish"],
+    "notes": "en chokladruta, chokladrutan, chokladrutor",
+    "imageHint": "Chopped chocolate bar squares on wooden cutting board",
+    "mochiId": "huGU4SXT"
+  },
+  {
+    "word": "cigarett",
+    "english": "cigarette",
+    "examples": "Han rökte en cigarett utanför entrén.\n(He smoked a cigarette outside the entrance.)\n\nDet ligger en fimpe på marken.\n(There is a cigarette butt on the ground.)",
+    "audio": "Han rökte en cigarett utanför entrén. Det ligger en fimpe på marken.",
+    "tags": ["swedish"],
+    "notes": "en cigarett, cigaretten, cigaretter",
+    "imageHint": "Pack of cigarettes and lighter on wooden table",
+    "mochiId": "WDm1NGDl"
+  },
+  {
+    "word": "dammsugare",
+    "english": "vacuum cleaner",
+    "examples": "Kan du hämta dammsugaren? Det är smulor på golvet.\n(Can you get the vacuum cleaner? There are crumbs on the floor.)\n\nJag behöver byta påse i dammsugaren.\n(I need to change the bag in the vacuum cleaner.)",
+    "audio": "Kan du hämta dammsugaren? Det är smulor på golvet. Jag behöver byta påse i dammsugaren.",
+    "tags": ["swedish"],
+    "notes": "en dammsugare, dammsugaren, dammsugare, dammsugarna",
+    "imageHint": "Modern vacuum cleaner beside sofa, tidy living room",
+    "mochiId": "TcWtlmjJ"
+  },
+  {
+    "word": "dosa",
+    "english": "box, tin, case",
+    "examples": "Hon förvarar smyckena i en liten dosa.\n(She keeps the jewelry in a small box.)\n\nElektrikern satte en kopplingsdosa i taket.\n(The electrician installed a junction box in the ceiling.)",
+    "audio": "Hon förvarar smyckena i en liten dosa. Elektrikern satte en kopplingsdosa i taket.",
+    "tags": ["swedish"],
+    "notes": "en dosa, dosan, dosor",
+    "imageHint": "liten metallask med lock på träbord, närbild",
+    "mochiId": "YjPk4xi1"
+  },
+  {
+    "word": "druva",
+    "english": "grape",
+    "examples": "Jag köpte gröna druvor på affären.\n(I bought green grapes at the store.)\n\nLägg några druvor i fruktsalladen.\n(Put a few grapes in the fruit salad.)",
+    "audio": "Jag köpte gröna druvor på affären. Lägg några druvor i fruktsalladen.",
+    "tags": ["swedish"],
+    "notes": "en druva, druvan, druvor, druvorna (common noun); Ofta i plural: druvor; även om vindruvor som livsmedel.",
+    "imageHint": "Cluster of green grapes on a wooden table",
+    "mochiId": "zlaZXeag"
+  },
+  {
+    "word": "dryck",
+    "english": "drink, beverage",
+    "examples": "Vill du ha något att dricka eller en dryck till maten?\n(Do you want something to drink or a beverage with the meal?)\n\nDen här drycken är alkoholfri och väldigt frisk.\n(This drink is non-alcoholic and very refreshing.)",
+    "audio": "Vill du ha något att dricka eller en dryck till maten? Den här drycken är alkoholfri och väldigt frisk.",
+    "tags": ["swedish"],
+    "notes": "en dryck, drycken, drycker",
+    "imageHint": "Glass of sparkling water beside sliced lemon, table",
+    "mochiId": "42H8Fs5p"
+  },
+  {
+    "word": "duk",
+    "english": "cloth, tablecloth, towel",
+    "examples": "Kan du lägga på duken på bordet?\n(Can you put the tablecloth on the table?)\n\nTorka av bänken med en fuktig duk.\n(Wipe the counter with a damp cloth.)",
+    "audio": "Kan du lägga på duken på bordet? Torka av bänken med en fuktig duk.",
+    "tags": ["swedish"],
+    "notes": "en duk, duken, dukar, dukarna",
+    "imageHint": "Folded tablecloth on wooden table, soft lighting",
+    "mochiId": "uJLvjxUH"
+  },
+  {
+    "word": "ehh",
+    "english": "uh, um",
+    "examples": "Ehh… jag vet inte riktigt.\n(Um… I’m not really sure.)\n\nDet var, ehh, inte så jag menade.\n(That was, uh, not what I meant.)",
+    "audio": "Ehh… jag vet inte riktigt. Det var, ehh, inte så jag menade.",
+    "tags": ["swedish"],
+    "notes": "interjektion (tvek-/pausljud); Mycket talspråk; används för att tveka eller fylla en paus.",
+    "imageHint": "Empty notepad with scribbles, paused audio waveform on screen",
+    "mochiId": "xqvX16zn"
+  },
+  {
+    "word": "farfar",
+    "english": "paternal grandfather",
+    "examples": "Min farfar bor i Uppsala.\n(My paternal grandfather lives in Uppsala.)\n\nVi hälsar på farfar i helgen.\n(We’re visiting grandpa (dad’s dad) this weekend.)",
+    "audio": "Min farfar bor i Uppsala. Vi hälsar på farfar i helgen.",
+    "tags": ["swedish"],
+    "notes": "en farfar, farfarn, farfäder (common noun)",
+    "imageHint": "Old wooden rocking chair beside fireplace, cozy cabin interior",
+    "mochiId": "l2wFgN1X"
+  },
+  {
+    "word": "duschkräm",
+    "english": "shower cream, shower gel",
+    "examples": "Jag använder duschkräm med aloe vera efter träningen.\n(I use shower cream with aloe vera after working out.)\n\nDen här duschkrämen doftar citrus och löddrar bra.\n(This shower cream smells like citrus and lathers well.)",
+    "audio": "Jag använder duschkräm med aloe vera efter träningen. Den här duschkrämen doftar citrus och löddrar bra.",
+    "tags": ["swedish"],
+    "notes": "en duschkräm, duschkrämen, duschkrämer",
+    "imageHint": "Shower shelf with bottle labeled duschkräm and citrus",
+    "mochiId": "PFWyx0S3"
+  },
+  {
+    "word": "falafelmeny",
+    "english": "falafel meal, falafel combo",
+    "examples": "Jag tar en falafelmeny med stark sås, tack.\n(I’ll have a falafel meal with spicy sauce, please.)\n\nFalafelmenyn ingår med pommes och en läsk.\n(The falafel combo comes with fries and a soda.)",
+    "audio": "Jag tar en falafelmeny med stark sås, tack. Falafelmenyn ingår med pommes och en läsk.",
+    "tags": ["swedish"],
+    "notes": "en falafelmeny, falafelmenyn, falafelmenyer",
+    "imageHint": "falafel wrap, fries, sauce cups, soda on tray",
+    "mochiId": "Yv8XLfGC"
+  },
+  {
+    "word": "falukorv",
+    "english": "Falukorv sausage; ring bologna",
+    "examples": "Vi steker falukorv med makaroner till middag.\n(We fry Falukorv sausage with macaroni for dinner.)\n\nJag bakade falukorv i ugn med ost och senap.\n(I baked Falukorv in the oven with cheese and mustard.)",
+    "audio": "Vi steker falukorv med makaroner till middag. Jag bakade falukorv i ugn med ost och senap.",
+    "tags": ["swedish"],
+    "notes": "en falukorv, falukorven, falukorvar; Very common in Sweden; classic everyday family food.",
+    "imageHint": "Sliced falukorv in frying pan, potatoes, mustard",
+    "mochiId": "OYkjTvki"
+  },
+  {
+    "word": "fisk",
+    "english": "fish",
+    "examples": "Jag köpte färsk fisk till middag.\n(I bought fresh fish for dinner.)\n\nDet finns mycket fisk i sjön.\n(There are many fish in the lake.)",
+    "audio": "Jag köpte färsk fisk till middag. Det finns mycket fisk i sjön.",
+    "tags": ["swedish"],
+    "notes": "en fisk, fisken, fiskar (common noun)",
+    "imageHint": "Fresh fish on ice at market stall",
+    "mochiId": "dppSvyej"
+  },
+  {
+    "word": "fjärde",
+    "english": "fourth",
+    "examples": "Hon kom på fjärde plats i loppet.\n(She finished in fourth place in the race.)\n\nVi bor på fjärde våningen.\n(We live on the fourth floor.)",
+    "audio": "Hon kom på fjärde plats i loppet. Vi bor på fjärde våningen.",
+    "tags": ["swedish"],
+    "notes": "fjärde (ordningstal)",
+    "imageHint": "Apartment building with highlighted fourth-floor window at dusk",
+    "mochiId": "g5Eiyjve"
+  },
+  {
+    "word": "fläskkotlett",
+    "english": "pork chop",
+    "examples": "Jag steker fläskkotletter med vitlök och timjan.\n(I fry pork chops with garlic and thyme.)\n\nLägg fläskkotletten i ugnen tills den är genomstekt.\n(Put the pork chop in the oven until it’s cooked through.)",
+    "audio": "Jag steker fläskkotletter med vitlök och timjan. Lägg fläskkotletten i ugnen tills den är genomstekt.",
+    "tags": ["swedish"],
+    "notes": "en fläskkotlett, fläskkotletten, fläskkotletter; Vanligt i matlagning; kan avse både benfri och med ben.",
+    "imageHint": "Raw pork chop on cutting board, herbs",
+    "mochiId": "AVS6bgie"
+  },
+  {
+    "word": "förpackning",
+    "english": "packaging; package; container",
+    "examples": "Den här förpackningen är gjord av återvunnen plast.\n(This packaging is made of recycled plastic.)\n\nVarje förpackning innehåller tio tabletter.\n(Each package contains ten tablets.)",
+    "audio": "Den här förpackningen är gjord av återvunnen plast. Varje förpackning innehåller tio tabletter.",
+    "tags": ["swedish"],
+    "notes": "en förpackning, förpackningen, förpackningar",
+    "imageHint": "Recyclable cardboard package beside labeled plastic container",
+    "mochiId": "wOiPAFjB"
+  },
+  {
+    "word": "frimärke",
+    "english": "postage stamp, stamp",
+    "examples": "Jag behöver ett frimärke till brevet.\n(I need a stamp for the letter.)\n\nHar du några frimärken hemma?\n(Do you have any stamps at home?)",
+    "audio": "Jag behöver ett frimärke till brevet. Har du några frimärken hemma?",
+    "tags": ["swedish"],
+    "notes": "ett frimärke, frimärket, frimärken",
+    "imageHint": "Close-up of colorful postage stamps on envelope",
+    "mochiId": "MQgXIA8G"
+  },
+  {
+    "word": "fil",
+    "english": "file; lane; (Swedish) fermented milk",
+    "examples": "Jag sparade filen på skrivbordet.\n(I saved the file on the desktop.)\n\nHåll dig i höger fil vid avfarten.\n(Stay in the right lane at the exit.)",
+    "audio": "Jag sparade filen på skrivbordet. Håll dig i höger fil vid avfarten.",
+    "tags": ["swedish"],
+    "notes": "en fil, filen, filer",
+    "imageHint": "Open laptop showing folder with document icons",
+    "mochiId": "PE5nOnnA"
+  },
+  {
+    "word": "gurka",
+    "english": "cucumber",
+    "examples": "Kan du skära en gurka till salladen?\n(Can you slice a cucumber for the salad?)\n\nJag köpte inlagd gurka till smörgåsarna.\n(I bought pickled cucumber for the sandwiches.)",
+    "audio": "Kan du skära en gurka till salladen? Jag köpte inlagd gurka till smörgåsarna.",
+    "tags": ["swedish"],
+    "notes": "en gurka, gurkan, gurkor; Often means cucumber; 'inlagd gurka' = pickled cucumber.",
+    "imageHint": "Sliced cucumber on cutting board, salad ingredients nearby",
+    "mochiId": "HekJYo3y"
+  },
+  {
+    "word": "glass",
+    "english": "ice cream; glass (material); tumbler/glass (drinking glass)",
+    "examples": "Jag vill ha en glass, tack.\n(I’d like an ice cream, please.)\n\nKan du ge mig ett glas vatten?\n(Can you give me a glass of water?)",
+    "audio": "Jag vill ha en glass, tack. Kan du ge mig ett glas vatten?",
+    "tags": ["swedish"],
+    "notes": "en glass, glassen, glassar (ice cream); ett glas, glaset, glas",
+    "imageHint": "Two scoops of ice cream in waffle cone",
+    "mochiId": "enkPXRUl"
+  },
+  {
+    "word": "godispåse",
+    "english": "bag of candy; sweet bag",
+    "examples": "Jag köpte en godispåse till lördagsmyset.\n(I bought a bag of candy for Saturday cozy time.)\n\nKan du ta med en godispåse från affären?\n(Can you bring a bag of candy from the store?)",
+    "audio": "Jag köpte en godispåse till lördagsmyset. Kan du ta med en godispåse från affären?",
+    "tags": ["swedish"],
+    "notes": "en godispåse, godispåsen, godispåsar; Vanligt i uttryck som \"lördagsgodis\" och \"lördagsmys\".",
+    "imageHint": "colorful candy assortment spilling from a paper bag",
+    "mochiId": "Py3OBJYa"
+  },
+  {
+    "word": "godis",
+    "english": "candy, sweets",
+    "examples": "Vill du ha lite godis?\n(Do you want some candy?)\n\nBarnen sparade sitt lördagsgodis till kvällen.\n(The kids saved their Saturday candy for the evening.)",
+    "audio": "Vill du ha lite godis? Barnen sparade sitt lördagsgodis till kvällen.",
+    "tags": ["swedish"],
+    "notes": "ett godis, godiset (massnoun; often no plural)",
+    "imageHint": "Bowl of mixed colorful candy on table",
+    "mochiId": "GQb0e6J3"
+  },
+  {
+    "word": "hekto",
+    "english": "hectogram (100 grams)",
+    "examples": "Jag tar två hekto ost, tack.\n(I’ll take 200 grams of cheese, please.)\n\nEtt hekto är hundra gram.\n(A hectogram is one hundred grams.)",
+    "audio": "Jag tar två hekto ost, tack. Ett hekto är hundra gram.",
+    "tags": ["swedish"],
+    "notes": "ett hekto, hektot, hekton",
+    "imageHint": "deli counter scale showing 2 hg cheese",
+    "mochiId": "HensloE3"
+  },
+  {
+    "word": "hylla",
+    "english": "shelf; to praise",
+    "examples": "Ställ glasen på hyllan ovanför diskbänken.\n(Put the glasses on the shelf above the sink.)\n\nDe hyllade henne för hennes insats.\n(They praised her for her contribution.)",
+    "audio": "Ställ glasen på hyllan ovanför diskbänken. De hyllade henne för hennes insats.",
+    "tags": ["swedish"],
+    "notes": "en hylla, hyllan, hyllor; hyllar/hyllade/hyllat",
+    "imageHint": "Wooden wall shelf with books and ceramic cups",
+    "mochiId": "DsLzIwrL"
+  },
+  {
+    "word": "hygien",
+    "english": "hygiene, sanitation",
+    "examples": "God handhygien minskar risken för infektioner.\n(Good hand hygiene reduces the risk of infections.)\n\nI köket är hygien viktigt när man hanterar rått kött.\n(In the kitchen, hygiene is important when handling raw meat.)",
+    "audio": "God handhygien minskar risken för infektioner. I köket är hygien viktigt när man hanterar rått kött.",
+    "tags": ["swedish"],
+    "notes": "hygien (en), hygienen, hygiener",
+    "imageHint": "clean sink with soap dispenser, towels, disinfectant bottle",
+    "mochiId": "8j7cs1Ok"
+  },
+  {
+    "word": "jättehungrig",
+    "english": "starving, very hungry",
+    "examples": "Jag är jättehungrig efter träningen.\n(I’m starving after the workout.)\n\nBarnen var jättehungriga när de kom hem.\n(The kids were very hungry when they got home.)",
+    "audio": "Jag är jättehungrig efter träningen. Barnen var jättehungriga när de kom hem.",
+    "tags": ["swedish"],
+    "notes": "jättehungrig/jättehungrigt/jättehungriga (adjective); Informal intensifier; common in speech to emphasize hunger.",
+    "imageHint": "Empty plate beside rumbling stomach icon, kitchen table",
+    "mochiId": "Jzgmhegn"
+  },
+  {
+    "word": "hjälpverb",
+    "english": "auxiliary verb, helping verb",
+    "examples": "I meningen \"Jag ska gå\" är \"ska\" ett hjälpverb.\n(In the sentence “I am going to go,” “ska” is an auxiliary verb.)\n\nHjälpverb följs ofta av infinitiv, som i \"kan simma\".\n(Auxiliary verbs are often followed by an infinitive, as in “can swim.”)",
+    "audio": "I meningen \"Jag ska gå\" är \"ska\" ett hjälpverb. Hjälpverb följs ofta av infinitiv, som i \"kan simma\".",
+    "tags": ["swedish"],
+    "notes": "ett hjälpverb, hjälpverbet, hjälpverb, hjälpverben",
+    "imageHint": "Swedish grammar worksheet showing verbs highlighted in sentences",
+    "mochiId": "4BOPGqu5"
+  },
+  {
+    "word": "imitera",
+    "english": "to imitate, to mimic",
+    "examples": "Hon försökte imitera hans accent.\n(She tried to imitate his accent.)\n\nProgrammet kan imitera ljudet av en gammal radio.\n(The program can mimic the sound of an old radio.)",
+    "audio": "Hon försökte imitera hans accent. Programmet kan imitera ljudet av en gammal radio.",
+    "tags": ["swedish"],
+    "notes": "imiterar/imiterade/imiterat (verb)",
+    "imageHint": "gammal radio och modern högtalare på bord",
+    "mochiId": "UtorwN4K"
+  },
+  {
+    "word": "javisst",
+    "english": "certainly; sure; of course",
+    "examples": "Javisst, jag kan hjälpa dig i morgon.\n(Sure, I can help you tomorrow.)\n\nSka vi ses klockan sju? – Javisst!\n(Shall we meet at seven? – Of course!)",
+    "audio": "Javisst, jag kan hjälpa dig i morgon. Ska vi ses klockan sju? – Javisst!",
+    "tags": ["swedish"],
+    "notes": "adverb/interjektion (oböjligt)",
+    "imageHint": "Open door with welcome sign and lit hallway",
+    "mochiId": "1mKAAaoo"
+  },
+  {
+    "word": "inköpslista",
+    "english": "shopping list, grocery list",
+    "examples": "Jag skriver en inköpslista innan jag går till affären.\n(I write a shopping list before I go to the store.)\n\nKan du köpa mjölk och ägg? Det står på inköpslistan.\n(Can you buy milk and eggs? It's on the shopping list.)",
+    "audio": "Jag skriver en inköpslista innan jag går till affären. Kan du köpa mjölk och ägg? Det står på inköpslistan.",
+    "tags": ["swedish"],
+    "notes": "en inköpslista, inköpslistan, inköpslistor",
+    "imageHint": "Handwritten shopping list beside groceries on kitchen counter",
+    "mochiId": "8PYIYQCi"
+  },
+  {
+    "word": "kaka",
+    "english": "cookie; cake",
+    "examples": "Vill du ha en kaka till kaffet?\n(Would you like a cookie with your coffee?)\n\nHon bakade en chokladkaka till helgen.\n(She baked a chocolate cake for the weekend.)",
+    "audio": "Vill du ha en kaka till kaffet? Hon bakade en chokladkaka till helgen.",
+    "tags": ["swedish"],
+    "notes": "en kaka, kakan, kakor, kakorna",
+    "imageHint": "assorted Swedish cookies on plate, coffee cup nearby",
+    "mochiId": "cEX9wJBj"
+  },
+  {
+    "word": "juice",
+    "english": "juice; (informal) electrical power",
+    "examples": "Kan jag få ett glas apelsinjuice?\n(Can I have a glass of orange juice?)\n\nJag köper gärna juice utan tillsatt socker.\n(I prefer to buy juice with no added sugar.)",
+    "audio": "Kan jag få ett glas apelsinjuice? Jag köper gärna juice utan tillsatt socker.",
+    "tags": ["swedish"],
+    "notes": "en juice, juicen, juicer",
+    "imageHint": "Glass of orange juice on kitchen counter, citrus slices",
+    "mochiId": "fpHQoSsC"
+  },
+  {
+    "word": "karta",
+    "english": "map, chart",
+    "examples": "Jag behöver en karta över området.\n(I need a map of the area.)\n\nVi följde kartan och hittade rätt väg.\n(We followed the map and found the right road.)",
+    "audio": "Jag behöver en karta över området. Vi följde kartan och hittade rätt väg.",
+    "tags": ["swedish"],
+    "notes": "en karta, kartan, kartor",
+    "imageHint": "Folded paper map on wooden table, compass nearby",
+    "mochiId": "Vod5cBdL"
+  },
+  {
+    "word": "kaviar",
+    "english": "caviar; fish roe spread",
+    "examples": "Jag tar kaviar på ägget.\n(I put caviar on the egg.)\n\nKan du skicka kaviaren, tack?\n(Can you pass the caviar, please?)",
+    "audio": "Jag tar kaviar på ägget. Kan du skicka kaviaren, tack?",
+    "tags": ["swedish"],
+    "notes": "kaviar, kaviaren (common noun)",
+    "imageHint": "Open tube of kaviar beside boiled eggs, sandwich",
+    "mochiId": "Jrz7VCjZ"
+  },
+  {
+    "word": "kebabställe",
+    "english": "kebab place, kebab joint",
+    "examples": "Vi tar en snabb middag på kebabstället runt hörnet.\n(We'll grab a quick dinner at the kebab place around the corner.)\n\nDet nya kebabstället har öppet till sent.\n(The new kebab joint is open until late.)",
+    "audio": "Vi tar en snabb middag på kebabstället runt hörnet. Det nya kebabstället har öppet till sent.",
+    "tags": ["swedish"],
+    "notes": "ett kebabställe, kebabstället, kebabställen; Vardagligt ord för enklare kebabrestaurang/takeaway.",
+    "imageHint": "lit kebab takeaway storefront at night, menu signs",
+    "mochiId": "WQyBmY5x"
+  },
+  {
+    "word": "kiosk",
+    "english": "kiosk, newsstand",
+    "examples": "Jag köpte en tidning i kiosken.\n(I bought a newspaper at the kiosk.)\n\nKiosken på hörnet säljer glass och kaffe.\n(The kiosk on the corner sells ice cream and coffee.)",
+    "audio": "Jag köpte en tidning i kiosken. Kiosken på hörnet säljer glass och kaffe.",
+    "tags": ["swedish"],
+    "notes": "en kiosk, kiosken, kiosker",
+    "imageHint": "Small street kiosk with newspapers, snacks, bright signs",
+    "mochiId": "OcL6Jb5j"
+  },
+  {
+    "word": "knäckebröd",
+    "english": "crispbread, rye crispbread",
+    "examples": "Jag äter gärna knäckebröd med ost till frukost.\n(I like to eat crispbread with cheese for breakfast.)\n\nKan du skicka knäckebrödet, tack?\n(Can you pass the crispbread, please?)",
+    "audio": "Jag äter gärna knäckebröd med ost till frukost. Kan du skicka knäckebrödet, tack?",
+    "tags": ["swedish"],
+    "notes": "ett knäckebröd, knäckebrödet, knäckebröd, knäckebröden (noun)",
+    "imageHint": "Stack of round crispbread on rustic wooden table",
+    "mochiId": "vyYiCvCD"
+  },
+  {
+    "word": "ketchup",
+    "english": "ketchup",
+    "examples": "Kan du skicka ketchupen, tack?\n(Can you pass the ketchup, please?)\n\nJag vill ha lite ketchup till pommes frites.\n(I want a little ketchup with fries.)",
+    "audio": "Kan du skicka ketchupen, tack? Jag vill ha lite ketchup till pommes frites.",
+    "tags": ["swedish"],
+    "notes": "en ketchup, ketchupen (common noun); Ofta i vardagstal; 'lite ketchup' när mängden är liten.",
+    "imageHint": "ketchupflaska bredvid pommes frites på tallrik",
+    "mochiId": "jNpIgpAp"
+  },
+  {
+    "word": "kod",
+    "english": "code; password; (dialing) area code",
+    "examples": "Jag har glömt koden till dörrlåset.\n(I’ve forgotten the code for the door lock.)\n\nAppen kraschar när jag kör den här koden.\n(The app crashes when I run this code.)",
+    "audio": "Jag har glömt koden till dörrlåset. Appen kraschar när jag kör den här koden.",
+    "tags": ["swedish"],
+    "notes": "en kod, koden, koder",
+    "imageHint": "keypad lock beside door, glowing digits, dark hallway",
+    "mochiId": "IkmtEbrY"
+  },
+  {
+    "word": "kontant",
+    "english": "cash; in cash",
+    "examples": "Kan jag betala kontant?\n(Can I pay in cash?)\n\nVi har bara kontanta pengar i kassan.\n(We only have cash in the register.)",
+    "audio": "Kan jag betala kontant? Vi har bara kontanta pengar i kassan.",
+    "tags": ["swedish"],
+    "notes": "kontant/kontant/kontanta (adjective); Ofta i uttryck som 'betala kontant' och 'kontanta pengar'.",
+    "imageHint": "Cash register, banknotes and coins on counter, close-up",
+    "mochiId": "mHOoVDOD"
+  },
+  {
+    "word": "kontantkort",
+    "english": "prepaid card, pay-as-you-go SIM",
+    "examples": "Jag köpte ett kontantkort och laddade det med 200 kronor.\n(I bought a prepaid card and topped it up with 200 kronor.)\n\nMed kontantkort behöver du ingen bindningstid.\n(With a pay-as-you-go SIM you don’t need a contract period.)",
+    "audio": "Jag köpte ett kontantkort och laddade det med 200 kronor. Med kontantkort behöver du ingen bindningstid.",
+    "tags": ["swedish"],
+    "notes": "ett kontantkort, kontantkortet, kontantkort (neuter noun)",
+    "imageHint": "SIM card, top-up voucher, phone on table, Swedish kronor",
+    "mochiId": "LRVJa6d8"
+  },
+  {
+    "word": "kött",
+    "english": "meat",
+    "examples": "Vi äter inte kött.\n(We don't eat meat.)\n\nKan jag få köttet välstekt?\n(Can I have the meat well done?)",
+    "audio": "Vi äter inte kött. Kan jag få köttet välstekt?",
+    "tags": ["swedish"],
+    "notes": "ett kött, köttet (uncountable noun)",
+    "imageHint": "raw meat and vegetables on cutting board",
+    "mochiId": "6kyBv8ms"
+  },
+  {
+    "word": "korv",
+    "english": "sausage; hot dog",
+    "examples": "Jag köpte en korv med bröd.\n(I bought a hot dog.)\n\nVi grillar korv vid sjön.\n(We’re grilling sausages by the lake.)",
+    "audio": "Jag köpte en korv med bröd. Vi grillar korv vid sjön.",
+    "tags": ["swedish"],
+    "notes": "en korv, korven, korvar",
+    "imageHint": "Grilled sausage in bun with mustard, picnic table",
+    "mochiId": "5SMigFMu"
+  },
+  {
+    "word": "köttfärs",
+    "english": "minced meat, ground meat",
+    "examples": "Jag ska köpa köttfärs till tacos i kväll.\n(I'm going to buy ground meat for tacos tonight.)\n\nStek köttfärsen tills den får färg och blir genomstekt.\n(Fry the minced meat until it browns and is cooked through.)",
+    "audio": "Jag ska köpa köttfärs till tacos i kväll. Stek köttfärsen tills den får färg och blir genomstekt.",
+    "tags": ["swedish"],
+    "notes": "en köttfärs, köttfärsen (uncountable)",
+    "imageHint": "Raw minced meat on cutting board, kitchen counter",
+    "mochiId": "sPeuSyX4"
+  },
+  {
+    "word": "kvitto",
+    "english": "receipt, proof of purchase",
+    "examples": "Kan jag få kvittot, tack?\n(Can I have the receipt, please?)\n\nSpara kvittot ifall du vill reklamera varan.\n(Keep the receipt in case you want to make a complaint about the item.)",
+    "audio": "Kan jag få kvittot, tack? Spara kvittot ifall du vill reklamera varan.",
+    "tags": ["swedish"],
+    "notes": "ett kvitto, kvittot, kvitton",
+    "imageHint": "paper receipt beside wallet, coins, and shopping bag",
+    "mochiId": "o8IeRhug"
+  },
+  {
+    "word": "lasagne",
+    "english": "lasagna, lasagne",
+    "examples": "Vi åt lasagne till middag i går.\n(We ate lasagna for dinner yesterday.)\n\nJag värmer en bit lasagne i ugnen.\n(I’m heating a piece of lasagna in the oven.)",
+    "audio": "Vi åt lasagne till middag i går. Jag värmer en bit lasagne i ugnen.",
+    "tags": ["swedish"],
+    "notes": "en lasagne, lasagnen, lasagner; I svenskan används ofta singular: 'en lasagne' om rätten.",
+    "imageHint": "Ugnsform med gyllenbrun lasagne på köksbänk",
+    "mochiId": "V1HPKQ7J"
+  },
+  {
+    "word": "latte",
+    "english": "lazy; indolent",
+    "examples": "Jag är för lat för att gå till gymmet i dag.\n(I’m too lazy to go to the gym today.)\n\nDet var en lat söndag med film och kaffe.\n(It was a lazy Sunday with a movie and coffee.)",
+    "audio": "Jag är för lat för att gå till gymmet i dag. Det var en lat söndag med film och kaffe.",
+    "tags": ["swedish"],
+    "notes": "lat/latt/lat(a) (adjective)",
+    "imageHint": "Messy living room, couch, blanket, TV, coffee mug",
+    "mochiId": "qWAhdrvL"
+  },
+  {
+    "word": "leg",
+    "english": "leg",
+    "examples": "Jag har ont i benet.\n(My leg hurts.)\n\nStolen har ett ben som är trasigt.\n(The chair has a leg that is broken.)",
+    "audio": "Jag har ont i benet. Stolen har ett ben som är trasigt.",
+    "tags": ["swedish"],
+    "notes": "ett ben, benet, ben (noun)",
+    "imageHint": "Broken chair leg on wooden floor, close-up",
+    "mochiId": "xyqnflFj"
+  },
+  {
+    "word": "lingonsylt",
+    "english": "lingonberry jam, lingon jam",
+    "examples": "Jag vill ha lingonsylt till köttbullarna.\n(I want lingonberry jam with the meatballs.)\n\nDet finns lingonsylt i kylen.\n(There is lingonberry jam in the fridge.)",
+    "audio": "Jag vill ha lingonsylt till köttbullarna. Det finns lingonsylt i kylen.",
+    "tags": ["swedish"],
+    "notes": "en lingonsylt, lingonsylten (common noun)",
+    "imageHint": "Glass jar of lingonberry jam on wooden table",
+    "mochiId": "OpFaTPhY"
+  },
+  {
+    "word": "lunchrestaurang",
+    "english": "lunch restaurant; lunch spot",
+    "examples": "Vi brukar äta på en lunchrestaurang nära kontoret.\n(We usually eat at a lunch restaurant near the office.)\n\nLunchrestaurangen har dagens rätt och salladsbuffé.\n(The lunch restaurant has the dish of the day and a salad buffet.)",
+    "audio": "Vi brukar äta på en lunchrestaurang nära kontoret. Lunchrestaurangen har dagens rätt och salladsbuffé.",
+    "tags": ["swedish"],
+    "notes": "en lunchrestaurang, lunchrestaurangen, lunchrestauranger; Vanligt i Sverige om ställen med lunchmeny/dagens rätt.",
+    "imageHint": "Swedish lunch restaurant interior, buffet counter, menu board",
+    "mochiId": "cIDgnk29"
+  },
+  {
+    "word": "mataffär",
+    "english": "grocery store, food shop",
+    "examples": "Jag går till mataffären efter jobbet.\n(I go to the grocery store after work.)\n\nFinns det en mataffär i närheten?\n(Is there a grocery store nearby?)",
+    "audio": "Jag går till mataffären efter jobbet. Finns det en mataffär i närheten?",
+    "tags": ["swedish"],
+    "notes": "en mataffär, mataffären, mataffärer",
+    "imageHint": "small Swedish grocery store aisle with shelves and products",
+    "mochiId": "cbFFF9kQ"
+  },
+  {
+    "word": "lyxbulle",
+    "english": "luxury bun; spoiled brat",
+    "examples": "Till fikat köpte vi en lyxbulle med pistage.\n(For coffee break we bought a luxury bun with pistachio.)\n\nHan är ingen lyxbulle, han klarar sig själv.\n(He’s no spoiled brat; he manages on his own.)",
+    "audio": "Till fikat köpte vi en lyxbulle med pistage. Han är ingen lyxbulle, han klarar sig själv.",
+    "tags": ["swedish"],
+    "notes": "en lyxbulle, lyxbullen, lyxbullar",
+    "imageHint": "pastry shop counter with fancy cinnamon bun",
+    "mochiId": "BYho4q3x"
+  },
+  {
+    "word": "marmelad",
+    "english": "marmalade, jam",
+    "examples": "Jag vill ha marmelad på rostat bröd.\n(I want marmalade on toast.)\n\nHon kokade marmelad av apelsiner och socker.\n(She made marmalade from oranges and sugar.)",
+    "audio": "Jag vill ha marmelad på rostat bröd. Hon kokade marmelad av apelsiner och socker.",
+    "tags": ["swedish"],
+    "notes": "en marmelad, marmeladen, marmelader",
+    "imageHint": "Glass jar of orange marmalade on kitchen table",
+    "mochiId": "UNwT7Xez"
+  },
+  {
+    "word": "mazarin",
+    "english": "mazarin pastry; almond tartlet",
+    "examples": "Jag tar en mazarin till kaffet.\n(I’ll have a mazarin with my coffee.)\n\nMazarinerna står i ugnen och gräddas.\n(The mazarins are in the oven baking.)",
+    "audio": "Jag tar en mazarin till kaffet. Mazarinerna står i ugnen och gräddas.",
+    "tags": ["swedish"],
+    "notes": "en mazarin, mazarinen, mazariner; Vanligt fikabröd; säljs ofta på kaféer och i mataffärer.",
+    "imageHint": "Mazarin pastry on plate, coffee cup, cozy café table",
+    "mochiId": "lwOybXrb"
+  },
+  {
+    "word": "meny",
+    "english": "menu",
+    "examples": "Kan jag få se menyn, tack?\n(May I see the menu, please?)\n\nDet finns en vegetarisk meny.\n(There is a vegetarian menu.)",
+    "audio": "Kan jag få se menyn, tack? Det finns en vegetarisk meny.",
+    "tags": ["swedish"],
+    "notes": "en meny, menyn, menyer",
+    "imageHint": "restaurant menu booklet on table, close-up, warm lighting",
+    "mochiId": "efnPbEZA"
+  },
+  {
+    "word": "mejeri",
+    "english": "dairy, dairy plant",
+    "examples": "Mjölken körs till mejeriet varje morgon.\n(The milk is delivered to the dairy plant every morning.)\n\nDe bygger ett nytt mejeri utanför stan.\n(They are building a new dairy outside the city.)",
+    "audio": "Mjölken körs till mejeriet varje morgon. De bygger ett nytt mejeri utanför stan.",
+    "tags": ["swedish"],
+    "notes": "ett mejeri, mejeriet, mejerier (neuter noun)",
+    "imageHint": "industrial dairy facility with milk tanks and loading dock",
+    "mochiId": "1w2pm8B8"
+  },
+  {
+    "word": "mer",
+    "english": "more; additional; anymore",
+    "examples": "Jag vill ha mer kaffe.\n(I want more coffee.)\n\nDet finns ingen mer tid.\n(There is no more time.)",
+    "audio": "Jag vill ha mer kaffe. Det finns ingen mer tid.",
+    "tags": ["swedish"],
+    "notes": "mer/mest (comparison adverb; also comparative of mycket)",
+    "imageHint": "Cup with coffee being refilled on table",
+    "mochiId": "ZzuCjUw0"
+  },
+  {
+    "word": "mjöl",
+    "english": "flour",
+    "examples": "Jag behöver köpa mjöl till brödet.\n(I need to buy flour for the bread.)\n\nTillsätt lite mjöl så att degen inte klibbar.\n(Add a little flour so the dough doesn’t stick.)",
+    "audio": "Jag behöver köpa mjöl till brödet. Tillsätt lite mjöl så att degen inte klibbar.",
+    "tags": ["swedish"],
+    "notes": "ett mjöl, mjölet, mjöl (uncountable); Ofta obestämt: 'lite mjöl'. Sort: 'vetemjöl', 'rågmjöl'.",
+    "imageHint": "Sack of flour, wooden bowl, scattered flour on table",
+    "mochiId": "PCvmRmTv"
+  },
+  {
+    "word": "mjölk",
+    "english": "milk",
+    "examples": "Kan jag få ett glas mjölk?\n(Can I have a glass of milk?)\n\nMjölken är slut, vi måste köpa mer.\n(The milk is finished; we need to buy more.)",
+    "audio": "Kan jag få ett glas mjölk? Mjölken är slut, vi måste köpa mer.",
+    "tags": ["swedish"],
+    "notes": "mjölk, mjölken (common noun; uncountable)",
+    "imageHint": "Carton of milk beside glass on kitchen counter",
+    "mochiId": "VVn5wN3a"
+  },
+  {
+    "word": "morotskaka",
+    "english": "carrot cake",
+    "examples": "Jag bakade en morotskaka till fikat.\n(I baked a carrot cake for the coffee break.)\n\nMorotskakan är saftig och har cream cheese-frosting.\n(The carrot cake is moist and has cream cheese frosting.)",
+    "audio": "Jag bakade en morotskaka till fikat. Morotskakan är saftig och har cream cheese-frosting.",
+    "tags": ["swedish"],
+    "notes": "en morotskaka, morotskakan, morotskakor; Vanligt fikabröd; ofta serverad med glasyr eller frosting.",
+    "imageHint": "Slice of carrot cake with cream cheese frosting",
+    "mochiId": "8m8sjShm"
+  },
+  {
+    "word": "mjukost",
+    "english": "cream cheese, soft cheese spread",
+    "examples": "Jag smörjer mjukost på knäckebrödet.\n(I spread cream cheese on the crispbread.)\n\nVi köpte en tub mjukost till frukosten.\n(We bought a tube of soft cheese spread for breakfast.)",
+    "audio": "Jag smörjer mjukost på knäckebrödet. Vi köpte en tub mjukost till frukosten.",
+    "tags": ["swedish"],
+    "notes": "en mjukost, mjukosten, mjukostar; Vanligt i Sverige; ofta smaksatt och säljs även i tub.",
+    "imageHint": "open tube of cream cheese beside crispbread on table",
+    "mochiId": "aN8aLqpA"
+  },
+  {
+    "word": "några",
+    "english": "some; a few; any (in questions/negatives)",
+    "examples": "Jag har några frågor om uppgiften.\n(I have a few questions about the assignment.)\n\nHar du några mynt?\n(Do you have any coins?)",
+    "audio": "Jag har några frågor om uppgiften. Har du några mynt?",
+    "tags": ["swedish"],
+    "notes": "några (indef. plural determiner/pronoun; singular: någon/något); Used with plural nouns; in questions often means “any”.",
+    "imageHint": "A few coins next to keys on table",
+    "mochiId": "eEB0ywGx"
+  },
+  {
+    "word": "närbutik",
+    "english": "local convenience store; neighborhood shop",
+    "examples": "Jag går till närbutiken och köper mjölk.\n(I go to the local convenience store and buy milk.)\n\nNärbutiken på hörnet har öppet sent.\n(The neighborhood shop on the corner is open late.)",
+    "audio": "Jag går till närbutiken och köper mjölk. Närbutiken på hörnet har öppet sent.",
+    "tags": ["swedish"],
+    "notes": "en närbutik, närbutiken, närbutiker (common noun)",
+    "imageHint": "Small corner grocery store storefront with signage, evening light",
+    "mochiId": "IyNYgDrz"
+  },
+  {
+    "word": "näsa",
+    "english": "nose",
+    "examples": "Jag är täppt i näsan.\n(My nose is blocked.)\n\nDet luktar gott om du använder näsan.\n(It smells good if you use your nose.)",
+    "audio": "Jag är täppt i näsan. Det luktar gott om du använder näsan.",
+    "tags": ["swedish"],
+    "notes": "en näsa, näsan, näsor, näsorna",
+    "imageHint": "close-up of a nose with visible freckles",
+    "mochiId": "Mj9T2pjj"
+  },
+  {
+    "word": "namnteckning",
+    "english": "signature, autograph",
+    "examples": "Glöm inte att skriva din namnteckning längst ner på blanketten.\n(Don’t forget to write your signature at the bottom of the form.)\n\nBanken behöver en namnteckning för att godkänna avtalet.\n(The bank needs a signature to approve the agreement.)",
+    "audio": "Glöm inte att skriva din namnteckning längst ner på blanketten. Banken behöver en namnteckning för att godkänna avtalet.",
+    "tags": ["swedish"],
+    "notes": "en namnteckning, namnteckningen, namnteckningar; Formellt ord; i vardagligt tal ofta bara \"signatur\".",
+    "imageHint": "Signed contract on desk, pen beside paper",
+    "mochiId": "7qAfiSsR"
+  },
+  {
+    "word": "näsduk",
+    "english": "handkerchief; tissue",
+    "examples": "Har du en näsduk? Jag behöver snyta mig.\n(Do you have a tissue? I need to blow my nose.)\n\nHon torkade glasögonen med en ren näsduk.\n(She wiped her glasses with a clean handkerchief.)",
+    "audio": "Har du en näsduk? Jag behöver snyta mig. Hon torkade glasögonen med en ren näsduk.",
+    "tags": ["swedish"],
+    "notes": "en näsduk, näsduken, näsdukar, näsdukarna",
+    "imageHint": "folded tissue box beside mug on wooden table",
+    "mochiId": "YepxO80A"
+  },
+  {
+    "word": "öl",
+    "english": "beer",
+    "examples": "Kan jag få en öl, tack?\n(Can I have a beer, please?)\n\nVi köpte några öl till middagen.\n(We bought a few beers for dinner.)",
+    "audio": "Kan jag få en öl, tack? Vi köpte några öl till middagen.",
+    "tags": ["swedish"],
+    "notes": "en öl, ölen, öl, ölen (common noun)",
+    "imageHint": "Chilled beer bottle and glass on wooden table",
+    "mochiId": "WIgR14IO"
+  },
+  {
+    "word": "oliv",
+    "english": "olive",
+    "examples": "Jag vill ha extra oliver på pizzan.\n(I want extra olives on the pizza.)\n\nHon ringlade olivolja över salladen.\n(She drizzled olive oil over the salad.)",
+    "audio": "Jag vill ha extra oliver på pizzan. Hon ringlade olivolja över salladen.",
+    "tags": ["swedish"],
+    "notes": "en oliv, oliven, oliver; Ofta i plural: oliver; vanligt i mat: oliver/olivolja.",
+    "imageHint": "Skål med gröna och svarta oliver på bord",
+    "mochiId": "qMRnCpKc"
+  },
+  {
+    "word": "olja",
+    "english": "oil",
+    "examples": "Häll lite olja i pannan innan du steker.\n(Pour a little oil into the pan before you fry.)\n\nBilen läcker olja under motorn.\n(The car is leaking oil under the engine.)",
+    "audio": "Häll lite olja i pannan innan du steker. Bilen läcker olja under motorn.",
+    "tags": ["swedish"],
+    "notes": "en olja, oljan, oljor",
+    "imageHint": "Glass bottle of olive oil beside frying pan",
+    "mochiId": "6oxhFolU"
+  },
+  {
+    "word": "ostsmörgås",
+    "english": "cheese sandwich; cheese open-faced sandwich",
+    "examples": "Jag tar en ostsmörgås till frukost.\n(I’ll have a cheese sandwich for breakfast.)\n\nKan jag få en ostsmörgås utan smör?\n(Can I have a cheese sandwich without butter?)",
+    "audio": "Jag tar en ostsmörgås till frukost. Kan jag få en ostsmörgås utan smör?",
+    "tags": ["swedish"],
+    "notes": "en ostsmörgås, ostsmörgåsen, ostsmörgåsar",
+    "imageHint": "open-faced cheese sandwich on plate, kitchen table",
+    "mochiId": "2d7OQDIW"
+  },
+  {
+    "word": "ostbåge",
+    "english": "cheese puff; cheese curl",
+    "examples": "Kan du köpa en påse ostbågar på vägen hem?\n(Can you buy a bag of cheese puffs on the way home?)\n\nDet blir alltid ostbågspulver på fingrarna.\n(There’s always cheese powder on your fingers.)",
+    "audio": "Kan du köpa en påse ostbågar på vägen hem? Det blir alltid ostbågspulver på fingrarna.",
+    "tags": ["swedish"],
+    "notes": "en ostbåge, ostbågen, ostbågar, ostbågarna; Ofta i plural: \"ostbågar\"; vardagligt snacksord.",
+    "imageHint": "open bag of cheese puffs on table, crumbs",
+    "mochiId": "tbcs1Aj4"
+  },
+  {
+    "word": "mellanläsk",
+    "english": "medium soft drink, medium soda",
+    "examples": "Jag tar en hamburgare och en mellanläsk, tack.\n(I'll have a burger and a medium soda, please.)\n\nVill du ha liten, mellan eller stor läsk?\n(Do you want a small, medium, or large soft drink?)",
+    "audio": "Jag tar en hamburgare och en mellanläsk, tack. Vill du ha liten, mellan eller stor läsk?",
+    "tags": ["swedish"],
+    "notes": "en mellanläsk, mellanläsken, mellanläsker",
+    "imageHint": "Medium soda cup with lid and straw on tray",
+    "mochiId": "K4PXpAPG"
+  },
+  {
+    "word": "ovanför",
+    "english": "above, over",
+    "examples": "Lampan hänger ovanför bordet.\n(The lamp hangs above the table.)\n\nDet finns en hylla ovanför dörren.\n(There is a shelf above the door.)",
+    "audio": "Lampan hänger ovanför bordet. Det finns en hylla ovanför dörren.",
+    "tags": ["swedish"],
+    "notes": "preposition/adverb (oföränderligt); Ofta med plats (ovanför + substantiv); mer exakt än \"över\".",
+    "imageHint": "Ceiling lamp hanging above a wooden table",
+    "mochiId": "ldP3n66p"
+  },
+  {
+    "word": "paprika",
+    "english": "bell pepper; paprika (spice)",
+    "examples": "Jag skär paprika i salladen.\n(I slice bell pepper into the salad.)\n\nStrö lite paprika över soppan.\n(Sprinkle a little paprika over the soup.)",
+    "audio": "Jag skär paprika i salladen. Strö lite paprika över soppan.",
+    "tags": ["swedish"],
+    "notes": "en paprika, paprikan, paprikor; Can mean both bell pepper and the spice; context clarifies.",
+    "imageHint": "Red and yellow bell peppers on cutting board",
+    "mochiId": "elhwghFm"
+  },
+  {
+    "word": "parmesanost",
+    "english": "Parmesan cheese",
+    "examples": "Jag river parmesanost över pastan.\n(I grate Parmesan cheese over the pasta.)\n\nSoppan blir godare med lite parmesanost.\n(The soup tastes better with a little Parmesan cheese.)",
+    "audio": "Jag river parmesanost över pastan. Soppan blir godare med lite parmesanost.",
+    "tags": ["swedish"],
+    "notes": "en parmesanost, parmesanosten, parmesanostar; Vanligt i matlagning; ofta används riven eller flagad.",
+    "imageHint": "Riven parmesanost i skål bredvid pasta och rivjärn",
+    "mochiId": "97UrfPd1"
+  },
+  {
+    "word": "partner",
+    "english": "partner; spouse",
+    "examples": "Min partner och jag har varit tillsammans i fem år.\n(My partner and I have been together for five years.)\n\nVi söker en partner för ett nytt projekt.\n(We are looking for a partner for a new project.)",
+    "audio": "Min partner och jag har varit tillsammans i fem år. Vi söker en partner för ett nytt projekt.",
+    "tags": ["swedish"],
+    "notes": "en partner, partnern, partners, partner",
+    "imageHint": "Two wedding rings beside business contract on table",
+    "mochiId": "1lmqMcgP"
+  },
+  {
+    "word": "päron",
+    "english": "pear; (slang) parent(s)",
+    "examples": "Jag köpte några päron till fruktsalladen.\n(I bought some pears for the fruit salad.)\n\nMina päron kommer på besök i helgen.\n(My parents are coming to visit this weekend.)",
+    "audio": "Jag köpte några päron till fruktsalladen. Mina päron kommer på besök i helgen.",
+    "tags": ["swedish"],
+    "notes": "ett päron, päronet, päron (noun); Colloquial: 'päron' = parents; can sound informal/slangy.",
+    "imageHint": "Green and yellow pears in a kitchen bowl",
+    "mochiId": "syDSmCm0"
+  },
+  {
+    "word": "påse",
+    "english": "bag, pouch",
+    "examples": "Kan jag få en påse, tack?\n(Can I get a bag, please?)\n\nJag lade frukten i en plastpåse.\n(I put the fruit in a plastic bag.)",
+    "audio": "Kan jag få en påse, tack? Jag lade frukten i en plastpåse.",
+    "tags": ["swedish"],
+    "notes": "en påse, påsen, påsar, påsarna",
+    "imageHint": "Paper bag and plastic bag on kitchen counter",
+    "mochiId": "RRrs8oMQ"
+  },
+  {
+    "word": "pizza",
+    "english": "pizza",
+    "examples": "Jag tar en pizza med skinka och svamp.\n(I’ll have a pizza with ham and mushrooms.)\n\nKan vi beställa pizza till ikväll?\n(Can we order pizza for tonight?)",
+    "audio": "Jag tar en pizza med skinka och svamp. Kan vi beställa pizza till ikväll?",
+    "tags": ["swedish"],
+    "notes": "en pizza, pizzan, pizzor, pizzorna",
+    "imageHint": "Freshly baked pizza on wooden board, sliced",
+    "mochiId": "6GB7Ke6E"
+  },
+  {
+    "word": "persika",
+    "english": "peach",
+    "examples": "Jag köpte persikor till fruktsalladen.\n(I bought peaches for the fruit salad.)\n\nPersikan är mogen och väldigt saftig.\n(The peach is ripe and very juicy.)",
+    "audio": "Jag köpte persikor till fruktsalladen. Persikan är mogen och väldigt saftig.",
+    "tags": ["swedish"],
+    "notes": "en persika, persikan, persikor",
+    "imageHint": "Ripe peaches on wooden table, soft natural light",
+    "mochiId": "brkkivw4"
+  },
+  {
+    "word": "pluralform",
+    "english": "plural form",
+    "examples": "Vad är pluralformen av ordet \"barn\"?\n(What is the plural form of the word “barn”?)\n\nI tabellen ser du både singularform och pluralform.\n(In the table you see both singular and plural forms.)",
+    "audio": "Vad är pluralformen av ordet \"barn\"? I tabellen ser du både singularform och pluralform.",
+    "tags": ["swedish"],
+    "notes": "en pluralform, pluralformen, pluralformer; Används i grammatik och språkundervisning, ofta om böjning.",
+    "imageHint": "grammar table showing singular and plural word forms",
+    "mochiId": "jGSwH09H"
+  },
+  {
+    "word": "prislista",
+    "english": "price list, price sheet",
+    "examples": "Kan du skicka över er senaste prislista?\n(Can you send over your latest price list?)\n\nPriserna finns i prislistan på webbplatsen.\n(The prices are in the price list on the website.)",
+    "audio": "Kan du skicka över er senaste prislista? Priserna finns i prislistan på webbplatsen.",
+    "tags": ["swedish"],
+    "notes": "en prislista, prislistan, prislistor, prislistorna",
+    "imageHint": "Printed price list beside calculator and receipts on desk",
+    "mochiId": "13xhtgca"
+  },
+  {
+    "word": "panna",
+    "english": "forehead; (frying) pan",
+    "examples": "Han har en bula i pannan.\n(He has a bump on his forehead.)\n\nStek löken i en panna med lite smör.\n(Fry the onion in a pan with a little butter.)",
+    "audio": "Han har en bula i pannan. Stek löken i en panna med lite smör.",
+    "tags": ["swedish"],
+    "notes": "en panna, pannan, pannor",
+    "imageHint": "Cast-iron frying pan on stovetop with onions",
+    "mochiId": "Q1vDHj2J"
+  },
+  {
+    "word": "purjolök",
+    "english": "leek, leek (vegetable)",
+    "examples": "Skiva purjolöken och fräs den i lite smör.\n(Slice the leek and sauté it in a little butter.)\n\nJag gör potatis- och purjolökssoppa till middag.\n(I’m making potato and leek soup for dinner.)",
+    "audio": "Skiva purjolöken och fräs den i lite smör. Jag gör potatis- och purjolökssoppa till middag.",
+    "tags": ["swedish"],
+    "notes": "en purjolök, purjolöken, purjolökar (common noun)",
+    "imageHint": "Sliced leek rings on wooden cutting board, kitchen",
+    "mochiId": "mvb9x27D"
+  },
+  {
+    "word": "räksallad",
+    "english": "shrimp salad",
+    "examples": "Jag tar en räksallad på mackan, tack.\n(I'll have a shrimp salad on the sandwich, please.)\n\nRäksalladen passar bra till bakad potatis.\n(Shrimp salad goes well with a baked potato.)",
+    "audio": "Jag tar en räksallad på mackan, tack. Räksalladen passar bra till bakad potatis.",
+    "tags": ["swedish"],
+    "notes": "en räksallad, räksalladen, räksallader; Vanlig i delikatessdiskar och som pålägg; ofta krämig.",
+    "imageHint": "Bowl of creamy shrimp salad with dill, lemon",
+    "mochiId": "gz1oXQ4D"
+  },
+  {
+    "word": "räka",
+    "english": "shrimp, prawn",
+    "examples": "Jag köpte ett kilo räkor till fredagsmyset.\n(I bought a kilo of shrimp for Friday snacks.)\n\nRäkorna serveras med aioli och citron.\n(The shrimp are served with aioli and lemon.)",
+    "audio": "Jag köpte ett kilo räkor till fredagsmyset. Räkorna serveras med aioli och citron.",
+    "tags": ["swedish"],
+    "notes": "en räka, räkan, räkor, räkorna; Vanligt i sammansättningar: räksmörgås, räkcocktail.",
+    "imageHint": "Bowl of cooked shrimp with lemon and dill",
+    "mochiId": "zFF8rKif"
+  },
+  {
+    "word": "pytt",
+    "english": "tiny bit; speck; a little",
+    "examples": "Det är bara ett pytt kvar i flaskan.\n(There’s only a tiny bit left in the bottle.)\n\nKan du hälla i ett pytt till?\n(Can you pour in a little more?)",
+    "audio": "Det är bara ett pytt kvar i flaskan. Kan du hälla i ett pytt till?",
+    "tags": ["swedish"],
+    "notes": "ett pytt, pyttet (neuter noun); Vardagligt; ofta i uttrycket \"ett pytt\" eller med \"lite\".",
+    "imageHint": "Tiny drop of liquid in a large glass",
+    "mochiId": "LjD5UrVM"
+  },
+  {
+    "word": "schampo",
+    "english": "shampoo",
+    "examples": "Jag behöver köpa ett milt schampo.\n(I need to buy a mild shampoo.)\n\nSkölj ur schampot ordentligt.\n(Rinse out the shampoo thoroughly.)",
+    "audio": "Jag behöver köpa ett milt schampo. Skölj ur schampot ordentligt.",
+    "tags": ["swedish"],
+    "notes": "ett schampo, schampot, schampon (neuter noun); Också vanligt: \"schamponera\" (tvätta håret med schampo).",
+    "imageHint": "shampoo bottle beside sink, bathroom tiles, water droplets",
+    "mochiId": "fg6pC07z"
+  },
+  {
+    "word": "saltlakrits",
+    "english": "salty licorice",
+    "examples": "Jag köpte en påse saltlakrits till bion.\n(I bought a bag of salty licorice for the cinema.)\n\nSaltlakrits är en klassiker i Sverige och Finland.\n(Salty licorice is a classic in Sweden and Finland.)",
+    "audio": "Jag köpte en påse saltlakrits till bion. Saltlakrits är en klassiker i Sverige och Finland.",
+    "tags": ["swedish"],
+    "notes": "en saltlakrits, saltlakritsen, saltlakritser; Vanligt i godis; kan vara starkt salt och salmiaksmakat.",
+    "imageHint": "Close-up of saltlakrits candies in a paper bag",
+    "mochiId": "LcN8sfaA"
+  },
+  {
+    "word": "sill",
+    "english": "herring; pickled herring",
+    "examples": "Vi åt inlagd sill med potatis till midsommar.\n(We ate pickled herring with potatoes for Midsummer.)\n\nSill är gott på knäckebröd med ägg.\n(Herring is tasty on crispbread with egg.)",
+    "audio": "Vi åt inlagd sill med potatis till midsommar. Sill är gott på knäckebröd med ägg.",
+    "tags": ["swedish"],
+    "notes": "en sill, sillen, sillar",
+    "imageHint": "Glass jar of pickled herring, dill, onions, potatoes",
+    "mochiId": "a46XKE46"
+  },
+  {
+    "word": "skinka",
+    "english": "ham; (anatomy) buttock",
+    "examples": "Jag köpte skinka till smörgåsarna.\n(I bought ham for the sandwiches.)\n\nDet är skinka i pastasåsen.\n(There is ham in the pasta sauce.)",
+    "audio": "Jag köpte skinka till smörgåsarna. Det är skinka i pastasåsen.",
+    "tags": ["swedish"],
+    "notes": "en skinka, skinkan, skinkor, skinkorna",
+    "imageHint": "Sliced ham on cutting board beside sandwich ingredients",
+    "mochiId": "Jm7PWuDa"
+  },
+  {
+    "word": "skaldjur",
+    "english": "shellfish, seafood",
+    "examples": "Vi åt skaldjur till middag, bland annat räkor och musslor.\n(We ate shellfish for dinner, including shrimp and mussels.)\n\nHon är allergisk mot skaldjur, så hon undviker räkor.\n(She is allergic to shellfish, so she avoids shrimp.)",
+    "audio": "Vi åt skaldjur till middag, bland annat räkor och musslor. Hon är allergisk mot skaldjur, så hon undviker räkor.",
+    "tags": ["swedish"],
+    "notes": "skaldjur, skaldjuret, skaldjur, skaldjuren (neuter noun)",
+    "imageHint": "Platter of shrimp, mussels, lemon wedges, ice",
+    "mochiId": "edHyoFKn"
+  },
+  {
+    "word": "smör",
+    "english": "butter",
+    "examples": "Kan du skicka smöret?\n(Can you pass the butter?)\n\nJag steker fisken i smör.\n(I fry the fish in butter.)",
+    "audio": "Kan du skicka smöret? Jag steker fisken i smör.",
+    "tags": ["swedish"],
+    "notes": "ett smör, smöret (massnoun; rarely plural); Oftast obestämd form som massord: 'smör'.",
+    "imageHint": "Butter on knife beside bread and frying pan",
+    "mochiId": "w9q5NMV3"
+  },
+  {
+    "word": "smörgås",
+    "english": "sandwich; open-faced sandwich",
+    "examples": "Jag tar en smörgås med ost till frukost.\n(I’ll have a cheese sandwich for breakfast.)\n\nKan du göra två smörgåsar med skinka?\n(Can you make two ham sandwiches?)",
+    "audio": "Jag tar en smörgås med ost till frukost. Kan du göra två smörgåsar med skinka?",
+    "tags": ["swedish"],
+    "notes": "en smörgås, smörgåsen, smörgåsar",
+    "imageHint": "Open-faced sandwich on plate with cheese and cucumber",
+    "mochiId": "q2Z3PKby"
+  },
+  {
+    "word": "snabbmatställe",
+    "english": "fast-food place, fast-food restaurant",
+    "examples": "Vi åt lunch på ett snabbmatställe nära stationen.\n(We had lunch at a fast-food place near the station.)\n\nDet finns flera snabbmatställen i köpcentrumet.\n(There are several fast-food places in the shopping mall.)",
+    "audio": "Vi åt lunch på ett snabbmatställe nära stationen. Det finns flera snabbmatställen i köpcentrumet.",
+    "tags": ["swedish"],
+    "notes": "ett snabbmatställe, snabbmatstället, snabbmatställen; Vardagligt ord; ofta om kedjor eller enkel snabb servering.",
+    "imageHint": "fast-food counter, menu boards, fries, burgers, bright lights",
+    "mochiId": "Zyf0o6Rz"
+  },
+  {
+    "word": "snacks",
+    "english": "snacks, nibbles",
+    "examples": "Jag köpte snacks till filmkvällen.\n(I bought snacks for movie night.)\n\nDet finns snacks i skåpet om du är hungrig.\n(There are snacks in the cupboard if you’re hungry.)",
+    "audio": "Jag köpte snacks till filmkvällen. Det finns snacks i skåpet om du är hungrig.",
+    "tags": ["swedish"],
+    "notes": "ett snack, snack(et), snacks (indeclinable plural loanword)",
+    "imageHint": "Chips, nuts, and popcorn bowls on coffee table",
+    "mochiId": "QHsVnflH"
+  },
+  {
+    "word": "socker",
+    "english": "sugar",
+    "examples": "Vill du ha socker i kaffet?\n(Do you want sugar in your coffee?)\n\nDet är mycket socker i den här läsken.\n(There is a lot of sugar in this soda.)",
+    "audio": "Vill du ha socker i kaffet? Det är mycket socker i den här läsken.",
+    "tags": ["swedish"],
+    "notes": "ett socker, sockret (uncountable)",
+    "imageHint": "White sugar in glass jar beside coffee cup",
+    "mochiId": "bZELeJbI"
+  },
+  {
+    "word": "stängd",
+    "english": "closed, shut",
+    "examples": "Dörren är stängd.\n(The door is closed.)\n\nButiken är stängd på söndagar.\n(The shop is closed on Sundays.)",
+    "audio": "Dörren är stängd. Butiken är stängd på söndagar.",
+    "tags": ["swedish"],
+    "notes": "stängd/stängt/stängda (adjective)",
+    "imageHint": "Closed shop entrance with metal shutter and sign",
+    "mochiId": "FQThneTe"
+  },
+  {
+    "word": "snus",
+    "english": "snus; moist smokeless tobacco",
+    "examples": "Han har en prilla snus under läppen.\n(He has a pinch of snus under his lip.)\n\nSnuset ligger i dosan på bordet.\n(The snus is in the tin on the table.)",
+    "audio": "Han har en prilla snus under läppen. Snuset ligger i dosan på bordet.",
+    "tags": ["swedish"],
+    "notes": "ett snus (uncountable); snuset (def.)",
+    "imageHint": "Closed snus tin on wooden table, close-up",
+    "mochiId": "EuxpeOBc"
+  },
+  {
+    "word": "strax",
+    "english": "shortly; in a moment; just (before/after); a little (distance)",
+    "examples": "Jag kommer strax.\n(I'll be right there / I'll be there shortly.)\n\nBussen går strax efter åtta.\n(The bus leaves just after eight.)",
+    "audio": "Jag kommer strax. Bussen går strax efter åtta.",
+    "tags": ["swedish"],
+    "notes": "adverb (no inflection)",
+    "imageHint": "Bus stop sign, digital clock showing 08:01 nearby",
+    "mochiId": "yfHbxRc8"
+  },
+  {
+    "word": "sugen",
+    "english": "eager; craving; keen",
+    "examples": "Jag är sugen på kaffe.\n(I’m craving coffee.)\n\nÄr du sugen på att gå en promenad?\n(Do you feel like going for a walk?)",
+    "audio": "Jag är sugen på kaffe. Är du sugen på att gå en promenad?",
+    "tags": ["swedish"],
+    "notes": "sugen/suget/sugna (adjective)",
+    "imageHint": "Fresh coffee cup beside cinnamon buns on table",
+    "mochiId": "NhSZ82tb"
+  },
+  {
+    "word": "sushi",
+    "english": "sushi",
+    "examples": "Vi beställde sushi till middag.\n(We ordered sushi for dinner.)\n\nJag vill ha sushin utan wasabi.\n(I want the sushi without wasabi.)",
+    "audio": "Vi beställde sushi till middag. Jag vill ha sushin utan wasabi.",
+    "tags": ["swedish"],
+    "notes": "en sushi, sushin, sushisushier (common noun)",
+    "imageHint": "Sushi på tallrik med soja, ingefära och wasabi",
+    "mochiId": "mtFGPzXj"
+  },
+  {
+    "word": "tandkräm",
+    "english": "toothpaste",
+    "examples": "Jag behöver köpa tandkräm.\n(I need to buy toothpaste.)\n\nPressa lite tandkräm på tandborsten.\n(Squeeze a little toothpaste onto the toothbrush.)",
+    "audio": "Jag behöver köpa tandkräm. Pressa lite tandkräm på tandborsten.",
+    "tags": ["swedish"],
+    "notes": "en tandkräm, tandkrämen, tandkrämer; Ofta i frasen \"borsta tänderna med tandkräm\".",
+    "imageHint": "Toothpaste tube beside toothbrush on bathroom sink",
+    "mochiId": "SBEfKX56"
+  },
+  {
+    "word": "tändsticka",
+    "english": "match, matchstick",
+    "examples": "Kan du ge mig en tändsticka?\n(Can you give me a match?)\n\nHon tände ljuset med en tändsticka.\n(She lit the candle with a match.)",
+    "audio": "Kan du ge mig en tändsticka? Hon tände ljuset med en tändsticka.",
+    "tags": ["swedish"],
+    "notes": "en tändsticka, tändstickan, tändstickor",
+    "imageHint": "Open matchbox with several wooden matchsticks on table",
+    "mochiId": "ShgcaPNU"
+  },
+  {
+    "word": "tandpetare",
+    "english": "toothpick",
+    "examples": "Kan jag få en tandpetare efter maten?\n(Can I get a toothpick after the meal?)\n\nDet ligger tandpetare i hållaren på bordet.\n(There are toothpicks in the holder on the table.)",
+    "audio": "Kan jag få en tandpetare efter maten? Det ligger tandpetare i hållaren på bordet.",
+    "tags": ["swedish"],
+    "notes": "en tandpetare, tandpetaren, tandpetare, tandpetarna; Vanligt ord; ofta i restauranger eller vid bordet hemma.",
+    "imageHint": "Trä-tandpetare i liten behållare på bord",
+    "mochiId": "JqQ8Auls"
+  },
+  {
+    "word": "thaicurry",
+    "english": "Thai curry",
+    "examples": "Jag lagar en thaicurry med kokosmjölk och kyckling.\n(I’m making a Thai curry with coconut milk and chicken.)\n\nDen här thaicurryn är ganska stark, men väldigt god.\n(This Thai curry is quite spicy, but very tasty.)",
+    "audio": "Jag lagar en thaicurry med kokosmjölk och kyckling. Den här thaicurryn är ganska stark, men väldigt god.",
+    "tags": ["swedish"],
+    "notes": "en thaicurry, thaicurryn, thaicurryer",
+    "imageHint": "Skål med grön thaicurry, kokosmjölk, ris, örter",
+    "mochiId": "c8jvpm9s"
+  },
+  {
+    "word": "tomat",
+    "english": "tomato",
+    "examples": "Kan du skära en tomat till salladen?\n(Can you slice a tomato for the salad?)\n\nJag köper tomater och gurka på torget.\n(I buy tomatoes and cucumber at the market.)",
+    "audio": "Kan du skära en tomat till salladen? Jag köper tomater och gurka på torget.",
+    "tags": ["swedish"],
+    "notes": "en tomat, tomaten, tomater, tomaterna; I vardagstal behandlas tomat oftast som en grönsak.",
+    "imageHint": "fresh ripe tomatoes on wooden cutting board, kitchen",
+    "mochiId": "Mj64Kf2m"
+  },
+  {
+    "word": "tredje",
+    "english": "third",
+    "examples": "Det här är tredje gången jag ringer.\n(This is the third time I’m calling.)\n\nHon bor på tredje våningen.\n(She lives on the third floor.)",
+    "audio": "Det här är tredje gången jag ringer. Hon bor på tredje våningen.",
+    "tags": ["swedish"],
+    "notes": "tredje (ordningstal; oböjligt)",
+    "imageHint": "third step on staircase, numbered labels, close-up",
+    "mochiId": "A5quGn1R"
+  },
+  {
+    "word": "torg",
+    "english": "square; marketplace",
+    "examples": "Vi ses vid torget klockan fem.\n(Let's meet at the square at five.)\n\nPå lördag är det marknad på torget.\n(On Saturday there is a market at the square.)",
+    "audio": "Vi ses vid torget klockan fem. På lördag är det marknad på torget.",
+    "tags": ["swedish"],
+    "notes": "ett torg, torget, torg, torgen (neuter noun); Vanligt i ortnamn: t.ex. Stortorget, Sergels torg.",
+    "imageHint": "Empty Scandinavian town square with stalls, cobblestones, buildings",
+    "mochiId": "xrnQgjOO"
+  },
+  {
+    "word": "turkisk",
+    "english": "Turkish",
+    "examples": "Vi åt turkisk mat till middag.\n(We ate Turkish food for dinner.)\n\nHon köpte ett turkiskt kaffe på väg hem.\n(She bought a Turkish coffee on the way home.)",
+    "audio": "Vi åt turkisk mat till middag. Hon köpte ett turkiskt kaffe på väg hem.",
+    "tags": ["swedish"],
+    "notes": "turkisk/turkiskt/turkiska (adjective)",
+    "imageHint": "Turkish coffee cup, spices, patterned tiles, warm lighting",
+    "mochiId": "amjrP5GI"
+  },
+  {
+    "word": "tunga",
+    "english": "tongue; heavy (plural/definite form)",
+    "examples": "Jag brände tungan på det heta kaffet.\n(I burned my tongue on the hot coffee.)\n\nDe tunga lådorna står i förrådet.\n(The heavy boxes are in the storage room.)",
+    "audio": "Jag brände tungan på det heta kaffet. De tunga lådorna står i förrådet.",
+    "tags": ["swedish"],
+    "notes": "en tunga, tungan, tungor (noun); tung/tungt/tunga (adj.)",
+    "imageHint": "Close-up of a tongue-shaped symbol and heavy boxes",
+    "mochiId": "nd6EXth8"
+  },
+  {
+    "word": "tjuga",
+    "english": "a twenty; twenty kronor",
+    "examples": "Kan du växla en hundring? Jag behöver en tjuga.\n(Can you change a hundred? I need a twenty.)\n\nDet kostar bara en tjuga.\n(It only costs twenty kronor.)",
+    "audio": "Kan du växla en hundring? Jag behöver en tjuga. Det kostar bara en tjuga.",
+    "tags": ["swedish"],
+    "notes": "en tjuga, tjugan, tjugor, tjugorna; Colloquial; often used about money (20 kronor).",
+    "imageHint": "20-krona coin on table next to receipt",
+    "mochiId": "xzlf52g7"
+  },
+  {
+    "word": "tub",
+    "english": "tube (container)",
+    "examples": "Kan du ge mig en tub tandkräm?\n(Can you give me a tube of toothpaste?)\n\nJag klämde ut det sista ur tuben.\n(I squeezed out the last of the tube.)",
+    "audio": "Kan du ge mig en tub tandkräm? Jag klämde ut det sista ur tuben.",
+    "tags": ["swedish"],
+    "notes": "en tub, tuben, tuber; Vanligt om tandkräm, kaviar, senap och salvor.",
+    "imageHint": "Opened toothpaste tube on bathroom sink, cap beside",
+    "mochiId": "vA9mCaj5"
+  },
+  {
+    "word": "tvål",
+    "english": "soap",
+    "examples": "Tvätta händerna med tvål och vatten.\n(Wash your hands with soap and water.)\n\nJag köpte en ny tvål som luktar lavendel.\n(I bought a new soap that smells of lavender.)",
+    "audio": "Tvätta händerna med tvål och vatten. Jag köpte en ny tvål som luktar lavendel.",
+    "tags": ["swedish"],
+    "notes": "en tvål, tvålen, tvålar (common noun)",
+    "imageHint": "Bar of soap on sink beside water droplets",
+    "mochiId": "MwvtVU2y"
+  },
+  {
+    "word": "vindruva",
+    "english": "grape",
+    "examples": "Jag köpte en ask vindruvor till frukosten.\n(I bought a box of grapes for breakfast.)\n\nVindruvor passar bra på en ostbricka.\n(Grapes go well on a cheese platter.)",
+    "audio": "Jag köpte en ask vindruvor till frukosten. Vindruvor passar bra på en ostbricka.",
+    "tags": ["swedish"],
+    "notes": "en vindruva, vindruvan, vindruvor (common noun)",
+    "imageHint": "Green and red grapes in a bowl on table",
+    "mochiId": "zHVR8Kpe"
+  },
+  {
+    "word": "varsågod",
+    "english": "here you are; please; you’re welcome",
+    "examples": "Varsågod, här är ditt kvitto.\n(Here you are, here is your receipt.)\n\nTack för hjälpen! – Varsågod.\n(Thanks for the help! – You’re welcome.)",
+    "audio": "Varsågod, här är ditt kvitto. Tack för hjälpen! – Varsågod.",
+    "tags": ["swedish"],
+    "notes": "interj.: varsågod (sg), varsågoda (pl)",
+    "imageHint": "Fresh coffee and pastry on a café tray",
+    "mochiId": "0ujpuLKD"
+  },
+  {
+    "word": "yoghurt",
+    "english": "yogurt, yoghurt",
+    "examples": "Jag äter yoghurt med müsli till frukost.\n(I eat yogurt with muesli for breakfast.)\n\nKan jag få en naturell yoghurt, tack?\n(Can I have a plain yogurt, please?)",
+    "audio": "Jag äter yoghurt med müsli till frukost. Kan jag få en naturell yoghurt, tack?",
+    "tags": ["swedish"],
+    "notes": "en yoghurt, yoghurten, yoghurtar (common noun)",
+    "imageHint": "Bowl of yogurt with berries and granola on table",
+    "mochiId": "uhAVHpo8"
+  },
+  {
+    "word": "wrap",
+    "english": "wrap (sandwich); wrap up",
+    "examples": "Jag tar en kycklingwrap med extra sallad.\n(I’ll have a chicken wrap with extra salad.)\n\nVi behöver wrapa upp mötet om fem minuter.\n(We need to wrap up the meeting in five minutes.)",
+    "audio": "Jag tar en kycklingwrap med extra sallad. Vi behöver wrapa upp mötet om fem minuter.",
+    "tags": ["swedish"],
+    "notes": "en wrap, wrapen, wraps (common noun); Vanligt lånord; som verb ofta 'wrapa upp' i jobbsammanhang.",
+    "imageHint": "Chicken wrap cut in half on wooden board",
+    "mochiId": "gI8BX4Y2"
+  },
+  {
+    "word": "wienerbröd",
+    "english": "Danish pastry, pastry",
+    "examples": "Jag tar ett wienerbröd och en kaffe, tack.\n(I’ll have a Danish pastry and a coffee, please.)\n\nWienerbrödet är nybakat och kostar 25 kronor.\n(The Danish pastry is freshly baked and costs 25 kronor.)",
+    "audio": "Jag tar ett wienerbröd och en kaffe, tack. Wienerbrödet är nybakat och kostar 25 kronor.",
+    "tags": ["swedish"],
+    "notes": "ett wienerbröd, wienerbrödet, wienerbröd, wienerbröden; Vanligt på café och bageri; ofta till kaffe (fika).",
+    "imageHint": "Fresh Danish pastry on plate beside coffee cup",
+    "mochiId": "6tK14fl0"
   }
 ]
